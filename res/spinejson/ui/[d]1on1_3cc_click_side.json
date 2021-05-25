@@ -1,0 +1,121 @@
+{
+"skeleton": {
+	"hash": "sRAvouXpBhkbLMUY98IjA1ZXRAI",
+	"spine": "3.2.01",
+	"width": 337.5,
+	"height": 200,
+	"images": "./../../../pngs/animation/ui/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root" },
+	{ "name": "code_3902", "parent": "all", "x": -452.93, "y": -261.33 },
+	{ "name": "drug3fx_2", "parent": "all", "x": -372.78, "y": -261.54 },
+	{ "name": "new_fx_3", "parent": "all", "x": -452.92, "y": -263.76, "scaleX": 0.3, "scaleY": 0.3 },
+	{ "name": "recover_fx_18", "parent": "all", "x": -449.02, "y": -262.18, "scaleX": 1.35 },
+	{ "name": "recover_fx_19", "parent": "all", "x": -449.02, "y": -262.18, "scaleX": 1.35 }
+],
+"slots": [
+	{ "name": "drug3fx_2", "bone": "drug3fx_2", "color": "0074ff00", "attachment": "1on1/asset_frame", "blend": "additive" },
+	{ "name": "recover_fx_18", "bone": "recover_fx_18", "color": "ffffff00", "attachment": "1on1/Asset_Recover", "blend": "additive" },
+	{ "name": "recover_fx_19", "bone": "recover_fx_19", "color": "ffffff00", "attachment": "1on1/Asset_Recover", "blend": "additive" },
+	{ "name": "code_3902", "bone": "code_3902" },
+	{ "name": "new_fx_3", "bone": "new_fx_3", "color": "ff8a0000", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"drug3fx_2": {
+			"1on1/asset_frame": { "width": 220, "height": 90 }
+		},
+		"new_fx_3": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"recover_fx_18": {
+			"1on1/Asset_Recover": { "x": 58.93, "width": 250, "height": 200 }
+		},
+		"recover_fx_19": {
+			"1on1/Asset_Recover": { "x": 58.93, "width": 250, "height": 200 }
+		}
+	}
+},
+"events": {
+	"3cc_click": {}
+},
+"animations": {
+	"3cc_click": {
+		"slots": {
+			"drug3fx_2": {
+				"color": [
+					{ "time": 0, "color": "ff00ea00" },
+					{ "time": 0.3333, "color": "ff4e00ff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ff4e00ff" },
+					{ "time": 1.3333, "color": "ff4e0000" }
+				]
+			},
+			"new_fx_3": {
+				"color": [
+					{ "time": 0, "color": "ff9e7300" },
+					{ "time": 0.2666, "color": "ff8300ff", "curve": "stepped" },
+					{ "time": 0.7, "color": "ff8300ff" },
+					{ "time": 1.3333, "color": "ff9e7300" }
+				]
+			},
+			"recover_fx_18": {
+				"color": [
+					{ "time": 0.5, "color": "ffa900ff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffa900ff" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"recover_fx_19": {
+				"color": [
+					{ "time": 0.5, "color": "ff2100ff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ff2100ff" },
+					{ "time": 1.5, "color": "ff210000" }
+				]
+			}
+		},
+		"bones": {
+			"code_3902": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.698, 0.34, 0.932, 0.63 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 1.3,
+						"y": 1.3,
+						"curve": [ 0.698, 0.34, 0.932, 0.63 ]
+					},
+					{ "time": 0.3666, "x": 0.95, "y": 0.95 },
+					{ "time": 0.4666, "x": 1.05, "y": 1.05 },
+					{ "time": 0.5333, "x": 1, "y": 1 }
+				]
+			},
+			"recover_fx_18": {
+				"scale": [
+					{ "time": 0.5, "x": 0, "y": 1 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"recover_fx_19": {
+				"scale": [
+					{ "time": 0.5, "x": 0, "y": 1 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"all": {
+				"translate": [
+					{ "time": 0, "x": 453.71, "y": 262.27 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.6666, "name": "3cc_click" }
+		]
+	}
+}
+}

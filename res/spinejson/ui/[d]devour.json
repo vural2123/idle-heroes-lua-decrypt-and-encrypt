@@ -1,0 +1,2609 @@
+{
+"skeleton": {
+	"hash": "4cup2NbxCNs0Ri9icDAOvCATsyE",
+	"spine": "2.1.27",
+	"width": 960,
+	"height": 6866.26,
+	"images": "./../../../pngs/animation/ui/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "asset_base", "parent": "root", "y": -120 },
+	{ "name": "back_blue", "parent": "root" },
+	{ "name": "back_blue2", "parent": "root" },
+	{ "name": "code_bg", "parent": "root", "x": 4.64, "y": 1.54 },
+	{ "name": "fx_magma_ash_01", "parent": "root" },
+	{ "name": "fx_magma_ash_02", "parent": "root" },
+	{ "name": "fx_magma_ash_03", "parent": "root" },
+	{ "name": "fx_magma_ash_04", "parent": "root" },
+	{ "name": "fx_magma_ash_05", "parent": "root" },
+	{ "name": "fx_magma_ash_06", "parent": "root" },
+	{ "name": "fx_magma_ash_07", "parent": "root" },
+	{ "name": "fx_magma_ash_08", "parent": "root" },
+	{ "name": "fx_magma_ash_09", "parent": "root" },
+	{ "name": "fx_magma_ash_10", "parent": "root" },
+	{ "name": "fx_magma_smk01", "parent": "root" },
+	{ "name": "fx_magma_smk02", "parent": "root" },
+	{ "name": "fx_side_halo_01", "parent": "root" },
+	{ "name": "fx_side_halo_02", "parent": "root" },
+	{ "name": "main_chain_A", "parent": "root" },
+	{ "name": "main_chain_B", "parent": "root" },
+	{ "name": "main_chain_C", "parent": "root" },
+	{ "name": "main_chain_D", "parent": "root" },
+	{ "name": "asset_flag", "parent": "asset_base", "y": 120 },
+	{ "name": "asset_foreground", "parent": "asset_base", "x": -3.1, "y": 52.93 },
+	{ "name": "chain_group_01", "parent": "main_chain_A", "x": -1000 },
+	{ "name": "chain_group_02", "parent": "main_chain_A", "x": -1000, "y": -2235.47 },
+	{ "name": "chain_group_03", "parent": "main_chain_A", "x": -1000, "y": 2243.81 },
+	{ "name": "chain_group_1", "parent": "main_chain_B", "x": -1000 },
+	{ "name": "chain_group_2", "parent": "main_chain_B", "x": -1000, "y": -2235.47 },
+	{ "name": "chain_group_3", "parent": "main_chain_B", "x": -1000, "y": 2243.81 },
+	{ "name": "chain_group_4", "parent": "main_chain_C", "x": -1000 },
+	{ "name": "chain_group_5", "parent": "main_chain_C", "x": -1000, "y": -2235.47 },
+	{ "name": "chain_group_6", "parent": "main_chain_C", "x": -1000, "y": 2243.81 },
+	{ "name": "chain_group_7", "parent": "main_chain_D", "x": -1000 },
+	{ "name": "chain_group_8", "parent": "main_chain_D", "x": -1000, "y": -2235.47 },
+	{ "name": "chain_group_9", "parent": "main_chain_D", "x": -1000, "y": 2243.81 },
+	{ "name": "code_circle_01", "parent": "asset_base", "x": -227.92, "y": -9.3 },
+	{ "name": "code_circle_02", "parent": "asset_base", "x": 221.14, "y": -7.69 },
+	{ "name": "code_circle_03", "parent": "asset_base", "x": -327.65, "y": 79.93, "scaleX": 0.65, "scaleY": 0.65 },
+	{ "name": "code_circle_04", "parent": "asset_base", "x": 327.07, "y": 82.7, "scaleX": 0.65, "scaleY": 0.65 },
+	{ "name": "code_circle_05", "parent": "asset_base", "x": -185.23, "y": 140.73, "scaleX": 0.55, "scaleY": 0.55 },
+	{ "name": "code_circle_06", "parent": "asset_base", "x": 183.47, "y": 139.6, "scaleX": 0.55, "scaleY": 0.55 },
+	{ "name": "code_flag", "parent": "asset_base", "y": 120 },
+	{ "name": "fx_magma_halo", "parent": "asset_base", "y": 120 },
+	{ "name": "fx_magma_line_01", "parent": "asset_base", "y": 120 },
+	{ "name": "pillar", "parent": "asset_base", "y": 120 },
+	{ "name": "asset_chain_01", "parent": "chain_group_01", "x": 1000 },
+	{ "name": "asset_chain_02", "parent": "chain_group_01", "x": 1003.46, "y": -86.58 },
+	{ "name": "asset_chain_03", "parent": "chain_group_01", "x": 1003.46, "y": 105.53 },
+	{ "name": "asset_chain_04", "parent": "chain_group_01", "x": 1000, "y": 193.99 },
+	{ "name": "asset_chain_1", "parent": "chain_group_01", "x": 1000, "y": 388.97 },
+	{ "name": "asset_chain_10", "parent": "chain_group_01", "x": 1000, "y": 574.43 },
+	{ "name": "asset_chain_100", "parent": "chain_group_2", "x": 1000, "y": 193.99 },
+	{ "name": "asset_chain_101", "parent": "chain_group_2", "x": 1000, "y": 388.97 },
+	{ "name": "asset_chain_102", "parent": "chain_group_2", "x": 1000, "y": 574.43 },
+	{ "name": "asset_chain_103", "parent": "chain_group_2", "x": 1000, "y": -746.89 },
+	{ "name": "asset_chain_104", "parent": "chain_group_2", "x": 1003.46, "y": 668.56 },
+	{ "name": "asset_chain_105", "parent": "chain_group_2", "x": 1003.46, "y": -836.11 },
+	{ "name": "asset_chain_106", "parent": "chain_group_2", "x": 1000, "y": -933.99 },
+	{ "name": "asset_chain_107", "parent": "chain_group_2", "x": 1000, "y": 752.52 },
+	{ "name": "asset_chain_108", "parent": "chain_group_2", "x": 1003.46, "y": -1016.87 },
+	{ "name": "asset_chain_109", "parent": "chain_group_2", "x": 1003.46, "y": 851.19 },
+	{ "name": "asset_chain_11", "parent": "chain_group_01", "x": 1000, "y": -746.89 },
+	{ "name": "asset_chain_110", "parent": "chain_group_2", "x": 1000, "y": 942.84 },
+	{ "name": "asset_chain_111", "parent": "chain_group_2", "x": 1000, "y": 1123.18 },
+	{ "name": "asset_chain_112", "parent": "chain_group_2", "x": 1000, "y": -191.46 },
+	{ "name": "asset_chain_113", "parent": "chain_group_2", "x": 1003.46, "y": 1222.54 },
+	{ "name": "asset_chain_114", "parent": "chain_group_2", "x": 1003.46, "y": -1022.44 },
+	{ "name": "asset_chain_115", "parent": "chain_group_2", "x": 1003.46, "y": 296.45 },
+	{ "name": "asset_chain_116", "parent": "chain_group_2", "x": 1003.46, "y": -274.76 },
+	{ "name": "asset_chain_117", "parent": "chain_group_2", "x": 1000, "y": -377.76 },
+	{ "name": "asset_chain_118", "parent": "chain_group_2", "x": 1003.46, "y": -462.03 },
+	{ "name": "asset_chain_119", "parent": "chain_group_2", "x": 1003.46, "y": -654.63 },
+	{ "name": "asset_chain_12", "parent": "chain_group_01", "x": 1003.46, "y": 668.56 },
+	{ "name": "asset_chain_120", "parent": "chain_group_2", "x": 1000, "y": -566.89 },
+	{ "name": "asset_chain_121", "parent": "chain_group_2", "x": 1003.46, "y": 489.12 },
+	{ "name": "asset_chain_122", "parent": "chain_group_3", "x": 1000 },
+	{ "name": "asset_chain_123", "parent": "chain_group_3", "x": 1003.46, "y": -86.58 },
+	{ "name": "asset_chain_124", "parent": "chain_group_3", "x": 1003.46, "y": 105.53 },
+	{ "name": "asset_chain_125", "parent": "chain_group_3", "x": 1000, "y": 193.99 },
+	{ "name": "asset_chain_126", "parent": "chain_group_3", "x": 1000, "y": 388.97 },
+	{ "name": "asset_chain_127", "parent": "chain_group_3", "x": 1000, "y": 574.43 },
+	{ "name": "asset_chain_128", "parent": "chain_group_3", "x": 1000, "y": -746.89 },
+	{ "name": "asset_chain_129", "parent": "chain_group_3", "x": 1003.46, "y": 668.56 },
+	{ "name": "asset_chain_13", "parent": "chain_group_01", "x": 1003.46, "y": -836.11 },
+	{ "name": "asset_chain_130", "parent": "chain_group_3", "x": 1003.46, "y": -836.11 },
+	{ "name": "asset_chain_131", "parent": "chain_group_3", "x": 1000, "y": -933.99 },
+	{ "name": "asset_chain_132", "parent": "chain_group_3", "x": 1000, "y": 752.52 },
+	{ "name": "asset_chain_133", "parent": "chain_group_3", "x": 1003.46, "y": -1016.87 },
+	{ "name": "asset_chain_134", "parent": "chain_group_3", "x": 1003.46, "y": 851.19 },
+	{ "name": "asset_chain_135", "parent": "chain_group_3", "x": 1000, "y": 942.84 },
+	{ "name": "asset_chain_136", "parent": "chain_group_3", "x": 1000, "y": 1123.18 },
+	{ "name": "asset_chain_137", "parent": "chain_group_3", "x": 1000, "y": -191.46 },
+	{ "name": "asset_chain_138", "parent": "chain_group_3", "x": 1003.46, "y": 1222.54 },
+	{ "name": "asset_chain_139", "parent": "chain_group_3", "x": 1003.46, "y": -1022.44 },
+	{ "name": "asset_chain_14", "parent": "chain_group_01", "x": 1000, "y": -933.99 },
+	{ "name": "asset_chain_140", "parent": "chain_group_3", "x": 1003.46, "y": 296.45 },
+	{ "name": "asset_chain_141", "parent": "chain_group_3", "x": 1003.46, "y": -274.76 },
+	{ "name": "asset_chain_142", "parent": "chain_group_3", "x": 1000, "y": -377.76 },
+	{ "name": "asset_chain_143", "parent": "chain_group_3", "x": 1003.46, "y": -462.03 },
+	{ "name": "asset_chain_144", "parent": "chain_group_3", "x": 1003.46, "y": -654.63 },
+	{ "name": "asset_chain_145", "parent": "chain_group_3", "x": 1000, "y": -566.89 },
+	{ "name": "asset_chain_146", "parent": "chain_group_3", "x": 1003.46, "y": 489.12 },
+	{ "name": "asset_chain_147", "parent": "chain_group_4", "x": 1000 },
+	{ "name": "asset_chain_148", "parent": "chain_group_4", "x": 1003.46, "y": -86.58 },
+	{ "name": "asset_chain_149", "parent": "chain_group_4", "x": 1003.46, "y": 105.53 },
+	{ "name": "asset_chain_15", "parent": "chain_group_01", "x": 1000, "y": 752.52 },
+	{ "name": "asset_chain_150", "parent": "chain_group_4", "x": 1000, "y": 193.99 },
+	{ "name": "asset_chain_151", "parent": "chain_group_4", "x": 1000, "y": 388.97 },
+	{ "name": "asset_chain_152", "parent": "chain_group_4", "x": 1000, "y": 574.43 },
+	{ "name": "asset_chain_153", "parent": "chain_group_4", "x": 1000, "y": -746.89 },
+	{ "name": "asset_chain_154", "parent": "chain_group_4", "x": 1003.46, "y": 668.56 },
+	{ "name": "asset_chain_155", "parent": "chain_group_4", "x": 1003.46, "y": -836.11 },
+	{ "name": "asset_chain_156", "parent": "chain_group_4", "x": 1000, "y": -933.99 },
+	{ "name": "asset_chain_157", "parent": "chain_group_4", "x": 1000, "y": 752.52 },
+	{ "name": "asset_chain_158", "parent": "chain_group_4", "x": 1003.46, "y": -1016.87 },
+	{ "name": "asset_chain_159", "parent": "chain_group_4", "x": 1003.46, "y": 851.19 },
+	{ "name": "asset_chain_16", "parent": "chain_group_01", "x": 1003.46, "y": -1016.87 },
+	{ "name": "asset_chain_160", "parent": "chain_group_4", "x": 1000, "y": 942.84 },
+	{ "name": "asset_chain_161", "parent": "chain_group_4", "x": 1000, "y": 1123.18 },
+	{ "name": "asset_chain_162", "parent": "chain_group_4", "x": 1000, "y": -191.46 },
+	{ "name": "asset_chain_163", "parent": "chain_group_4", "x": 1003.46, "y": 1222.54 },
+	{ "name": "asset_chain_164", "parent": "chain_group_4", "x": 1003.46, "y": -1022.44 },
+	{ "name": "asset_chain_165", "parent": "chain_group_4", "x": 1003.46, "y": 296.45 },
+	{ "name": "asset_chain_166", "parent": "chain_group_4", "x": 1003.46, "y": -274.76 },
+	{ "name": "asset_chain_167", "parent": "chain_group_4", "x": 1000, "y": -377.76 },
+	{ "name": "asset_chain_168", "parent": "chain_group_4", "x": 1003.46, "y": -462.03 },
+	{ "name": "asset_chain_169", "parent": "chain_group_4", "x": 1003.46, "y": -654.63 },
+	{ "name": "asset_chain_17", "parent": "chain_group_01", "x": 1003.46, "y": 851.19 },
+	{ "name": "asset_chain_170", "parent": "chain_group_4", "x": 1000, "y": -566.89 },
+	{ "name": "asset_chain_171", "parent": "chain_group_4", "x": 1003.46, "y": 489.12 },
+	{ "name": "asset_chain_172", "parent": "chain_group_5", "x": 1000, "y": 193.99 },
+	{ "name": "asset_chain_173", "parent": "chain_group_5", "x": 1000, "y": 388.97 },
+	{ "name": "asset_chain_174", "parent": "chain_group_5", "x": 1000, "y": 574.43 },
+	{ "name": "asset_chain_175", "parent": "chain_group_5", "x": 1000, "y": -746.89 },
+	{ "name": "asset_chain_176", "parent": "chain_group_5", "x": 1003.46, "y": 668.56 },
+	{ "name": "asset_chain_177", "parent": "chain_group_5", "x": 1003.46, "y": -836.11 },
+	{ "name": "asset_chain_178", "parent": "chain_group_5", "x": 1000, "y": -933.99 },
+	{ "name": "asset_chain_179", "parent": "chain_group_5", "x": 1000, "y": 752.52 },
+	{ "name": "asset_chain_18", "parent": "chain_group_01", "x": 1000, "y": 942.84 },
+	{ "name": "asset_chain_180", "parent": "chain_group_5", "x": 1003.46, "y": -1016.87 },
+	{ "name": "asset_chain_181", "parent": "chain_group_5", "x": 1003.46, "y": 851.19 },
+	{ "name": "asset_chain_182", "parent": "chain_group_5", "x": 1000, "y": 942.84 },
+	{ "name": "asset_chain_183", "parent": "chain_group_5", "x": 1000, "y": 1123.18 },
+	{ "name": "asset_chain_184", "parent": "chain_group_5", "x": 1000, "y": -191.46 },
+	{ "name": "asset_chain_185", "parent": "chain_group_5", "x": 1003.46, "y": 1222.54 },
+	{ "name": "asset_chain_186", "parent": "chain_group_5", "x": 1003.46, "y": -1022.44 },
+	{ "name": "asset_chain_187", "parent": "chain_group_5", "x": 1003.46, "y": 296.45 },
+	{ "name": "asset_chain_188", "parent": "chain_group_5", "x": 1003.46, "y": -274.76 },
+	{ "name": "asset_chain_189", "parent": "chain_group_5", "x": 1000, "y": -377.76 },
+	{ "name": "asset_chain_19", "parent": "chain_group_01", "x": 1000, "y": 1123.18 },
+	{ "name": "asset_chain_190", "parent": "chain_group_5", "x": 1003.46, "y": -462.03 },
+	{ "name": "asset_chain_191", "parent": "chain_group_5", "x": 1003.46, "y": -654.63 },
+	{ "name": "asset_chain_192", "parent": "chain_group_5", "x": 1000, "y": -566.89 },
+	{ "name": "asset_chain_193", "parent": "chain_group_5", "x": 1003.46, "y": 489.12 },
+	{ "name": "asset_chain_194", "parent": "chain_group_5", "x": 1000 },
+	{ "name": "asset_chain_195", "parent": "chain_group_5", "x": 1003.46, "y": -86.58 },
+	{ "name": "asset_chain_196", "parent": "chain_group_5", "x": 1003.46, "y": 105.53 },
+	{ "name": "asset_chain_197", "parent": "chain_group_6", "x": 1000 },
+	{ "name": "asset_chain_198", "parent": "chain_group_6", "x": 1003.46, "y": -86.58 },
+	{ "name": "asset_chain_199", "parent": "chain_group_6", "x": 1003.46, "y": 105.53 },
+	{ "name": "asset_chain_2", "parent": "chain_group_01", "x": 1000, "y": -191.46 },
+	{ "name": "asset_chain_20", "parent": "chain_group_01", "x": 1003.46, "y": 1222.54 },
+	{ "name": "asset_chain_200", "parent": "chain_group_6", "x": 1000, "y": 193.99 },
+	{ "name": "asset_chain_201", "parent": "chain_group_6", "x": 1000, "y": 388.97 },
+	{ "name": "asset_chain_202", "parent": "chain_group_6", "x": 1000, "y": 574.43 },
+	{ "name": "asset_chain_203", "parent": "chain_group_6", "x": 1000, "y": -746.89 },
+	{ "name": "asset_chain_204", "parent": "chain_group_6", "x": 1003.46, "y": 668.56 },
+	{ "name": "asset_chain_205", "parent": "chain_group_6", "x": 1003.46, "y": -836.11 },
+	{ "name": "asset_chain_206", "parent": "chain_group_6", "x": 1000, "y": -933.99 },
+	{ "name": "asset_chain_207", "parent": "chain_group_6", "x": 1000, "y": 752.52 },
+	{ "name": "asset_chain_208", "parent": "chain_group_6", "x": 1003.46, "y": -1016.87 },
+	{ "name": "asset_chain_209", "parent": "chain_group_6", "x": 1003.46, "y": 851.19 },
+	{ "name": "asset_chain_21", "parent": "chain_group_01", "x": 1003.46, "y": -1022.44 },
+	{ "name": "asset_chain_210", "parent": "chain_group_6", "x": 1000, "y": 942.84 },
+	{ "name": "asset_chain_211", "parent": "chain_group_6", "x": 1000, "y": 1123.18 },
+	{ "name": "asset_chain_212", "parent": "chain_group_6", "x": 1000, "y": -191.46 },
+	{ "name": "asset_chain_213", "parent": "chain_group_6", "x": 1003.46, "y": 1222.54 },
+	{ "name": "asset_chain_214", "parent": "chain_group_6", "x": 1003.46, "y": -1022.44 },
+	{ "name": "asset_chain_215", "parent": "chain_group_6", "x": 1003.46, "y": 296.45 },
+	{ "name": "asset_chain_216", "parent": "chain_group_6", "x": 1003.46, "y": -274.76 },
+	{ "name": "asset_chain_217", "parent": "chain_group_6", "x": 1000, "y": -377.76 },
+	{ "name": "asset_chain_218", "parent": "chain_group_6", "x": 1003.46, "y": -462.03 },
+	{ "name": "asset_chain_219", "parent": "chain_group_6", "x": 1003.46, "y": -654.63 },
+	{ "name": "asset_chain_22", "parent": "chain_group_02", "x": 1000 },
+	{ "name": "asset_chain_220", "parent": "chain_group_6", "x": 1000, "y": -566.89 },
+	{ "name": "asset_chain_221", "parent": "chain_group_6", "x": 1003.46, "y": 489.12 },
+	{ "name": "asset_chain_222", "parent": "chain_group_7", "x": 1000 },
+	{ "name": "asset_chain_223", "parent": "chain_group_7", "x": 1003.46, "y": -86.58 },
+	{ "name": "asset_chain_224", "parent": "chain_group_7", "x": 1003.46, "y": 105.53 },
+	{ "name": "asset_chain_225", "parent": "chain_group_7", "x": 1000, "y": 193.99 },
+	{ "name": "asset_chain_226", "parent": "chain_group_7", "x": 1000, "y": 388.97 },
+	{ "name": "asset_chain_227", "parent": "chain_group_7", "x": 1000, "y": 574.43 },
+	{ "name": "asset_chain_228", "parent": "chain_group_7", "x": 1000, "y": -746.89 },
+	{ "name": "asset_chain_229", "parent": "chain_group_7", "x": 1003.46, "y": 668.56 },
+	{ "name": "asset_chain_23", "parent": "chain_group_02", "x": 1003.46, "y": -86.58 },
+	{ "name": "asset_chain_230", "parent": "chain_group_7", "x": 1003.46, "y": -836.11 },
+	{ "name": "asset_chain_231", "parent": "chain_group_7", "x": 1000, "y": -933.99 },
+	{ "name": "asset_chain_232", "parent": "chain_group_7", "x": 1000, "y": 752.52 },
+	{ "name": "asset_chain_233", "parent": "chain_group_7", "x": 1003.46, "y": -1016.87 },
+	{ "name": "asset_chain_234", "parent": "chain_group_7", "x": 1003.46, "y": 851.19 },
+	{ "name": "asset_chain_235", "parent": "chain_group_7", "x": 1000, "y": 942.84 },
+	{ "name": "asset_chain_236", "parent": "chain_group_7", "x": 1000, "y": 1123.18 },
+	{ "name": "asset_chain_237", "parent": "chain_group_7", "x": 1000, "y": -191.46 },
+	{ "name": "asset_chain_238", "parent": "chain_group_7", "x": 1003.46, "y": 1222.54 },
+	{ "name": "asset_chain_239", "parent": "chain_group_7", "x": 1003.46, "y": -1022.44 },
+	{ "name": "asset_chain_24", "parent": "chain_group_02", "x": 1003.46, "y": 105.53 },
+	{ "name": "asset_chain_240", "parent": "chain_group_7", "x": 1003.46, "y": 296.45 },
+	{ "name": "asset_chain_241", "parent": "chain_group_7", "x": 1003.46, "y": -274.76 },
+	{ "name": "asset_chain_242", "parent": "chain_group_7", "x": 1000, "y": -377.76 },
+	{ "name": "asset_chain_243", "parent": "chain_group_7", "x": 1003.46, "y": -462.03 },
+	{ "name": "asset_chain_244", "parent": "chain_group_7", "x": 1003.46, "y": -654.63 },
+	{ "name": "asset_chain_245", "parent": "chain_group_7", "x": 1000, "y": -566.89 },
+	{ "name": "asset_chain_246", "parent": "chain_group_7", "x": 1003.46, "y": 489.12 },
+	{ "name": "asset_chain_247", "parent": "chain_group_8", "x": 1000, "y": 193.99 },
+	{ "name": "asset_chain_248", "parent": "chain_group_8", "x": 1000, "y": 388.97 },
+	{ "name": "asset_chain_249", "parent": "chain_group_8", "x": 1000, "y": 574.43 },
+	{ "name": "asset_chain_25", "parent": "chain_group_02", "x": 1000, "y": 193.99 },
+	{ "name": "asset_chain_250", "parent": "chain_group_8", "x": 1000, "y": -746.89 },
+	{ "name": "asset_chain_251", "parent": "chain_group_8", "x": 1003.46, "y": 668.56 },
+	{ "name": "asset_chain_252", "parent": "chain_group_8", "x": 1003.46, "y": -836.11 },
+	{ "name": "asset_chain_253", "parent": "chain_group_8", "x": 1000, "y": -933.99 },
+	{ "name": "asset_chain_254", "parent": "chain_group_8", "x": 1000, "y": 752.52 },
+	{ "name": "asset_chain_255", "parent": "chain_group_8", "x": 1003.46, "y": -1016.87 },
+	{ "name": "asset_chain_256", "parent": "chain_group_8", "x": 1003.46, "y": 851.19 },
+	{ "name": "asset_chain_257", "parent": "chain_group_8", "x": 1000, "y": 942.84 },
+	{ "name": "asset_chain_258", "parent": "chain_group_8", "x": 1000, "y": 1123.18 },
+	{ "name": "asset_chain_259", "parent": "chain_group_8", "x": 1000, "y": -191.46 },
+	{ "name": "asset_chain_26", "parent": "chain_group_02", "x": 1000, "y": 388.97 },
+	{ "name": "asset_chain_260", "parent": "chain_group_8", "x": 1003.46, "y": 1222.54 },
+	{ "name": "asset_chain_261", "parent": "chain_group_8", "x": 1003.46, "y": -1022.44 },
+	{ "name": "asset_chain_262", "parent": "chain_group_8", "x": 1003.46, "y": 296.45 },
+	{ "name": "asset_chain_263", "parent": "chain_group_8", "x": 1003.46, "y": -274.76 },
+	{ "name": "asset_chain_264", "parent": "chain_group_8", "x": 1000, "y": -377.76 },
+	{ "name": "asset_chain_265", "parent": "chain_group_8", "x": 1003.46, "y": -462.03 },
+	{ "name": "asset_chain_266", "parent": "chain_group_8", "x": 1003.46, "y": -654.63 },
+	{ "name": "asset_chain_267", "parent": "chain_group_8", "x": 1000, "y": -566.89 },
+	{ "name": "asset_chain_268", "parent": "chain_group_8", "x": 1003.46, "y": 489.12 },
+	{ "name": "asset_chain_269", "parent": "chain_group_8", "x": 1000 },
+	{ "name": "asset_chain_27", "parent": "chain_group_02", "x": 1000, "y": 574.43 },
+	{ "name": "asset_chain_270", "parent": "chain_group_8", "x": 1003.46, "y": -86.58 },
+	{ "name": "asset_chain_271", "parent": "chain_group_8", "x": 1003.46, "y": 105.53 },
+	{ "name": "asset_chain_272", "parent": "chain_group_9", "x": 1000 },
+	{ "name": "asset_chain_273", "parent": "chain_group_9", "x": 1003.46, "y": -86.58 },
+	{ "name": "asset_chain_274", "parent": "chain_group_9", "x": 1003.46, "y": 105.53 },
+	{ "name": "asset_chain_275", "parent": "chain_group_9", "x": 1000, "y": 193.99 },
+	{ "name": "asset_chain_276", "parent": "chain_group_9", "x": 1000, "y": 388.97 },
+	{ "name": "asset_chain_277", "parent": "chain_group_9", "x": 1000, "y": 574.43 },
+	{ "name": "asset_chain_278", "parent": "chain_group_9", "x": 1000, "y": -746.89 },
+	{ "name": "asset_chain_279", "parent": "chain_group_9", "x": 1003.46, "y": 668.56 },
+	{ "name": "asset_chain_28", "parent": "chain_group_02", "x": 1000, "y": -746.89 },
+	{ "name": "asset_chain_280", "parent": "chain_group_9", "x": 1003.46, "y": -836.11 },
+	{ "name": "asset_chain_281", "parent": "chain_group_9", "x": 1000, "y": -933.99 },
+	{ "name": "asset_chain_282", "parent": "chain_group_9", "x": 1000, "y": 752.52 },
+	{ "name": "asset_chain_283", "parent": "chain_group_9", "x": 1003.46, "y": -1016.87 },
+	{ "name": "asset_chain_284", "parent": "chain_group_9", "x": 1003.46, "y": 851.19 },
+	{ "name": "asset_chain_285", "parent": "chain_group_9", "x": 1000, "y": 942.84 },
+	{ "name": "asset_chain_286", "parent": "chain_group_9", "x": 1000, "y": 1123.18 },
+	{ "name": "asset_chain_287", "parent": "chain_group_9", "x": 1000, "y": -191.46 },
+	{ "name": "asset_chain_288", "parent": "chain_group_9", "x": 1003.46, "y": 1222.54 },
+	{ "name": "asset_chain_289", "parent": "chain_group_9", "x": 1003.46, "y": -1022.44 },
+	{ "name": "asset_chain_29", "parent": "chain_group_02", "x": 1003.46, "y": 668.56 },
+	{ "name": "asset_chain_290", "parent": "chain_group_9", "x": 1003.46, "y": 296.45 },
+	{ "name": "asset_chain_291", "parent": "chain_group_9", "x": 1003.46, "y": -274.76 },
+	{ "name": "asset_chain_292", "parent": "chain_group_9", "x": 1000, "y": -377.76 },
+	{ "name": "asset_chain_293", "parent": "chain_group_9", "x": 1003.46, "y": -462.03 },
+	{ "name": "asset_chain_294", "parent": "chain_group_9", "x": 1003.46, "y": -654.63 },
+	{ "name": "asset_chain_295", "parent": "chain_group_9", "x": 1000, "y": -566.89 },
+	{ "name": "asset_chain_296", "parent": "chain_group_9", "x": 1003.46, "y": 489.12 },
+	{ "name": "asset_chain_3", "parent": "chain_group_01", "x": 1003.46, "y": 296.45 },
+	{ "name": "asset_chain_30", "parent": "chain_group_02", "x": 1003.46, "y": -836.11 },
+	{ "name": "asset_chain_31", "parent": "chain_group_02", "x": 1000, "y": -933.99 },
+	{ "name": "asset_chain_32", "parent": "chain_group_02", "x": 1000, "y": 752.52 },
+	{ "name": "asset_chain_33", "parent": "chain_group_02", "x": 1003.46, "y": -1016.87 },
+	{ "name": "asset_chain_34", "parent": "chain_group_02", "x": 1003.46, "y": 851.19 },
+	{ "name": "asset_chain_35", "parent": "chain_group_02", "x": 1000, "y": 942.84 },
+	{ "name": "asset_chain_36", "parent": "chain_group_02", "x": 1000, "y": 1123.18 },
+	{ "name": "asset_chain_37", "parent": "chain_group_02", "x": 1000, "y": -191.46 },
+	{ "name": "asset_chain_38", "parent": "chain_group_02", "x": 1003.46, "y": 1222.54 },
+	{ "name": "asset_chain_39", "parent": "chain_group_02", "x": 1003.46, "y": -1022.44 },
+	{ "name": "asset_chain_4", "parent": "chain_group_01", "x": 1003.46, "y": -274.76 },
+	{ "name": "asset_chain_40", "parent": "chain_group_02", "x": 1003.46, "y": 296.45 },
+	{ "name": "asset_chain_41", "parent": "chain_group_02", "x": 1003.46, "y": -274.76 },
+	{ "name": "asset_chain_42", "parent": "chain_group_02", "x": 1000, "y": -377.76 },
+	{ "name": "asset_chain_43", "parent": "chain_group_02", "x": 1003.46, "y": -462.03 },
+	{ "name": "asset_chain_44", "parent": "chain_group_02", "x": 1003.46, "y": -654.63 },
+	{ "name": "asset_chain_45", "parent": "chain_group_02", "x": 1000, "y": -566.89 },
+	{ "name": "asset_chain_46", "parent": "chain_group_02", "x": 1003.46, "y": 489.12 },
+	{ "name": "asset_chain_47", "parent": "chain_group_03", "x": 1000 },
+	{ "name": "asset_chain_48", "parent": "chain_group_03", "x": 1003.46, "y": -86.58 },
+	{ "name": "asset_chain_49", "parent": "chain_group_03", "x": 1003.46, "y": 105.53 },
+	{ "name": "asset_chain_5", "parent": "chain_group_01", "x": 1000, "y": -377.76 },
+	{ "name": "asset_chain_50", "parent": "chain_group_03", "x": 1000, "y": 193.99 },
+	{ "name": "asset_chain_51", "parent": "chain_group_03", "x": 1000, "y": 388.97 },
+	{ "name": "asset_chain_52", "parent": "chain_group_03", "x": 1000, "y": 574.43 },
+	{ "name": "asset_chain_53", "parent": "chain_group_03", "x": 1000, "y": -746.89 },
+	{ "name": "asset_chain_54", "parent": "chain_group_03", "x": 1003.46, "y": 668.56 },
+	{ "name": "asset_chain_55", "parent": "chain_group_03", "x": 1003.46, "y": -836.11 },
+	{ "name": "asset_chain_56", "parent": "chain_group_03", "x": 1000, "y": -933.99 },
+	{ "name": "asset_chain_57", "parent": "chain_group_03", "x": 1000, "y": 752.52 },
+	{ "name": "asset_chain_58", "parent": "chain_group_03", "x": 1003.46, "y": -1016.87 },
+	{ "name": "asset_chain_59", "parent": "chain_group_03", "x": 1003.46, "y": 851.19 },
+	{ "name": "asset_chain_6", "parent": "chain_group_01", "x": 1003.46, "y": -462.03 },
+	{ "name": "asset_chain_60", "parent": "chain_group_03", "x": 1000, "y": 942.84 },
+	{ "name": "asset_chain_61", "parent": "chain_group_03", "x": 1000, "y": 1123.18 },
+	{ "name": "asset_chain_62", "parent": "chain_group_03", "x": 1000, "y": -191.46 },
+	{ "name": "asset_chain_63", "parent": "chain_group_03", "x": 1003.46, "y": 1222.54 },
+	{ "name": "asset_chain_64", "parent": "chain_group_03", "x": 1003.46, "y": -1022.44 },
+	{ "name": "asset_chain_65", "parent": "chain_group_03", "x": 1003.46, "y": 296.45 },
+	{ "name": "asset_chain_66", "parent": "chain_group_03", "x": 1003.46, "y": -274.76 },
+	{ "name": "asset_chain_67", "parent": "chain_group_03", "x": 1000, "y": -377.76 },
+	{ "name": "asset_chain_68", "parent": "chain_group_03", "x": 1003.46, "y": -462.03 },
+	{ "name": "asset_chain_69", "parent": "chain_group_03", "x": 1003.46, "y": -654.63 },
+	{ "name": "asset_chain_7", "parent": "chain_group_01", "x": 1003.46, "y": -654.63 },
+	{ "name": "asset_chain_70", "parent": "chain_group_03", "x": 1000, "y": -566.89 },
+	{ "name": "asset_chain_71", "parent": "chain_group_03", "x": 1003.46, "y": 489.12 },
+	{ "name": "asset_chain_72", "parent": "chain_group_1", "x": 1000 },
+	{ "name": "asset_chain_73", "parent": "chain_group_1", "x": 1003.46, "y": -86.58 },
+	{ "name": "asset_chain_74", "parent": "chain_group_1", "x": 1003.46, "y": 105.53 },
+	{ "name": "asset_chain_75", "parent": "chain_group_1", "x": 1000, "y": 193.99 },
+	{ "name": "asset_chain_76", "parent": "chain_group_1", "x": 1000, "y": 388.97 },
+	{ "name": "asset_chain_77", "parent": "chain_group_1", "x": 1000, "y": 574.43 },
+	{ "name": "asset_chain_78", "parent": "chain_group_1", "x": 1000, "y": -746.89 },
+	{ "name": "asset_chain_79", "parent": "chain_group_1", "x": 1003.46, "y": 668.56 },
+	{ "name": "asset_chain_8", "parent": "chain_group_01", "x": 1000, "y": -566.89 },
+	{ "name": "asset_chain_80", "parent": "chain_group_1", "x": 1003.46, "y": -836.11 },
+	{ "name": "asset_chain_81", "parent": "chain_group_1", "x": 1000, "y": -933.99 },
+	{ "name": "asset_chain_82", "parent": "chain_group_1", "x": 1000, "y": 752.52 },
+	{ "name": "asset_chain_83", "parent": "chain_group_1", "x": 1003.46, "y": -1016.87 },
+	{ "name": "asset_chain_84", "parent": "chain_group_1", "x": 1003.46, "y": 851.19 },
+	{ "name": "asset_chain_85", "parent": "chain_group_1", "x": 1000, "y": 942.84 },
+	{ "name": "asset_chain_86", "parent": "chain_group_1", "x": 1000, "y": 1123.18 },
+	{ "name": "asset_chain_87", "parent": "chain_group_1", "x": 1000, "y": -191.46 },
+	{ "name": "asset_chain_88", "parent": "chain_group_1", "x": 1003.46, "y": 1222.54 },
+	{ "name": "asset_chain_89", "parent": "chain_group_1", "x": 1003.46, "y": -1022.44 },
+	{ "name": "asset_chain_9", "parent": "chain_group_01", "x": 1003.46, "y": 489.12 },
+	{ "name": "asset_chain_90", "parent": "chain_group_1", "x": 1003.46, "y": 296.45 },
+	{ "name": "asset_chain_91", "parent": "chain_group_1", "x": 1003.46, "y": -274.76 },
+	{ "name": "asset_chain_92", "parent": "chain_group_1", "x": 1000, "y": -377.76 },
+	{ "name": "asset_chain_93", "parent": "chain_group_1", "x": 1003.46, "y": -462.03 },
+	{ "name": "asset_chain_94", "parent": "chain_group_1", "x": 1003.46, "y": -654.63 },
+	{ "name": "asset_chain_95", "parent": "chain_group_1", "x": 1000, "y": -566.89 },
+	{ "name": "asset_chain_96", "parent": "chain_group_1", "x": 1003.46, "y": 489.12 },
+	{ "name": "asset_chain_97", "parent": "chain_group_2", "x": 1000 },
+	{ "name": "asset_chain_98", "parent": "chain_group_2", "x": 1003.46, "y": -86.58 },
+	{ "name": "asset_chain_99", "parent": "chain_group_2", "x": 1003.46, "y": 105.53 },
+	{ "name": "code_text01", "parent": "asset_flag", "x": 23.67 },
+	{ "name": "code_text2", "parent": "asset_flag", "x": 23.67, "y": -52.53 }
+],
+"slots": [
+	{ "name": "code_bg", "bone": "code_bg", "color": "ffffff00", "attachment": "useless/Devour/asset_bg" },
+	{ "name": "asset_chain_165", "bone": "asset_chain_165", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_240", "bone": "asset_chain_240", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_199", "bone": "asset_chain_199", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_274", "bone": "asset_chain_274", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_187", "bone": "asset_chain_187", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_262", "bone": "asset_chain_262", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_215", "bone": "asset_chain_215", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_290", "bone": "asset_chain_290", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_147", "bone": "asset_chain_147", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_222", "bone": "asset_chain_222", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_194", "bone": "asset_chain_194", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_269", "bone": "asset_chain_269", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_197", "bone": "asset_chain_197", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_272", "bone": "asset_chain_272", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_151", "bone": "asset_chain_151", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_226", "bone": "asset_chain_226", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_173", "bone": "asset_chain_173", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_248", "bone": "asset_chain_248", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_201", "bone": "asset_chain_201", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_276", "bone": "asset_chain_276", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_162", "bone": "asset_chain_162", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_237", "bone": "asset_chain_237", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_184", "bone": "asset_chain_184", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_259", "bone": "asset_chain_259", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_212", "bone": "asset_chain_212", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_287", "bone": "asset_chain_287", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_150", "bone": "asset_chain_150", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_225", "bone": "asset_chain_225", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_172", "bone": "asset_chain_172", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_247", "bone": "asset_chain_247", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_200", "bone": "asset_chain_200", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_275", "bone": "asset_chain_275", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_167", "bone": "asset_chain_167", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_242", "bone": "asset_chain_242", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_189", "bone": "asset_chain_189", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_264", "bone": "asset_chain_264", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_217", "bone": "asset_chain_217", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_292", "bone": "asset_chain_292", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_170", "bone": "asset_chain_170", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_245", "bone": "asset_chain_245", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_192", "bone": "asset_chain_192", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_267", "bone": "asset_chain_267", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_220", "bone": "asset_chain_220", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_295", "bone": "asset_chain_295", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_152", "bone": "asset_chain_152", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_227", "bone": "asset_chain_227", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_174", "bone": "asset_chain_174", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_249", "bone": "asset_chain_249", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_202", "bone": "asset_chain_202", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_277", "bone": "asset_chain_277", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_153", "bone": "asset_chain_153", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_228", "bone": "asset_chain_228", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_175", "bone": "asset_chain_175", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_250", "bone": "asset_chain_250", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_203", "bone": "asset_chain_203", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_278", "bone": "asset_chain_278", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_156", "bone": "asset_chain_156", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_231", "bone": "asset_chain_231", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_178", "bone": "asset_chain_178", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_253", "bone": "asset_chain_253", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_206", "bone": "asset_chain_206", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_281", "bone": "asset_chain_281", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_161", "bone": "asset_chain_161", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_236", "bone": "asset_chain_236", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_183", "bone": "asset_chain_183", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_258", "bone": "asset_chain_258", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_211", "bone": "asset_chain_211", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_286", "bone": "asset_chain_286", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_157", "bone": "asset_chain_157", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_232", "bone": "asset_chain_232", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_179", "bone": "asset_chain_179", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_254", "bone": "asset_chain_254", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_207", "bone": "asset_chain_207", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_282", "bone": "asset_chain_282", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_160", "bone": "asset_chain_160", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_235", "bone": "asset_chain_235", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_182", "bone": "asset_chain_182", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_257", "bone": "asset_chain_257", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_210", "bone": "asset_chain_210", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_285", "bone": "asset_chain_285", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_148", "bone": "asset_chain_148", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_223", "bone": "asset_chain_223", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_195", "bone": "asset_chain_195", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_270", "bone": "asset_chain_270", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_198", "bone": "asset_chain_198", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_273", "bone": "asset_chain_273", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_168", "bone": "asset_chain_168", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_243", "bone": "asset_chain_243", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_177", "bone": "asset_chain_177", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_252", "bone": "asset_chain_252", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_166", "bone": "asset_chain_166", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_241", "bone": "asset_chain_241", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_188", "bone": "asset_chain_188", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_263", "bone": "asset_chain_263", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_216", "bone": "asset_chain_216", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_291", "bone": "asset_chain_291", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_190", "bone": "asset_chain_190", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_265", "bone": "asset_chain_265", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_218", "bone": "asset_chain_218", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_293", "bone": "asset_chain_293", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_169", "bone": "asset_chain_169", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_244", "bone": "asset_chain_244", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_191", "bone": "asset_chain_191", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_266", "bone": "asset_chain_266", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_219", "bone": "asset_chain_219", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_294", "bone": "asset_chain_294", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_171", "bone": "asset_chain_171", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_246", "bone": "asset_chain_246", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_193", "bone": "asset_chain_193", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_268", "bone": "asset_chain_268", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_221", "bone": "asset_chain_221", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_296", "bone": "asset_chain_296", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_154", "bone": "asset_chain_154", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_229", "bone": "asset_chain_229", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_176", "bone": "asset_chain_176", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_251", "bone": "asset_chain_251", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_204", "bone": "asset_chain_204", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_279", "bone": "asset_chain_279", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_155", "bone": "asset_chain_155", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_230", "bone": "asset_chain_230", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_205", "bone": "asset_chain_205", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_280", "bone": "asset_chain_280", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_158", "bone": "asset_chain_158", "attachment": "asset_chain_2" },
+	{ "name": "asset_chain_233", "bone": "asset_chain_233", "attachment": "asset_chain_2" },
+	{ "name": "asset_chain_180", "bone": "asset_chain_180", "attachment": "asset_chain_2" },
+	{ "name": "asset_chain_255", "bone": "asset_chain_255", "attachment": "asset_chain_2" },
+	{ "name": "asset_chain_208", "bone": "asset_chain_208", "attachment": "asset_chain_2" },
+	{ "name": "asset_chain_283", "bone": "asset_chain_283", "attachment": "asset_chain_2" },
+	{ "name": "asset_chain_159", "bone": "asset_chain_159", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_234", "bone": "asset_chain_234", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_181", "bone": "asset_chain_181", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_256", "bone": "asset_chain_256", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_209", "bone": "asset_chain_209", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_284", "bone": "asset_chain_284", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_163", "bone": "asset_chain_163", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_238", "bone": "asset_chain_238", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_185", "bone": "asset_chain_185", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_260", "bone": "asset_chain_260", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_213", "bone": "asset_chain_213", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_288", "bone": "asset_chain_288", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_164", "bone": "asset_chain_164", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_239", "bone": "asset_chain_239", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_186", "bone": "asset_chain_186", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_261", "bone": "asset_chain_261", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_214", "bone": "asset_chain_214", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_289", "bone": "asset_chain_289", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_149", "bone": "asset_chain_149", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_224", "bone": "asset_chain_224", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_196", "bone": "asset_chain_196", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_271", "bone": "asset_chain_271", "attachment": "asset_chain_02" },
+	{ "name": "back_blue", "bone": "back_blue", "color": "ffffff00", "attachment": "n_light", "blend": "multiply" },
+	{ "name": "back_blue2", "bone": "back_blue2", "color": "ffffff00", "attachment": "n_light", "blend": "multiply" },
+	{ "name": "asset_base", "bone": "asset_base", "attachment": "asset_base" },
+	{ "name": "pillar", "bone": "pillar", "color": "ffffff00", "attachment": "asset_pillar" },
+	{ "name": "code_circle_06", "bone": "code_circle_06", "blend": "additive" },
+	{ "name": "code_circle_05", "bone": "code_circle_05", "blend": "additive" },
+	{ "name": "code_circle_04", "bone": "code_circle_04", "blend": "additive" },
+	{ "name": "code_circle_03", "bone": "code_circle_03", "blend": "additive" },
+	{ "name": "asset_foreground", "bone": "asset_foreground", "attachment": "asset_foreground" },
+	{ "name": "code_circle_02", "bone": "code_circle_02", "blend": "additive" },
+	{ "name": "code_circle_01", "bone": "code_circle_01", "blend": "additive" },
+	{ "name": "fx_magma_halo", "bone": "fx_magma_halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "fx_magma_ash_01", "bone": "fx_magma_ash_01", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "fx_magma_ash_02", "bone": "fx_magma_ash_02", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "fx_magma_ash_03", "bone": "fx_magma_ash_03", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "fx_magma_ash_04", "bone": "fx_magma_ash_04", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "fx_magma_ash_05", "bone": "fx_magma_ash_05", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "fx_magma_ash_06", "bone": "fx_magma_ash_06", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "fx_magma_ash_07", "bone": "fx_magma_ash_07", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "fx_magma_ash_08", "bone": "fx_magma_ash_08", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "fx_magma_ash_09", "bone": "fx_magma_ash_09", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "fx_magma_ash_10", "bone": "fx_magma_ash_10", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "fx_magma_smk01", "bone": "fx_magma_smk01", "color": "ffffff00", "attachment": "common/smoke_01", "blend": "additive" },
+	{ "name": "fx_magma_smk02", "bone": "fx_magma_smk02", "color": "ffffff00", "attachment": "common/smoke_01", "blend": "additive" },
+	{ "name": "asset_chain_01", "bone": "asset_chain_01", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_72", "bone": "asset_chain_72", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_22", "bone": "asset_chain_22", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_97", "bone": "asset_chain_97", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_47", "bone": "asset_chain_47", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_122", "bone": "asset_chain_122", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_1", "bone": "asset_chain_1", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_76", "bone": "asset_chain_76", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_26", "bone": "asset_chain_26", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_101", "bone": "asset_chain_101", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_51", "bone": "asset_chain_51", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_126", "bone": "asset_chain_126", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_2", "bone": "asset_chain_2", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_87", "bone": "asset_chain_87", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_37", "bone": "asset_chain_37", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_112", "bone": "asset_chain_112", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_62", "bone": "asset_chain_62", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_137", "bone": "asset_chain_137", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_04", "bone": "asset_chain_04", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_75", "bone": "asset_chain_75", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_25", "bone": "asset_chain_25", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_100", "bone": "asset_chain_100", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_50", "bone": "asset_chain_50", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_125", "bone": "asset_chain_125", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_5", "bone": "asset_chain_5", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_92", "bone": "asset_chain_92", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_42", "bone": "asset_chain_42", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_117", "bone": "asset_chain_117", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_67", "bone": "asset_chain_67", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_142", "bone": "asset_chain_142", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_8", "bone": "asset_chain_8", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_95", "bone": "asset_chain_95", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_45", "bone": "asset_chain_45", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_120", "bone": "asset_chain_120", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_70", "bone": "asset_chain_70", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_145", "bone": "asset_chain_145", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_10", "bone": "asset_chain_10", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_77", "bone": "asset_chain_77", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_27", "bone": "asset_chain_27", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_102", "bone": "asset_chain_102", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_52", "bone": "asset_chain_52", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_127", "bone": "asset_chain_127", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_11", "bone": "asset_chain_11", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_78", "bone": "asset_chain_78", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_28", "bone": "asset_chain_28", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_103", "bone": "asset_chain_103", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_53", "bone": "asset_chain_53", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_128", "bone": "asset_chain_128", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_14", "bone": "asset_chain_14", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_81", "bone": "asset_chain_81", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_31", "bone": "asset_chain_31", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_106", "bone": "asset_chain_106", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_56", "bone": "asset_chain_56", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_131", "bone": "asset_chain_131", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_19", "bone": "asset_chain_19", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_86", "bone": "asset_chain_86", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_36", "bone": "asset_chain_36", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_111", "bone": "asset_chain_111", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_61", "bone": "asset_chain_61", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_136", "bone": "asset_chain_136", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_15", "bone": "asset_chain_15", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_82", "bone": "asset_chain_82", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_32", "bone": "asset_chain_32", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_107", "bone": "asset_chain_107", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_57", "bone": "asset_chain_57", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_132", "bone": "asset_chain_132", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_18", "bone": "asset_chain_18", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_85", "bone": "asset_chain_85", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_35", "bone": "asset_chain_35", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_110", "bone": "asset_chain_110", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_60", "bone": "asset_chain_60", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_135", "bone": "asset_chain_135", "attachment": "asset_chain_01" },
+	{ "name": "asset_chain_02", "bone": "asset_chain_02", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_73", "bone": "asset_chain_73", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_23", "bone": "asset_chain_23", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_98", "bone": "asset_chain_98", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_48", "bone": "asset_chain_48", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_123", "bone": "asset_chain_123", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_4", "bone": "asset_chain_4", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_91", "bone": "asset_chain_91", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_41", "bone": "asset_chain_41", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_116", "bone": "asset_chain_116", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_66", "bone": "asset_chain_66", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_141", "bone": "asset_chain_141", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_6", "bone": "asset_chain_6", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_93", "bone": "asset_chain_93", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_43", "bone": "asset_chain_43", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_118", "bone": "asset_chain_118", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_68", "bone": "asset_chain_68", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_143", "bone": "asset_chain_143", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_7", "bone": "asset_chain_7", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_94", "bone": "asset_chain_94", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_44", "bone": "asset_chain_44", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_119", "bone": "asset_chain_119", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_69", "bone": "asset_chain_69", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_144", "bone": "asset_chain_144", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_9", "bone": "asset_chain_9", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_96", "bone": "asset_chain_96", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_46", "bone": "asset_chain_46", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_121", "bone": "asset_chain_121", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_71", "bone": "asset_chain_71", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_146", "bone": "asset_chain_146", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_12", "bone": "asset_chain_12", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_79", "bone": "asset_chain_79", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_29", "bone": "asset_chain_29", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_104", "bone": "asset_chain_104", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_54", "bone": "asset_chain_54", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_129", "bone": "asset_chain_129", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_13", "bone": "asset_chain_13", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_80", "bone": "asset_chain_80", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_30", "bone": "asset_chain_30", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_105", "bone": "asset_chain_105", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_55", "bone": "asset_chain_55", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_130", "bone": "asset_chain_130", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_16", "bone": "asset_chain_16", "attachment": "asset_chain_2" },
+	{ "name": "asset_chain_83", "bone": "asset_chain_83", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_33", "bone": "asset_chain_33", "attachment": "asset_chain_2" },
+	{ "name": "asset_chain_108", "bone": "asset_chain_108", "attachment": "asset_chain_2" },
+	{ "name": "asset_chain_58", "bone": "asset_chain_58", "attachment": "asset_chain_2" },
+	{ "name": "asset_chain_133", "bone": "asset_chain_133", "attachment": "asset_chain_2" },
+	{ "name": "asset_chain_17", "bone": "asset_chain_17", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_84", "bone": "asset_chain_84", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_34", "bone": "asset_chain_34", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_109", "bone": "asset_chain_109", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_59", "bone": "asset_chain_59", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_134", "bone": "asset_chain_134", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_20", "bone": "asset_chain_20", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_88", "bone": "asset_chain_88", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_38", "bone": "asset_chain_38", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_113", "bone": "asset_chain_113", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_63", "bone": "asset_chain_63", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_138", "bone": "asset_chain_138", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_21", "bone": "asset_chain_21", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_89", "bone": "asset_chain_89", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_39", "bone": "asset_chain_39", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_114", "bone": "asset_chain_114", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_64", "bone": "asset_chain_64", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_139", "bone": "asset_chain_139", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_03", "bone": "asset_chain_03", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_74", "bone": "asset_chain_74", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_24", "bone": "asset_chain_24", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_99", "bone": "asset_chain_99", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_49", "bone": "asset_chain_49", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_124", "bone": "asset_chain_124", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_3", "bone": "asset_chain_3", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_90", "bone": "asset_chain_90", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_40", "bone": "asset_chain_40", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_115", "bone": "asset_chain_115", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_65", "bone": "asset_chain_65", "attachment": "asset_chain_02" },
+	{ "name": "asset_chain_140", "bone": "asset_chain_140", "attachment": "asset_chain_02" },
+	{ "name": "asset_flag", "bone": "asset_flag", "color": "ffffff00", "attachment": "asset_flag" },
+	{ "name": "code_text01", "bone": "code_text01", "color": "ffffff00" },
+	{ "name": "code_text2", "bone": "code_text2", "color": "ffffff00" },
+	{ "name": "boundingbox", "bone": "root", "attachment": "boundingbox" },
+	{ "name": "fx_magma_line_01", "bone": "fx_magma_line_01", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "fx_side_halo_01", "bone": "fx_side_halo_01", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "fx_side_halo_02", "bone": "fx_side_halo_02", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "code_flag", "bone": "code_flag" }
+],
+"skins": {
+	"default": {
+		"asset_base": {
+			"asset_base": { "path": "devour/asset_base", "width": 860, "height": 360 }
+		},
+		"asset_chain_01": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_02": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_03": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_04": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_1": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_10": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_100": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_101": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_102": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_103": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_104": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_105": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_106": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_107": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_108": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 },
+			"asset_chain_2": { "path": "devour/asset_chain_02", "y": 2060.59, "width": 38, "height": 142 }
+		},
+		"asset_chain_109": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_11": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_110": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_111": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_112": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_113": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_114": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_115": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_116": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_117": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_118": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_119": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_12": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_120": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_121": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_122": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_123": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_124": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_125": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_126": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_127": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_128": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_129": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_13": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_130": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_131": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_132": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_133": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 },
+			"asset_chain_2": { "path": "devour/asset_chain_02", "y": 2060.59, "width": 38, "height": 142 }
+		},
+		"asset_chain_134": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_135": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_136": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_137": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_138": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_139": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_14": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_140": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_141": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_142": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_143": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_144": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_145": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_146": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_147": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_148": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_149": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_15": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_150": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_151": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_152": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_153": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_154": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_155": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_156": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_157": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_158": {
+			"asset_chain_2": { "path": "devour/asset_chain_02", "y": 2060.59, "width": 38, "height": 142 },
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_159": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_16": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 },
+			"asset_chain_2": { "path": "devour/asset_chain_02", "y": 2060.59, "width": 38, "height": 142 }
+		},
+		"asset_chain_160": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_161": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_162": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_163": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_164": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_165": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_166": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_167": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_168": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_169": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_17": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_170": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_171": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_172": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_173": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_174": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_175": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_176": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_177": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_178": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_179": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_18": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_180": {
+			"asset_chain_2": { "path": "devour/asset_chain_02", "y": 2060.59, "width": 38, "height": 142 },
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_181": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_182": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_183": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_184": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_185": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_186": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_187": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_188": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_189": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_19": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_190": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_191": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_192": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_193": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_194": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_195": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_196": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_197": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_198": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_199": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_2": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_20": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_200": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_201": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_202": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_203": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_204": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_205": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_206": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_207": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_208": {
+			"asset_chain_2": { "path": "devour/asset_chain_02", "y": 2060.59, "width": 38, "height": 142 },
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_209": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_21": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_210": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_211": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_212": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_213": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_214": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_215": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_216": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_217": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_218": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_219": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_22": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_220": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_221": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_222": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_223": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_224": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_225": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_226": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_227": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_228": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_229": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_23": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_230": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_231": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_232": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_233": {
+			"asset_chain_2": { "path": "devour/asset_chain_02", "y": 2060.59, "width": 38, "height": 142 },
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_234": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_235": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_236": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_237": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_238": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_239": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_24": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_240": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_241": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_242": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_243": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_244": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_245": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_246": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_247": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_248": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_249": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_25": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_250": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_251": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_252": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_253": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_254": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_255": {
+			"asset_chain_2": { "path": "devour/asset_chain_02", "y": 2060.59, "width": 38, "height": 142 },
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_256": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_257": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_258": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_259": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_26": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_260": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_261": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_262": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_263": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_264": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_265": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_266": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_267": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_268": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_269": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_27": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_270": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_271": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_272": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_273": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_274": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_275": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_276": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_277": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_278": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_279": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_28": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_280": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_281": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_282": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_283": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 },
+			"asset_chain_2": { "path": "devour/asset_chain_02", "y": 2060.59, "width": 38, "height": 142 }
+		},
+		"asset_chain_284": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_285": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_286": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_287": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_288": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_289": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_29": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_290": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_291": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_292": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_293": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_294": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_295": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_296": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_3": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_30": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_31": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_32": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_33": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 },
+			"asset_chain_2": { "path": "devour/asset_chain_02", "y": 2060.59, "width": 38, "height": 142 }
+		},
+		"asset_chain_34": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_35": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_36": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_37": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_38": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_39": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_4": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_40": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_41": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_42": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_43": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_44": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_45": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_46": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_47": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_48": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_49": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_5": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_50": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_51": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_52": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_53": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_54": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_55": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_56": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_57": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_58": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 },
+			"asset_chain_2": { "path": "devour/asset_chain_02", "y": 2060.59, "width": 38, "height": 142 }
+		},
+		"asset_chain_59": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_6": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_60": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_61": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_62": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_63": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_64": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_65": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_66": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_67": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_68": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_69": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_7": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_70": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_71": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_72": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_73": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_74": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_75": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_76": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_77": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_78": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_79": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_8": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_80": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_81": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_82": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_83": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_84": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_85": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_86": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_87": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_88": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_89": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_9": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_90": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_91": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_92": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_93": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_94": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_95": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_96": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_97": {
+			"asset_chain_01": { "path": "devour/asset_chain_01", "width": 132, "height": 150 }
+		},
+		"asset_chain_98": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_chain_99": {
+			"asset_chain_02": { "path": "devour/asset_chain_02", "width": 38, "height": 142 }
+		},
+		"asset_flag": {
+			"asset_flag": { "path": "devour/asset_flag", "width": 310, "height": 290 }
+		},
+		"asset_foreground": {
+			"asset_foreground": { "path": "devour/asset_foreground", "width": 380, "height": 150 }
+		},
+		"back_blue": {
+			"n_light": { "path": "devour/n_light", "width": 85, "height": 85 }
+		},
+		"back_blue2": {
+			"n_light": { "path": "devour/n_light", "width": 85, "height": 85 }
+		},
+		"boundingbox": {
+			"boundingbox": {
+				"type": "boundingbox",
+				"vertices": [ -476.36005, 288.54025, -478.648, -288.03555, 477.73563, -288.03555, 475.4477, 286.25223 ]
+			}
+		},
+		"code_bg": {
+			"useless/Devour/asset_bg": { "width": 960, "height": 576 }
+		},
+		"fx_magma_ash_01": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.49825, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, -0.17, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_magma_ash_02": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.49825, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, -0.17, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_magma_ash_03": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.49825, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, -0.17, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_magma_ash_04": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.49825, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, -0.17, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_magma_ash_05": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.49825, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, -0.17, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_magma_ash_06": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.49825, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, -0.17, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_magma_ash_07": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.49825, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, -0.17, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_magma_ash_08": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.49825, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, -0.17, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_magma_ash_09": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.49825, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, -0.17, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_magma_ash_10": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.49825, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, -0.17, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_magma_halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"fx_magma_line_01": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0.53504, 1, 0, 1, 0, 0, 0.49773, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 3.5, -50, -50, -50, -50, 50, -0.22, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_magma_smk01": {
+			"common/smoke_01": { "width": 100, "height": 100 }
+		},
+		"fx_magma_smk02": {
+			"common/smoke_01": { "width": 100, "height": 100 }
+		},
+		"fx_side_halo_01": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"fx_side_halo_02": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"pillar": {
+			"asset_pillar": {
+				"type": "mesh",
+				"path": "devour/asset_pillar",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 40, -200, -40, -200, -40, 200, 40, 200 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 80,
+				"height": 400
+			}
+		}
+	}
+},
+"animations": {
+	"loop": {
+		"slots": {
+			"asset_flag": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"back_blue": {
+				"color": [
+					{ "time": 0, "color": "247ec7e9" }
+				]
+			},
+			"back_blue2": {
+				"color": [
+					{ "time": 0, "color": "247ec7e8" }
+				]
+			},
+			"code_bg": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"fx_magma_ash_01": {
+				"color": [
+					{ "time": 1.1666, "color": "ffb57000" },
+					{ "time": 2, "color": "ff8215e7", "curve": "stepped" },
+					{ "time": 2.6666, "color": "ff8215e7" },
+					{ "time": 3.7, "color": "ff821500" }
+				]
+			},
+			"fx_magma_ash_02": {
+				"color": [
+					{ "time": 1.1666, "color": "ffb21600" },
+					{ "time": 1.8333, "color": "ffbc00ff" },
+					{ "time": 3, "color": "ff8000ff" },
+					{ "time": 3.7333, "color": "ff800000" }
+				]
+			},
+			"fx_magma_ash_03": {
+				"color": [
+					{ "time": 1.1666, "color": "ffbe0000" },
+					{ "time": 1.4, "color": "ff8a0065" },
+					{ "time": 1.8333, "color": "ffbb12a5" },
+					{ "time": 2.5333, "color": "ffbb1200" }
+				]
+			},
+			"fx_magma_ash_04": {
+				"color": [
+					{ "time": 1.8333, "color": "ffc700ff" },
+					{ "time": 2.6666, "color": "ffa500ff" },
+					{ "time": 3.1333, "color": "ffa50000" }
+				]
+			},
+			"fx_magma_ash_05": {
+				"color": [
+					{ "time": 1.1666, "color": "ffad00ff", "curve": "stepped" },
+					{ "time": 1.7, "color": "ffad00ff" },
+					{ "time": 2.0666, "color": "ff6b00ff" },
+					{ "time": 2.7333, "color": "ff6b0000" }
+				]
+			},
+			"fx_magma_ash_06": {
+				"color": [
+					{ "time": 0.5, "color": "ff7c0300" },
+					{ "time": 0.8, "color": "ff3619ff" },
+					{ "time": 1.4333, "color": "ff6e05ff" },
+					{ "time": 2.5, "color": "ff6e0500" }
+				]
+			},
+			"fx_magma_ash_07": {
+				"color": [
+					{ "time": 0.5, "color": "ffa01100" },
+					{ "time": 0.9, "color": "ffa900fc", "curve": "stepped" },
+					{ "time": 1.6, "color": "ffa900fc" },
+					{ "time": 2.2, "color": "ffa90000" }
+				]
+			},
+			"fx_magma_ash_08": {
+				"color": [
+					{ "time": 2.2666, "color": "ffad0a00" },
+					{ "time": 2.7333, "color": "ffce00f3" },
+					{ "time": 3.5666, "color": "ff7500f3" },
+					{ "time": 4.2333, "color": "ff750000" }
+				]
+			},
+			"fx_magma_ash_09": {
+				"color": [
+					{ "time": 2.3, "color": "ffd10000" },
+					{ "time": 2.6333, "color": "ffb900f3", "curve": "stepped" },
+					{ "time": 3.2666, "color": "ffb900f3" },
+					{ "time": 3.8333, "color": "ffb90000" }
+				]
+			},
+			"fx_magma_ash_10": {
+				"color": [
+					{ "time": 2.2666, "color": "ff7f1300" },
+					{ "time": 2.6333, "color": "ff9700f6", "curve": "stepped" },
+					{ "time": 3.4, "color": "ff9700f6" },
+					{ "time": 4, "color": "ff970000" }
+				]
+			},
+			"fx_magma_halo": {
+				"color": [
+					{ "time": 0, "color": "ff00236e" },
+					{ "time": 1, "color": "ff550091" },
+					{ "time": 2, "color": "ff95008f" },
+					{ "time": 3, "color": "ff550091" },
+					{ "time": 4, "color": "ff00236e" }
+				]
+			},
+			"fx_magma_line_01": {
+				"color": [
+					{ "time": 0.1333, "color": "ff2200d9" },
+					{ "time": 1.0333, "color": "ff92298f" },
+					{ "time": 2.0333, "color": "ff922900" }
+				]
+			},
+			"fx_magma_smk01": {
+				"color": [
+					{ "time": 0.3333, "color": "ffc50000" },
+					{ "time": 2.0666, "color": "ffc500a3" },
+					{ "time": 4, "color": "ffc50000" }
+				]
+			},
+			"fx_magma_smk02": {
+				"color": [
+					{ "time": 0.1666, "color": "ff840000" },
+					{ "time": 2.3333, "color": "ff840067" },
+					{ "time": 4.3333, "color": "ff840000" }
+				]
+			},
+			"fx_side_halo_01": {
+				"color": [
+					{ "time": 0, "color": "ff7b0000" },
+					{ "time": 1.6666, "color": "ff7b009d" },
+					{ "time": 4, "color": "ff7b0000" }
+				]
+			},
+			"fx_side_halo_02": {
+				"color": [
+					{ "time": 0.3333, "color": "ff7b0000" },
+					{ "time": 2, "color": "ff7b0078" },
+					{ "time": 4.3333, "color": "ff7b0000" }
+				]
+			},
+			"pillar": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"asset_flag": {
+				"translate": [
+					{ "time": 0, "x": -5.5, "y": 105 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"back_blue": {
+				"translate": [
+					{ "time": 0, "x": -323.57, "y": 138.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 10, "y": 10 }
+				]
+			},
+			"back_blue2": {
+				"translate": [
+					{ "time": 0, "x": 339.8, "y": 138.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 10, "y": 10 }
+				]
+			},
+			"code_bg": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 24.79 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"asset_foreground": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"main_chain_A": {
+				"rotate": [
+					{ "time": 0, "angle": 32 }
+				],
+				"translate": [
+					{ "time": 0, "x": -352.86, "y": -218.92 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.9, "y": 0.9 }
+				]
+			},
+			"main_chain_B": {
+				"rotate": [
+					{ "time": 0, "angle": -32 }
+				],
+				"translate": [
+					{ "time": 0, "x": 359.05, "y": -202.35 }
+				],
+				"scale": [
+					{ "time": 0, "x": -0.9, "y": 0.9 }
+				]
+			},
+			"main_chain_C": {
+				"rotate": [
+					{ "time": 0, "angle": 25 }
+				],
+				"translate": [
+					{ "time": 0, "x": -420.62, "y": 314.87 }
+				],
+				"scale": [
+					{ "time": 0, "x": -0.6, "y": 0.7 }
+				]
+			},
+			"main_chain_D": {
+				"rotate": [
+					{ "time": 0, "angle": -25 }
+				],
+				"translate": [
+					{ "time": 0, "x": 407.53, "y": 270.96 }
+				],
+				"scale": [
+					{ "time": 0, "x": -0.6, "y": 0.7 }
+				]
+			},
+			"asset_base": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.6666, "x": 0, "y": 3 },
+					{ "time": 3.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.6666, "x": 1.01, "y": 1.01 },
+					{ "time": 3.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 4, "x": 1, "y": 1 }
+				]
+			},
+			"pillar": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 89.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fx_magma_halo": {
+				"translate": [
+					{ "time": 0, "x": 4.37, "y": -76.33 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 0.6 },
+					{ "time": 2, "x": 2.638, "y": 0.793 },
+					{ "time": 4, "x": 2, "y": 0.6 }
+				]
+			},
+			"fx_magma_smk01": {
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": -76.32 },
+					{ "time": 2.6666, "x": -13.33, "y": -14.82 },
+					{ "time": 4, "x": -29.55, "y": -35.8 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 2, "y": 2 },
+					{ "time": 2.6666, "x": 3, "y": 3 },
+					{ "time": 4, "x": 2.6, "y": 2.6 }
+				]
+			},
+			"fx_magma_smk02": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 60 }
+				],
+				"translate": [
+					{ "time": 0.1666, "x": 86, "y": -91.59 },
+					{ "time": 4.3333, "x": 67.02, "y": -16.75 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 2, "y": 2 },
+					{ "time": 4.3333, "x": 2.7, "y": 2.7 }
+				]
+			},
+			"fx_side_halo_01": {
+				"translate": [
+					{ "time": 0, "x": -560.55, "y": -541.83 }
+				],
+				"scale": [
+					{ "time": 0, "x": 10, "y": 10 }
+				]
+			},
+			"fx_side_halo_02": {
+				"translate": [
+					{ "time": 0.3333, "x": 625.4, "y": -541.83 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 10, "y": 10 }
+				]
+			},
+			"code_flag": {
+				"translate": [
+					{ "time": 0, "x": -4.37, "y": -37.37 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"fx_magma_ash_01": {
+					"common/white": [
+						{
+							"time": 1.1666,
+							"vertices": [ -170.60889, 25.61624, -72.30781, 23.98491, -72.06987, -72.48285, -121.00159, -71.84475, -169.94353, -72.78927 ]
+						},
+						{
+							"time": 1.4,
+							"vertices": [ -169.27222, 31.38957, -70.06782, 30.56491, -71.30653, -67.54284, -119.99825, -66.92142, -169.17352, -67.23927 ]
+						},
+						{
+							"time": 1.5666,
+							"vertices": [ -167.76889, 35.37623, -68.46782, 35.26491, -69.38987, -64.08284, -119.28159, -63.40476, -167.66354, -63.54927 ]
+						},
+						{
+							"time": 1.8,
+							"vertices": [ -165.0889, 41.77625, -65.82782, 41.98492, -67.14988, -56.84283, -115.40158, -56.40477, -164.86351, -57.06926 ]
+						},
+						{
+							"time": 2.6666,
+							"vertices": [ -157.39792, 56.05318, -58.05787, 56.57785, -57.99795, -41.53942, -107.28911, -41.04731, -157.34052, -41.97384 ]
+						},
+						{
+							"time": 3.6666,
+							"vertices": [ -162.17691, 65.60013, -62.75786, 66.44081, -62.81592, -32.46595, -111.34656, -32.31982, -160.68756, -33.00837 ]
+						}
+					]
+				},
+				"fx_magma_ash_02": {
+					"common/white": [
+						{
+							"time": 1.1666,
+							"vertices": [ 72.00489, -16.09296, 170.02573, -18.60096, 169.02968, -115.94581, 120.40685, -114.02928, 71.3156, -114.45299 ]
+						},
+						{
+							"time": 1.4,
+							"vertices": [ 72.18488, -9.31303, 171.1457, -9.38105, 170.66965, -107.98589, 121.82684, -106.78937, 72.39559, -108.27306 ]
+						},
+						{
+							"time": 1.6333,
+							"vertices": [ 73.06488, -0.43303, 172.7457, -1.14105, 172.10963, -100.30588, 122.10684, -98.58935, 72.95559, -97.47307 ]
+						},
+						{
+							"time": 1.8333,
+							"vertices": [ 74.50488, 8.56696, 172.7857, 7.13894, 172.62964, -91.98586, 122.90684, -91.14935, 74.27559, -90.35307 ]
+						},
+						{
+							"time": 2.1666,
+							"vertices": [ 78.70488, 20.20695, 177.34567, 19.53893, 176.82962, -78.70588, 127.78683, -78.38937, 78.3156, -78.07308 ]
+						},
+						{
+							"time": 2.3666,
+							"vertices": [ 81.38487, 28.20695, 181.58566, 26.49892, 180.86961, -74.14588, 130.30682, -72.10937, 80.43559, -71.5131 ]
+						},
+						{
+							"time": 3.2333,
+							"vertices": [ 75.31663, 34.97536, 175.28403, 34.6677, 175.31483, -66.2105, 124.65869, -65.38763, 75.06753, -65.02476 ]
+						},
+						{
+							"time": 3.7,
+							"vertices": [ 77.83662, 38.85537, 177.76404, 38.62769, 177.47485, -62.7305, 127.45869, -62.14763, 77.54753, -61.34476 ]
+						}
+					]
+				},
+				"fx_magma_ash_03": {
+					"common/white": [
+						{
+							"time": 1.1666,
+							"vertices": [ -58.434, 157.8566, 38.59186, 158.01572, 37.70299, 60.068, -9.92089, 61.55168, -59.24397, 60.52599 ]
+						},
+						{
+							"time": 1.4666,
+							"vertices": [ -53.154, 168.73654, 44.43186, 169.53572, 44.90298, 71.38798, -3.8409, 71.91167, -52.48398, 70.72599 ]
+						},
+						{
+							"time": 1.7666,
+							"vertices": [ -49.71399, 182.77654, 48.67186, 182.01572, 48.62298, 84.26797, -0.2009, 84.67166, -49.84399, 84.04597 ]
+						},
+						{
+							"time": 2.2,
+							"vertices": [ -48.15399, 191.77654, 50.67185, 190.97572, 49.98298, 93.22797, 0.91909, 93.07167, -48.32399, 93.28597 ]
+						},
+						{
+							"time": 2.5,
+							"vertices": [ -48.07399, 198.29654, 52.27185, 197.33572, 51.34298, 95.66797, 1.35909, 97.03168, -48.724, 98.44598 ]
+						}
+					]
+				},
+				"fx_magma_ash_04": {
+					"common/white": [
+						{
+							"time": 1.8333,
+							"vertices": [ -70.28988, -22.16396, 28.09495, -22.81393, 28.22982, -121.56715, -21.17642, -120.73513, -70.58497, -120.66428 ]
+						},
+						{
+							"time": 2.2,
+							"vertices": [ -75.60988, -11.84396, 23.57495, -10.73392, 23.30981, -109.84717, -25.69642, -109.53512, -75.14495, -109.90429 ]
+						},
+						{
+							"time": 2.3333,
+							"vertices": [ -78.64988, -9.20396, 20.65495, -9.09392, 20.70981, -108.28716, -28.37642, -108.01512, -77.78494, -108.9843 ]
+						},
+						{
+							"time": 2.5,
+							"vertices": [ -79.24989, -8.88396, 20.09495, -8.65392, 19.58981, -107.88717, -29.41642, -107.77512, -78.54495, -108.6643 ]
+						},
+						{
+							"time": 3.1,
+							"vertices": [ -85.72382, -1.08405, 13.15303, 0.23797, 13.89588, -99.30727, -34.95436, -99.89719, -85.40887, -100.55238 ]
+						}
+					]
+				},
+				"fx_magma_ash_05": {
+					"common/white": [
+						{
+							"time": 1.1666,
+							"vertices": [ 2.47009, 97.79286, 101.58991, 99.32785, 101.60896, 0.08198, 52.20598, 0.93399, 3.01503, 0.18103 ]
+						},
+						{
+							"time": 1.4,
+							"vertices": [ 2.31259, 105.10786, 101.59742, 106.03284, 101.16646, 6.99448, 52.05598, 7.86148, 2.57753, 6.79603 ]
+						},
+						{
+							"time": 1.7,
+							"vertices": [ 2.11009, 114.51286, 101.14993, 114.28783, 100.04897, 15.24197, 51.40598, 15.85397, 2.01503, 15.30102 ]
+						},
+						{
+							"time": 1.9,
+							"vertices": [ 2.91009, 119.71285, 102.46992, 119.68783, 102.32896, 20.44197, 53.36598, 22.53397, 3.49503, 20.14102 ]
+						},
+						{
+							"time": 2,
+							"vertices": [ 5.31009, 126.59285, 104.8299, 126.32783, 105.04894, 28.52197, 55.56597, 28.85397, 5.09503, 28.26102 ]
+						},
+						{
+							"time": 2.7,
+							"vertices": [ 3.71009, 143.1529, 103.8299, 142.24783, 103.08894, 44.32195, 53.72597, 44.17396, 3.85503, 43.74101 ]
+						}
+					]
+				},
+				"fx_magma_ash_06": {
+					"common/white": [
+						{
+							"time": 0.5,
+							"vertices": [ -159.90074, -38.21293, -61.38788, -39.93192, -63.17586, -137.37772, -110.92881, -134.53575, -158.02567, -135.38675 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -159.18076, -24.37295, -59.70787, -23.37194, -59.6559, -122.15785, -108.30329, -121.50716, -158.92563, -122.36687 ]
+						},
+						{
+							"time": 1.0333,
+							"vertices": [ -157.54076, -13.77295, -57.98787, -11.65194, -57.6159, -110.71783, -106.66329, -110.22716, -156.96568, -112.16689 ]
+						},
+						{
+							"time": 1.3333,
+							"vertices": [ -153.62073, -1.57295, -55.90788, -1.13194, -56.09591, -100.47783, -105.18329, -98.38715, -153.88568, -100.40686 ]
+						},
+						{
+							"time": 1.9666,
+							"vertices": [ -153.8021, 12.39244, -55.00103, 11.88126, -55.09838, -85.87762, -103.86837, -85.37394, -153.52292, -86.48679 ]
+						},
+						{
+							"time": 2.4666,
+							"vertices": [ -154.48212, 18.71244, -54.84103, 18.64126, -56.09838, -79.87761, -103.98838, -79.01391, -154.44293, -80.12677 ]
+						}
+					]
+				},
+				"fx_magma_ash_07": {
+					"common/white": [
+						{
+							"time": 0.5,
+							"vertices": [ 6.78706, 7.06399, 105.68694, 8.42598, 106.10086, -90.11216, 57.83463, -89.41018, 7.65218, -90.77687 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 8.34706, 16.02399, 107.64693, 15.82598, 107.66084, -82.95215, 58.43463, -82.21017, 8.77218, -83.37685 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ 9.94705, 29.82398, 108.7269, 29.62597, 109.42084, -68.31215, 60.11463, -68.01019, 10.45218, -68.93686 ]
+						},
+						{
+							"time": 1.4333,
+							"vertices": [ 13.54705, 42.66397, 112.20689, 42.02596, 112.50085, -56.27216, 63.67462, -55.3302, 14.21218, -56.53686 ]
+						},
+						{
+							"time": 1.6333,
+							"vertices": [ 16.06705, 49.06397, 115.8469, 50.10595, 116.18085, -48.79217, 67.63462, -48.5302, 17.13217, -51.53687 ]
+						},
+						{
+							"time": 2.1666,
+							"vertices": [ 17.70705, 54.38397, 117.72691, 55.98594, 117.62084, -42.11217, 68.91462, -42.33021, 18.57218, -46.01687 ]
+						}
+					]
+				},
+				"fx_magma_ash_08": {
+					"common/white": [
+						{
+							"time": 2.2666,
+							"vertices": [ -32.15501, -10.979, 65.72482, -8.96196, 65.41036, -107.35118, 16.43504, -106.02299, -32.39889, -107.74506 ]
+						},
+						{
+							"time": 2.7666,
+							"vertices": [ -39.11495, -3.59906, 60.02487, -3.14201, 60.0704, -101.77124, 10.97509, -100.92303, -38.09884, -102.22508 ]
+						},
+						{
+							"time": 3.1333,
+							"vertices": [ -42.87495, 9.60092, 56.50487, 8.81797, 56.11041, -89.53127, 7.57509, -88.44305, -42.13883, -89.4651 ]
+						},
+						{
+							"time": 3.4,
+							"vertices": [ -47.07495, 14.96091, 51.98487, 15.09796, 51.67042, -84.33125, 2.57509, -83.48304, -47.17885, -84.3851 ]
+						},
+						{
+							"time": 4.2,
+							"vertices": [ -51.31495, 19.12091, 47.86489, 19.53796, 47.46041, -79.41124, -1.47489, -80.03305, -51.25886, -80.50509 ]
+						}
+					]
+				},
+				"fx_magma_ash_09": {
+					"common/white": [
+						{
+							"time": 2.3,
+							"vertices": [ -175.21074, 24.86396, -75.86284, 21.91296, -77.13583, -74.87683, -126.04177, -72.3659, -175.34377, -72.78088 ]
+						},
+						{
+							"time": 2.6333,
+							"vertices": [ -175.00983, 36.58886, -76.66683, 34.70985, -76.86783, -62.54894, -125.77378, -60.77502, -175.34378, -62.12797 ]
+						},
+						{
+							"time": 2.9333,
+							"vertices": [ -177.0198, 49.05074, -77.93982, 47.64075, -78.81081, -50.28804, -128.11874, -46.97313, -177.21976, -49.93408 ]
+						},
+						{
+							"time": 3.1333,
+							"vertices": [ -180.0598, 58.81074, -80.01983, 57.80076, -81.45083, -39.68802, -130.47874, -38.41311, -179.69975, -39.49408 ]
+						},
+						{
+							"time": 3.8,
+							"vertices": [ -176.18298, 69.7522, -76.98368, 67.59578, -76.80967, -29.35798, -125.76117, -28.6945, -176.2815, -29.24046 ]
+						}
+					]
+				},
+				"fx_magma_ash_10": {
+					"common/white": [
+						{
+							"time": 2.2666,
+							"vertices": [ 9.11699, 6.623, 107.38673, 8.22098, 107.70569, -90.29073, 58.19286, -89.71076, 9.61203, -89.80878 ]
+						},
+						{
+							"time": 2.6666,
+							"vertices": [ 4.61405, 12.20893, 103.1688, 12.03992, 102.68975, -86.35779, 53.91792, -85.49282, 4.8811, -86.55983 ]
+						},
+						{
+							"time": 3.1666,
+							"vertices": [ -1.25685, 26.57273, 97.58287, 26.63172, 97.67382, -71.766, 48.84499, -71.01504, -1.04681, -71.85403 ]
+						},
+						{
+							"time": 3.5,
+							"vertices": [ -6.36375, 32.69219, 92.87221, 32.35497, 92.3468, -67.23144, 41.93307, -66.08424, -6.94615, -66.57105 ]
+						},
+						{
+							"time": 3.9666,
+							"vertices": [ -10.06184, 36.25822, 90.0106, 35.83294, 89.39713, -63.84154, 39.55573, -62.95848, -10.0279, -63.22515 ]
+						}
+					]
+				},
+				"fx_magma_line_01": {
+					"common/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -132.53798, -40.70344, -98.96247, -43.51902, -54.92847, -43.19634, -62.67555, -145.65796, -104.56143, -141.65872, -144.18663, -141.71867 ]
+						},
+						{
+							"time": 1.5333,
+							"vertices": [ -103.82211, -47.96016, -66.2036, -45.59238, -19.16322, -43.71467, -40.17973, -141.20023, -71.80253, -142.69539, -113.81209, -143.89568 ]
+						},
+						{
+							"time": 2,
+							"vertices": [ -99.37271, -51.38277, -61.86828, -46.61916, -11.86165, -45.31189, -30.59642, -142.22699, -66.09818, -143.49397, -107.65141, -145.94922 ]
+						}
+					]
+				},
+				"pillar": {
+					"asset_pillar": [
+						{
+							"time": 0,
+							"vertices": [ -4, 0.27999, -4, 0.27999, -4, 0.27999, -4, 0.27999 ]
+						}
+					]
+				}
+			}
+		}
+	},
+	"start": {
+		"slots": {
+			"asset_flag": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"back_blue": {
+				"color": [
+					{ "time": 0, "color": "247ec7e9" }
+				]
+			},
+			"back_blue2": {
+				"color": [
+					{ "time": 0, "color": "247ec7e8" }
+				]
+			},
+			"code_bg": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"code_text01": {
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"code_text2": {
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"fx_magma_halo": {
+				"color": [
+					{ "time": 0, "color": "ff002300" },
+					{ "time": 1.3333, "color": "ff00236e" }
+				]
+			},
+			"pillar": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"asset_flag": {
+				"translate": [
+					{ "time": 0, "x": -5.63, "y": 351.08 },
+					{ "time": 0.5, "x": -5.5, "y": 105 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"back_blue": {
+				"translate": [
+					{ "time": 0, "x": -323.57, "y": 138.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 10, "y": 10 }
+				]
+			},
+			"back_blue2": {
+				"translate": [
+					{ "time": 0, "x": 339.8, "y": 138.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 10, "y": 10 }
+				]
+			},
+			"code_bg": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 15,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 0, "y": 24.79 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1.15,
+						"y": 1.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"pillar": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -254.15 },
+					{ "time": 0.5, "x": 0, "y": 89.72 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 1 },
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"asset_base": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -10 },
+					{ "time": 0.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.96, "y": 0.95 },
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"main_chain_A": {
+				"rotate": [
+					{ "time": 0, "angle": 32, "curve": "stepped" },
+					{ "time": 0.5, "angle": 32 }
+				],
+				"translate": [
+					{ "time": 0, "x": -411.34, "y": -125.36 },
+					{ "time": 0.5, "x": -352.86, "y": -218.92 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.9, "y": 0.9, "curve": "stepped" },
+					{ "time": 0.5, "x": 0.9, "y": 0.9 }
+				]
+			},
+			"main_chain_B": {
+				"rotate": [
+					{ "time": 0, "angle": -32, "curve": "stepped" },
+					{ "time": 0.5, "angle": -32 }
+				],
+				"translate": [
+					{ "time": 0, "x": 397.64, "y": -139.39 },
+					{ "time": 0.5, "x": 359.05, "y": -202.35 }
+				],
+				"scale": [
+					{ "time": 0, "x": -0.9, "y": 0.9, "curve": "stepped" },
+					{ "time": 0.5, "x": -0.9, "y": 0.9 }
+				]
+			},
+			"main_chain_C": {
+				"rotate": [
+					{ "time": 0, "angle": 25, "curve": "stepped" },
+					{ "time": 0.5, "angle": 25 }
+				],
+				"translate": [
+					{ "time": 0, "x": -304.79, "y": 66.41 },
+					{ "time": 0.5, "x": -420.62, "y": 314.87 }
+				],
+				"scale": [
+					{ "time": 0, "x": -0.6, "y": 0.7, "curve": "stepped" },
+					{ "time": 0.5, "x": -0.6, "y": 0.7 }
+				]
+			},
+			"main_chain_D": {
+				"rotate": [
+					{ "time": 0, "angle": -25, "curve": "stepped" },
+					{ "time": 0.5, "angle": -25 }
+				],
+				"translate": [
+					{ "time": 0, "x": 281.4, "y": 0.18 },
+					{ "time": 0.5, "x": 407.53, "y": 270.96 }
+				],
+				"scale": [
+					{ "time": 0, "x": -0.6, "y": 0.7, "curve": "stepped" },
+					{ "time": 0.5, "x": -0.6, "y": 0.7 }
+				]
+			},
+			"fx_magma_halo": {
+				"translate": [
+					{ "time": 0, "x": 4.37, "y": -76.33, "curve": "stepped" },
+					{ "time": 1.3333, "x": 4.37, "y": -76.33 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 0.6, "curve": "stepped" },
+					{ "time": 1.3333, "x": 2, "y": 0.6 }
+				]
+			},
+			"code_flag": {
+				"translate": [
+					{ "time": 0, "x": -4.37, "y": 209.28 },
+					{ "time": 0.5, "x": -4.37, "y": -37.37 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"pillar": {
+					"asset_pillar": [
+						{
+							"time": 0,
+							"vertices": [ -5.20833, 326.7935, -5.20833, 326.7935, -5.20833, 0.45388, -5.20833, 0.45388 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -4, 0.27999, -4, 0.27999, -4, 0.27999, -4, 0.27999 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

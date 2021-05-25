@@ -1,0 +1,311 @@
+{
+"skeleton": { "hash": "4a9Lc2T8DaaZFlvRUjJlIzT3vDg", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "end", "parent": "fx" },
+	{ "name": "baodian", "parent": "end" },
+	{ "name": "glow", "parent": "end" },
+	{ "name": "halo", "parent": "end" },
+	{ "name": "jz", "parent": "end" },
+	{ "name": "jz2", "parent": "end" },
+	{ "name": "jz3", "parent": "end" },
+	{ "name": "point_heji", "parent": "end" },
+	{ "name": "point", "parent": "point_heji" },
+	{ "name": "point2", "parent": "point_heji" },
+	{ "name": "point3", "parent": "point_heji" },
+	{ "name": "point4", "parent": "point_heji" }
+],
+"slots": [
+	{ "name": "halo", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "jz", "bone": "jz", "color": "ffffff00", "attachment": "hundundan/end_01" },
+	{ "name": "jz2", "bone": "jz2", "color": "ffffff00", "attachment": "hundundan/end_01" },
+	{ "name": "jz3", "bone": "jz3", "color": "ffffff00", "attachment": "hundundan/end_01" },
+	{ "name": "glow", "bone": "glow", "color": "ffffff00", "attachment": "common/glow", "blend": "additive" },
+	{ "name": "baodian", "bone": "baodian", "color": "ffffff00", "attachment": "common/guangquan", "blend": "additive" },
+	{ "name": "point", "bone": "point", "color": "ffffff00", "attachment": "common/particle_circle", "blend": "additive" },
+	{ "name": "point2", "bone": "point2", "color": "ffffff00", "attachment": "common/particle_circle", "blend": "additive" },
+	{ "name": "point3", "bone": "point3", "color": "ffffff00", "attachment": "common/particle_circle", "blend": "additive" },
+	{ "name": "point4", "bone": "point4", "color": "ffffff00", "attachment": "common/particle_circle", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"baodian": {
+			"common/guangquan": { "width": 250, "height": 250 }
+		},
+		"glow": {
+			"common/glow": { "width": 50, "height": 50 }
+		},
+		"halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"jz": {
+			"hundundan/end_01": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_02": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_03": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_04": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_05": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_06": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_07": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_08": { "x": 50, "width": 100, "height": 160 }
+		},
+		"jz2": {
+			"hundundan/end_01": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_02": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_03": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_04": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_05": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_06": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_07": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_08": { "x": 50, "width": 100, "height": 160 }
+		},
+		"jz3": {
+			"hundundan/end_01": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_02": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_03": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_04": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_05": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_06": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_07": { "x": 50, "width": 100, "height": 160 },
+			"hundundan/end_08": { "x": 50, "width": 100, "height": 160 }
+		},
+		"point": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		},
+		"point2": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		},
+		"point3": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		},
+		"point4": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"baodian": {
+				"color": [
+					{ "time": 0, "color": "a0ff97ff", "curve": "stepped" },
+					{ "time": 0.0333, "color": "a0ff97ff" },
+					{ "time": 0.2666, "color": "a0ff9700" }
+				]
+			},
+			"glow": {
+				"color": [
+					{ "time": 0, "color": "00ff50ff", "curve": "stepped" },
+					{ "time": 0.0333, "color": "00ff50ff" },
+					{ "time": 0.2666, "color": "00ff5000" }
+				]
+			},
+			"halo": {
+				"color": [
+					{ "time": 0, "color": "9fff00ff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "9fff00ff" },
+					{ "time": 0.2666, "color": "9fff0000" }
+				]
+			},
+			"jz": {
+				"attachment": [
+					{ "time": 0, "name": "hundundan/end_01" },
+					{ "time": 0.0333, "name": "hundundan/end_02" },
+					{ "time": 0.0666, "name": "hundundan/end_03" },
+					{ "time": 0.1, "name": "hundundan/end_04" },
+					{ "time": 0.1333, "name": "hundundan/end_05" },
+					{ "time": 0.1666, "name": "hundundan/end_06" },
+					{ "time": 0.2, "name": "hundundan/end_07" },
+					{ "time": 0.2333, "name": "hundundan/end_08" }
+				],
+				"color": [
+					{ "time": 0, "color": "00ff1cff", "curve": "stepped" },
+					{ "time": 0.2333, "color": "00ff1cff" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			},
+			"jz2": {
+				"attachment": [
+					{ "time": 0, "name": "hundundan/end_01" },
+					{ "time": 0.0333, "name": "hundundan/end_02" },
+					{ "time": 0.0666, "name": "hundundan/end_03" },
+					{ "time": 0.1, "name": "hundundan/end_04" },
+					{ "time": 0.1333, "name": "hundundan/end_05" },
+					{ "time": 0.1666, "name": "hundundan/end_06" },
+					{ "time": 0.2, "name": "hundundan/end_07" },
+					{ "time": 0.2333, "name": "hundundan/end_08" }
+				],
+				"color": [
+					{ "time": 0, "color": "00ff1cff", "curve": "stepped" },
+					{ "time": 0.2333, "color": "00ff1cff" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			},
+			"jz3": {
+				"attachment": [
+					{ "time": 0, "name": "hundundan/end_01" },
+					{ "time": 0.0333, "name": "hundundan/end_02" },
+					{ "time": 0.0666, "name": "hundundan/end_03" },
+					{ "time": 0.1, "name": "hundundan/end_04" },
+					{ "time": 0.1333, "name": "hundundan/end_05" },
+					{ "time": 0.1666, "name": "hundundan/end_06" },
+					{ "time": 0.2, "name": "hundundan/end_07" },
+					{ "time": 0.2333, "name": "hundundan/end_08" }
+				],
+				"color": [
+					{ "time": 0, "color": "00ff1cff", "curve": "stepped" },
+					{ "time": 0.2333, "color": "00ff1cff" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			},
+			"point": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			},
+			"point2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			},
+			"point3": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			},
+			"point4": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"fx": {
+				"translate": [
+					{ "time": 0, "x": -16.62, "y": 0 }
+				]
+			},
+			"jz": {
+				"rotate": [
+					{ "time": 0, "angle": -12.67 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.9, "y": 11.09 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"glow": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.0333, "x": 2, "y": 2 },
+					{ "time": 0.2666, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"baodian": {
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 0.5 },
+					{ "time": 0.0333, "x": 0.8, "y": 0.8 },
+					{ "time": 0.2666, "x": 0.9, "y": 0.9 }
+				]
+			},
+			"halo": {
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 0.5 },
+					{ "time": 0.0666, "x": 1, "y": 1 },
+					{ "time": 0.2666, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"point": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 43.31, "y": 4.85 },
+					{ "time": 0.2666, "x": 58.24, "y": 6.07 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.1, "y": 0.1 },
+					{ "time": 0.0666, "x": 0.3, "y": 0.3 },
+					{ "time": 0.2666, "x": 0.1, "y": 0.1 }
+				]
+			},
+			"point2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 45.75, "y": 31.5 },
+					{ "time": 0.2666, "x": 55.42, "y": 40.75 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.1, "y": 0.1 },
+					{ "time": 0.0666, "x": 0.4, "y": 0.4 },
+					{ "time": 0.2666, "x": 0.1, "y": 0.1 }
+				]
+			},
+			"point4": {
+				"translate": [
+					{ "time": 0, "x": -0.83, "y": 9.97 },
+					{ "time": 0.0666, "x": 27.02, "y": 47.39 },
+					{ "time": 0.2666, "x": 30.76, "y": 55.29 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.1, "y": 0.1 },
+					{ "time": 0.0666, "x": 0.2, "y": 0.2 },
+					{ "time": 0.2666, "x": 0.1, "y": 0.1 }
+				]
+			},
+			"point3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0666, "x": 62.38, "y": -13.07 },
+					{ "time": 0.2666, "x": 74.71, "y": -14.94 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.1, "y": 0.1 },
+					{ "time": 0.0666, "x": 0.35, "y": 0.35 },
+					{ "time": 0.2666, "x": 0.1, "y": 0.1 }
+				]
+			},
+			"jz2": {
+				"rotate": [
+					{ "time": 0, "angle": 18.78 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 12 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.7, "y": 0.7 }
+				]
+			},
+			"jz3": {
+				"rotate": [
+					{ "time": 0, "angle": -177.22 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.62, "y": 2.97 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"end": {
+				"translate": [
+					{ "time": 0, "x": 15.95, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

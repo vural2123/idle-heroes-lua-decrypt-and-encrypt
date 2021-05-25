@@ -1,0 +1,317 @@
+{
+"skeleton": { "hash": "9ze5YKfjCok612AqcDrwknkNBMg", "spine": "3.2.01", "width": 333, "height": 53, "images": "./../../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_board", "parent": "root", "y": 267.9 },
+	{ "name": "board1_1", "parent": "code_board", "x": -82.87, "y": -6.37 },
+	{ "name": "board1_2", "parent": "code_board", "x": 83.12, "y": -6.37, "scaleX": -1 },
+	{ "name": "code_text", "parent": "code_board", "y": 4.41 }
+],
+"slots": [
+	{ "name": "board1_1", "bone": "board1_1", "attachment": "1on1/board1" },
+	{ "name": "board1_2", "bone": "board1_2", "attachment": "1on1/board1" },
+	{ "name": "code_text", "bone": "code_text" }
+],
+"skins": {
+	"default": {
+		"board1_1": {
+			"1on1/board1": { "width": 167, "height": 53 }
+		},
+		"board1_2": {
+			"1on1/board1": { "width": 167, "height": 53 }
+		}
+	}
+},
+"events": {
+	"1speed_click": {},
+	"2power_click": {},
+	"3cc_click": {},
+	"4milk_click": {},
+	"5demon_click": {},
+	"6angel_click": {},
+	"b_loop": {},
+	"b_start": {},
+	"boss_die": {},
+	"drug_birth": {},
+	"trader_birth": {},
+	"trader_die": {},
+	"treasure_birth": {},
+	"treasure_click": {}
+},
+"animations": {
+	"1speed_click": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.6666, "name": "1speed_click" }
+		]
+	},
+	"2power_click": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.6666, "name": "2power_click" }
+		]
+	},
+	"3cc_click": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.6666, "name": "3cc_click" }
+		]
+	},
+	"4milk_click": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.1666, "name": "4milk_click" }
+		]
+	},
+	"4milk_click2": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"5demon_click": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.1666, "name": "5demon_click" }
+		]
+	},
+	"5demon_click2": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"6angel_click": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.1666, "name": "6angel_click" }
+		]
+	},
+	"6angel_click2": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"animation": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"auto_fight": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"b_loop": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 11.6333, "name": "b_loop" }
+		]
+	},
+	"b_start": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 50,
+						"curve": [ 0.125, 0.23, 0.416, 0.99 ]
+					},
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5, "name": "b_start" }
+		]
+	},
+	"boss_birth": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"boss_die": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.6666, "name": "boss_die" }
+		]
+	},
+	"drug_birth": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.1666, "name": "drug_birth" }
+		]
+	},
+	"drug_loop": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"save_auto": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.2333 },
+			{ "time": 1.1333 }
+		]
+	},
+	"start": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 50,
+						"curve": [ 0.125, 0.23, 0.416, 0.99 ]
+					},
+					{ "time": 0.5, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"trader_birth": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.1666, "name": "trader_birth" }
+		]
+	},
+	"trader_die": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.5, "name": "trader_die" }
+		]
+	},
+	"treasure_birth": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "treasure_birth" }
+		]
+	},
+	"treasure_click": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.5, "name": "treasure_click" }
+		]
+	},
+	"treasure_loop": {
+		"bones": {
+			"code_board": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

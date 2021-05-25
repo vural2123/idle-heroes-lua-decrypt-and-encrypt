@@ -1,0 +1,196 @@
+{
+"skeleton": { "hash": "RM04rQTRYHVqm88al/ELbbqrAgI", "spine": "2.1.27", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root" },
+	{ "name": "bone", "parent": "bg", "x": -55.28, "y": 110.82 },
+	{ "name": "bone2", "parent": "bg", "x": 228.24, "y": -4.08 },
+	{ "name": "bone3", "parent": "bg", "x": -28.28, "y": -105.59 },
+	{ "name": "bone4", "parent": "bg", "x": -320.74, "y": 13.63 },
+	{ "name": "shine", "parent": "bg", "x": 179.67, "y": 32.11, "scaleX": 1.321, "scaleY": 1.321 },
+	{ "name": "shine2", "parent": "bg", "x": 230.02, "y": -0.86, "scaleX": 0.729, "scaleY": 0.729 },
+	{ "name": "spark", "parent": "bg", "x": 180.32, "y": 68.08 },
+	{ "name": "spk", "parent": "spark" },
+	{ "name": "spk2", "parent": "spark", "x": 18.39, "y": -39.56, "scaleX": 0.682, "scaleY": 0.682 },
+	{ "name": "spk3", "parent": "spark", "x": -32.19, "y": -30.36, "scaleX": 0.58, "scaleY": 0.58 }
+],
+"slots": [
+	{ "name": "bt_changjing/4", "bone": "bg", "attachment": "bt_changjing/4" },
+	{ "name": "bt_changjing/4_1", "bone": "bone", "attachment": "bt_changjing/4_1" },
+	{ "name": "bt_changjing/4_2", "bone": "bone2", "attachment": "bt_changjing/4_2" },
+	{ "name": "bt_changjing/4_3", "bone": "bone3", "attachment": "bt_changjing/4_3" },
+	{ "name": "bt_changjing/4_4", "bone": "bone4", "attachment": "bt_changjing/4_4" },
+	{ "name": "common/n_light", "bone": "shine", "color": "ffffff00", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "common/n_light2", "bone": "shine2", "color": "ffffff00", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "common/spark", "bone": "spk", "color": "ffffff00", "attachment": "common/spark", "blend": "additive" },
+	{ "name": "common/spark2", "bone": "spk2", "color": "ffffff00", "attachment": "common/spark", "blend": "additive" },
+	{ "name": "common/spark3", "bone": "spk3", "color": "ffffff00", "attachment": "common/spark", "blend": "additive" },
+	{ "name": "bd", "bone": "root", "attachment": "bd" }
+],
+"skins": {
+	"default": {
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -212.87595, 138.89658, -199.96396, -130.64136, 243.88594, -133.86938, 271.32404, 142.12462 ]
+			}
+		},
+		"bt_changjing/4": {
+			"bt_changjing/4": { "width": 422, "height": 291 }
+		},
+		"bt_changjing/4_1": {
+			"bt_changjing/4_1": {
+				"type": "mesh",
+				"uvs": [ 0, 0, 0.5, 0, 1, 0, 1, 0.5, 1, 1, 0.5, 1, 0, 1, 0, 0.5, 0.5, 0.5 ],
+				"triangles": [ 7, 0, 1, 8, 1, 2, 7, 1, 8, 8, 2, 3, 6, 7, 8, 5, 8, 3, 6, 8, 5, 5, 3, 4 ],
+				"vertices": [ -10.56, 1.04999, -0.56, 1.04999, 9.43, 1.04999, 9.43, -19.94, 9.43, -40.93999, -0.56, -40.93999, -10.56, -40.93999, -10.56, -19.94, -0.56, -19.94 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 0 ],
+				"width": 20,
+				"height": 42
+			}
+		},
+		"bt_changjing/4_2": {
+			"bt_changjing/4_2": { "width": 41, "height": 63 }
+		},
+		"bt_changjing/4_3": {
+			"bt_changjing/4_3": { "width": 51, "height": 50 }
+		},
+		"bt_changjing/4_4": {
+			"bt_changjing/4_4": { "width": 106, "height": 45 }
+		},
+		"common/n_light": {
+			"common/n_light": { "color": "ff8b00ff", "width": 85, "height": 85 }
+		},
+		"common/n_light2": {
+			"common/n_light": { "color": "ff8b00ff", "width": 85, "height": 85 }
+		},
+		"common/spark": {
+			"common/spark": { "color": "fff6a5ff", "width": 14, "height": 16 }
+		},
+		"common/spark2": {
+			"common/spark": { "color": "fff6a5ff", "width": 14, "height": 16 }
+		},
+		"common/spark3": {
+			"common/spark": { "color": "fff6a5ff", "width": 14, "height": 16 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/n_light": {
+				"color": [
+					{ "time": 1.5666, "color": "ffffff00" },
+					{ "time": 2.2333, "color": "ffffff4a" },
+					{ "time": 3.5666, "color": "ffffff00" }
+				]
+			},
+			"common/n_light2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.6666, "color": "ffffff4a" },
+					{ "time": 2, "color": "ffffff00" }
+				]
+			},
+			"common/spark": {
+				"color": [
+					{ "time": 2.0333, "color": "ffffff00" },
+					{ "time": 2.3666, "color": "ffffffff" },
+					{ "time": 3.3666, "color": "ffffff00" }
+				]
+			},
+			"common/spark2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"common/spark3": {
+				"color": [
+					{ "time": 0.9, "color": "ffffff00" },
+					{ "time": 1.2333, "color": "ffffffff" },
+					{ "time": 2.2333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bg": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 2.6666, "x": 0, "y": -5 },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": 0.91 },
+					{ "time": 0.2, "angle": -2.24 },
+					{ "time": 0.3333, "angle": 2.26 },
+					{ "time": 0.4, "angle": 0 },
+					{ "time": 0.5333, "angle": 1.4 },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.3333, "angle": 0 },
+					{ "time": 2.4333, "angle": 0.91 },
+					{ "time": 2.5333, "angle": -2.24 },
+					{ "time": 2.6666, "angle": 2.26 },
+					{ "time": 2.7333, "angle": 0 },
+					{ "time": 2.8666, "angle": 1.4 },
+					{ "time": 3, "angle": 0 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 0, "y": -8.83 },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.7333, "x": 0, "y": 20 },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 0, "y": 7.36 },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"shine2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0, "y": 9.02 },
+					{ "time": 2, "x": 0, "y": 21.43 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"bt_changjing/4_1": {
+					"bt_changjing/4_1": [
+						{ "time": 0.6666 },
+						{
+							"time": 1,
+							"offset": 7,
+							"vertices": [ -30.61799, 0, -30.61799, 0, -30.61799, 0, -30.61799, 0, -30.61799, 0, -30.61799 ],
+							"curve": "stepped"
+						},
+						{
+							"time": 2.3333,
+							"offset": 7,
+							"vertices": [ -30.61799, 0, -30.61799, 0, -30.61799, 0, -30.61799, 0, -30.61799, 0, -30.61799 ]
+						},
+						{ "time": 4 }
+					]
+				}
+			}
+		}
+	}
+}
+}

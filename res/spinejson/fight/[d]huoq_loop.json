@@ -1,0 +1,33 @@
+{
+"skeleton": { "hash": "lmGnkUrOSumLde1nRIzM65rou6Q", "spine": "2.1.27", "width": 150, "height": 150, "images": "./../" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx_huoq_loop", "parent": "root", "length": 96.18 }
+],
+"slots": [
+	{ "name": "huoq_loop/huoq_loop_01", "bone": "fx_huoq_loop", "attachment": "huoq_loop/huoq_loop_03" }
+],
+"skins": {
+	"default": {
+		"huoq_loop/huoq_loop_01": {
+			"huoq_loop/huoq_loop_01": { "width": 150, "height": 150 },
+			"huoq_loop/huoq_loop_02": { "width": 150, "height": 150 },
+			"huoq_loop/huoq_loop_03": { "width": 150, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"huoq_loop/huoq_loop_01": {
+				"attachment": [
+					{ "time": 0, "name": "huoq_loop/huoq_loop_01" },
+					{ "time": 0.0666, "name": "huoq_loop/huoq_loop_02" },
+					{ "time": 0.1333, "name": "huoq_loop/huoq_loop_03" },
+					{ "time": 0.2, "name": "huoq_loop/huoq_loop_03" }
+				]
+			}
+		}
+	}
+}
+}

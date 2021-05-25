@@ -1,0 +1,180 @@
+{
+"skeleton": { "hash": "XPgpIRpd+F52zOyttj5jqrOC2Cc", "spine": "2.1.27", "width": 450, "height": 306, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "FX", "parent": "code_shake", "scaleX": 0.9, "scaleY": 0.9 },
+	{ "name": "FX_down", "parent": "FX" },
+	{ "name": "crack1", "parent": "FX_down" },
+	{ "name": "freeze1", "parent": "FX_down" },
+	{ "name": "freeze2", "parent": "FX_down" },
+	{ "name": "halo_1", "parent": "FX_down" },
+	{ "name": "rune1", "parent": "FX_down" }
+],
+"slots": [
+	{ "name": "crack1", "bone": "crack1", "color": "ffffff00", "attachment": "common/Crack" },
+	{ "name": "halo_1", "bone": "halo_1", "color": "ffffff00", "attachment": "common/fx_halo", "blend": "additive" },
+	{ "name": "rune1", "bone": "rune1", "color": "ffffff00", "attachment": "0863_fx/asset_rune_00", "blend": "additive" },
+	{ "name": "freeze1", "bone": "freeze1", "color": "ffffff00", "attachment": "0863_fx/asset_freeze_00" },
+	{ "name": "freeze2", "bone": "freeze2", "color": "ffffff00", "attachment": "0863_fx/asset_freeze_00", "blend": "screen" }
+],
+"skins": {
+	"default": {
+		"crack1": {
+			"common/Crack": { "width": 500, "height": 230 }
+		},
+		"freeze1": {
+			"0863_fx/asset_freeze_00": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_01": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_02": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_03": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_04": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_05": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_06": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_07": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_08": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_09": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_10": { "width": 330, "height": 100 }
+		},
+		"freeze2": {
+			"0863_fx/asset_freeze_00": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_01": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_02": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_03": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_04": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_05": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_06": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_07": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_08": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_09": { "width": 330, "height": 100 },
+			"0863_fx/asset_freeze_10": { "width": 330, "height": 100 }
+		},
+		"halo_1": {
+			"common/fx_halo": { "path": "common/n_halo", "width": 340, "height": 340 }
+		},
+		"rune1": {
+			"0863_fx/asset_rune_00": { "width": 310, "height": 100 },
+			"0863_fx/asset_rune_01": { "width": 310, "height": 100 },
+			"0863_fx/asset_rune_02": { "width": 310, "height": 100 },
+			"0863_fx/asset_rune_03": { "width": 310, "height": 100 },
+			"0863_fx/asset_rune_04": { "width": 310, "height": 100 },
+			"0863_fx/asset_rune_05": { "width": 310, "height": 100 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"crack1": {
+				"color": [
+					{ "time": 0.4333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1333, "color": "ffffffff" },
+					{ "time": 1.4666, "color": "ffffff00" }
+				]
+			},
+			"freeze1": {
+				"attachment": [
+					{ "time": 0.3666, "name": "0863_fx/asset_freeze_00" },
+					{ "time": 0.4, "name": "0863_fx/asset_freeze_01" },
+					{ "time": 0.4333, "name": "0863_fx/asset_freeze_02" },
+					{ "time": 0.4666, "name": "0863_fx/asset_freeze_03" },
+					{ "time": 0.5, "name": "0863_fx/asset_freeze_04" },
+					{ "time": 0.5333, "name": "0863_fx/asset_freeze_05" },
+					{ "time": 0.5666, "name": "0863_fx/asset_freeze_06" },
+					{ "time": 0.6, "name": "0863_fx/asset_freeze_07" },
+					{ "time": 0.6333, "name": "0863_fx/asset_freeze_08" },
+					{ "time": 0.6666, "name": "0863_fx/asset_freeze_09" },
+					{ "time": 0.7, "name": "0863_fx/asset_freeze_10" }
+				],
+				"color": [
+					{ "time": 0.3666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1333, "color": "ffffffff" },
+					{ "time": 1.4666, "color": "ffffff00" }
+				]
+			},
+			"freeze2": {
+				"attachment": [
+					{ "time": 0.3666, "name": "0863_fx/asset_freeze_00" },
+					{ "time": 0.4, "name": "0863_fx/asset_freeze_01" },
+					{ "time": 0.4333, "name": "0863_fx/asset_freeze_02" },
+					{ "time": 0.4666, "name": "0863_fx/asset_freeze_03" },
+					{ "time": 0.5, "name": "0863_fx/asset_freeze_04" },
+					{ "time": 0.5333, "name": "0863_fx/asset_freeze_05" },
+					{ "time": 0.5666, "name": "0863_fx/asset_freeze_06" },
+					{ "time": 0.6, "name": "0863_fx/asset_freeze_07" },
+					{ "time": 0.6333, "name": "0863_fx/asset_freeze_08" },
+					{ "time": 0.6666, "name": "0863_fx/asset_freeze_09" },
+					{ "time": 0.7, "name": "0863_fx/asset_freeze_10" }
+				],
+				"color": [
+					{ "time": 0.3666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1333, "color": "ffffffff" },
+					{ "time": 1.4666, "color": "ffffff00" }
+				]
+			},
+			"halo_1": {
+				"color": [
+					{ "time": 0.3666, "color": "0059ffff" },
+					{ "time": 0.5666, "color": "0300ffff" },
+					{ "time": 0.9, "color": "0300ff00" }
+				]
+			},
+			"rune1": {
+				"attachment": [
+					{ "time": 0.3666, "name": "0863_fx/asset_rune_00" },
+					{ "time": 0.4, "name": "0863_fx/asset_rune_01" },
+					{ "time": 0.4333, "name": "0863_fx/asset_rune_02" },
+					{ "time": 0.4666, "name": "0863_fx/asset_rune_03" },
+					{ "time": 0.5, "name": "0863_fx/asset_rune_04" },
+					{ "time": 0.5333, "name": "0863_fx/asset_rune_05" }
+				],
+				"color": [
+					{ "time": 0.3666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1333, "color": "ffffffff" },
+					{ "time": 1.4666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"halo_1": {
+				"translate": [
+					{ "time": 0.3666, "x": 0, "y": 5 }
+				],
+				"scale": [
+					{ "time": 0.3666, "x": 1.6, "y": 0.8 },
+					{ "time": 0.8666, "x": 2.5, "y": 1.25 }
+				]
+			},
+			"rune1": {
+				"translate": [
+					{ "time": 0.3666, "x": 0, "y": -5 }
+				]
+			},
+			"freeze1": {
+				"translate": [
+					{ "time": 0.3666, "x": 0, "y": -3 }
+				]
+			},
+			"crack1": {
+				"translate": [
+					{ "time": 0.4333, "x": 0, "y": 7.35 }
+				],
+				"scale": [
+					{ "time": 0.4333, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"freeze2": {
+				"translate": [
+					{ "time": 0.3666, "x": 0, "y": -3 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5, "name": "hit" }
+		]
+	}
+}
+}

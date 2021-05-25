@@ -1,0 +1,105 @@
+{
+"skeleton": { "hash": "Q6w3ADKURBmXxYl3NfLtSUNtWUU", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "anying", "parent": "fx" },
+	{ "name": "glow", "parent": "anying" },
+	{ "name": "glow2", "parent": "anying" },
+	{ "name": "glow3", "parent": "anying" }
+],
+"slots": [
+	{ "name": "glow2", "bone": "glow2", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "glow", "bone": "glow", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "glow3", "bone": "glow3", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"glow": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"glow2": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"glow3": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"glow": {
+				"color": [
+					{ "time": 0, "color": "5000ffff" },
+					{ "time": 0.1, "color": "5f00ffff" },
+					{ "time": 0.2666, "color": "7600ff00" }
+				]
+			},
+			"glow2": {
+				"color": [
+					{ "time": 0.0666, "color": "cfff00ff" },
+					{ "time": 0.2333, "color": "c500ffff" },
+					{ "time": 0.3333, "color": "a700ff00" }
+				]
+			},
+			"glow3": {
+				"color": [
+					{ "time": 0, "color": "5000ffff" },
+					{ "time": 0.1, "color": "5f00ffff" },
+					{ "time": 0.2666, "color": "7600ff00" }
+				]
+			}
+		},
+		"bones": {
+			"glow": {
+				"translate": [
+					{ "time": 0, "x": 3.46, "y": 2.16 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.5,
+						"y": 0.5,
+						"curve": [ 0, 0.7, 0.75, 1 ]
+					},
+					{ "time": 0.2333, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"glow2": {
+				"translate": [
+					{ "time": 0.0666, "x": 3.46, "y": 2.16 }
+				],
+				"scale": [
+					{
+						"time": 0.0666,
+						"x": 0.7,
+						"y": 0.7,
+						"curve": [ 0, 0.7, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"glow3": {
+				"translate": [
+					{ "time": 0, "x": 3.46, "y": 2.16 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.5,
+						"y": 0.5,
+						"curve": [ 0, 0.7, 0.75, 1 ]
+					},
+					{ "time": 0.2333, "x": 1.2, "y": 1.2 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

@@ -1,0 +1,183 @@
+{
+"skeleton": {
+	"hash": "Rc9q1YNRvyVkwl5w7EoeDhXY7rU",
+	"spine": "2.1.27",
+	"width": 96.99,
+	"height": 106.98,
+	"images": "../../pngs/animation/ui/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root" },
+	{ "name": "shadow", "parent": "root" },
+	{ "name": "body", "parent": "all", "y": 18.81 },
+	{ "name": "danke", "parent": "all" },
+	{ "name": "bone", "parent": "body", "length": 28.77, "x": -16.1, "y": 52.08, "rotation": 88.18 },
+	{ "name": "bone2", "parent": "body", "length": 35.15, "x": 26.13, "y": 44.27, "rotation": 46.77 },
+	{ "name": "cao", "parent": "body", "length": 16.1, "x": -1.55, "y": 57.05, "rotation": 76.28 }
+],
+"slots": [
+	{ "name": "yingzi", "bone": "shadow", "attachment": "chongwu/yingzi" },
+	{ "name": "danke1", "bone": "danke", "attachment": "chongwu/danke1" },
+	{ "name": "ed1", "bone": "bone", "attachment": "chongwu/ed1" },
+	{ "name": "tou", "bone": "body", "attachment": "chongwu/tou" },
+	{ "name": "zui", "bone": "body", "attachment": "chongwu/zui" },
+	{ "name": "yj1", "bone": "body", "attachment": "chongwu/yj1" },
+	{ "name": "yj2", "bone": "body" },
+	{ "name": "ed2", "bone": "bone2", "attachment": "chongwu/ed2" },
+	{ "name": "danke2", "bone": "danke", "attachment": "chongwu/danke2" },
+	{ "name": "cao", "bone": "cao", "attachment": "chongwu/cao" }
+],
+"skins": {
+	"default": {
+		"cao": {
+			"chongwu/cao": {
+				"type": "mesh",
+				"uvs": [ 1, 0.79395, 1, 1, 0.40786, 1, 0, 1, 0, 0.26412, 0.49928, 0, 1, 0, 0.36215, 0.31866, 0.66551, 0.73941, 0.20424, 0.8407 ],
+				"triangles": [ 7, 4, 5, 6, 7, 5, 8, 7, 6, 8, 6, 0, 9, 4, 7, 9, 7, 8, 3, 4, 9, 2, 9, 8, 3, 9, 2, 8, 0, 1, 2, 8, 1 ],
+				"vertices": [ 8.95, -26.95, 4.14, -28.12, -2.17, -2.24, -6.52, 15.58, 10.62, 19.77, 22.11, -0.54, 27.46, -22.43, 13.22, 3.63, 6.65, -12.02, -0.63, 7.56 ],
+				"hull": 7,
+				"edges": [ 10, 12, 2, 0, 0, 12, 2, 4, 4, 6, 6, 8, 8, 10 ],
+				"width": 45,
+				"height": 24
+			}
+		},
+		"danke1": {
+			"chongwu/danke1": { "x": 3.75, "y": 27.72, "width": 78, "height": 29 }
+		},
+		"danke2": {
+			"chongwu/danke2": { "x": 2.75, "y": 18.71, "width": 86, "height": 39 }
+		},
+		"ed1": {
+			"chongwu/ed1": { "x": 10.37, "y": -1.53, "rotation": -88.18, "width": 22, "height": 46 }
+		},
+		"ed2": {
+			"chongwu/ed2": { "x": 19.62, "y": -0.24, "rotation": -46.77, "width": 34, "height": 36 }
+		},
+		"tou": {
+			"chongwu/tou": { "x": 2.75, "y": 30.9, "width": 74, "height": 65 }
+		},
+		"yingzi": {
+			"chongwu/yingzi": { "x": 3.25, "y": 1.72, "width": 75, "height": 9 }
+		},
+		"yj1": {
+			"chongwu/yj1": { "x": -5.24, "y": 34.4, "width": 46, "height": 20 }
+		},
+		"yj2": {
+			"chongwu/yj2": { "x": -4.73, "y": 33.4, "width": 51, "height": 18 }
+		},
+		"zui": {
+			"chongwu/zui": { "x": -7.24, "y": 17.4, "width": 18, "height": 12 }
+		}
+	}
+},
+"animations": {
+	"idle": {
+		"slots": {
+			"yj1": {
+				"attachment": [
+					{ "time": 1.3666, "name": "chongwu/yj1" },
+					{ "time": 1.4333, "name": null },
+					{ "time": 1.5, "name": "chongwu/yj1" }
+				]
+			},
+			"yj2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1.3666, "name": "chongwu/yj2" },
+					{ "time": 1.4333, "name": "chongwu/yj2" },
+					{ "time": 1.5, "name": null },
+					{ "time": 4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 1, "y": 1.037 },
+					{ "time": 2, "x": 1, "y": 1 },
+					{ "time": 2.6666, "x": 1, "y": 1.037 },
+					{ "time": 4, "x": 1, "y": 1 }
+				]
+			},
+			"all": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": 5 },
+					{ "time": 1, "angle": 0 },
+					{ "time": 1.5, "angle": -5 },
+					{ "time": 2, "angle": 0 },
+					{ "time": 2.5, "angle": 5 },
+					{ "time": 3, "angle": 0 },
+					{ "time": 3.5, "angle": -5 },
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.6666, "angle": -17.71 },
+					{ "time": 1.3333, "angle": -8.7 },
+					{ "time": 2, "angle": 0 },
+					{ "time": 2.6666, "angle": -17.71 },
+					{ "time": 3.3333, "angle": -8.7 },
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": -13.95 },
+					{ "time": 2, "angle": 0 },
+					{ "time": 3, "angle": -13.95 },
+					{ "time": 4, "angle": 0 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"cao": {
+					"chongwu/cao": [
+						{ "time": 0 },
+						{
+							"time": 0.6666,
+							"vertices": [ 3.52885, 0.86114, 3.52885, 0.86113, 0, 0, 2.37519, 0.65968, 2.37518, 0.65968, 0, 0, 2.07313, 3.25615 ]
+						},
+						{ "time": 1.3333, "curve": "stepped" },
+						{ "time": 2.3333 },
+						{
+							"time": 3,
+							"vertices": [ 3.52885, 0.86114, 3.52885, 0.86113, 0, 0, 2.37519, 0.65968, 2.37518, 0.65968, 0, 0, 2.07313, 3.25615 ]
+						},
+						{ "time": 3.6666 }
+					]
+				}
+			}
+		}
+	},
+	"start": {
+		"bones": {
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"all": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1, "y": 1.135 },
+					{ "time": 0.6, "x": 1, "y": 0.894 },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

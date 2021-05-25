@@ -1,0 +1,160 @@
+{
+"skeleton": { "hash": "ecSq/b87zmblxDSaM+9LfC/UFzQ", "spine": "3.2.01", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Buff_1", "parent": "root" },
+	{ "name": "Buff_1_0", "parent": "Buff_1" },
+	{ "name": "Buff_1_1", "parent": "Buff_1" },
+	{ "name": "Buff_1_2", "parent": "Buff_1" },
+	{ "name": "Buff_1_3", "parent": "Buff_1" },
+	{ "name": "Buff_1_4", "parent": "Buff_1" }
+],
+"slots": [
+	{ "name": "Buff_1_4", "bone": "Buff_1_4", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "Buff_1_1", "bone": "Buff_1_1", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "Buff_1_0", "bone": "Buff_1_0", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "Buff_1_2", "bone": "Buff_1_2", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "Buff_1_3", "bone": "Buff_1_3", "color": "ffffff00", "attachment": "common/white", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"Buff_1_0": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 0.4914, 1, 1, 0.48486, 1, 0, 1, 0, 0.50058, 0, 0, 0.49404, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 4, 2, 3, 0, 4, 6, 0, 2, 4, 2, 0, 1 ],
+				"vertices": [ 50, 0.85, 50, -50, -1.51, -50, -50, -50, -49.99, -0.05, -50, 50, -0.58999, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 10, 12, 12, 14, 6, 8, 8, 10, 2, 4, 4, 6, 2, 0, 0, 14 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"Buff_1_1": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 0.4914, 1, 1, 0.48486, 1, 0, 1, 0, 0.50058, 0, 0, 0.49404, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 4, 2, 3, 0, 4, 6, 0, 2, 4, 2, 0, 1 ],
+				"vertices": [ 50, 0.85, 50, -50, -1.51, -50, -50, -50, -49.99, -0.05, -50, 50, -0.58999, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 10, 12, 12, 14, 6, 8, 8, 10, 2, 4, 4, 6, 2, 0, 0, 14 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"Buff_1_2": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 4, 6, 2, 4, 6, 0, 0, 2 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"Buff_1_3": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 4, 6, 2, 4, 6, 0, 0, 2 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"Buff_1_4": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"Buff_1_0": {
+				"color": [
+					{ "time": 0.7333, "color": "3600232b", "curve": "stepped" },
+					{ "time": 0.9, "color": "3600232b" },
+					{ "time": 1.3, "color": "36002300" }
+				]
+			},
+			"Buff_1_1": {
+				"color": [
+					{ "time": 0.7333, "color": "008aff8d", "curve": "stepped" },
+					{ "time": 0.9, "color": "008aff8d" },
+					{ "time": 1.3, "color": "008aff00" }
+				]
+			},
+			"Buff_1_2": {
+				"color": [
+					{ "time": 0.7333, "color": "fafffc6a", "curve": "stepped" },
+					{ "time": 0.9, "color": "fafffc6a" },
+					{ "time": 1.3, "color": "fafffc00" }
+				]
+			},
+			"Buff_1_3": {
+				"color": [
+					{ "time": 0.7333, "color": "fafffc6a", "curve": "stepped" },
+					{ "time": 0.9, "color": "fafffc6a" },
+					{ "time": 1.3, "color": "fafffc00" }
+				]
+			},
+			"Buff_1_4": {
+				"color": [
+					{ "time": 0.7333, "color": "0074ffff" },
+					{ "time": 1.4666, "color": "0074ff00" }
+				]
+			}
+		},
+		"bones": {
+			"Buff_1": {
+				"scale": [
+					{ "time": 0.7333, "x": 0.5, "y": 0.5 },
+					{ "time": 0.8, "x": 0.8, "y": 0.8 },
+					{ "time": 0.8666, "x": 0.65, "y": 0.65 },
+					{ "time": 0.9, "x": 0.75, "y": 0.75 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"Buff_1_0": {
+					"common/white": [
+						{
+							"time": 0.7333,
+							"vertices": [ -24.8899, 2.35798, -39.29986, 17.29194, 0, 7.85997, 35.89389, 17.81594, 19.38792, 4.19198, 16.58495, -19.52996, -0.675, -8.55099, -20.22393, -20.48796 ]
+						}
+					]
+				},
+				"Buff_1_1": {
+					"common/white": [
+						{
+							"time": 0.7333,
+							"vertices": [ -17.02, 2.95998, -31.82002, 12.20999, 0, -2.95998, 29.59999, 12.57999, 14.8, 2.58998, 8.96998, -18.62996, -0.91999, -1.61, -12.74997, -17.70996 ]
+						}
+					]
+				},
+				"Buff_1_2": {
+					"common/white": [
+						{
+							"time": 0.7333,
+							"vertices": [ -48.5039, 31.06276, 45.25391, 31.06276, 45.25391, -30.50664, -48.5039, -30.50664 ]
+						}
+					]
+				},
+				"Buff_1_3": {
+					"common/white": [
+						{
+							"time": 0.7333,
+							"vertices": [ -33.54197, 48.51315, 29.4006, 48.51315, 29.4006, -45.98832, -33.54198, -45.98832 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,69 @@
+{
+"skeleton": { "hash": "kmy0sAnNMULU1RJHTeYdkMcxzSs", "spine": "2.1.27", "width": 128, "height": 128, "images": "./../" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Dilie", "parent": "root" },
+	{ "name": "dilie_heji", "parent": "Dilie" },
+	{ "name": "dilie", "parent": "dilie_heji" },
+	{ "name": "dilie2", "parent": "dilie_heji" }
+],
+"slots": [
+	{ "name": "dilie", "bone": "dilie", "color": "ffffff00", "attachment": "yanyangjb/dilie" },
+	{ "name": "dilie2", "bone": "dilie2", "color": "ffffff00", "attachment": "yanyangjb/dilie", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"dilie": {
+			"yanyangjb/dilie": { "width": 128, "height": 128 }
+		},
+		"dilie2": {
+			"yanyangjb/dilie": { "width": 128, "height": 128 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"dilie": {
+				"color": [
+					{ "time": 0.6666, "color": "ff0d00ff" },
+					{ "time": 1, "color": "000000ff" },
+					{ "time": 1.3333, "color": "00000000" }
+				]
+			},
+			"dilie2": {
+				"color": [
+					{ "time": 0.6666, "color": "ffde00ff" },
+					{ "time": 1.1666, "color": "ff710000" }
+				]
+			}
+		},
+		"bones": {
+			"dilie": {
+				"scale": [
+					{ "time": 0.6666, "x": 5, "y": 1.8 }
+				]
+			},
+			"dilie2": {
+				"scale": [
+					{ "time": 0.6666, "x": 5, "y": 1.8 }
+				]
+			},
+			"Dilie": {
+				"translate": [
+					{ "time": 0, "x": 210, "y": -110 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.6, "y": 0.6 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.6666, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

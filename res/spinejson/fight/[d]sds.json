@@ -1,0 +1,130 @@
+{
+"skeleton": { "hash": "nz4xUKMYet6O1meYIItyqtXDMms", "spine": "2.1.27", "width": 300, "height": 300, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "shandian", "parent": "fx" },
+	{ "name": "end", "parent": "shandian" },
+	{ "name": "end1", "parent": "shandian" },
+	{ "name": "start", "parent": "shandian" }
+],
+"slots": [
+	{ "name": "start", "bone": "start", "color": "ffffff00", "attachment": "sds/shandianshu_start_01", "blend": "additive" },
+	{ "name": "end", "bone": "end", "color": "ffffff00", "attachment": "sds/shandianshu_end_02", "blend": "additive" },
+	{ "name": "end1", "bone": "end1", "color": "ffffff00", "attachment": "sds/shandianshu_end_08", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"end": {
+			"sds/shandianshu_end_01": { "y": 6.54, "width": 125, "height": 250 },
+			"sds/shandianshu_end_02": { "y": 6.54, "width": 125, "height": 250 },
+			"sds/shandianshu_end_03": { "y": 6.54, "width": 125, "height": 250 },
+			"sds/shandianshu_end_04": { "y": 6.54, "width": 125, "height": 250 },
+			"sds/shandianshu_end_05": { "y": 6.54, "width": 125, "height": 250 },
+			"sds/shandianshu_end_06": { "y": 6.54, "width": 125, "height": 250 },
+			"sds/shandianshu_end_07": { "y": 6.54, "width": 125, "height": 250 }
+		},
+		"end1": {
+			"sds/shandianshu_end_08": { "width": 100, "height": 100 }
+		},
+		"start": {
+			"sds/shandianshu_start_01": { "width": 300, "height": 300 },
+			"sds/shandianshu_start_02": { "width": 300, "height": 300 },
+			"sds/shandianshu_start_03": { "width": 300, "height": 300 },
+			"sds/shandianshu_start_04": { "width": 300, "height": 300 },
+			"sds/shandianshu_start_05": { "width": 300, "height": 300 },
+			"sds/shandianshu_start_06": { "width": 300, "height": 300 },
+			"sds/shandianshu_start_07": { "width": 300, "height": 300 },
+			"sds/shandianshu_start_08": { "width": 300, "height": 300 },
+			"sds/shandianshu_start_09": { "width": 300, "height": 300 },
+			"sds/shandianshu_start_10": { "width": 300, "height": 300 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"end": {
+				"attachment": [
+					{ "time": 0.2333, "name": "sds/shandianshu_end_01" },
+					{ "time": 0.2666, "name": "sds/shandianshu_end_02" },
+					{ "time": 0.3, "name": "sds/shandianshu_end_03" },
+					{ "time": 0.3333, "name": "sds/shandianshu_end_04" },
+					{ "time": 0.3666, "name": "sds/shandianshu_end_05" },
+					{ "time": 0.4, "name": "sds/shandianshu_end_06" },
+					{ "time": 0.4333, "name": "sds/shandianshu_end_07" }
+				],
+				"color": [
+					{ "time": 0.2333, "color": "4b92ffff" }
+				]
+			},
+			"end1": {
+				"attachment": [
+					{ "time": 0.3, "name": "sds/shandianshu_end_08" }
+				],
+				"color": [
+					{ "time": 0.3, "color": "4b92ffff" },
+					{ "time": 0.4666, "color": "7890ff00" }
+				]
+			},
+			"start": {
+				"attachment": [
+					{ "time": 0, "name": "sds/shandianshu_start_01" },
+					{ "time": 0.0333, "name": "sds/shandianshu_start_02" },
+					{ "time": 0.0666, "name": "sds/shandianshu_start_03" },
+					{ "time": 0.1, "name": "sds/shandianshu_start_04" },
+					{ "time": 0.1333, "name": "sds/shandianshu_start_05" },
+					{ "time": 0.1666, "name": "sds/shandianshu_start_06" },
+					{ "time": 0.2, "name": "sds/shandianshu_start_07" },
+					{ "time": 0.2333, "name": "sds/shandianshu_start_08" },
+					{ "time": 0.2666, "name": "sds/shandianshu_start_09" },
+					{ "time": 0.3, "name": "sds/shandianshu_start_10" }
+				],
+				"color": [
+					{ "time": 0, "color": "59b4ffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "59b4ffff" },
+					{ "time": 0.3666, "color": "59b4ff00" }
+				]
+			}
+		},
+		"bones": {
+			"end": {
+				"translate": [
+					{ "time": 0.2333, "x": 0, "y": 55.44 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 1.5, "y": 2 }
+				]
+			},
+			"end1": {
+				"translate": [
+					{ "time": 0.3, "x": 0, "y": -56.27 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1 },
+					{ "time": 0.3666, "x": 1.5, "y": 1.5 },
+					{ "time": 0.4333, "x": 1, "y": 1 }
+				]
+			},
+			"start": {
+				"translate": [
+					{ "time": 0, "x": -2.05, "y": -51.9 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": -0.8 }
+				]
+			},
+			"shandian": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 59.84 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

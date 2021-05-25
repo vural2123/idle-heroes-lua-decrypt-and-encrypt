@@ -1,0 +1,187 @@
+{
+"skeleton": { "hash": "BcAKL1ILl3PoHzSUq14+YrmyCps", "spine": "3.2.01", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg2", "parent": "root", "x": 308 },
+	{ "name": "shiban", "parent": "bg2", "x": 1.3, "y": 287.53 },
+	{ "name": "back_circle", "parent": "shiban", "x": -1.89, "y": -193.08 },
+	{ "name": "back_circle_left", "parent": "back_circle", "x": -64.97, "y": 13.11 },
+	{ "name": "back_circle_right", "parent": "back_circle", "x": 64.44, "y": 13.11, "scaleX": -1 },
+	{ "name": "click", "parent": "root" },
+	{ "name": "front_circle", "parent": "shiban", "x": -2.35, "y": -195.86 },
+	{ "name": "fx_click_1", "parent": "click", "x": 306.91, "y": 91.32, "scaleX": 1.5, "scaleY": 1.5 },
+	{ "name": "fx_click_3", "parent": "click", "x": 307.87, "y": 90.6 },
+	{ "name": "fx_click_4", "parent": "click", "x": 307.54, "y": 91.54 },
+	{ "name": "fx_click_5", "parent": "click", "x": 306.81, "y": 91.27, "scaleX": 0.66, "scaleY": 0.66 },
+	{ "name": "fx_click_6", "parent": "click", "rotation": 60, "x": 306.81, "y": 91.27, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "fx_click_7", "parent": "click", "x": 307.87, "y": 90.6 }
+],
+"slots": [
+	{ "name": "back_circle_left", "bone": "back_circle_left", "attachment": "jjc/back_circle" },
+	{ "name": "back_circle_right", "bone": "back_circle_right", "attachment": "jjc/back_circle" },
+	{ "name": "front_circle", "bone": "front_circle", "attachment": "jjc/front" },
+	{ "name": "fx_click_1", "bone": "fx_click_1", "color": "ffffff00", "attachment": "common/xuanwo2", "blend": "additive" },
+	{ "name": "fx_click_3", "bone": "fx_click_3", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "fx_click_7", "bone": "fx_click_7", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "fx_click_4", "bone": "fx_click_4", "color": "ffffff00", "attachment": "common/guangquanv2", "blend": "additive" },
+	{ "name": "fx_click_5", "bone": "fx_click_5", "color": "ffffff00", "attachment": "common/n_rotatecircle", "blend": "additive" },
+	{ "name": "fx_click_6", "bone": "fx_click_6", "color": "fbfaff00", "attachment": "common/n_rotatecircle", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"back_circle_left": {
+			"jjc/back_circle": { "width": 132, "height": 323 }
+		},
+		"back_circle_right": {
+			"jjc/back_circle": { "width": 132, "height": 323 }
+		},
+		"front_circle": {
+			"jjc/front": { "width": 160, "height": 161 }
+		},
+		"fx_click_1": {
+			"common/xuanwo2": { "width": 126, "height": 126 }
+		},
+		"fx_click_3": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"fx_click_4": {
+			"common/guangquanv2": { "width": 250, "height": 250 }
+		},
+		"fx_click_5": {
+			"common/n_rotatecircle": { "width": 400, "height": 400 }
+		},
+		"fx_click_6": {
+			"common/n_rotatecircle": { "width": 400, "height": 400 }
+		},
+		"fx_click_7": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"fx_click_1": {
+				"color": [
+					{ "time": 0, "color": "ffc000ff" },
+					{ "time": 1.0666, "color": "0081ff00" }
+				]
+			},
+			"fx_click_3": {
+				"color": [
+					{ "time": 0.6666, "color": "fdfdffff" },
+					{ "time": 1.0333, "color": "dc00ffff" },
+					{ "time": 1.4, "color": "be00ff00" }
+				]
+			},
+			"fx_click_4": {
+				"color": [
+					{ "time": 0.6666, "color": "00bbffff" },
+					{ "time": 0.8333, "color": "00c4ffff" },
+					{ "time": 1.5, "color": "ffc20000" }
+				]
+			},
+			"fx_click_5": {
+				"color": [
+					{ "time": 0, "color": "8200ffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "8200ffff" },
+					{ "time": 1.0666, "color": "8200ff00" }
+				]
+			},
+			"fx_click_6": {
+				"color": [
+					{ "time": 0, "color": "0059ffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "0059ffff" },
+					{ "time": 1.0666, "color": "00baff00" }
+				]
+			},
+			"fx_click_7": {
+				"color": [
+					{ "time": 0.6666, "color": "ff00ebff" },
+					{ "time": 1.0333, "color": "dc00ffff" },
+					{ "time": 1.4, "color": "be00ff00" }
+				]
+			}
+		},
+		"bones": {
+			"front_circle": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": 180 },
+					{ "time": 0.2, "angle": 360 },
+					{ "time": 0.2666, "angle": 540 },
+					{ "time": 0.3666, "angle": 720 },
+					{ "time": 0.4333, "angle": 900 },
+					{ "time": 0.5333, "angle": 1080 },
+					{ "time": 0.6333, "angle": 1260 },
+					{ "time": 0.7333, "angle": 1440 },
+					{ "time": 0.8333, "angle": 1620 },
+					{ "time": 1, "angle": 1800 }
+				]
+			},
+			"fx_click_1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -180 },
+					{ "time": 0.2666, "angle": -360 },
+					{ "time": 0.4, "angle": -540 },
+					{ "time": 0.5333, "angle": -720 },
+					{ "time": 0.6666, "angle": -900 },
+					{ "time": 0.8, "angle": -1080 },
+					{ "time": 0.9333, "angle": -1260 },
+					{ "time": 1.0666, "angle": -1440 }
+				]
+			},
+			"fx_click_3": {
+				"scale": [
+					{ "time": 0.6666, "x": 1, "y": 1 },
+					{ "time": 1.3333, "x": 3, "y": 3 }
+				]
+			},
+			"fx_click_4": {
+				"scale": [
+					{
+						"time": 0.6666,
+						"x": 1,
+						"y": 1,
+						"curve": [ 1, 0, 0.75, 1 ]
+					},
+					{ "time": 1.5, "x": 3, "y": 3 }
+				]
+			},
+			"fx_click_5": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -180 },
+					{ "time": 0.2666, "angle": -360 },
+					{ "time": 0.4, "angle": -540 },
+					{ "time": 0.5333, "angle": -720 },
+					{ "time": 0.6666, "angle": -900 },
+					{ "time": 0.8, "angle": -1080 },
+					{ "time": 0.9333, "angle": -1260 },
+					{ "time": 1.0666, "angle": -1440 }
+				]
+			},
+			"fx_click_6": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1333, "angle": -180 },
+					{ "time": 0.2666, "angle": -360 },
+					{ "time": 0.4, "angle": -540 },
+					{ "time": 0.5333, "angle": -720 },
+					{ "time": 0.6666, "angle": -900 },
+					{ "time": 0.8, "angle": -1080 },
+					{ "time": 0.9333, "angle": -1260 },
+					{ "time": 1.0666, "angle": -1440 }
+				]
+			},
+			"fx_click_7": {
+				"scale": [
+					{ "time": 0.6666, "x": 0.66, "y": 0.66 },
+					{ "time": 1.3333, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

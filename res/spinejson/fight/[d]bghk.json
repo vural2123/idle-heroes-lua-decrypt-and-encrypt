@@ -1,0 +1,109 @@
+{
+"skeleton": { "hash": "Szbi6K5g0eUq1FXisIbiX2xEh38", "spine": "2.1.27", "width": 200, "height": 200, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "huikan", "parent": "fx" },
+	{ "name": "s", "parent": "fx" },
+	{ "name": "end", "parent": "huikan" },
+	{ "name": "start", "parent": "s" },
+	{ "name": "start2", "parent": "s" }
+],
+"slots": [
+	{ "name": "start", "bone": "start", "color": "ffffff00", "attachment": "bghk/bghk_start_01" },
+	{ "name": "start2", "bone": "start2", "color": "ffffff00", "attachment": "bghk/bghk_start_01", "blend": "additive" },
+	{ "name": "end", "bone": "end", "color": "ffffff00", "attachment": "bghk/bghk_end_01", "blend": "screen" }
+],
+"skins": {
+	"default": {
+		"end": {
+			"bghk/bghk_end_01": { "width": 100, "height": 78 },
+			"bghk/bghk_end_02": { "width": 100, "height": 78 },
+			"bghk/bghk_end_04": { "width": 100, "height": 78 }
+		},
+		"start": {
+			"bghk/bghk_start_01": { "width": 200, "height": 200 },
+			"bghk/bghk_start_02": { "width": 200, "height": 200 },
+			"bghk/bghk_start_03": { "width": 200, "height": 200 }
+		},
+		"start2": {
+			"bghk/bghk_start_01": { "width": 200, "height": 200 },
+			"bghk/bghk_start_02": { "width": 200, "height": 200 },
+			"bghk/bghk_start_03": { "width": 200, "height": 200 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"end": {
+				"attachment": [
+					{ "time": 0.0333, "name": "bghk/bghk_end_01" },
+					{ "time": 0.0666, "name": "bghk/bghk_end_02" },
+					{ "time": 0.1, "name": "bghk/bghk_end_04" }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"start": {
+				"attachment": [
+					{ "time": 0, "name": "bghk/bghk_start_01" },
+					{ "time": 0.0333, "name": "bghk/bghk_start_02" },
+					{ "time": 0.0666, "name": "bghk/bghk_start_03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				]
+			},
+			"start2": {
+				"attachment": [
+					{ "time": 0, "name": "bghk/bghk_start_01" },
+					{ "time": 0.0333, "name": "bghk/bghk_start_02" },
+					{ "time": 0.0666, "name": "bghk/bghk_start_03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff99", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"start": {
+				"translate": [
+					{ "time": 0, "x": -48, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.714, "y": 0.714 }
+				]
+			},
+			"s": {
+				"translate": [
+					{ "time": 0, "x": -7.4, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.4, "y": 1.4 }
+				]
+			},
+			"start2": {
+				"translate": [
+					{ "time": 0, "x": -48.67, "y": -3.6 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.714, "y": 0.714 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

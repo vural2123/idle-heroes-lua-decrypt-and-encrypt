@@ -1,0 +1,43 @@
+{
+"skeleton": { "hash": "Qq8MguHfJPIn4W7J52xzr/BasSY", "spine": "2.1.27", "width": 150, "height": 100, "images": "./../" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx_fsd_loop", "parent": "root", "length": 113.03 }
+],
+"slots": [
+	{ "name": "fsd_loop/fsd_loop_01", "bone": "fx_fsd_loop", "attachment": "fsd_loop/fsd_loop_01" }
+],
+"skins": {
+	"default": {
+		"fsd_loop/fsd_loop_01": {
+			"fsd_loop/fsd_loop_01": { "width": 150, "height": 100 },
+			"fsd_loop/fsd_loop_02": { "width": 150, "height": 100 },
+			"fsd_loop/fsd_loop_03": { "width": 150, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"fsd_loop/fsd_loop_01": {
+				"attachment": [
+					{ "time": 0, "name": "fsd_loop/fsd_loop_01" },
+					{ "time": 0.0666, "name": "fsd_loop/fsd_loop_02" },
+					{ "time": 0.1333, "name": "fsd_loop/fsd_loop_03" },
+					{ "time": 0.2, "name": "fsd_loop/fsd_loop_03" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 35, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.3, "y": 1.3 }
+				]
+			}
+		}
+	}
+}
+}

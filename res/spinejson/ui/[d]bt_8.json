@@ -1,0 +1,141 @@
+{
+"skeleton": { "hash": "dFuDd+a5JipABHwfsVBU4YK85Ro", "spine": "2.1.27", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bg", "parent": "root", "x": -26.33 },
+	{ "name": "crystal", "parent": "bg", "x": 56.23, "y": -32.87 },
+	{ "name": "crystal2", "parent": "bg", "x": -101.89, "y": 7.23, "scaleX": 0.887, "scaleY": 0.887 },
+	{ "name": "crystal_di", "parent": "bg", "x": 58.73, "y": -62.29 },
+	{ "name": "crystal_di2", "parent": "bg", "x": -99.4, "y": -18.68, "scaleX": 0.887, "scaleY": 0.887 },
+	{ "name": "shine3", "parent": "bg", "x": 0.58, "y": 78.96, "scaleX": 0.817, "scaleY": 0.817 },
+	{ "name": "wing", "parent": "bg", "x": 0.66, "y": 78.91 },
+	{ "name": "shine", "parent": "crystal", "x": 1.4, "y": -0.83 },
+	{ "name": "shine2", "parent": "crystal2", "x": -3.38, "scaleX": 0.921, "scaleY": 0.921 }
+],
+"slots": [
+	{ "name": "bt_changjing/6", "bone": "bg", "attachment": "bt_changjing/7" },
+	{ "name": "bt_changjing/7_3", "bone": "wing", "attachment": "bt_changjing/7_3" },
+	{ "name": "crystal_di", "bone": "crystal_di", "attachment": "bt_changjing/7_2" },
+	{ "name": "crystal_di2", "bone": "crystal_di2", "attachment": "bt_changjing/7_2" },
+	{ "name": "crystal", "bone": "crystal", "attachment": "bt_changjing/7_1" },
+	{ "name": "crystal2", "bone": "crystal2", "attachment": "bt_changjing/7_1" },
+	{ "name": "common/n_light", "bone": "shine", "color": "00ceff00", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "common/n_light2", "bone": "shine2", "color": "00ceff00", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "common/n_light3", "bone": "shine3", "color": "00ceff00", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "bd", "bone": "root", "attachment": "bd" }
+],
+"skins": {
+	"default": {
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -99.896, 158.26457, -198.35, -20.8894, -95.05402, -141.93939, 48.59201, -164.53542, 142.20398, -25.73138, 108.31003, 140.5106 ]
+			}
+		},
+		"bt_changjing/6": {
+			"bt_changjing/7": { "width": 317, "height": 296 }
+		},
+		"bt_changjing/7_3": {
+			"bt_changjing/7_3": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0.3797, 1, 0, 1, 0, 0, 0.12582, 0, 0.88991, 0, 1, 0, 0.48712, 0.43418, 0.53106, 0.55682, 0.5335, 0.72406, 0.26497, 0.80582, 0.23812, 0.59399, 0.30403, 0.4156, 0.409, 0.371 ],
+				"triangles": [ 13, 4, 5, 12, 4, 13, 7, 13, 5, 8, 7, 5, 12, 3, 4, 6, 9, 8, 10, 11, 9, 12, 13, 7, 12, 8, 11, 7, 8, 12, 11, 2, 3, 12, 11, 3, 2, 11, 10, 9, 1, 10, 8, 9, 11, 2, 10, 1, 6, 8, 5, 0, 9, 6, 1, 9, 0 ],
+				"vertices": [ 64.69999, -22.28, 1.43, -22.28, -37.29, -22.28, -37.29, 44.71, -24.45, 44.71, 53.47, 44.71, 64.69999, 44.71, 12.39, 15.62, 16.87, 7.4, 17.12, -3.79, -10.26, -9.27, -13, 4.91, -6.28, 16.86, 4.42, 19.85 ],
+				"hull": 7,
+				"edges": [ 4, 6, 0, 12, 0, 2, 2, 4, 6, 8, 8, 10, 10, 12 ],
+				"width": 102,
+				"height": 67
+			}
+		},
+		"common/n_light": {
+			"common/n_light": { "width": 85, "height": 85 }
+		},
+		"common/n_light2": {
+			"common/n_light": { "width": 85, "height": 85 }
+		},
+		"common/n_light3": {
+			"common/n_light": { "width": 85, "height": 85 }
+		},
+		"crystal": {
+			"bt_changjing/7_1": { "width": 28, "height": 37 }
+		},
+		"crystal2": {
+			"bt_changjing/7_1": { "width": 28, "height": 37 }
+		},
+		"crystal_di": {
+			"bt_changjing/7_2": { "width": 70, "height": 36 }
+		},
+		"crystal_di2": {
+			"bt_changjing/7_2": { "width": 70, "height": 36 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/n_light": {
+				"color": [
+					{ "time": 0, "color": "00ceff00", "curve": "stepped" },
+					{ "time": 1, "color": "00ceff00" },
+					{ "time": 1.7, "color": "00ceff3e" },
+					{ "time": 4, "color": "00ceff00" }
+				]
+			},
+			"common/n_light2": {
+				"color": [
+					{ "time": 0, "color": "00ceff00", "curve": "stepped" },
+					{ "time": 1, "color": "00ceff00" },
+					{ "time": 1.7, "color": "00ceff3e" },
+					{ "time": 4, "color": "00ceff00" }
+				]
+			},
+			"common/n_light3": {
+				"color": [
+					{ "time": 0, "color": "00ceff00" },
+					{ "time": 0.6666, "color": "00ceff29" },
+					{ "time": 2, "color": "00ceff00" }
+				]
+			}
+		},
+		"bones": {
+			"bg": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 0, "y": 4 },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"crystal": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.7, "x": 0, "y": 5.48 },
+					{ "time": 3, "x": 0, "y": -8.23 },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			},
+			"crystal2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.7, "x": 0, "y": 5.48 },
+					{ "time": 3, "x": 0, "y": -8.23 },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"bt_changjing/7_3": {
+					"bt_changjing/7_3": [
+						{ "time": 0 },
+						{
+							"time": 1.6666,
+							"vertices": [ -5.05025, -6.81445, 0, 0, 3.68909, -7.04688, -5.74774, -7.71477, 0, -7.30798, 0, -7.30798, 7.86846, -8.07688 ]
+						},
+						{ "time": 4 }
+					]
+				}
+			}
+		}
+	}
+}
+}

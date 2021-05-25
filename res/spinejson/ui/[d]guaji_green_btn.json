@@ -1,0 +1,67 @@
+{
+"skeleton": { "hash": "HZYJGFrr+P6iGED63aEaW994VWE", "spine": "2.1.27", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "code_font", "parent": "bone", "y": 2 },
+	{ "name": "fx", "parent": "bone", "y": 1 }
+],
+"slots": [
+	{ "name": "guaji_green_btn", "bone": "bone", "attachment": "guaji/green_btn" },
+	{ "name": "common/n_light", "bone": "fx", "color": "c7ff5f00", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "code_font", "bone": "code_font" }
+],
+"skins": {
+	"default": {
+		"common/n_light": {
+			"common/n_light": {
+				"type": "mesh",
+				"uvs": [ 0, 0, 0.33333, 0, 0.66666, 0, 1, 0, 1, 0.33333, 1, 0.66666, 1, 1, 0.66666, 1, 0.33333, 1, 0, 1, 0, 0.66666, 0, 0.33333, 0.33333, 0.33333, 0.33333, 0.66666, 0.66666, 0.33333, 0.66666, 0.66666 ],
+				"triangles": [ 11, 0, 1, 12, 1, 2, 11, 1, 12, 14, 2, 3, 12, 2, 14, 14, 3, 4, 10, 11, 12, 13, 12, 14, 10, 12, 13, 15, 14, 4, 13, 14, 15, 15, 4, 5, 9, 10, 13, 8, 13, 15, 9, 13, 8, 7, 15, 5, 8, 15, 7, 7, 5, 6 ],
+				"vertices": [ -14.51, 23.59, -9.5, 23.59, 9.8, 23.59, 15.44, 23.59, 15.44, 14.16, 15.44, -14.16, 15.44, -23.59, 9.8, -23.59, -9.5, -23.59, -14.51, -23.59, -14.51, -14.16, -14.51, 14.16, -9.5, 14.16, -9.5, -14.16, 9.8, 14.16, 9.8, -14.16 ],
+				"hull": 12,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 0 ],
+				"width": 85,
+				"height": 85
+			}
+		},
+		"guaji_green_btn": {
+			"guaji/green_btn": { "width": 88, "height": 40 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/n_light": {
+				"color": [
+					{ "time": 0, "color": "c7ff5f25" },
+					{ "time": 0.2666, "color": "c7ff5f7b" },
+					{ "time": 1, "color": "c7ff5f00" }
+				]
+			}
+		},
+		"bones": {
+			"fx": {
+				"translate": [
+					{ "time": 0, "x": -29.87, "y": 0 },
+					{ "time": 0.7, "x": 29.21, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2666, "x": 1.405, "y": 1 },
+					{ "time": 0.7, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3, "x": 1.056, "y": 1.056 },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

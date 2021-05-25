@@ -1,0 +1,53 @@
+{
+"skeleton": { "hash": "uf73Wysh6rKXtENfuXyNLJmLKY4", "spine": "3.2.01", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root", "x": 22.12, "y": 101.17 }
+],
+"slots": [
+	{ "name": "mofang", "bone": "bone", "attachment": "guild/mofang" },
+	{ "name": "guild/mofang2", "bone": "bone2", "attachment": "guild/mofang2" }
+],
+"skins": {
+	"default": {
+		"guild/mofang2": {
+			"guild/mofang2": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 51, -75.5, -77, -75.5, -77, 67.5, 51, 67.5 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 128,
+				"height": 143
+			}
+		},
+		"mofang": {
+			"guild/mofang": { "y": 50, "width": 145, "height": 151 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"ffd": {
+			"default": {
+				"guild/mofang2": {
+					"guild/mofang2": [
+						{
+							"time": 0,
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							"time": 1.9666,
+							"vertices": [ 12.4873, 37.09201, 41.89483, -16.15335, -18.98187, -44.74968, -37.71695, 15.44239 ],
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{ "time": 5.2333 }
+					]
+				}
+			}
+		}
+	}
+}
+}

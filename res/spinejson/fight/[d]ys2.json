@@ -1,0 +1,84 @@
+{
+"skeleton": { "hash": "f427MHJ7r8WqY26cR/Bmui3bRNg", "spine": "2.1.27", "width": 350, "height": 300, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "down", "parent": "code_shake" },
+	{ "name": "d_01", "parent": "down" },
+	{ "name": "d_02", "parent": "down" },
+	{ "name": "d_03", "parent": "down" }
+],
+"slots": [
+	{ "name": "d_01", "bone": "d_01", "color": "ffffff00", "attachment": "ys/crack_000", "blend": "additive" },
+	{ "name": "d_02", "bone": "d_02", "color": "ffffff00", "attachment": "ys/t_liewen_2" },
+	{ "name": "d_03", "bone": "d_03", "color": "ffffff00", "attachment": "common/guangquan", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"d_01": {
+			"ys/crack_000": { "width": 350, "height": 300 }
+		},
+		"d_02": {
+			"ys/t_liewen_2": { "width": 226, "height": 107 }
+		},
+		"d_03": {
+			"common/guangquan": { "width": 250, "height": 250 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"d_01": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 1.1666, "color": "ffffff00" }
+				]
+			},
+			"d_02": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 1.1666, "color": "ffffff00" }
+				]
+			},
+			"d_03": {
+				"color": [
+					{ "time": 0.3333, "color": "ff0000ff" },
+					{ "time": 1.1666, "color": "ff000000" }
+				]
+			}
+		},
+		"bones": {
+			"d_01": {
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": 33.04 }
+				]
+			},
+			"d_02": {
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": -55.84 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 0.66, "y": 0.66 }
+				]
+			},
+			"d_03": {
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": -55 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 1, "y": 0.6 },
+					{ "time": 1.1666, "x": 2, "y": 1.2 }
+				]
+			},
+			"down": {
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": 60 }
+				]
+			}
+		}
+	}
+}
+}

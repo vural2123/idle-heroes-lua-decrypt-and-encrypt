@@ -1,0 +1,3 @@
+local NeverUpdateData = {}
+
+return NeverUpdateData

@@ -1,0 +1,41 @@
+{
+"skeleton": { "hash": "C4VTAKTuhJvZhNYboVQaj3UU7jY", "spine": "2.1.27", "width": 300, "height": 300, "images": "./../" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx_huoq_end", "parent": "root", "length": 56.71 }
+],
+"slots": [
+	{ "name": "huoq_end/huoq_end_01", "bone": "fx_huoq_end", "attachment": "huoq_end/huoq_end_04" }
+],
+"skins": {
+	"default": {
+		"huoq_end/huoq_end_01": {
+			"huoq_end/huoq_end_01": { "width": 300, "height": 300 },
+			"huoq_end/huoq_end_02": { "width": 300, "height": 300 },
+			"huoq_end/huoq_end_03": { "width": 300, "height": 300 },
+			"huoq_end/huoq_end_04": { "width": 300, "height": 300 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"huoq_end/huoq_end_01": {
+				"attachment": [
+					{ "time": 0, "name": "huoq_end/huoq_end_01" },
+					{ "time": 0.0666, "name": "huoq_end/huoq_end_02" },
+					{ "time": 0.1333, "name": "huoq_end/huoq_end_03" },
+					{ "time": 0.2, "name": "huoq_end/huoq_end_04" },
+					{ "time": 0.2666, "name": null }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "hit" }
+		]
+	}
+}
+}

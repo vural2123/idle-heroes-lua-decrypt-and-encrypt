@@ -1,0 +1,75 @@
+{
+"skeleton": {
+	"hash": "N3sCQ0FDoJOpYfM/qETNcB/HqXM",
+	"spine": "2.1.27",
+	"width": 340,
+	"height": 340,
+	"images": "./../../../pngs/animation/ui/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "radar", "parent": "root" },
+	{ "name": "radar_glow", "parent": "root" },
+	{ "name": "radar_halo", "parent": "root" },
+	{ "name": "radar_halo2", "parent": "root" }
+],
+"slots": [
+	{ "name": "radar", "bone": "radar", "color": "ffffff00", "attachment": "radar" },
+	{ "name": "radar_glow", "bone": "radar_glow", "color": "ffffff00", "attachment": "radar_glow", "blend": "additive" },
+	{ "name": "radar_halo", "bone": "radar_halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "radar_halo2", "bone": "radar_halo2", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"radar": {
+			"radar": { "path": "guaji/radar", "width": 84, "height": 84 }
+		},
+		"radar_glow": {
+			"radar_glow": { "path": "guaji/radar_glow", "width": 84, "height": 84 }
+		},
+		"radar_halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"radar_halo2": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		}
+	}
+},
+"animations": {
+	"radar": {
+		"slots": {
+			"radar": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"radar_glow": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"radar_halo": {
+				"color": [
+					{ "time": 0.3333, "color": "51ff0000" },
+					{ "time": 0.8333, "color": "1cff007c" },
+					{ "time": 1.3333, "color": "51ff0000" }
+				]
+			}
+		},
+		"bones": {
+			"radar_glow": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.8333, "angle": -180 },
+					{ "time": 1.6666, "angle": -360 }
+				]
+			},
+			"radar_halo": {
+				"scale": [
+					{ "time": 0.3333, "x": 0.5, "y": 0.5 }
+				]
+			}
+		}
+	}
+}
+}

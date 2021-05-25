@@ -1,0 +1,158 @@
+{
+"skeleton": { "hash": "KE7X+mFxzgOe8s78vnz8s6Gn1Y4", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "FX", "parent": "code_shake" },
+	{ "name": "cross_01", "parent": "FX" },
+	{ "name": "cross_02", "parent": "FX" },
+	{ "name": "cross_03", "parent": "FX" },
+	{ "name": "cross_04", "parent": "FX" },
+	{ "name": "halo_01", "parent": "FX" },
+	{ "name": "shine_01", "parent": "FX" }
+],
+"slots": [
+	{ "name": "halo_01", "bone": "halo_01", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "shine_01", "bone": "shine_01", "color": "ffffff00", "attachment": "zl/shine", "blend": "additive" },
+	{ "name": "cross_01", "bone": "cross_01", "color": "ffffff00", "attachment": "zl/t_jia", "blend": "additive" },
+	{ "name": "cross_02", "bone": "cross_02", "color": "ffffff00", "attachment": "zl/t_jia", "blend": "additive" },
+	{ "name": "cross_03", "bone": "cross_03", "color": "ffffff00", "attachment": "zl/t_jia", "blend": "additive" },
+	{ "name": "cross_04", "bone": "cross_04", "color": "ffffff00", "attachment": "zl/t_jia", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"cross_01": {
+			"zl/t_jia": { "width": 48, "height": 48 }
+		},
+		"cross_02": {
+			"zl/t_jia": { "width": 48, "height": 48 }
+		},
+		"cross_03": {
+			"zl/t_jia": { "width": 48, "height": 48 }
+		},
+		"cross_04": {
+			"zl/t_jia": { "width": 48, "height": 48 }
+		},
+		"halo_01": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"shine_01": {
+			"zl/shine": { "width": 105, "height": 317 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"cross_01": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 0.8666, "color": "ffffff00" }
+				]
+			},
+			"cross_02": {
+				"color": [
+					{ "time": 0.0333, "color": "ffffff00" },
+					{ "time": 0.3666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				]
+			},
+			"cross_03": {
+				"color": [
+					{ "time": 0.0666, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.9333, "color": "ffffff00" }
+				]
+			},
+			"cross_04": {
+				"color": [
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 1.2666, "color": "ffffff00" }
+				]
+			},
+			"halo_01": {
+				"color": [
+					{ "time": 0, "color": "0dff0000" },
+					{ "time": 0.5, "color": "9effaaff" },
+					{ "time": 1, "color": "0dff0000" }
+				]
+			},
+			"shine_01": {
+				"color": [
+					{ "time": 0, "color": "45ff72a2" },
+					{ "time": 0.5, "color": "098effc0" },
+					{ "time": 1, "color": "45ff7200" }
+				]
+			}
+		},
+		"bones": {
+			"halo_01": {
+				"translate": [
+					{ "time": 0, "x": 9, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"shine_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -3.83 },
+					{ "time": 1, "x": 0, "y": 52.37 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 0.6 },
+					{ "time": 1, "x": 1.1, "y": 0.66 }
+				]
+			},
+			"cross_01": {
+				"translate": [
+					{ "time": 0, "x": -35.61, "y": -39.29 },
+					{ "time": 0.8333, "x": -35.61, "y": 42.74 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 0.5 }
+				]
+			},
+			"cross_02": {
+				"translate": [
+					{ "time": 0.0333, "x": -5.77, "y": -13.98 },
+					{ "time": 0.8666, "x": -5.77, "y": 72.79 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 0.5, "y": 0.5 }
+				]
+			},
+			"cross_03": {
+				"translate": [
+					{ "time": 0.0666, "x": 24.79, "y": -49.65 },
+					{ "time": 0.9, "x": 24.79, "y": 12.47 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 0.5, "y": 0.5 }
+				]
+			},
+			"cross_04": {
+				"translate": [
+					{ "time": 0.4, "x": -15.8, "y": -39.29 },
+					{ "time": 1.2333, "x": -15.8, "y": 28.79 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 0.5, "y": 0.5 }
+				]
+			},
+			"FX": {
+				"translate": [
+					{ "time": 0, "x": -6, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

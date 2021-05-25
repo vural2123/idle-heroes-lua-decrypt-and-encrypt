@@ -1,0 +1,172 @@
+{
+"skeleton": { "hash": "dxC+F9Yv8mDbwAKsWDu7l4nG9+s", "spine": "2.1.27", "width": 341.42, "height": 359.35, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx", "parent": "root" },
+	{ "name": "buff", "parent": "fx" },
+	{ "name": "halo", "parent": "buff" },
+	{ "name": "halo2", "parent": "buff", "x": 1.42, "y": 19.35 },
+	{ "name": "zidan", "parent": "buff", "x": 1.96, "y": 21.64 },
+	{ "name": "zidanquan1", "parent": "buff", "x": 1.97, "y": 20.31 },
+	{ "name": "zidanquan2", "parent": "buff", "x": 1.97, "y": 20.31 }
+],
+"slots": [
+	{ "name": "halo3", "bone": "halo2", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "halo4", "bone": "halo2", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "zidan", "bone": "zidan", "color": "ffffff00", "attachment": "buff_194/buff_zidan" },
+	{ "name": "halo", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "halo2", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "zidanquan1", "bone": "zidanquan1", "color": "ffffff00", "attachment": "common/t_circle_2", "blend": "additive" },
+	{ "name": "zidanquan2", "bone": "zidanquan2", "color": "ffffff00", "attachment": "common/t_circle_2", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"halo2": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"halo3": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"halo4": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"zidan": {
+			"buff_194/buff_zidan": { "path": "buff_194/buff_zd_self", "width": 42, "height": 47 }
+		},
+		"zidanquan1": {
+			"common/t_circle_2": { "width": 100, "height": 100 }
+		},
+		"zidanquan2": {
+			"common/t_circle_2": { "width": 100, "height": 100 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"halo3": {
+				"color": [
+					{ "time": 0, "color": "009cffff" },
+					{ "time": 0.5, "color": "00c6ffff" },
+					{ "time": 1, "color": "009cffff" }
+				]
+			},
+			"halo4": {
+				"color": [
+					{ "time": 0, "color": "009cff32" },
+					{ "time": 0.5, "color": "00c6ff33" },
+					{ "time": 1, "color": "009cff32" }
+				]
+			},
+			"zidan": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			},
+			"zidanquan1": {
+				"color": [
+					{
+						"time": 0,
+						"color": "00a8ff00",
+						"curve": [ 0.081, 0.35, 0.75, 1 ]
+					},
+					{
+						"time": 0.1666,
+						"color": "00a8ffff",
+						"curve": [ 0.283, 0, 0.944, 0.74 ]
+					},
+					{ "time": 1, "color": "00a8ff00" }
+				]
+			},
+			"zidanquan2": {
+				"color": [
+					{
+						"time": 0,
+						"color": "00a8ffc4",
+						"curve": [ 0.335, 0.31, 0.67, 0.65 ]
+					},
+					{ "time": 0.5, "color": "00a8ff00", "curve": "stepped" },
+					{
+						"time": 0.5333,
+						"color": "00a8ff00",
+						"curve": [ 0.152, 0.29, 0.75, 1 ]
+					},
+					{
+						"time": 0.7,
+						"color": "00a8ffff",
+						"curve": [ 0.247, 0, 0.626, 0.42 ]
+					},
+					{ "time": 1, "color": "00a8ffc4" }
+				]
+			}
+		},
+		"bones": {
+			"zidan": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.154, 0.2, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.25, 0, 0.835, 0.79 ]
+					},
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"zidanquan1": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.3,
+						"y": 0.3,
+						"curve": [ 0.186, 0.53, 0.75, 0.93 ]
+					},
+					{ "time": 0.9333, "x": 0.65, "y": 0.65 }
+				]
+			},
+			"halo2": {
+				"scale": [
+					{ "time": 0, "x": 0.4, "y": 0.4 },
+					{ "time": 0.5, "x": 0.52, "y": 0.52 },
+					{ "time": 1, "x": 0.4, "y": 0.4 }
+				]
+			},
+			"zidanquan2": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.554,
+						"y": 0.554,
+						"curve": [ 0.333, 0.35, 0.668, 0.68 ]
+					},
+					{ "time": 0.4333, "x": 0.65, "y": 0.65 },
+					{
+						"time": 0.5333,
+						"x": 0.3,
+						"y": 0.3,
+						"curve": [ 0.192, 0.4, 0.594, 0.75 ]
+					},
+					{ "time": 1, "x": 0.554, "y": 0.554 }
+				]
+			},
+			"fx": {
+				"translate": [
+					{ "time": 0, "x": -15, "y": -50 }
+				]
+			}
+		}
+	}
+}
+}

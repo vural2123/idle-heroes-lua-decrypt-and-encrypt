@@ -1,0 +1,51 @@
+{
+"skeleton": { "hash": "grbzveot/csyrIUPsz8fUs08mW0", "spine": "2.1.27", "width": 160, "height": 120, "images": "../" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "loop", "parent": "root" }
+],
+"slots": [
+	{ "name": "loop", "bone": "loop", "color": "ffffff00", "attachment": "hunluanjian_loop/01_00000" }
+],
+"skins": {
+	"default": {
+		"loop": {
+			"hunluanjian_loop/01_00000": { "x": 26.16, "y": -7, "width": 160, "height": 120 },
+			"hunluanjian_loop/01_00001": { "x": 26.16, "y": -7, "width": 160, "height": 120 },
+			"hunluanjian_loop/01_00002": { "x": 26.16, "y": -7, "width": 160, "height": 120 },
+			"hunluanjian_loop/01_00003": { "x": 26.16, "y": -7, "width": 160, "height": 120 },
+			"hunluanjian_loop/01_00004": { "x": 26.16, "y": -7, "width": 160, "height": 120 },
+			"hunluanjian_loop/01_00005": { "x": 26.16, "y": -7, "width": 160, "height": 120 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"loop": {
+				"attachment": [
+					{ "time": 0, "name": "hunluanjian_loop/01_00000" },
+					{ "time": 0.0333, "name": "hunluanjian_loop/01_00001" },
+					{ "time": 0.0666, "name": "hunluanjian_loop/01_00002" },
+					{ "time": 0.1, "name": "hunluanjian_loop/01_00003" },
+					{ "time": 0.1333, "name": "hunluanjian_loop/01_00004" },
+					{ "time": 0.1666, "name": "hunluanjian_loop/01_00005" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"loop": {
+				"rotate": [
+					{ "time": 0, "angle": 180 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": -1 }
+				]
+			}
+		}
+	}
+}
+}

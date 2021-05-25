@@ -1,0 +1,75 @@
+{
+"skeleton": { "hash": "dFJ3gmQ8yEZbJxv1Xs2p3kuShMg", "spine": "2.1.27", "width": 128, "height": 128, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "jiguang", "parent": "fx" },
+	{ "name": "start", "parent": "jiguang" },
+	{ "name": "start1", "parent": "start" },
+	{ "name": "start2", "parent": "start", "scaleX": 0.3, "scaleY": 0.3 }
+],
+"slots": [
+	{ "name": "start1", "bone": "start1", "color": "ffffff00", "attachment": "common/diyun", "blend": "additive" },
+	{ "name": "start2", "bone": "start2", "color": "ffffff00", "attachment": "common/glow_sphere", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"start1": {
+			"common/diyun": { "width": 128, "height": 128 }
+		},
+		"start2": {
+			"common/glow_sphere": { "width": 200, "height": 200 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"start1": {
+				"color": [
+					{ "time": 0, "color": "e400ffff", "curve": "stepped" },
+					{ "time": 0.0333, "color": "e400ffff" },
+					{ "time": 0.0666, "color": "0077ffff" },
+					{ "time": 0.1, "color": "ffad2900" },
+					{ "time": 0.1333, "color": "0077ffff" },
+					{ "time": 0.1666, "color": "ff7e00ff", "curve": "stepped" },
+					{ "time": 0.2, "color": "ff7e0000" }
+				]
+			},
+			"start2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"start1": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.0333, "x": 1.8, "y": 1.8 },
+					{ "time": 0.0666, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 1.8, "y": 1.8, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1.8, "y": 1.8, "curve": "stepped" },
+					{ "time": 0.2, "x": 1.8, "y": 1.8 }
+				]
+			},
+			"start2": {
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 },
+					{ "time": 0.0333, "x": 1, "y": 1 },
+					{ "time": 0.0666, "x": 0.8, "y": 0.8 },
+					{ "time": 0.1, "x": 1, "y": 1 },
+					{ "time": 0.1666, "x": 0.8, "y": 0.8 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			},
+			"jiguang": {
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			}
+		}
+	}
+}
+}

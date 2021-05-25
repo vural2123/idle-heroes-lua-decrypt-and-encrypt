@@ -1,0 +1,395 @@
+{
+"skeleton": { "hash": "er1ohg+RZxQVBBbpYj8jtJab9wM", "spine": "3.2.01", "width": 170, "height": 176, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bbq", "parent": "root" },
+	{ "name": "fire", "parent": "bbq", "y": 50.92, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "glow", "parent": "root", "y": 50.91, "scaleX": 0.774, "scaleY": 0.737 },
+	{ "name": "particle", "parent": "root" },
+	{ "name": "particle_2", "parent": "particle", "x": -6.25, "y": 56.07, "scaleX": 0.332, "scaleY": 0.332 },
+	{ "name": "particle_3", "parent": "particle", "x": -2.09, "y": 49.83, "scaleX": 0.296, "scaleY": 0.296 },
+	{ "name": "particle_4", "parent": "particle", "x": 3.62, "y": 49.57, "scaleX": 0.48, "scaleY": 0.48 },
+	{ "name": "particle_5", "parent": "particle", "x": -0.27, "y": 58.15, "scaleX": 0.48, "scaleY": 0.48 },
+	{ "name": "particle_6", "parent": "particle", "x": 6.48, "y": 56.33, "scaleX": 0.296, "scaleY": 0.296 }
+],
+"slots": [
+	{ "name": "bbq", "bone": "bbq", "attachment": "guild/jitan" },
+	{ "name": "fire", "bone": "fire", "attachment": "guild/jitan_fire_00" },
+	{ "name": "fire2", "bone": "fire", "color": "ffffff4d", "attachment": "guild/jitan_fire_00", "blend": "additive" },
+	{ "name": "particle_2", "bone": "particle_2", "color": "ffffff00", "attachment": "common/parictles", "blend": "additive" },
+	{ "name": "particle_3", "bone": "particle_3", "color": "ffffff00", "attachment": "common/parictles", "blend": "additive" },
+	{ "name": "particle_4", "bone": "particle_4", "color": "ffffff00", "attachment": "common/parictles", "blend": "additive" },
+	{ "name": "particle_5", "bone": "particle_5", "color": "ffffff00", "attachment": "common/parictles", "blend": "additive" },
+	{ "name": "particle_6", "bone": "particle_6", "color": "ffffff00", "attachment": "common/parictles", "blend": "additive" },
+	{ "name": "glow", "bone": "glow", "color": "ff6a22a8", "attachment": "common/glow", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bbq": {
+			"guild/jitan": { "y": 38.63, "width": 170, "height": 176 }
+		},
+		"fire": {
+			"guild/jitan_fire_00": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_01": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_02": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_03": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_04": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_05": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_06": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_07": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_08": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_09": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_10": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_11": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_12": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_13": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_14": { "y": 21.8, "width": 60, "height": 80 }
+		},
+		"fire2": {
+			"guild/jitan_fire_00": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_01": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_02": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_03": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_04": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_05": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_06": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_07": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_08": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_09": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_10": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_11": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_12": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_13": { "y": 21.8, "width": 60, "height": 80 },
+			"guild/jitan_fire_14": { "y": 21.8, "width": 60, "height": 80 }
+		},
+		"glow": {
+			"common/glow": { "width": 50, "height": 50 }
+		},
+		"particle_2": {
+			"common/parictles": { "scaleX": 0.174, "scaleY": 0.197, "width": 42, "height": 46 }
+		},
+		"particle_3": {
+			"common/parictles": { "scaleX": 0.174, "scaleY": 0.197, "width": 42, "height": 46 }
+		},
+		"particle_4": {
+			"common/parictles": { "scaleX": 0.174, "scaleY": 0.197, "width": 42, "height": 46 }
+		},
+		"particle_5": {
+			"common/parictles": { "scaleX": 0.174, "scaleY": 0.197, "width": 42, "height": 46 }
+		},
+		"particle_6": {
+			"common/parictles": { "scaleX": 0.174, "scaleY": 0.197, "width": 42, "height": 46 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"fire": {
+				"attachment": [
+					{ "time": 0, "name": "guild/jitan_fire_00" },
+					{ "time": 0.0666, "name": "guild/jitan_fire_01" },
+					{ "time": 0.1333, "name": "guild/jitan_fire_02" },
+					{ "time": 0.2, "name": "guild/jitan_fire_03" },
+					{ "time": 0.2666, "name": "guild/jitan_fire_04" },
+					{ "time": 0.3333, "name": "guild/jitan_fire_05" },
+					{ "time": 0.4, "name": "guild/jitan_fire_06" },
+					{ "time": 0.4666, "name": "guild/jitan_fire_07" },
+					{ "time": 0.5333, "name": "guild/jitan_fire_08" },
+					{ "time": 0.6, "name": "guild/jitan_fire_09" },
+					{ "time": 0.6666, "name": "guild/jitan_fire_10" },
+					{ "time": 0.7333, "name": "guild/jitan_fire_11" },
+					{ "time": 0.8, "name": "guild/jitan_fire_12" },
+					{ "time": 0.8666, "name": "guild/jitan_fire_13" },
+					{ "time": 0.9333, "name": "guild/jitan_fire_14" },
+					{ "time": 1, "name": "guild/jitan_fire_00" }
+				]
+			},
+			"fire2": {
+				"attachment": [
+					{ "time": 0, "name": "guild/jitan_fire_00" },
+					{ "time": 0.0666, "name": "guild/jitan_fire_01" },
+					{ "time": 0.1333, "name": "guild/jitan_fire_02" },
+					{ "time": 0.2, "name": "guild/jitan_fire_03" },
+					{ "time": 0.2666, "name": "guild/jitan_fire_04" },
+					{ "time": 0.3333, "name": "guild/jitan_fire_05" },
+					{ "time": 0.4, "name": "guild/jitan_fire_06" },
+					{ "time": 0.4666, "name": "guild/jitan_fire_07" },
+					{ "time": 0.5333, "name": "guild/jitan_fire_08" },
+					{ "time": 0.6, "name": "guild/jitan_fire_09" },
+					{ "time": 0.6666, "name": "guild/jitan_fire_10" },
+					{ "time": 0.7333, "name": "guild/jitan_fire_11" },
+					{ "time": 0.8, "name": "guild/jitan_fire_12" },
+					{ "time": 0.8666, "name": "guild/jitan_fire_13" },
+					{ "time": 0.9333, "name": "guild/jitan_fire_14" },
+					{ "time": 1, "name": "guild/jitan_fire_00" }
+				]
+			},
+			"particle_2": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffe8",
+						"curve": [ 0.803, 0.25, 1, 0.58 ]
+					},
+					{ "time": 0.1666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffff00" },
+					{
+						"time": 0.3666,
+						"color": "ffffffff",
+						"curve": [ 0.743, 0, 0.947, 0 ]
+					},
+					{ "time": 1, "color": "ffffffe8" }
+				]
+			},
+			"particle_3": {
+				"color": [
+					{ "time": 0, "color": "ffffff66" },
+					{
+						"time": 0.1,
+						"color": "ffffffff",
+						"curve": [ 0.923, 0, 1, 0 ]
+					},
+					{ "time": 0.9, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffff65" }
+				]
+			},
+			"particle_4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{
+						"time": 0.1666,
+						"color": "ffffffff",
+						"curve": [ 0.923, 0, 1, 0 ]
+					},
+					{ "time": 0.9666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"particle_5": {
+				"color": [
+					{
+						"time": 0,
+						"color": "fffffffe",
+						"curve": [ 0.915, 0.01, 1, 0.12 ]
+					},
+					{ "time": 0.7, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffff00" },
+					{
+						"time": 0.9,
+						"color": "ffffffff",
+						"curve": [ 0.374, 0, 0.706, 0 ]
+					},
+					{ "time": 1, "color": "fffffffe" }
+				]
+			},
+			"particle_6": {
+				"color": [
+					{
+						"time": 0,
+						"color": "fffffffe",
+						"curve": [ 0.908, 0.03, 1, 0.2 ]
+					},
+					{ "time": 0.6333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffff00" },
+					{
+						"time": 0.8333,
+						"color": "ffffffff",
+						"curve": [ 0.406, 0, 0.734, 0 ]
+					},
+					{ "time": 1, "color": "fffffffe" }
+				]
+			}
+		},
+		"bones": {
+			"particle_6": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -6.54,
+						"y": 12.07,
+						"curve": [ 0.262, 0.41, 0.696, 0.91 ]
+					},
+					{ "time": 0.6333, "x": -12.43, "y": 22.93 },
+					{
+						"time": 0.6666,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.2, 0.396, 0.57 ]
+					},
+					{ "time": 1, "x": -6.54, "y": 12.07 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.858, "y": 0.858 },
+					{ "time": 0.6333, "x": 0.319, "y": 0.319 },
+					{ "time": 0.6666, "x": 0.35, "y": 0.35 },
+					{ "time": 0.8333, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.858, "y": 0.858 }
+				]
+			},
+			"particle_5": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 3.92,
+						"y": 17.94,
+						"curve": [ 0.229, 0.38, 0.688, 0.91 ]
+					},
+					{ "time": 0.7, "x": 8.73, "y": 39.95 },
+					{
+						"time": 0.7333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.21, 0.382, 0.57 ]
+					},
+					{ "time": 1, "x": 3.92, "y": 17.94 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.917, "y": 0.917 },
+					{ "time": 0.7, "x": 0.337, "y": 0.337 },
+					{ "time": 0.7333, "x": 0.336, "y": 0.336 },
+					{ "time": 0.9, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.917, "y": 0.917 }
+				]
+			},
+			"particle_4": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.2, 0.622, 0.91 ]
+					},
+					{ "time": 0.9666, "x": 11.83, "y": 11.83 },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.336, "y": 0.336 },
+					{ "time": 0.1666, "x": 1, "y": 1 },
+					{ "time": 0.9666, "x": 0.337, "y": 0.337 },
+					{ "time": 1, "x": 0.336, "y": 0.336 }
+				]
+			},
+			"particle_3": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 2.42,
+						"y": 4.76,
+						"curve": [ 0.076, 0.25, 0.645, 0.91 ]
+					},
+					{ "time": 0.9, "x": 13.91, "y": 27.37 },
+					{
+						"time": 0.9333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.28, 0.344, 0.62 ]
+					},
+					{ "time": 1, "x": 2.42, "y": 4.76 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.61, "y": 0.61 },
+					{ "time": 0.1, "x": 1, "y": 1 },
+					{ "time": 0.9, "x": 0.319, "y": 0.319 },
+					{ "time": 0.9333, "x": 0.35, "y": 0.35 },
+					{ "time": 1, "x": 0.61, "y": 0.61 }
+				]
+			},
+			"particle_2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -9.31,
+						"y": 4.92,
+						"curve": [ 0.353, 0.48, 0.693, 0.83 ]
+					},
+					{ "time": 0.1666, "x": -10.06, "y": 5.32 },
+					{
+						"time": 0.2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.18, 0.541, 0.75 ]
+					},
+					{ "time": 1, "x": -9.31, "y": 4.92 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.461, "y": 0.461 },
+					{ "time": 0.1666, "x": 0.319, "y": 0.319 },
+					{ "time": 0.2, "x": 0.35, "y": 0.35 },
+					{ "time": 0.3666, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.461, "y": 0.461 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 3.44 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1.241,
+						"y": 1.324,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1,
+						"x": 1.441,
+						"y": 1.537,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1.223,
+						"y": 1.305,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3,
+						"x": 1.405,
+						"y": 1.499,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 1.155,
+						"y": 1.232,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.241,
+						"y": 1.324,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6,
+						"x": 1.441,
+						"y": 1.537,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.7,
+						"x": 1.223,
+						"y": 1.305,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.8,
+						"x": 1.405,
+						"y": 1.499,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.9,
+						"x": 1.155,
+						"y": 1.232,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "x": 1.241, "y": 1.324 }
+				]
+			}
+		}
+	}
+}
+}

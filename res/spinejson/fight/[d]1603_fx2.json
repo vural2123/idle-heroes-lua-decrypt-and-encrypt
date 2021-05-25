@@ -1,0 +1,82 @@
+{
+"skeleton": { "hash": "3OtLSir6gGdUrZd0QZ9RX+QNuhE", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "FX", "parent": "code_shake" },
+	{ "name": "FX_down", "parent": "FX" },
+	{ "name": "down_1", "parent": "FX_down" },
+	{ "name": "halo1", "parent": "FX_down" }
+],
+"slots": [
+	{ "name": "down_1", "bone": "down_1", "color": "ffffff00", "attachment": "common/di_00000", "blend": "additive" },
+	{ "name": "halo1", "bone": "halo1", "color": "ffffff00", "attachment": "common/fx_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"down_1": {
+			"common/di_00000": { "width": 200, "height": 80 },
+			"common/di_00001": { "width": 200, "height": 80 },
+			"common/di_00002": { "width": 200, "height": 80 },
+			"common/di_00003": { "width": 200, "height": 80 },
+			"common/di_00004": { "width": 200, "height": 80 },
+			"common/di_00005": { "width": 200, "height": 80 }
+		},
+		"halo1": {
+			"common/fx_halo": { "path": "common/n_halo", "width": 340, "height": 340 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"down_1": {
+				"attachment": [
+					{ "time": 0.6, "name": "common/di_00000" },
+					{ "time": 0.6333, "name": "common/di_00001" },
+					{ "time": 0.6666, "name": "common/di_00002" },
+					{ "time": 0.7, "name": "common/di_00003" },
+					{ "time": 0.7333, "name": "common/di_00004" },
+					{ "time": 0.7666, "name": "common/di_00005" }
+				],
+				"color": [
+					{ "time": 0.6, "color": "4f81ffa4" },
+					{ "time": 0.7666, "color": "b958ffff" },
+					{ "time": 0.9, "color": "b958ff00" }
+				]
+			},
+			"halo1": {
+				"color": [
+					{ "time": 0.5333, "color": "a800ffff" },
+					{ "time": 0.7333, "color": "a800ff00" }
+				]
+			}
+		},
+		"bones": {
+			"halo1": {
+				"translate": [
+					{ "time": 0.5333, "x": 0, "y": 5 }
+				],
+				"scale": [
+					{ "time": 0.5333, "x": 1, "y": 0.6 },
+					{ "time": 0.7, "x": 1.8, "y": 1 }
+				]
+			},
+			"down_1": {
+				"translate": [
+					{ "time": 0.6, "x": 0, "y": 5 }
+				],
+				"scale": [
+					{ "time": 0.6, "x": 0.8, "y": 0.8 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.6, "name": "hit" }
+		]
+	}
+}
+}

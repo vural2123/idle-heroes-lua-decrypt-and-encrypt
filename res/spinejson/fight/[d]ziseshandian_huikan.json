@@ -1,0 +1,152 @@
+{
+"skeleton": { "hash": "ORnVETBYmZ5QHFGAZysepeIxGjw", "spine": "2.1.27", "width": 200, "height": 200, "images": "./../" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "ziseshandian", "parent": "fx" },
+	{ "name": "glow", "parent": "ziseshandian" },
+	{ "name": "huikan", "parent": "ziseshandian" },
+	{ "name": "jizhong", "parent": "ziseshandian" },
+	{ "name": "spark", "parent": "ziseshandian" }
+],
+"slots": [
+	{
+		"name": "ziseshandian_huikan/ziseshandian_huikan_00000",
+		"bone": "huikan",
+		"color": "ffffff00",
+		"attachment": "ziseshandian_huikan/ziseshandian_huikan_00000"
+	},
+	{
+		"name": "ziseshandian_huikan/ziseshandian_jiazhong_00000",
+		"bone": "jizhong",
+		"color": "ffffff00",
+		"attachment": "ziseshandian_huikan/ziseshandian_jiazhong_00000",
+		"blend": "additive"
+	},
+	{ "name": "common/glow", "bone": "glow", "color": "ffffff00", "attachment": "common/glow", "blend": "additive" },
+	{ "name": "spark", "bone": "spark", "color": "ffffff00", "attachment": "common/spark", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"common/glow": {
+			"common/glow": { "width": 50, "height": 50 }
+		},
+		"spark": {
+			"common/spark": { "width": 14, "height": 16 }
+		},
+		"ziseshandian_huikan/ziseshandian_huikan_00000": {
+			"ziseshandian_huikan/ziseshandian_huikan_00000": { "width": 200, "height": 200 },
+			"ziseshandian_huikan/ziseshandian_huikan_00001": { "width": 200, "height": 200 },
+			"ziseshandian_huikan/ziseshandian_huikan_00002": { "width": 200, "height": 200 },
+			"ziseshandian_huikan/ziseshandian_huikan_00003": { "width": 200, "height": 200 },
+			"ziseshandian_huikan/ziseshandian_huikan_00004": { "width": 200, "height": 200 },
+			"ziseshandian_huikan/ziseshandian_huikan_00005": { "width": 200, "height": 200 },
+			"ziseshandian_huikan/ziseshandian_huikan_00006": { "width": 200, "height": 200 }
+		},
+		"ziseshandian_huikan/ziseshandian_jiazhong_00000": {
+			"ziseshandian_huikan/ziseshandian_jiazhong_00000": { "width": 64, "height": 64 },
+			"ziseshandian_huikan/ziseshandian_jiazhong_00001": { "width": 64, "height": 64 },
+			"ziseshandian_huikan/ziseshandian_jiazhong_00002": { "width": 64, "height": 64 },
+			"ziseshandian_huikan/ziseshandian_jiazhong_00003": { "width": 64, "height": 64 },
+			"ziseshandian_huikan/ziseshandian_jiazhong_00004": { "width": 64, "height": 64 },
+			"ziseshandian_huikan/ziseshandian_jiazhong_00005": { "width": 64, "height": 64 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/glow": {
+				"color": [
+					{
+						"time": 0.0333,
+						"color": "ffc8fcff",
+						"curve": [ 0.099, 0.4, 0.75, 1 ]
+					},
+					{ "time": 0.2333, "color": "cc0cff00" }
+				]
+			},
+			"spark": {
+				"color": [
+					{ "time": 0.0333, "color": "ecafffff" },
+					{ "time": 0.2333, "color": "af00ff00" }
+				]
+			},
+			"ziseshandian_huikan/ziseshandian_huikan_00000": {
+				"attachment": [
+					{ "time": 0, "name": "ziseshandian_huikan/ziseshandian_huikan_00000" },
+					{ "time": 0.0333, "name": "ziseshandian_huikan/ziseshandian_huikan_00001" },
+					{ "time": 0.0666, "name": "ziseshandian_huikan/ziseshandian_huikan_00002" },
+					{ "time": 0.1, "name": "ziseshandian_huikan/ziseshandian_huikan_00003" },
+					{ "time": 0.1333, "name": "ziseshandian_huikan/ziseshandian_huikan_00004" },
+					{ "time": 0.1666, "name": "ziseshandian_huikan/ziseshandian_huikan_00005" },
+					{ "time": 0.2, "name": "ziseshandian_huikan/ziseshandian_huikan_00006" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			},
+			"ziseshandian_huikan/ziseshandian_jiazhong_00000": {
+				"attachment": [
+					{ "time": 0.0333, "name": "ziseshandian_huikan/ziseshandian_jiazhong_00000" },
+					{ "time": 0.0666, "name": "ziseshandian_huikan/ziseshandian_jiazhong_00001" },
+					{ "time": 0.1, "name": "ziseshandian_huikan/ziseshandian_jiazhong_00002" },
+					{ "time": 0.1333, "name": "ziseshandian_huikan/ziseshandian_jiazhong_00003" },
+					{ "time": 0.1666, "name": "ziseshandian_huikan/ziseshandian_jiazhong_00004" },
+					{ "time": 0.2, "name": "ziseshandian_huikan/ziseshandian_jiazhong_00005" }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"huikan": {
+				"translate": [
+					{ "time": 0, "x": -37.72, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"jizhong": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0.0333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.079, 0.29, 0.75, 1 ]
+					},
+					{ "time": 0.2333, "x": 2, "y": 2 }
+				]
+			},
+			"spark": {
+				"scale": [
+					{ "time": 0.0333, "x": 6, "y": 6 },
+					{ "time": 0.2333, "x": 10, "y": 10 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

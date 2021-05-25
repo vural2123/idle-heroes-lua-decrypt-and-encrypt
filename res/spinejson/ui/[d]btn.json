@@ -1,0 +1,73 @@
+{
+"skeleton": { "hash": "8gW9y2kn9JquOoBcTGj4nEy5cHs", "spine": "3.0.16", "width": 46, "height": 47, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_btn", "parent": "root" }
+],
+"slots": [
+	{ "name": "code_btn", "bone": "code_btn" }
+],
+"skins": {
+	"default": {}
+},
+"animations": {
+	"btn_down": {
+		"slots": {
+			"code_btn": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"code_btn": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1, "x": 0.8, "y": 0.8 }
+				]
+			}
+		}
+	},
+	"btn_up": {
+		"slots": {
+			"code_btn": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"code_btn": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.0666, "x": 1.2, "y": 1.2 },
+					{ "time": 0.1666, "x": 0.9, "y": 0.9 },
+					{ "time": 0.2333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

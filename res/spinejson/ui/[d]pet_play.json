@@ -1,0 +1,247 @@
+{
+"skeleton": { "hash": "Jj/Sz//fMr2H320vVp7aO0v/1mM", "spine": "2.1.27", "width": 62, "height": 62, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "b", "parent": "root" },
+	{ "name": "c", "parent": "root" }
+],
+"slots": [
+	{ "name": "c", "bone": "c", "color": "ffffff00", "attachment": "zhanchong/battle_c" },
+	{ "name": "b", "bone": "b", "color": "ffffff00" }
+],
+"skins": {
+	"default": {
+		"b": {
+			"zhanchong/1": { "width": 15, "height": 28 },
+			"zhanchong/2": { "width": 20, "height": 28 },
+			"zhanchong/3": { "width": 21, "height": 28 },
+			"zhanchong/battle": { "width": 34, "height": 32 }
+		},
+		"c": {
+			"zhanchong/battle_c": { "width": 62, "height": 62 }
+		}
+	}
+},
+"animations": {
+	"1": {
+		"slots": {
+			"b": {
+				"attachment": [
+					{ "time": 0, "name": "zhanchong/1" }
+				],
+				"color": [
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1666, "color": "ffffffff" }
+				]
+			},
+			"c": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"c": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 3.049,
+						"y": 3.049,
+						"curve": [ 0, 0.33, 0.75, 1 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 0.973,
+						"y": 0.973,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1.043,
+						"y": 1.043,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.2666, "x": 1, "y": 1 }
+				]
+			},
+			"b": {
+				"scale": [
+					{
+						"time": 0.1,
+						"x": 0.616,
+						"y": 0.616,
+						"curve": [ 0, 0.75, 0.75, 1 ]
+					},
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"2": {
+		"slots": {
+			"b": {
+				"attachment": [
+					{ "time": 0, "name": "zhanchong/2" }
+				],
+				"color": [
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1666, "color": "ffffffff" }
+				]
+			},
+			"c": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"c": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 3.049,
+						"y": 3.049,
+						"curve": [ 0, 0.33, 0.75, 1 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 0.973,
+						"y": 0.973,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1.043,
+						"y": 1.043,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.2666, "x": 1, "y": 1 }
+				]
+			},
+			"b": {
+				"scale": [
+					{
+						"time": 0.1,
+						"x": 0.616,
+						"y": 0.616,
+						"curve": [ 0, 0.75, 0.75, 1 ]
+					},
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"3": {
+		"slots": {
+			"b": {
+				"attachment": [
+					{ "time": 0, "name": "zhanchong/3" }
+				],
+				"color": [
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1666, "color": "ffffffff" }
+				]
+			},
+			"c": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"c": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 3.049,
+						"y": 3.049,
+						"curve": [ 0, 0.33, 0.75, 1 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 0.973,
+						"y": 0.973,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1.043,
+						"y": 1.043,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.2666, "x": 1, "y": 1 }
+				]
+			},
+			"b": {
+				"scale": [
+					{
+						"time": 0.1,
+						"x": 0.616,
+						"y": 0.616,
+						"curve": [ 0, 0.75, 0.75, 1 ]
+					},
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"battle": {
+		"slots": {
+			"b": {
+				"attachment": [
+					{ "time": 0, "name": "zhanchong/battle" }
+				],
+				"color": [
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.1666, "color": "ffffffff" }
+				]
+			},
+			"c": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"c": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 3.049,
+						"y": 3.049,
+						"curve": [ 0, 0.33, 0.75, 1 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 0.973,
+						"y": 0.973,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1.043,
+						"y": 1.043,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.2666, "x": 1, "y": 1 }
+				]
+			},
+			"b": {
+				"scale": [
+					{
+						"time": 0.1,
+						"x": 0.616,
+						"y": 0.616,
+						"curve": [ 0, 0.75, 0.75, 1 ]
+					},
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

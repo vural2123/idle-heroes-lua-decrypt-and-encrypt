@@ -1,0 +1,150 @@
+{
+"skeleton": { "hash": "O8pbW+Ym5alJnZaxLpWV4LTwg94", "spine": "2.1.27", "width": 340, "height": 340, "images": "../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "feishi", "parent": "fx" },
+	{ "name": "glow", "parent": "feishi" },
+	{ "name": "line_heji", "parent": "feishi" },
+	{ "name": "start", "parent": "feishi" },
+	{ "name": "line2", "parent": "line_heji" },
+	{ "name": "line3", "parent": "line_heji" }
+],
+"slots": [
+	{ "name": "glow", "bone": "glow", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "start", "bone": "start", "color": "ffffff00", "attachment": "feishi/start", "blend": "additive" },
+	{ "name": "line2", "bone": "line2", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "line3", "bone": "line3", "color": "ffffff00", "attachment": "common/white", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"glow": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"line2": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 1.91, 0.04, 0.12, -50, -1.62, 0.02, -0.05, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"line3": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 1.91, 0.04, 0.12, -50, -1.62, 0.02, -0.05, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"start": {
+			"feishi/start": { "width": 32, "height": 64 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"glow": {
+				"color": [
+					{ "time": 0, "color": "6cdbffff" },
+					{ "time": 0.0666, "color": "6cdbff00" },
+					{ "time": 0.1333, "color": "6cdbffff" }
+				]
+			},
+			"line2": {
+				"color": [
+					{ "time": 0, "color": "ffffff7f" },
+					{ "time": 0.0666, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff7f" }
+				]
+			},
+			"line3": {
+				"color": [
+					{ "time": 0, "color": "ffffff3f" },
+					{ "time": 0.0333, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff3f" }
+				]
+			},
+			"start": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"glow": {
+				"translate": [
+					{ "time": 0, "x": -6.08, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.25 },
+					{ "time": 0.0666, "x": 1.5, "y": 0.5 },
+					{ "time": 0.1333, "x": 1, "y": 0.25 }
+				]
+			},
+			"line2": {
+				"rotate": [
+					{ "time": 0, "angle": 90 }
+				],
+				"translate": [
+					{ "time": 0, "x": -39.83, "y": -3.89 },
+					{ "time": 0.0666, "x": -56.34, "y": -3.89 },
+					{ "time": 0.1, "x": -23.32, "y": -3.89 },
+					{ "time": 0.1333, "x": -39.83, "y": -3.89 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.199, "y": 0.55 },
+					{ "time": 0.0666, "x": 0.1, "y": 0.5 },
+					{ "time": 0.1, "x": 0.3, "y": 0.6 },
+					{ "time": 0.1333, "x": 0.199, "y": 0.55 }
+				]
+			},
+			"line3": {
+				"rotate": [
+					{ "time": 0, "angle": 90 }
+				],
+				"translate": [
+					{ "time": 0, "x": -56.24, "y": 4.09 },
+					{ "time": 0.0333, "x": -66.29, "y": 4.09 },
+					{ "time": 0.0666, "x": -26.09, "y": 4.09 },
+					{ "time": 0.1333, "x": -56.24, "y": 4.09 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.149, "y": 0.325 },
+					{ "time": 0.0333, "x": 0.1, "y": 0.3 },
+					{ "time": 0.0666, "x": 0.3, "y": 0.4 },
+					{ "time": 0.1333, "x": 0.149, "y": 0.325 }
+				]
+			},
+			"start": {
+				"rotate": [
+					{ "time": 0, "angle": -90 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1 },
+					{ "time": 0.0666, "x": 0, "y": -1 },
+					{ "time": 0.1333, "x": 0, "y": 1 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"feishi": {
+				"translate": [
+					{ "time": 0, "x": 20, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

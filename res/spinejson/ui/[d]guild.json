@@ -1,0 +1,182 @@
+{
+"skeleton": {
+	"hash": "UOSjwlghijF383KiGXiBl/GNWgs",
+	"spine": "3.2.01",
+	"width": 2091.09,
+	"height": 1388.47,
+	"images": "./../../pngs/animation/ui/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "cloud", "parent": "root", "y": 1764.45 },
+	{ "name": "c1", "parent": "cloud", "x": -406.62, "y": -1533.9 },
+	{ "name": "c2", "parent": "cloud", "x": -160.14, "y": -1581.61 },
+	{ "name": "c3", "parent": "cloud", "x": 148.98, "y": -1568.07 },
+	{ "name": "c4", "parent": "cloud", "x": 421.55, "y": -1539.29 },
+	{ "name": "cloud2", "parent": "root", "rotation": 42, "y": 1764.45 },
+	{ "name": "c5", "parent": "cloud2", "x": -406.62, "y": -1533.9 },
+	{ "name": "c6", "parent": "cloud2", "x": -160.14, "y": -1581.61 },
+	{ "name": "c7", "parent": "cloud2", "x": 148.98, "y": -1568.07 },
+	{ "name": "c8", "parent": "cloud2", "x": 421.55, "y": -1539.29 },
+	{ "name": "code_bbq", "parent": "root", "x": -41.15, "y": -94.46 },
+	{ "name": "code_fuben", "parent": "root", "x": -25.64, "y": 73.43 },
+	{ "name": "code_guildwar", "parent": "root", "x": 234.3, "y": -171.41 },
+	{ "name": "code_keji", "parent": "root", "x": 248.76, "y": 45.63 },
+	{ "name": "code_mofang", "parent": "root", "x": -292.96, "y": 21.66 },
+	{ "name": "code_shop", "parent": "root", "x": -236.53, "y": -182.38 },
+	{ "name": "floor", "parent": "root", "y": -288 },
+	{ "name": "sky", "parent": "root", "y": 288 }
+],
+"slots": [
+	{ "name": "guild/sky2", "bone": "sky", "attachment": "guild/sky2" },
+	{ "name": "guild/c1", "bone": "c1", "attachment": "guild/c1" },
+	{ "name": "guild/c2", "bone": "c2", "attachment": "guild/c2" },
+	{ "name": "guild/c3", "bone": "c3", "attachment": "guild/c3" },
+	{ "name": "guild/c4", "bone": "c4", "attachment": "guild/c4" },
+	{ "name": "guild/c5", "bone": "c5", "attachment": "guild/c1" },
+	{ "name": "guild/c6", "bone": "c6", "attachment": "guild/c2" },
+	{ "name": "guild/c7", "bone": "c7", "attachment": "guild/c3" },
+	{ "name": "guild/c8", "bone": "c8", "attachment": "guild/c4" },
+	{ "name": "guild/floor2", "bone": "floor", "attachment": "guild/floor_new" },
+	{ "name": "code_fuben", "bone": "code_fuben" },
+	{ "name": "code_shop", "bone": "code_shop" },
+	{ "name": "code_keji", "bone": "code_keji" },
+	{ "name": "code_bbq", "bone": "code_bbq" },
+	{ "name": "code_mofang", "bone": "code_mofang" },
+	{ "name": "code_guildwar", "bone": "code_guildwar" }
+],
+"skins": {
+	"default": {
+		"guild/c1": {
+			"guild/c1": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 172.5, -58.49, -172.5, -58.49, -172.5, 58.5, 172.49, 58.5 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 345,
+				"height": 117
+			}
+		},
+		"guild/c2": {
+			"guild/c2": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 48.99, -25.49, -49, -25.49, -49, 25.5, 48.99, 25.5 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 98,
+				"height": 51
+			}
+		},
+		"guild/c3": {
+			"guild/c3": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 64.99, -37.5, -65, -37.5, -65, 37.5, 64.99, 37.5 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 130,
+				"height": 75
+			}
+		},
+		"guild/c4": {
+			"guild/c4": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 115.49, -47, -115.5, -47, -115.5, 47, 115.5, 47 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 231,
+				"height": 94
+			}
+		},
+		"guild/c5": {
+			"guild/c1": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 172.5, -58.5, -172.49, -58.5, -172.49, 58.5, 172.5, 58.5 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 345,
+				"height": 117
+			}
+		},
+		"guild/c6": {
+			"guild/c2": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 49, -25.5, -49, -25.5, -48.99, 25.49, 49, 25.49 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 98,
+				"height": 51
+			}
+		},
+		"guild/c7": {
+			"guild/c3": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 65, -37.5, -64.99, -37.5, -64.99, 37.49, 65, 37.5 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 130,
+				"height": 75
+			}
+		},
+		"guild/c8": {
+			"guild/c4": {
+				"type": "mesh",
+				"uvs": [ 0.91558, 1, 0.08441, 1, 0.08441, 0, 0.91558, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 95.99, -47.5, -96, -47.5, -96, 47.5, 95.99, 47.5 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 231,
+				"height": 94
+			}
+		},
+		"guild/floor2": {
+			"guild/floor_new": {
+				"type": "mesh",
+				"uvs": [ 1, 0.95684, 1, 1, 0.97737, 1, 0.02147, 1, 0, 1, 0, 0.94924, 0, 0, 0.03209, 0, 0.97855, 0, 1, 0, 0.97854, 0.95668, 0.02382, 0.94942 ],
+				"triangles": [ 11, 5, 6, 7, 11, 6, 10, 7, 8, 11, 7, 10, 10, 8, 9, 0, 10, 9, 3, 4, 5, 11, 3, 5, 2, 11, 10, 3, 11, 2, 1, 2, 10, 1, 10, 0 ],
+				"vertices": [ 644.03, -72.42, 644.03, -98.31, 614.88, -98.31, -616.3, -98.31, -643.96, -98.31, -643.96, -67.86, -643.96, 501.68, -602.62, 501.68, 616.4, 501.68, 644.03, 501.68, 616.4, -72.32, -613.27, -67.97 ],
+				"hull": 10,
+				"edges": [ 8, 10, 10, 12, 2, 0, 0, 18, 2, 4, 0, 20, 4, 20, 16, 18, 20, 16, 4, 6, 6, 8, 10, 22, 22, 20, 6, 22, 12, 14, 14, 16, 22, 14 ],
+				"width": 1288,
+				"height": 600
+			}
+		},
+		"guild/sky2": {
+			"guild/sky2": { "x": 1.69, "y": -102.14, "scaleX": 1.01, "scaleY": 1.01, "width": 1280, "height": 404 }
+		}
+	}
+},
+"animations": {
+	"animation": {},
+	"animation2": {
+		"bones": {
+			"cloud": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 59.9666, "angle": -48.82 }
+				]
+			},
+			"cloud2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 59.9666, "angle": -42 }
+				]
+			}
+		}
+	}
+}
+}

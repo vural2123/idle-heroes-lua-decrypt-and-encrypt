@@ -1,0 +1,42 @@
+{
+"skeleton": { "hash": "6IF6qxqCxtGEeDRe1XQdR0Re7jc", "spine": "2.1.27", "width": 300, "height": 246, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "down", "parent": "code_shake" },
+	{ "name": "d_01", "parent": "down" }
+],
+"slots": [
+	{ "name": "d_01", "bone": "d_01", "color": "ffffff00", "attachment": "luoshi/t_liewen_3" }
+],
+"skins": {
+	"default": {
+		"d_01": {
+			"luoshi/t_liewen_3": { "width": 300, "height": 246 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"d_01": {
+				"color": [
+					{ "time": 0.2666, "color": "0f0b06ff", "curve": "stepped" },
+					{ "time": 0.5, "color": "0f0b06ff" },
+					{ "time": 1, "color": "0f0b0600" }
+				]
+			}
+		},
+		"bones": {
+			"d_01": {
+				"translate": [
+					{ "time": 0.2666, "x": 0, "y": 8.94 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": 0.8, "y": 0.4 }
+				]
+			}
+		}
+	}
+}
+}

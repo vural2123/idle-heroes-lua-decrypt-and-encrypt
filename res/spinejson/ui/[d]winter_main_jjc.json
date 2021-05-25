@@ -1,0 +1,49 @@
+{
+"skeleton": {
+	"hash": "DTGRTMSBO6ZL4Xx4/qSmkUptIqs",
+	"spine": "3.2.01",
+	"width": 250,
+	"height": 245,
+	"images": "./../../../pngs/animation/ui/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "posion", "parent": "root" },
+	{ "name": "code_jjc", "parent": "posion" }
+],
+"slots": [
+	{ "name": "code_jjc", "bone": "code_jjc", "color": "ffffff00", "attachment": "main/jjc" },
+	{ "name": "bd", "bone": "posion", "attachment": "bd" }
+],
+"skins": {
+	"default": {
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -131.30151, 125.4294, -129.96555, -118.62543, 131.65533, -120.04342, 129.52834, 125.97939 ]
+			}
+		},
+		"code_jjc": {
+			"main/jjc": { "path": "main_winter/jjc", "width": 250, "height": 245 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"code_jjc": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"posion": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 119.14 }
+				]
+			}
+		}
+	}
+}
+}

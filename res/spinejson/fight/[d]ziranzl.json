@@ -1,0 +1,57 @@
+{
+"skeleton": { "hash": "snwWgpsyKi6o7zkSvYChrCKir4Y", "spine": "2.1.27", "width": 200, "height": 166, "images": "./../" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "ziran", "parent": "fx" },
+	{ "name": "end", "parent": "ziran" }
+],
+"slots": [
+	{ "name": "end", "bone": "end", "color": "ffffff00", "attachment": "ziranzl/ziranzhili_end_00000" }
+],
+"skins": {
+	"default": {
+		"end": {
+			"ziranzl/ziranzhili_end_00000": { "y": 7.1, "width": 200, "height": 166 },
+			"ziranzl/ziranzhili_end_00001": { "y": 7.1, "width": 200, "height": 166 },
+			"ziranzl/ziranzhili_end_00002": { "y": 7.1, "width": 200, "height": 166 },
+			"ziranzl/ziranzhili_end_00003": { "y": 7.1, "width": 200, "height": 166 },
+			"ziranzl/ziranzhili_end_00004": { "y": 7.1, "width": 200, "height": 166 },
+			"ziranzl/ziranzhili_end_00005": { "y": 7.1, "width": 200, "height": 166 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"end": {
+				"attachment": [
+					{ "time": 0, "name": "ziranzl/ziranzhili_end_00000" },
+					{ "time": 0.0666, "name": "ziranzl/ziranzhili_end_00001" },
+					{ "time": 0.1333, "name": "ziranzl/ziranzhili_end_00002" },
+					{ "time": 0.2, "name": "ziranzl/ziranzhili_end_00003" },
+					{ "time": 0.2666, "name": "ziranzl/ziranzhili_end_00004" },
+					{ "time": 0.3333, "name": "ziranzl/ziranzhili_end_00005" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"end": {
+				"scale": [
+					{ "time": 0, "x": 1.6, "y": 1.6 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

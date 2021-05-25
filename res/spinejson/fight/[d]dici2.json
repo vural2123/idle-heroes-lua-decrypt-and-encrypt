@@ -1,0 +1,56 @@
+{
+"skeleton": { "hash": "TcZbfooT7ektu5WM+3TGkdGU+LE", "spine": "2.1.27", "width": 0, "height": 0, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "FX", "parent": "code_shake" },
+	{ "name": "down", "parent": "FX" },
+	{ "name": "d_03", "parent": "down" }
+],
+"slots": [
+	{ "name": "d_03", "bone": "d_03", "color": "ffffff00" }
+],
+"skins": {
+	"default": {
+		"d_03": {
+			"dici/t_liewen_6_01": { "width": 270, "height": 240 },
+			"dici/t_liewen_6_02": { "width": 270, "height": 240 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"d_03": {
+				"attachment": [
+					{ "time": 0.0666, "name": "dici/t_liewen_6_01" },
+					{ "time": 0.1, "name": "dici/t_liewen_6_02" }
+				],
+				"color": [
+					{ "time": 0.0666, "color": "ff9400ff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ff9400ff" },
+					{ "time": 0.8333, "color": "ff940000" }
+				]
+			}
+		},
+		"bones": {
+			"d_03": {
+				"translate": [
+					{ "time": 0.0666, "x": 0, "y": -57.5 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 1, "y": 0.5 }
+				]
+			},
+			"FX": {
+				"translate": [
+					{ "time": 0.0666, "x": 0, "y": 60 }
+				]
+			}
+		}
+	}
+}
+}

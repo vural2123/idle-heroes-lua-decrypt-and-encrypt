@@ -1,0 +1,55 @@
+{
+"skeleton": { "hash": "dYyqa6aHweYo3rOmiPC4BDqHV78", "spine": "2.1.27", "width": 100.03, "height": 100.03, "images": "../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "sigh", "parent": "bone", "x": 38.6, "y": 92.38, "rotation": 0.27 }
+],
+"slots": [
+	{ "name": "sigh_slot", "bone": "sigh", "attachment": "jinmo/fb_asset_2" }
+],
+"skins": {
+	"default": {
+		"sigh_slot": {
+			"jinmo/fb_asset_2": { "rotation": -0.27, "width": 100, "height": 100 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"sigh_slot": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"sigh": {
+				"translate": [
+					{ "time": 0, "x": -16, "y": -52.47 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0333, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 1.3, "y": 1.3 },
+					{ "time": 0.1333, "x": 0.799, "y": 0.799 },
+					{ "time": 0.1666, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit" }
+		]
+	}
+}
+}

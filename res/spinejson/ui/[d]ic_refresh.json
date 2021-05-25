@@ -1,0 +1,33 @@
+{
+"skeleton": { "hash": "DK75zSD2/tB6gjwDu+nXs7Fl0Q8", "spine": "3.2.01", "width": 100, "height": 100, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "useless/hsbg", "bone": "root" },
+	{ "name": "icon", "bone": "root" },
+	{ "name": "common/kuang_shine", "bone": "bone", "color": "ffc314ff", "attachment": "common/kuang_shine", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"common/kuang_shine": {
+			"common/kuang_shine": { "width": 100, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/kuang_shine": {
+				"color": [
+					{ "time": 0, "color": "ffc31400" },
+					{ "time": 0.1, "color": "fff18cff" },
+					{ "time": 0.5333, "color": "ffd23eff" },
+					{ "time": 1.0333, "color": "ffc31400" }
+				]
+			}
+		}
+	}
+}
+}

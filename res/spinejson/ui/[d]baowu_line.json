@@ -1,0 +1,168 @@
+{
+"skeleton": { "hash": "3xZ7NDiuT/yO/cb2z+qc6S7zk6k", "spine": "2.1.27", "width": 128, "height": 50, "images": "./../" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx", "parent": "root" },
+	{ "name": "TX", "parent": "fx" },
+	{ "name": "line_heji", "parent": "TX" },
+	{ "name": "point_heji", "parent": "TX" },
+	{ "name": "line", "parent": "line_heji" },
+	{ "name": "line2", "parent": "line_heji" },
+	{ "name": "point", "parent": "point_heji" },
+	{ "name": "point2", "parent": "point_heji" },
+	{ "name": "point3", "parent": "point_heji" }
+],
+"slots": [
+	{ "name": "line", "bone": "line", "color": "ffffff00", "attachment": "common/line_glow", "blend": "additive" },
+	{ "name": "line2", "bone": "line2", "color": "ffffff00", "attachment": "common/line_glow", "blend": "additive" },
+	{ "name": "point", "bone": "point", "color": "ffffff00", "attachment": "common/particle_circle" },
+	{ "name": "point2", "bone": "point2", "color": "ffffff00", "attachment": "common/particle_circle" },
+	{ "name": "point3", "bone": "point3", "color": "ffffff00", "attachment": "common/particle_circle" }
+],
+"skins": {
+	"default": {
+		"line": {
+			"common/line_glow": { "width": 128, "height": 12 }
+		},
+		"line2": {
+			"common/line_glow": { "width": 128, "height": 12 }
+		},
+		"point": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		},
+		"point2": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		},
+		"point3": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"line": {
+				"color": [
+					{ "time": 0, "color": "ff940032" },
+					{ "time": 0.5, "color": "ff8d0095" },
+					{ "time": 1, "color": "ff940032" }
+				]
+			},
+			"line2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffff64" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"point": {
+				"color": [
+					{ "time": 0, "color": "ff7700ff" }
+				]
+			},
+			"point2": {
+				"color": [
+					{ "time": 0, "color": "ff7700ff" }
+				]
+			},
+			"point3": {
+				"color": [
+					{ "time": 0, "color": "ff7700ff" }
+				]
+			}
+		},
+		"bones": {
+			"line": {
+				"scale": [
+					{ "time": 0, "x": 2.6, "y": 2 },
+					{ "time": 0.5, "x": 2.65, "y": 2.2 },
+					{ "time": 1, "x": 2.6, "y": 2 }
+				]
+			},
+			"line2": {
+				"scale": [
+					{ "time": 0, "x": 2.6, "y": 0.5, "curve": "stepped" },
+					{ "time": 0.5, "x": 2.6, "y": 0.5, "curve": "stepped" },
+					{ "time": 1, "x": 2.6, "y": 0.5 }
+				]
+			},
+			"point": {
+				"rotate": [
+					{ "time": 0, "angle": -27.77 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 148.83,
+						"y": -4.12,
+						"curve": [ 0.148, 0.79, 0.75, 1 ]
+					},
+					{ "time": 0.8333, "x": 152.27, "y": 2.42 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.1, "y": 0.1 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				]
+			},
+			"point2": {
+				"rotate": [
+					{ "time": 0, "angle": -41.19 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 147.84,
+						"y": -3.39,
+						"curve": [ 0.35, 0.75, 0.77, 1 ]
+					},
+					{ "time": 0.5, "x": 148.83, "y": -2.26, "curve": "stepped" },
+					{ "time": 0.6666, "x": 148.83, "y": -2.26 },
+					{
+						"time": 0.7,
+						"x": 144.98,
+						"y": -6.67,
+						"curve": [ 0.177, 0.45, 0.559, 0.77 ]
+					},
+					{ "time": 1, "x": 147.84, "y": -3.39 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.051, "y": 0.051 },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 },
+					{ "time": 0.7, "x": 0.08, "y": 0.08 },
+					{ "time": 1, "x": 0.051, "y": 0.051 }
+				]
+			},
+			"point3": {
+				"rotate": [
+					{ "time": 0, "angle": -51.35 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 159.81,
+						"y": -1.22,
+						"curve": [ 0.384, 0.7, 0.729, 1 ]
+					},
+					{ "time": 0.1666, "x": 160.03, "y": -1.05, "curve": "stepped" },
+					{ "time": 0.3333, "x": 160.03, "y": -1.05 },
+					{
+						"time": 0.3666,
+						"x": 153.42,
+						"y": -6.33,
+						"curve": [ 0.156, 0.65, 0.651, 0.92 ]
+					},
+					{ "time": 1, "x": 159.81, "y": -1.22 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.019, "y": 0.019 },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.3666, "x": 0.06, "y": 0.06 },
+					{ "time": 1, "x": 0.019, "y": 0.019 }
+				]
+			}
+		}
+	}
+}
+}

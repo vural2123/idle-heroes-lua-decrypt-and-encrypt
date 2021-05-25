@@ -1,0 +1,63 @@
+{
+"skeleton": { "hash": "Rw5Thsd8JjNEdp+6H8Zg6YCIs7I", "spine": "3.2.01", "width": 200, "height": 200, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root" },
+	{ "name": "crack", "parent": "all" }
+],
+"slots": [
+	{ "name": "crack", "bone": "crack", "color": "ffffff00", "attachment": "siwang_futou/Crack_00" }
+],
+"skins": {
+	"default": {
+		"crack": {
+			"siwang_futou/Crack_00": { "width": 200, "height": 200 },
+			"siwang_futou/Crack_01": { "width": 200, "height": 200 },
+			"siwang_futou/Crack_02": { "width": 200, "height": 200 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"crack": {
+				"color": [
+					{ "time": 0.4666, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.6, "color": "000000ff" },
+					{ "time": 1, "color": "00000000" }
+				],
+				"attachment": [
+					{ "time": 0.4666, "name": "siwang_futou/Crack_00" },
+					{ "time": 0.5, "name": "siwang_futou/Crack_01" },
+					{ "time": 0.5333, "name": "siwang_futou/Crack_02" }
+				]
+			}
+		},
+		"bones": {
+			"crack": {
+				"rotate": [
+					{ "time": 0.1468, "angle": 0.6 },
+					{ "time": 0.178, "angle": 1.2 }
+				],
+				"translate": [
+					{ "time": 0.4666, "x": 368.38, "y": -127.23 }
+				],
+				"scale": [
+					{ "time": 0.4666, "x": 3, "y": 1 }
+				]
+			},
+			"all": {
+				"translate": [
+					{ "time": 0, "x": -66, "y": 50 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

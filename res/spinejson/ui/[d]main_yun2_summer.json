@@ -1,0 +1,133 @@
+{
+"skeleton": { "hash": "Db/xo5DotZfPI2Kd1BpFaDltjnU", "spine": "2.1.27", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "7", "parent": "root", "y": -8.73, "color": "fffb00ff" },
+	{ "name": "8", "parent": "root", "y": 0.59, "color": "fffb00ff" }
+],
+"slots": [
+	{ "name": "yun1", "bone": "7" },
+	{ "name": "yun2", "bone": "8", "attachment": "zhuchangjing_summer/zcj_yun2" },
+	{ "name": "yun3", "bone": "8", "attachment": "zhuchangjing_summer/zcj_yun3" },
+	{ "name": "yun4", "bone": "7" },
+	{ "name": "yun5", "bone": "8", "attachment": "zhuchangjing_summer/zcj_yun5" },
+	{ "name": "yun6", "bone": "8", "attachment": "zhuchangjing_summer/zcj_yun6" },
+	{ "name": "yun7", "bone": "7" }
+],
+"skins": {
+	"default": {
+		"yun2": {
+			"zhuchangjing_summer/zcj_yun2": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -263.27, -3.61, -584.03, -15.92, -586.75, 54.87, -265.99, 67.18 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 409,
+				"height": 82
+			}
+		},
+		"yun3": {
+			"zhuchangjing_summer/zcj_yun3": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -88.65, 44.7, -163.52, 44.7, -163.52, 80.26, -88.65, 80.26 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 87,
+				"height": 29
+			}
+		},
+		"yun5": {
+			"zhuchangjing_summer/zcj_yun5": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 398.76, 13.78, 140.76, 13.78, 140.76, 60.78, 398.76, 60.78 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 179,
+				"height": 39
+			}
+		},
+		"yun6": {
+			"zhuchangjing_summer/zcj_yun6": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 576.23, -37.56, 313.23, -37.56, 313.23, 24.52, 576.23, 24.52 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 257,
+				"height": 53
+			}
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"ffd": {
+			"default": {
+				"yun2": {
+					"zhuchangjing_summer/zcj_yun2": [
+						{
+							"time": 0,
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							"time": 26.6666,
+							"vertices": [ -166.4276, -16.20607, -165.34709, 9.98409, -198.11237, 17.87786, -162.59294, -16.36428 ],
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{ "time": 53.3333 }
+					]
+				},
+				"yun3": {
+					"zhuchangjing_summer/zcj_yun3": [
+						{
+							"time": 0,
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							"time": 26.6666,
+							"vertices": [ -28.28796, 0, -28.28796, 0, -46.58795, 0.73202, -20.236, 1.46401 ],
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{ "time": 53.3333 }
+					]
+				},
+				"yun5": {
+					"zhuchangjing_summer/zcj_yun5": [
+						{
+							"time": 0,
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							"time": 26.6666,
+							"vertices": [ -82.45997, 0, -82.45997, 0, -82.45997, 0, -82.45997 ],
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{ "time": 53.3333 }
+					]
+				},
+				"yun6": {
+					"zhuchangjing_summer/zcj_yun6": [
+						{
+							"time": 0,
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							"time": 26.6666,
+							"vertices": [ -30.62799, 0, -30.62799, 0, -30.62799, 0, -30.62799 ],
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{ "time": 53.3333 }
+					]
+				}
+			}
+		}
+	}
+}
+}

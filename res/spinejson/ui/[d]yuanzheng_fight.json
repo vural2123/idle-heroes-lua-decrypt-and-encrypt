@@ -1,0 +1,223 @@
+{
+"skeleton": { "hash": "d4UfXRrXUYGs2rRCI7Avo9C4LuY", "spine": "2.1.27", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "NoDot_Refer", "parent": "root" },
+	{ "name": "fx_01", "parent": "root" },
+	{ "name": "par_01", "parent": "root" },
+	{ "name": "par_02", "parent": "root" },
+	{ "name": "par_03", "parent": "root" },
+	{ "name": "par_04", "parent": "root" },
+	{ "name": "par_05", "parent": "root" },
+	{ "name": "par_06", "parent": "root" },
+	{ "name": "white", "parent": "root" }
+],
+"slots": [
+	{ "name": "NoDot_Refer", "bone": "NoDot_Refer", "attachment": "useless/nodot_refer" },
+	{ "name": "fx_01", "bone": "fx_01", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "par_01", "bone": "par_01", "color": "ffffff00", "attachment": "common/glow_sphere", "blend": "additive" },
+	{ "name": "par_02", "bone": "par_02", "color": "ffffff00", "attachment": "common/glow_sphere", "blend": "additive" },
+	{ "name": "par_03", "bone": "par_03", "color": "ffffff00", "attachment": "common/glow_sphere", "blend": "additive" },
+	{ "name": "par_04", "bone": "par_04", "color": "ffffff00", "attachment": "common/glow_sphere", "blend": "additive" },
+	{ "name": "par_05", "bone": "par_05", "color": "ffffff00", "attachment": "common/glow_sphere", "blend": "additive" },
+	{ "name": "par_06", "bone": "par_06", "color": "ffffff00", "attachment": "common/glow_sphere", "blend": "additive" },
+	{ "name": "white", "bone": "white", "color": "ffffff00", "attachment": "common/z_trailing", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"NoDot_Refer": {
+			"useless/nodot_refer": { "width": 960, "height": 576 }
+		},
+		"fx_01": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"par_01": {
+			"common/glow_sphere": { "width": 200, "height": 200 }
+		},
+		"par_02": {
+			"common/glow_sphere": { "width": 200, "height": 200 }
+		},
+		"par_03": {
+			"common/glow_sphere": { "width": 200, "height": 200 }
+		},
+		"par_04": {
+			"common/glow_sphere": { "width": 200, "height": 200 }
+		},
+		"par_05": {
+			"common/glow_sphere": { "width": 200, "height": 200 }
+		},
+		"par_06": {
+			"common/glow_sphere": { "width": 200, "height": 200 }
+		},
+		"white": {
+			"common/z_trailing": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 25, -50, -25, -50, -25, 50, 25, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 50,
+				"height": 100
+			}
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"NoDot_Refer": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"fx_01": {
+				"color": [
+					{ "time": 0, "color": "ff910000" },
+					{ "time": 1, "color": "ff9100ff", "curve": "stepped" },
+					{ "time": 1.6666, "color": "ff9100ff" },
+					{ "time": 2.6666, "color": "ff910000" }
+				]
+			},
+			"par_01": {
+				"color": [
+					{ "time": 0, "color": "ffae00ff" }
+				]
+			},
+			"par_02": {
+				"color": [
+					{ "time": 0.1666, "color": "ffae00ff" }
+				]
+			},
+			"par_03": {
+				"color": [
+					{ "time": 0.3333, "color": "ffae00ff" }
+				]
+			},
+			"par_04": {
+				"color": [
+					{ "time": 0.5, "color": "ffae00ff" }
+				]
+			},
+			"par_05": {
+				"color": [
+					{ "time": 0.8333, "color": "ffae00ff" }
+				]
+			},
+			"par_06": {
+				"color": [
+					{ "time": 1.1666, "color": "ffae00ff" }
+				]
+			},
+			"white": {
+				"color": [
+					{ "time": 0, "color": "ff690085" },
+					{ "time": 1.3333, "color": "ff690000" },
+					{ "time": 2.6666, "color": "ff690085" }
+				]
+			}
+		},
+		"bones": {
+			"NoDot_Refer": {
+				"translate": [
+					{ "time": 0, "x": 50.14, "y": 120.08 }
+				]
+			},
+			"fx_01": {
+				"scale": [
+					{ "time": 0, "x": 0.35, "y": 0.35 }
+				]
+			},
+			"par_01": {
+				"translate": [
+					{ "time": 0, "x": -9.61, "y": 0 },
+					{ "time": 1, "x": -18.37, "y": 13.48 },
+					{ "time": 1.5, "x": -20.48, "y": 23.35 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.02, "y": 0.02, "curve": "stepped" },
+					{ "time": 1, "x": 0.019, "y": 0.019 },
+					{ "time": 1.5, "x": 0, "y": 0 }
+				]
+			},
+			"par_02": {
+				"translate": [
+					{ "time": 0.1666, "x": 3.18, "y": -1.91 },
+					{ "time": 1.1666, "x": 14.26, "y": 9 },
+					{ "time": 1.6666, "x": 12.15, "y": 14.39 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 0.02, "y": 0.02, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0.019, "y": 0.019 },
+					{ "time": 1.6666, "x": 0, "y": 0 }
+				]
+			},
+			"par_03": {
+				"translate": [
+					{ "time": 0.3333, "x": -0.03, "y": -7.94 },
+					{ "time": 1.3333, "x": -8.7, "y": 11.03 },
+					{ "time": 1.8333, "x": -11.13, "y": 14.32 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 0.02, "y": 0.02, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0.019, "y": 0.019 },
+					{ "time": 1.8333, "x": 0, "y": 0 }
+				]
+			},
+			"par_04": {
+				"translate": [
+					{ "time": 0.5, "x": 5.06, "y": -6 },
+					{ "time": 1.5, "x": 8.54, "y": 13.22 },
+					{ "time": 2, "x": 9.06, "y": 21.8 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 0.02, "y": 0.02, "curve": "stepped" },
+					{ "time": 1.5, "x": 0.019, "y": 0.019 },
+					{ "time": 2, "x": 0, "y": 0 }
+				]
+			},
+			"par_05": {
+				"translate": [
+					{ "time": 0.8333, "x": 11.8, "y": -6 },
+					{ "time": 1.8333, "x": 17.87, "y": 13.22 },
+					{ "time": 2.3333, "x": 19.42, "y": 18.95 }
+				],
+				"scale": [
+					{ "time": 0.8333, "x": 0.02, "y": 0.02, "curve": "stepped" },
+					{ "time": 1.8333, "x": 0.019, "y": 0.019 },
+					{ "time": 2.3333, "x": 0, "y": 0 }
+				]
+			},
+			"par_06": {
+				"translate": [
+					{ "time": 1.1666, "x": -8.17, "y": -6 },
+					{ "time": 2.1666, "x": -15.2, "y": 10.78 },
+					{ "time": 2.6666, "x": -16.98, "y": 15.84 }
+				],
+				"scale": [
+					{ "time": 1.1666, "x": 0.02, "y": 0.02, "curve": "stepped" },
+					{ "time": 2.1666, "x": 0.019, "y": 0.019 },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			},
+			"white": {
+				"translate": [
+					{ "time": 0, "x": 0.9, "y": 0 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"white": {
+					"common/z_trailing": [
+						{
+							"time": 0,
+							"vertices": [ -17.569, 37.75295, 18.25099, 37.89694, -10.222, 6.01093, 14.79499, 5.74195 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

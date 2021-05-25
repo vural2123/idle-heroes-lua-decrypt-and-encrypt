@@ -1,0 +1,137 @@
+{
+"skeleton": { "hash": "0VoPffXHaSPw2ynEHPERKAGMIq0", "spine": "3.2.01", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "8", "parent": "root" },
+	{ "name": "fx_1", "parent": "8", "y": 8, "scaleX": 0.66, "scaleY": 0.66 },
+	{ "name": "fx_2", "parent": "8" },
+	{ "name": "fx_3", "parent": "8" },
+	{ "name": "fx_4", "parent": "8" },
+	{ "name": "icon", "parent": "8" },
+	{ "name": "shine2", "parent": "8", "scaleX": 1.192, "scaleY": 1.192 }
+],
+"slots": [
+	{ "name": "bg", "bone": "8", "attachment": "jjc/11_1" },
+	{ "name": "icon", "bone": "icon", "attachment": "jjc/11" },
+	{ "name": "common/n_light2", "bone": "shine2", "color": "2c8fff00", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "bd", "bone": "root", "attachment": "bd" },
+	{ "name": "fx_2", "bone": "fx_2", "color": "ffd38300", "attachment": "common/white" },
+	{ "name": "fx_3", "bone": "fx_3", "color": "ffd38300", "attachment": "common/white" },
+	{ "name": "fx_4", "bone": "fx_4", "color": "ffd38300", "attachment": "common/white" },
+	{ "name": "fx_1", "bone": "fx_1", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -40.0055, 40.382, -39.41151, -41.61999, 40.18447, -42.21399, 40.18447, 40.56998 ]
+			}
+		},
+		"bg": {
+			"jjc/11_1": { "path": "jjc_icon/11_1", "width": 78, "height": 78 }
+		},
+		"common/n_light2": {
+			"common/n_light": { "color": "ac00ffff", "width": 85, "height": 85 }
+		},
+		"fx_1": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"fx_2": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 0.49883, 1, 1, 0, 1, 0, 0.50097, 0, 0, 0.4985, 0, 1, 0 ],
+				"triangles": [ 5, 6, 0, 3, 4, 5, 3, 1, 2, 0, 3, 5, 1, 3, 0 ],
+				"vertices": [ 4.76, -14.4, 4.88, -29.48, -5, -29.48, -5, -14.37, -11, 19.29999, -0.14, 29.67, 11.12, 19.28 ],
+				"hull": 7,
+				"edges": [ 2, 4, 8, 10, 10, 12, 4, 6, 6, 8, 2, 0, 0, 12 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_3": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -5.09, -13.74, -13.34, -13.81, -13.19, -8.85999, -5.97, -8.77 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 6, 0, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"fx_4": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 13.1, -13.74, 4.81, -13.81, 5.8, -8.85999, 13.06, -8.77 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 6, 0, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"icon": {
+			"jjc/11": { "path": "jjc_icon/11", "width": 78, "height": 78 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/n_light2": {
+				"color": [
+					{ "time": 0, "color": "2c8fff00" },
+					{ "time": 1.6333, "color": "003fffb3" },
+					{ "time": 3.3333, "color": "f6fff200" }
+				]
+			},
+			"fx_1": {
+				"color": [
+					{ "time": 0, "color": "ffd38300" },
+					{ "time": 0.8666, "color": "ff5200ff" },
+					{ "time": 1.7333, "color": "ff009394" },
+					{ "time": 2.5666, "color": "0063ffff" },
+					{ "time": 3.3333, "color": "00c5ff00" }
+				]
+			},
+			"fx_2": {
+				"color": [
+					{ "time": 0, "color": "ffd38300" },
+					{ "time": 0.8666, "color": "ffd383f8" },
+					{ "time": 1.7333, "color": "ffd38300" },
+					{ "time": 2.5666, "color": "00c5ff80" },
+					{ "time": 3.3333, "color": "00c5ff00" }
+				]
+			},
+			"fx_3": {
+				"color": [
+					{ "time": 0, "color": "ffd38300" },
+					{ "time": 0.8666, "color": "ffd383f8" },
+					{ "time": 1.7333, "color": "ffd38300" },
+					{ "time": 2.5666, "color": "00c5ff80" },
+					{ "time": 3.3333, "color": "00c5ff00" }
+				]
+			},
+			"fx_4": {
+				"color": [
+					{ "time": 0, "color": "ffd38300" },
+					{ "time": 0.8666, "color": "ffd383f8" },
+					{ "time": 1.7333, "color": "ffd38300" },
+					{ "time": 2.5666, "color": "00c5ff80" },
+					{ "time": 3.3333, "color": "00c5ff00" }
+				]
+			}
+		},
+		"bones": {
+			"fx_1": {
+				"scale": [
+					{ "time": 0, "x": 0.378, "y": 0.909 }
+				]
+			}
+		}
+	}
+}
+}

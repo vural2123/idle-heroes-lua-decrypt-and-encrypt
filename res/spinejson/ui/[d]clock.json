@@ -1,0 +1,56 @@
+{
+"skeleton": { "hash": "xLwMYaVcnAaPw8nJvpiXLomwyYY", "spine": "2.1.27", "width": 29, "height": 29, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "common/clc_bg", "bone": "root", "attachment": "common/clc_bg" },
+	{ "name": "common/clc_zhen", "bone": "bone", "attachment": "common/clc_zhen" }
+],
+"skins": {
+	"default": {
+		"common/clc_bg": {
+			"common/clc_bg": { "width": 29, "height": 29 }
+		},
+		"common/clc_zhen": {
+			"common/clc_zhen": { "y": 3, "width": 3, "height": 7 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2666, "angle": -97.68 },
+					{ "time": 0.3333, "angle": -72.71 },
+					{ "time": 0.4333, "angle": -89.98 },
+					{ "time": 0.5666, "angle": -79.67 },
+					{ "time": 0.7, "angle": 270, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 270 },
+					{ "time": 1.6, "angle": 170.69 },
+					{ "time": 1.6666, "angle": -158.75 },
+					{ "time": 1.7666, "angle": -179.06 },
+					{ "time": 1.9, "angle": -168.89 },
+					{ "time": 2.0333, "angle": 180, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 180 },
+					{ "time": 2.9333, "angle": 81.72 },
+					{ "time": 3, "angle": 111.48 },
+					{ "time": 3.1, "angle": 91.54 },
+					{ "time": 3.2333, "angle": 106.17 },
+					{ "time": 3.4, "angle": 90, "curve": "stepped" },
+					{ "time": 4, "angle": 90 },
+					{ "time": 4.2666, "angle": -11.08 },
+					{ "time": 4.3333, "angle": 18.38 },
+					{ "time": 4.4333, "angle": 0.83 },
+					{ "time": 4.5666, "angle": 13.53 },
+					{ "time": 4.7, "angle": 0 },
+					{ "time": 5.3333, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

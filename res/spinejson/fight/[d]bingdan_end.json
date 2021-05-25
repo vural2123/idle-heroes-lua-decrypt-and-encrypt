@@ -1,0 +1,111 @@
+{
+"skeleton": { "hash": "+FcRx0ktjByxIqzJuvoqD4A5plI", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "bingdan", "parent": "fx" },
+	{ "name": "SMK_01", "parent": "bingdan" },
+	{ "name": "SMK_1", "parent": "bingdan" },
+	{ "name": "end", "parent": "bingdan" },
+	{ "name": "gliow", "parent": "bingdan" }
+],
+"slots": [
+	{ "name": "end", "bone": "end", "color": "ffffff00", "attachment": "bingdan/bingdan_end_01", "blend": "additive" },
+	{ "name": "gliow", "bone": "gliow", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "smk01", "bone": "SMK_01", "color": "ffffff00", "attachment": "common/smoke_01", "blend": "additive" },
+	{ "name": "smk1", "bone": "SMK_1", "color": "ffffff00", "attachment": "common/smoke_01", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"end": {
+			"bingdan/bingdan_end_01": { "width": 300, "height": 300 },
+			"bingdan/bingdan_end_02": { "width": 300, "height": 300 },
+			"bingdan/bingdan_end_03": { "width": 300, "height": 300 },
+			"bingdan/bingdan_end_04": { "width": 300, "height": 300 }
+		},
+		"gliow": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"smk01": {
+			"common/smoke_01": { "width": 100, "height": 100 }
+		},
+		"smk1": {
+			"common/smoke_01": { "width": 100, "height": 100 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"end": {
+				"attachment": [
+					{ "time": 0, "name": "bingdan/bingdan_end_01" },
+					{ "time": 0.0333, "name": "bingdan/bingdan_end_02" },
+					{ "time": 0.0666, "name": "bingdan/bingdan_end_03" },
+					{ "time": 0.1, "name": "bingdan/bingdan_end_04" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"gliow": {
+				"color": [
+					{ "time": 0, "color": "268bffff" },
+					{ "time": 0.5, "color": "268bff00" }
+				]
+			},
+			"smk01": {
+				"color": [
+					{ "time": 0.0666, "color": "9edcffff" },
+					{ "time": 0.5, "color": "26c8ff00" }
+				]
+			},
+			"smk1": {
+				"color": [
+					{ "time": 0.0666, "color": "9edcffff" },
+					{ "time": 0.5, "color": "26c8ff00" }
+				]
+			}
+		},
+		"bones": {
+			"end": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 0.5 }
+				]
+			},
+			"gliow": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"bingdan": {
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"SMK_01": {
+				"scale": [
+					{ "time": 0.0666, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.333, "y": 1.333 }
+				]
+			},
+			"SMK_1": {
+				"scale": [
+					{ "time": 0.0666, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.333, "y": 1.333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

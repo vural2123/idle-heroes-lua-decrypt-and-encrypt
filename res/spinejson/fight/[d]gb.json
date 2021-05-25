@@ -1,0 +1,62 @@
+{
+"skeleton": { "hash": "bUNHND0BtSKg3oBVC6b08X2jjmY", "spine": "2.1.27", "width": 150, "height": 150, "images": "./../" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx_gb_end", "parent": "root", "length": 132 },
+	{ "name": "bone", "parent": "fx_gb_end", "length": 117.56, "scaleX": 3, "scaleY": 3 }
+],
+"slots": [
+	{ "name": "gb_end/gb_end_01", "bone": "bone", "color": "ffffff00", "attachment": "gb/gb_end_04", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"gb_end/gb_end_01": {
+			"gb/gb_end_01": { "scaleX": 0.333, "scaleY": 0.333, "width": 150, "height": 150 },
+			"gb/gb_end_02": { "scaleX": 0.333, "scaleY": 0.333, "width": 150, "height": 150 },
+			"gb/gb_end_03": { "scaleX": 0.333, "scaleY": 0.333, "width": 150, "height": 150 },
+			"gb/gb_end_04": { "scaleX": 0.333, "scaleY": 0.333, "width": 150, "height": 150 },
+			"gb/gb_end_05": { "scaleX": 0.333, "scaleY": 0.333, "width": 150, "height": 150 },
+			"gb/gb_end_06": { "scaleX": 0.333, "scaleY": 0.333, "width": 150, "height": 150 },
+			"gb/gb_end_07": { "scaleX": 0.333, "scaleY": 0.333, "width": 150, "height": 150 },
+			"gb/gb_end_08": { "scaleX": 0.333, "scaleY": 0.333, "width": 150, "height": 150 },
+			"gb/gb_end_09": { "scaleX": 0.333, "scaleY": 0.333, "width": 150, "height": 150 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"gb_end/gb_end_01": {
+				"attachment": [
+					{ "time": 0, "name": "gb/gb_end_01" },
+					{ "time": 0.0666, "name": "gb/gb_end_02" },
+					{ "time": 0.1666, "name": "gb/gb_end_03" },
+					{ "time": 0.2333, "name": "gb/gb_end_04" },
+					{ "time": 0.3, "name": "gb/gb_end_05" },
+					{ "time": 0.3666, "name": "gb/gb_end_06" },
+					{ "time": 0.4666, "name": "gb/gb_end_07" },
+					{ "time": 0.5333, "name": "gb/gb_end_08" },
+					{ "time": 0.6, "name": "gb/gb_end_09" },
+					{ "time": 0.6666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 1.666, "y": 1.666 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0666, "name": "hit" }
+		]
+	}
+}
+}

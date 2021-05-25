@@ -1,0 +1,281 @@
+{
+"skeleton": { "hash": "q97/Lwf4sKHoIrdLTcxOHwu0zWo", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "up", "parent": "code_shake" },
+	{ "name": "follow_01", "parent": "up" },
+	{ "name": "line_01", "parent": "up" },
+	{ "name": "line_02", "parent": "up" },
+	{ "name": "line_03", "parent": "up" },
+	{ "name": "line_04", "parent": "up" },
+	{ "name": "line_05", "parent": "up" },
+	{ "name": "rock_01", "parent": "up" },
+	{ "name": "up_01", "parent": "up" },
+	{ "name": "up_02", "parent": "up" }
+],
+"slots": [
+	{ "name": "rock_01", "bone": "rock_01", "color": "ffffff00", "attachment": "luoshi/Rock" },
+	{ "name": "follow_01", "bone": "follow_01", "color": "ffffff00", "attachment": "luoshi/shine_launch", "blend": "additive" },
+	{ "name": "up_01", "bone": "up_01", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "up_02", "bone": "up_02", "color": "ffffff00", "attachment": "luoshi/t_tong_fra_22" },
+	{ "name": "line_01", "bone": "line_01", "color": "ffffff00", "attachment": "luoshi/t_line_1", "blend": "additive" },
+	{ "name": "line_02", "bone": "line_02", "color": "ffffff00", "attachment": "luoshi/t_line_1", "blend": "additive" },
+	{ "name": "line_03", "bone": "line_03", "color": "ffffff00", "attachment": "luoshi/t_line_1", "blend": "additive" },
+	{ "name": "line_04", "bone": "line_04", "color": "ffffff00", "attachment": "luoshi/t_line_1", "blend": "additive" },
+	{ "name": "line_05", "bone": "line_05", "color": "ffffff00", "attachment": "luoshi/t_line_1", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"follow_01": {
+			"luoshi/shine_launch": { "width": 113, "height": 299 }
+		},
+		"line_01": {
+			"luoshi/t_line_1": { "width": 14, "height": 92 }
+		},
+		"line_02": {
+			"luoshi/t_line_1": { "width": 14, "height": 92 }
+		},
+		"line_03": {
+			"luoshi/t_line_1": { "width": 14, "height": 92 }
+		},
+		"line_04": {
+			"luoshi/t_line_1": { "width": 14, "height": 92 }
+		},
+		"line_05": {
+			"luoshi/t_line_1": { "width": 14, "height": 92 }
+		},
+		"rock_01": {
+			"luoshi/Rock": { "width": 200, "height": 200 }
+		},
+		"up_01": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"up_02": {
+			"luoshi/t_tong_fra_00": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_01": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_02": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_03": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_04": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_05": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_06": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_07": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_08": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_09": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_10": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_11": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_12": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_13": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_14": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_15": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_16": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_17": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_18": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_19": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_20": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_21": { "width": 240, "height": 150 },
+			"luoshi/t_tong_fra_22": { "width": 240, "height": 150 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"follow_01": {
+				"color": [
+					{ "time": 0, "color": "ffdfa38f" },
+					{ "time": 0.2666, "color": "ffdfa300" }
+				]
+			},
+			"line_01": {
+				"color": [
+					{ "time": 0.2666, "color": "ffffff26" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"line_02": {
+				"color": [
+					{ "time": 0.2666, "color": "ffffff26" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"line_03": {
+				"color": [
+					{ "time": 0.2666, "color": "ffffff26" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"line_04": {
+				"color": [
+					{ "time": 0.2666, "color": "ffffff26" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"line_05": {
+				"color": [
+					{ "time": 0.2666, "color": "ffffff26" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"rock_01": {
+				"color": [
+					{ "time": 0, "color": "807c6aff", "curve": "stepped" },
+					{ "time": 0.2666, "color": "807c6aff" },
+					{ "time": 0.3666, "color": "807c6a00" }
+				]
+			},
+			"up_01": {
+				"color": [
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"up_02": {
+				"attachment": [
+					{ "time": 0.2666, "name": "luoshi/t_tong_fra_00" },
+					{ "time": 0.3, "name": "luoshi/t_tong_fra_01" },
+					{ "time": 0.3333, "name": "luoshi/t_tong_fra_02" },
+					{ "time": 0.3666, "name": "luoshi/t_tong_fra_03" },
+					{ "time": 0.4, "name": "luoshi/t_tong_fra_04" },
+					{ "time": 0.4333, "name": "luoshi/t_tong_fra_05" },
+					{ "time": 0.4666, "name": "luoshi/t_tong_fra_06" },
+					{ "time": 0.5, "name": "luoshi/t_tong_fra_07" },
+					{ "time": 0.5333, "name": "luoshi/t_tong_fra_08" },
+					{ "time": 0.5666, "name": "luoshi/t_tong_fra_09" },
+					{ "time": 0.6, "name": "luoshi/t_tong_fra_10" },
+					{ "time": 0.6333, "name": "luoshi/t_tong_fra_11" },
+					{ "time": 0.6666, "name": "luoshi/t_tong_fra_12" },
+					{ "time": 0.7, "name": "luoshi/t_tong_fra_13" },
+					{ "time": 0.7333, "name": "luoshi/t_tong_fra_14" },
+					{ "time": 0.7666, "name": "luoshi/t_tong_fra_15" },
+					{ "time": 0.8, "name": "luoshi/t_tong_fra_16" },
+					{ "time": 0.8333, "name": "luoshi/t_tong_fra_17" },
+					{ "time": 0.8666, "name": "luoshi/t_tong_fra_18" },
+					{ "time": 0.9, "name": "luoshi/t_tong_fra_19" },
+					{ "time": 0.9333, "name": "luoshi/t_tong_fra_20" },
+					{ "time": 0.9666, "name": "luoshi/t_tong_fra_21" },
+					{ "time": 1, "name": "luoshi/t_tong_fra_22" }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "c9c9c9ff", "curve": "stepped" },
+					{ "time": 1, "color": "c9c9c9ff" },
+					{ "time": 1.0333, "color": "c9c9c900" }
+				]
+			}
+		},
+		"bones": {
+			"rock_01": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2666, "angle": 180 }
+				],
+				"translate": [
+					{ "time": 0, "x": -405.49, "y": 485.75 },
+					{ "time": 0.2666, "x": 0, "y": 48.19 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 },
+					{ "time": 0.2666, "x": 0.65, "y": 0.65 }
+				]
+			},
+			"follow_01": {
+				"rotate": [
+					{ "time": 0, "angle": 45, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 45 }
+				],
+				"translate": [
+					{ "time": 0, "x": -444.47, "y": 525 },
+					{ "time": 0.2666, "x": -31.44, "y": 90.67 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 0.5 },
+					{ "time": 0.2666, "x": 1, "y": 0.5 }
+				]
+			},
+			"up_01": {
+				"translate": [
+					{ "time": 0.2666, "x": 0, "y": 50 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 2, "y": 2 }
+				]
+			},
+			"up_02": {
+				"translate": [
+					{ "time": 0.2666, "x": -8, "y": 45 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": -0.8, "y": 0.8 }
+				]
+			},
+			"line_01": {
+				"rotate": [
+					{ "time": 0.2666, "angle": 45 }
+				],
+				"translate": [
+					{ "time": 0.2666, "x": -42.88, "y": 68.19 },
+					{ "time": 0.4, "x": -72.7, "y": 99.45 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": 0.2, "y": 1 }
+				]
+			},
+			"line_02": {
+				"rotate": [
+					{ "time": 0.2666, "angle": 80 }
+				],
+				"translate": [
+					{ "time": 0.2666, "x": -87.6, "y": 51.05 },
+					{ "time": 0.4, "x": -143.2, "y": 58.15 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": 0.2, "y": 1 }
+				]
+			},
+			"line_03": {
+				"rotate": [
+					{ "time": 0.2666, "angle": 30 }
+				],
+				"translate": [
+					{ "time": 0.2666, "x": -29.94, "y": 115.42 },
+					{ "time": 0.4, "x": -69.58, "y": 201.74 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": 0.2, "y": 1 }
+				]
+			},
+			"line_04": {
+				"rotate": [
+					{ "time": 0.2666, "angle": -25 }
+				],
+				"translate": [
+					{ "time": 0.2666, "x": 28.75, "y": 105.3 },
+					{ "time": 0.4, "x": 66.17, "y": 173.91 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": 0.2, "y": 1 }
+				]
+			},
+			"line_05": {
+				"rotate": [
+					{ "time": 0.2666, "angle": -60 }
+				],
+				"translate": [
+					{ "time": 0.2666, "x": 61.84, "y": 75.09 },
+					{ "time": 0.4, "x": 126.19, "y": 110.29 }
+				],
+				"scale": [
+					{ "time": 0.2666, "x": 0.2, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2666, "name": "hit" }
+		]
+	}
+}
+}

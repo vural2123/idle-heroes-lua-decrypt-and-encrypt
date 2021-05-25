@@ -1,0 +1,170 @@
+{
+"skeleton": { "hash": "yiXJVanzyZnjWhCOMQ9KF3nBkoM", "spine": "3.2.01", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "TX", "parent": "root" },
+	{ "name": "down", "parent": "TX" },
+	{ "name": "bless", "parent": "down" },
+	{ "name": "dimian_heji", "parent": "down" },
+	{ "name": "dimian", "parent": "dimian_heji" },
+	{ "name": "guangq_heji", "parent": "down" },
+	{ "name": "guangq", "parent": "guangq_heji" },
+	{ "name": "halo_heji", "parent": "down" },
+	{ "name": "halo", "parent": "halo_heji" },
+	{ "name": "quan_heji", "parent": "down" },
+	{ "name": "quan", "parent": "quan_heji" },
+	{ "name": "quan2", "parent": "quan_heji" }
+],
+"slots": [
+	{ "name": "halo", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo" },
+	{ "name": "bless", "bone": "bless", "color": "ffffff00", "attachment": "common/bless", "blend": "additive" },
+	{ "name": "dimian", "bone": "dimian", "color": "ffffff00", "attachment": "common/t_liewen_2" },
+	{ "name": "guangq", "bone": "guangq", "color": "ffffff00", "attachment": "common/guangquan" },
+	{ "name": "quan", "bone": "quan", "color": "ffffff00", "attachment": "common/di_00000", "blend": "additive" },
+	{ "name": "quan2", "bone": "quan2", "color": "ffffff00", "attachment": "common/di_00000", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bless": {
+			"common/bless": { "width": 70, "height": 145 }
+		},
+		"dimian": {
+			"common/t_liewen_2": { "width": 226, "height": 107 }
+		},
+		"guangq": {
+			"common/guangquan": { "width": 250, "height": 250 }
+		},
+		"halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"quan": {
+			"common/di_00000": { "width": 200, "height": 80 },
+			"common/di_00001": { "width": 200, "height": 80 },
+			"common/di_00002": { "width": 200, "height": 80 },
+			"common/di_00003": { "width": 200, "height": 80 },
+			"common/di_00004": { "width": 200, "height": 80 },
+			"common/di_00005": { "width": 200, "height": 80 }
+		},
+		"quan2": {
+			"common/di_00000": { "width": 200, "height": 80 },
+			"common/di_00001": { "width": 200, "height": 80 },
+			"common/di_00002": { "width": 200, "height": 80 },
+			"common/di_00003": { "width": 200, "height": 80 },
+			"common/di_00004": { "width": 200, "height": 80 },
+			"common/di_00005": { "width": 200, "height": 80 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"bless": {
+				"color": [
+					{ "time": 0, "color": "ff0f0000", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ff0f0000" },
+					{ "time": 0.2333, "color": "ff7000ff" },
+					{ "time": 1.2333, "color": "ff0b0000" }
+				]
+			},
+			"dimian": {
+				"color": [
+					{ "time": 0.1666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 1.1666, "color": "ffffff00" }
+				]
+			},
+			"guangq": {
+				"color": [
+					{ "time": 0, "color": "ff000500" },
+					{ "time": 0.1666, "color": "ff0005ff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ff0005ff" },
+					{ "time": 0.8333, "color": "ff000500" }
+				]
+			},
+			"halo": {
+				"color": [
+					{ "time": 0, "color": "00000000" },
+					{ "time": 0.1666, "color": "210001ff" },
+					{ "time": 0.6666, "color": "21000100" }
+				]
+			},
+			"quan": {
+				"color": [
+					{ "time": 0.2, "color": "ff2500ff" },
+					{ "time": 0.5333, "color": "ff3f00ff" },
+					{ "time": 0.5666, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "common/di_00000" },
+					{ "time": 0.2666, "name": "common/di_00001" },
+					{ "time": 0.3333, "name": "common/di_00002" },
+					{ "time": 0.4, "name": "common/di_00003" },
+					{ "time": 0.4666, "name": "common/di_00004" },
+					{ "time": 0.5333, "name": "common/di_00005" }
+				]
+			},
+			"quan2": {
+				"color": [
+					{ "time": 0.2, "color": "ffbd89ff" },
+					{ "time": 0.5333, "color": "ff6a00ff" },
+					{ "time": 0.5666, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "common/di_00000" },
+					{ "time": 0.2666, "name": "common/di_00001" },
+					{ "time": 0.3333, "name": "common/di_00002" },
+					{ "time": 0.4, "name": "common/di_00003" },
+					{ "time": 0.4666, "name": "common/di_00004" },
+					{ "time": 0.5333, "name": "common/di_00005" }
+				]
+			}
+		},
+		"bones": {
+			"bless": {
+				"rotate": [
+					{ "time": 0.466, "angle": 0.6 },
+					{ "time": 0.4961, "angle": 1.8 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 150.59 },
+					{ "time": 0.4333, "x": 0, "y": 151.6 }
+				],
+				"scale": [
+					{ "time": 0, "x": 4, "y": 3 }
+				]
+			},
+			"dimian": {
+				"scale": [
+					{ "time": 0.1666, "x": 1, "y": 1 }
+				]
+			},
+			"guangq": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.5 }
+				]
+			},
+			"halo": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 1 }
+				]
+			},
+			"quan": {
+				"scale": [
+					{ "time": 0.2, "x": 1, "y": 1.5 }
+				]
+			},
+			"quan2": {
+				"scale": [
+					{ "time": 0.2, "x": 1, "y": 1.5 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.5, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

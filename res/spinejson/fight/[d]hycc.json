@@ -1,0 +1,255 @@
+{
+"skeleton": { "hash": "P0OVPmLHp5i0aosXORAdQZXeMsw", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "all", "parent": "fx" },
+	{ "name": "bone", "parent": "all" },
+	{ "name": "fire_heji", "parent": "all" },
+	{ "name": "halo", "parent": "all" },
+	{ "name": "nwhite_01", "parent": "all" },
+	{ "name": "nwhite_02", "parent": "all" },
+	{ "name": "end", "parent": "bone", "length": 91.04 },
+	{ "name": "fire_1", "parent": "fire_heji", "color": "ffffffff" },
+	{ "name": "fire_2", "parent": "fire_heji" },
+	{ "name": "fire_3", "parent": "fire_heji" },
+	{ "name": "fire_4", "parent": "fire_heji" },
+	{ "name": "chuoci", "parent": "end", "length": 98 }
+],
+"slots": [
+	{ "name": "nwhite_01", "bone": "nwhite_01", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "nwhite_02", "bone": "nwhite_02", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "halo", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "fire_1", "bone": "fire_1", "color": "ffffff00", "attachment": "common/particle_circle" },
+	{ "name": "fire_2", "bone": "fire_2", "color": "ffffff00", "attachment": "common/particle_circle" },
+	{ "name": "fire_3", "bone": "fire_3", "color": "ffffff00", "attachment": "common/particle_circle" },
+	{ "name": "fire_4", "bone": "fire_4", "color": "ffffff00", "attachment": "common/particle_circle", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"fire_1": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		},
+		"fire_2": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		},
+		"fire_3": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		},
+		"fire_4": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		},
+		"halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"nwhite_01": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"nwhite_02": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 0.50829, 1, 1, 0, 1, 0, 0.49945, 0, 0, 1, 0 ],
+				"triangles": [ 3, 4, 5, 3, 5, 0, 2, 3, 0, 2, 0, 1 ],
+				"vertices": [ 50, -0.82, 50, -50, -50, -50, -50, 0.05, -50, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 2, 4, 8, 10, 4, 6, 6, 8, 2, 0, 0, 10 ],
+				"width": 100,
+				"height": 100
+			}
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"fire_1": {
+				"color": [
+					{ "time": 0, "color": "ff0001ff" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			},
+			"fire_2": {
+				"color": [
+					{ "time": 0, "color": "ff0001ff" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.2666, "color": "ffffff00" }
+				]
+			},
+			"fire_3": {
+				"color": [
+					{ "time": 0.0333, "color": "ff0001ff" },
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			},
+			"fire_4": {
+				"color": [
+					{ "time": 0, "color": "ff0600ff" },
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			},
+			"halo": {
+				"color": [
+					{ "time": 0.0333, "color": "ff0004ff" },
+					{ "time": 0.1666, "color": "ff5b00ff" },
+					{ "time": 0.2, "color": "edeaff00" }
+				]
+			},
+			"nwhite_01": {
+				"color": [
+					{ "time": 0, "color": "ffffff3f" },
+					{ "time": 0.0666, "color": "ffe6e293" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"nwhite_02": {
+				"color": [
+					{ "time": 0, "color": "ff0009ff" },
+					{ "time": 0.1, "color": "ff4400ff" },
+					{ "time": 0.2, "color": "ff8d0000" }
+				]
+			}
+		},
+		"bones": {
+			"chuoci": {
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 0.3 }
+				]
+			},
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"halo": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -1 },
+					{ "time": 0.0333, "x": -66.37, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 2, "y": 0.4 },
+					{ "time": 0.1666, "x": 2, "y": 0 }
+				]
+			},
+			"all": {
+				"scale": [
+					{ "time": 0, "x": 0.65, "y": 0.65 }
+				]
+			},
+			"fire_1": {
+				"translate": [
+					{ "time": 0, "x": -40.37, "y": 5.02 },
+					{ "time": 0.0666, "x": -84.36, "y": 23.08 },
+					{ "time": 0.2, "x": -108.83, "y": 23.66 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.3, "y": 0.3 },
+					{ "time": 0.0666, "x": 0.5, "y": 0.5 },
+					{ "time": 0.2, "x": 0.1, "y": 0.1 }
+				]
+			},
+			"fire_2": {
+				"translate": [
+					{ "time": 0, "x": -15.3, "y": -7.01 },
+					{ "time": 0.0666, "x": -69.8, "y": -39.56 },
+					{ "time": 0.2, "x": -96.07, "y": -49.96 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.4, "y": 0.4 },
+					{ "time": 0.0666, "x": 0.5, "y": 0.5 },
+					{ "time": 0.2, "x": 0.1, "y": 0.1 }
+				]
+			},
+			"fire_3": {
+				"translate": [
+					{ "time": 0.0333, "x": 6.84, "y": 3.56 },
+					{ "time": 0.1, "x": -43.89, "y": -19.19 },
+					{ "time": 0.2333, "x": -71.57, "y": -20.73 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 0.3, "y": 0.3 },
+					{ "time": 0.1, "x": 0.5, "y": 0.5 },
+					{ "time": 0.2333, "x": 0.1, "y": 0.1 }
+				]
+			},
+			"fire_4": {
+				"translate": [
+					{ "time": 0, "x": 17, "y": -2.8 },
+					{ "time": 0.0666, "x": -40.21, "y": 21.93 },
+					{ "time": 0.2333, "x": -59.45, "y": 27.93 },
+					{ "time": 0.3, "x": -73.94, "y": 30.18 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.2, "y": 0.2 },
+					{ "time": 0.0666, "x": 0.4, "y": 0.4 },
+					{ "time": 0.2333, "x": 0.1, "y": 0.1 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"nwhite_01": {
+					"common/white": [
+						{
+							"time": 0,
+							"vertices": [ -5.03989, 50.07394, -64.84792, 50.00592, -113.19405, -49.80996, -164.72089, -47.78396 ]
+						},
+						{
+							"time": 0.0333,
+							"vertices": [ 61.38447, 50.01895, -8.47428, 32.92928, -131.33481, -50.45138, -107.15257, -33.78146 ]
+						},
+						{
+							"time": 0.0666,
+							"vertices": [ 127.80884, 49.96396, 26.79165, 38.01571, -149.47556, -51.0928, -71.74727, -34.55429 ]
+						},
+						{
+							"time": 0.1,
+							"vertices": [ 208.57475, 49.96396, 22.84766, 49.02569, -219.89784, -49.24879, -77.03326, -47.5046 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ 326.9448, 49.96396, 22.33566, 49.72767, -334.02643, -49.24879, -77.66329, -49.1213 ]
+						}
+					]
+				},
+				"nwhite_02": {
+					"common/white": [
+						{
+							"time": 0,
+							"vertices": [ 3.47208, 1.178, -159.82202, 49.71401, -104.17401, 48.914, -162.79208, 0.42398, -103.83401, -48.76598, -160.26201, -47.1 ]
+						},
+						{
+							"time": 0.0333,
+							"vertices": [ 65.92292, 1.383, -100.99212, 28.60759, -96.78601, 45.27999, -194.99599, 0, -96.20401, -42.25604, -99.78904, -29.87378 ]
+						},
+						{
+							"time": 0.0666,
+							"vertices": [ 85.77893, 2.305, -20.10689, 43.71591, -56.55011, 43.84299, -150.74002, 0, -56.92608, -42.73504, -20.48692, -41.81587 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ 210.51996, 1.383, -17.2269, 49.59593, -57.1751, 49.66296, -213.72005, 0.15816, -57.08608, -48.92704, -17.08692, -49.05588 ]
+						}
+					]
+				}
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit" }
+		]
+	}
+}
+}

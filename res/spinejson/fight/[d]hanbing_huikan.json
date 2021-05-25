@@ -1,0 +1,126 @@
+{
+"skeleton": { "hash": "iFvCwHKem2rOJrA6KtzKDOatD3E", "spine": "2.1.27", "width": 200, "height": 200, "images": "../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "hanbing", "parent": "fx" },
+	{ "name": "end", "parent": "hanbing" },
+	{ "name": "s", "parent": "hanbing" },
+	{ "name": "particle", "parent": "s" },
+	{ "name": "start", "parent": "s" }
+],
+"slots": [
+	{ "name": "start", "bone": "start", "color": "ffffff00", "attachment": "hanbing_huikan/hanbing_huikan_01", "blend": "screen" },
+	{ "name": "end", "bone": "end", "color": "ffffff00", "attachment": "hanbing_huikan/hanbing_huikan_e_01", "blend": "additive" },
+	{ "name": "particle", "bone": "particle", "color": "ffffff00", "attachment": "common/particle_circle", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"end": {
+			"hanbing_huikan/hanbing_huikan_e_01": { "width": 60, "height": 60 },
+			"hanbing_huikan/hanbing_huikan_e_02": { "width": 60, "height": 60 },
+			"hanbing_huikan/hanbing_huikan_e_03": { "width": 60, "height": 60 },
+			"hanbing_huikan/hanbing_huikan_e_04": { "width": 60, "height": 60 }
+		},
+		"particle": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		},
+		"start": {
+			"hanbing_huikan/hanbing_huikan_01": { "width": 200, "height": 200 },
+			"hanbing_huikan/hanbing_huikan_02": { "width": 200, "height": 200 },
+			"hanbing_huikan/hanbing_huikan_03": { "width": 200, "height": 200 },
+			"hanbing_huikan/hanbing_huikan_04": { "width": 200, "height": 200 },
+			"hanbing_huikan/hanbing_huikan_05": { "width": 200, "height": 200 },
+			"hanbing_huikan/hanbing_huikan_06": { "width": 200, "height": 200 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"end": {
+				"attachment": [
+					{ "time": 0.0333, "name": "hanbing_huikan/hanbing_huikan_e_01" },
+					{ "time": 0.0666, "name": "hanbing_huikan/hanbing_huikan_e_02" },
+					{ "time": 0.1, "name": "hanbing_huikan/hanbing_huikan_e_03" },
+					{ "time": 0.1333, "name": "hanbing_huikan/hanbing_huikan_e_04" }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"particle": {
+				"color": [
+					{ "time": 0.0333, "color": "90d2ffff" },
+					{ "time": 0.2, "color": "0d8eff00" }
+				]
+			},
+			"start": {
+				"attachment": [
+					{ "time": 0, "name": "hanbing_huikan/hanbing_huikan_01" },
+					{ "time": 0.0333, "name": "hanbing_huikan/hanbing_huikan_02" },
+					{ "time": 0.0666, "name": "hanbing_huikan/hanbing_huikan_03" },
+					{ "time": 0.1, "name": "hanbing_huikan/hanbing_huikan_04" },
+					{ "time": 0.1333, "name": "hanbing_huikan/hanbing_huikan_05" },
+					{ "time": 0.1666, "name": "hanbing_huikan/hanbing_huikan_06" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"end": {
+				"translate": [
+					{ "time": 0.0333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 1.3, "y": 1.3 }
+				]
+			},
+			"particle": {
+				"translate": [
+					{ "time": 0.0333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0.0333,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.089, 0.16, 0.75, 1 ]
+					},
+					{ "time": 0.2, "x": 3.4, "y": 3.4 }
+				]
+			},
+			"start": {
+				"rotate": [
+					{ "time": 0, "angle": 20 }
+				],
+				"translate": [
+					{ "time": 0, "x": -40, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.7, "y": 0.7 }
+				]
+			},
+			"s": {
+				"translate": [
+					{ "time": 0, "x": -7.4, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.4, "y": 1.4 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0666, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

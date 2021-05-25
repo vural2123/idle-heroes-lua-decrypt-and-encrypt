@@ -1,0 +1,48 @@
+{
+"skeleton": {
+	"hash": "sAv19K5gQXcGZlZhz+EZHAemFXs",
+	"spine": "2.1.27",
+	"width": 173.51,
+	"height": 173.51,
+	"images": "./../../../pngs/animation/ui/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root" },
+	{ "name": "bone", "parent": "all", "scaleX": 0.867, "scaleY": 0.867 }
+],
+"slots": [
+	{ "name": "guaji/glow_sphere", "bone": "bone", "color": "ff7500ff", "attachment": "guaji/glow_sphere", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"guaji/glow_sphere": {
+			"guaji/glow_sphere": { "width": 200, "height": 200 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"guaji/glow_sphere": {
+				"color": [
+					{ "time": 0, "color": "ff690460" },
+					{ "time": 0.6333, "color": "ff7500ff" },
+					{ "time": 1.3666, "color": "ff7500ec" },
+					{ "time": 2.6666, "color": "ff690460" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 0.996, "y": 0.996 },
+					{ "time": 1, "x": 0.985, "y": 0.985 },
+					{ "time": 1.3666, "x": 0.882, "y": 0.882 },
+					{ "time": 2.6666, "x": 0.975, "y": 0.975 }
+				]
+			}
+		}
+	}
+}
+}

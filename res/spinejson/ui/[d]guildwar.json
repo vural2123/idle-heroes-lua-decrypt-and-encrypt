@@ -1,0 +1,208 @@
+{
+"skeleton": { "hash": "rlAK34pi8LQGkMChindiNuVbUng", "spine": "3.2.01", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "fx", "parent": "root" },
+	{ "name": "line", "parent": "fx", "x": 29, "y": -3 },
+	{ "name": "line2", "parent": "fx", "x": 124.4, "y": 35.8 },
+	{ "name": "line3", "parent": "fx", "x": -123.99, "y": 60.44 },
+	{ "name": "line4", "parent": "fx", "x": -12.72, "y": 85.01 }
+],
+"slots": [
+	{ "name": "common/line6", "bone": "line4", "attachment": "common/line3", "blend": "additive" },
+	{ "name": "guild/guildwar", "bone": "bone", "attachment": "guild/guildwar" },
+	{ "name": "common/line3", "bone": "line", "attachment": "common/line3", "blend": "additive" },
+	{ "name": "common/line4", "bone": "line2", "attachment": "common/line3", "blend": "additive" },
+	{ "name": "common/line5", "bone": "line3", "attachment": "common/line3", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"common/line3": {
+			"common/line3": {
+				"type": "mesh",
+				"color": "0bafffff",
+				"uvs": [ 0, 0, 0.5, 0, 1, 0, 1, 1, 0.5, 1, 0, 1 ],
+				"triangles": [ 5, 0, 1, 4, 1, 2, 5, 1, 4, 4, 2, 3 ],
+				"vertices": [ -12.31, 37.50999, 0, 37.50999, 12.31, 37.50999, 12.31, 2.96, 0, -1.96, -12.31, 2.96 ],
+				"hull": 6,
+				"edges": [ 0, 2, 2, 4, 6, 8, 8, 10, 10, 0, 4, 6 ],
+				"width": 20,
+				"height": 188
+			}
+		},
+		"common/line4": {
+			"common/line3": {
+				"type": "mesh",
+				"color": "0bafffff",
+				"uvs": [ 0, 0, 0.5, 0, 1, 0, 1, 1, 0.5, 1, 0, 1 ],
+				"triangles": [ 5, 0, 1, 4, 1, 2, 5, 1, 4, 4, 2, 3 ],
+				"vertices": [ -12.31, 37.50999, 0, 37.50999, 12.31, 37.50999, 12.31, 2.96, 0, -1.96, -12.31, 2.96 ],
+				"hull": 6,
+				"edges": [ 0, 2, 2, 4, 6, 8, 8, 10, 10, 0, 4, 6 ],
+				"width": 20,
+				"height": 188
+			}
+		},
+		"common/line5": {
+			"common/line3": {
+				"type": "mesh",
+				"color": "0bafffff",
+				"uvs": [ 0, 0, 0.5, 0, 1, 0, 1, 1, 0.5, 1, 0, 1 ],
+				"triangles": [ 5, 0, 1, 4, 1, 2, 5, 1, 4, 4, 2, 3 ],
+				"vertices": [ -12.31, 37.50999, 0, 37.50999, 12.31, 37.50999, 12.31, 2.96, 0, -1.96, -12.31, 2.96 ],
+				"hull": 6,
+				"edges": [ 0, 2, 2, 4, 6, 8, 8, 10, 10, 0, 4, 6 ],
+				"width": 20,
+				"height": 188
+			}
+		},
+		"common/line6": {
+			"common/line3": {
+				"type": "mesh",
+				"color": "0bafffff",
+				"uvs": [ 0, 0, 0.5, 0, 1, 0, 1, 1, 0.5, 1, 0, 1 ],
+				"triangles": [ 5, 0, 1, 4, 1, 2, 5, 1, 4, 4, 2, 3 ],
+				"vertices": [ -12.31, 37.50999, 0, 37.50999, 12.31, 37.50999, 12.31, 2.96, 0, -1.96, -12.31, 2.96 ],
+				"hull": 6,
+				"edges": [ 0, 2, 2, 4, 6, 8, 8, 10, 10, 0, 4, 6 ],
+				"width": 20,
+				"height": 188
+			}
+		},
+		"guild/guildwar": {
+			"guild/guildwar": { "y": 67, "width": 301, "height": 275 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/line3": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff63",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"color": "ffffffa8",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "color": "ffffff63" }
+				]
+			},
+			"common/line4": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff63",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"color": "ffffffa8",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "color": "ffffff63" }
+				]
+			},
+			"common/line5": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff63",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"color": "ffffffa8",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "color": "ffffff63" }
+				]
+			},
+			"common/line6": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff63",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"color": "ffffffa8",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "color": "ffffff63" }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"common/line3": {
+					"common/line3": [
+						{
+							"time": 0,
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							"time": 1.3333,
+							"offset": 1,
+							"vertices": [ -27, 0, -27, 0, -27 ],
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{ "time": 3.3333 }
+					]
+				},
+				"common/line4": {
+					"common/line3": [
+						{
+							"time": 0,
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							"time": 1.3333,
+							"offset": 1,
+							"vertices": [ -27, 0, -27, 0, -27 ],
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{ "time": 3.3333 }
+					]
+				},
+				"common/line5": {
+					"common/line3": [
+						{
+							"time": 0,
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							"time": 1.3333,
+							"offset": 1,
+							"vertices": [ -26.99999, 0, -26.99999, 0, -26.99999 ],
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{ "time": 3.3333 }
+					]
+				},
+				"common/line6": {
+					"common/line3": [
+						{
+							"time": 0,
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							"time": 1.3333,
+							"offset": 1,
+							"vertices": [ -27, 0, -27, 0, -27 ],
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{ "time": 3.3333 }
+					]
+				}
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,53 @@
+{
+"skeleton": { "hash": "kbb0kODTDz/sC0tG75labhX/uMs", "spine": "2.1.27", "width": 150, "height": 100, "images": "../" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "start", "parent": "fx" }
+],
+"slots": [
+	{ "name": "start", "bone": "start", "color": "ffffff00", "attachment": "hundundan/hundundan_start_01", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"start": {
+			"hundundan/hundundan_start_01": { "width": 150, "height": 100 },
+			"hundundan/hundundan_start_02": { "width": 150, "height": 100 },
+			"hundundan/hundundan_start_03": { "width": 150, "height": 100 },
+			"hundundan/hundundan_start_04": { "width": 150, "height": 100 },
+			"hundundan/hundundan_start_05": { "width": 150, "height": 100 },
+			"hundundan/hundundan_start_06": { "width": 150, "height": 100 },
+			"hundundan/hundundan_start_07": { "width": 150, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"start": {
+				"attachment": [
+					{ "time": 0, "name": "hundundan/hundundan_start_01" },
+					{ "time": 0.0333, "name": "hundundan/hundundan_start_02" },
+					{ "time": 0.0666, "name": "hundundan/hundundan_start_03" },
+					{ "time": 0.1, "name": "hundundan/hundundan_start_04" },
+					{ "time": 0.1333, "name": "hundundan/hundundan_start_05" },
+					{ "time": 0.1666, "name": "hundundan/hundundan_start_06" },
+					{ "time": 0.2, "name": "hundundan/hundundan_start_07" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"fx": {
+				"translate": [
+					{ "time": 0, "x": 25, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

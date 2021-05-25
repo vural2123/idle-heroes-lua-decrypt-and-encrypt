@@ -1,0 +1,64 @@
+{
+"skeleton": { "hash": "VwQPSKuzA0SdkX4D2JCkvb+7nSg", "spine": "2.1.27", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.338, "scaleY": 0.333 },
+	{ "name": "bone2", "parent": "root" }
+],
+"slots": [
+	{ "name": "hero_et/lvmax", "bone": "bone2", "attachment": "hero_et/lvmax" },
+	{ "name": "common/white", "bone": "bone", "color": "ffbf52dd", "attachment": "common/kuang_shine", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"common/white": {
+			"common/kuang_shine": {
+				"type": "mesh",
+				"uvs": [ 0, 0, 0.33333, 0, 0.66666, 0, 1, 0, 1, 0.33333, 1, 0.66666, 1, 1, 0.66666, 1, 0.33333, 1, 0, 1, 0, 0.66666, 0, 0.33333, 0.33333, 0.33333, 0.33333, 0.66666, 0.66666, 0.33333, 0.66666, 0.66666 ],
+				"triangles": [ 11, 0, 1, 12, 1, 2, 11, 1, 12, 14, 2, 3, 12, 2, 14, 14, 3, 4, 10, 11, 12, 13, 12, 14, 10, 12, 13, 15, 14, 4, 13, 14, 15, 15, 4, 5, 9, 10, 13, 8, 13, 15, 9, 13, 8, 7, 15, 5, 8, 15, 7, 7, 5, 6 ],
+				"vertices": [ -140.4, 50.6, -107.07, 50.6, 105.56, 50.6, 138.9, 50.6, 138.9, 17.27, 138.9, -16.06, 138.9, -49.39, 105.56, -49.39, -107.07, -49.39, -140.4, -49.39, -140.4, -16.06, -140.4, 17.27, -107.07, 17.27, -107.07, -16.06, 105.56, 17.27, 105.56, -16.06 ],
+				"hull": 12,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 0 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hero_et/lvmax": {
+			"hero_et/lvmax": { "width": 94, "height": 32 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/white": {
+				"color": [
+					{ "time": 0, "color": "ffbf521f" },
+					{ "time": 0.3333, "color": "ffbf526d" },
+					{
+						"time": 1,
+						"color": "ffbf52c3",
+						"curve": [ 0.734, 0, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "color": "ffbf5200" }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"common/white": {
+					"common/kuang_shine": [
+						{
+							"time": 0,
+							"offset": 4,
+							"vertices": [ -207.43028, 4.5E-4, -234.90865, 6.2E-4, -234.90865, 6.2E-4, -234.90865, 6.2E-4, -234.90865, 6.2E-4, -207.43028, 4.5E-4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -207.43028, 4.5E-4, -207.43028 ]
+						},
+						{ "time": 0.3333, "curve": "stepped" },
+						{ "time": 1 }
+					]
+				}
+			}
+		}
+	}
+}
+}

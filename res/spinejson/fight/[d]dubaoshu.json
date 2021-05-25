@@ -1,0 +1,129 @@
+{
+"skeleton": { "hash": "irNadm8dqutKlrp++vESKoF1b8A", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "halo", "parent": "fx" },
+	{ "name": "halo2", "parent": "fx" },
+	{ "name": "n_02", "parent": "fx" },
+	{ "name": "n_03", "parent": "fx" }
+],
+"slots": [
+	{ "name": "n_02", "bone": "n_02", "color": "ffffff00", "attachment": "dubaoshu/Cloud_Asset_5", "blend": "additive" },
+	{ "name": "n_03", "bone": "n_03", "color": "ffffff00", "attachment": "dubaoshu/n_explode_9", "blend": "additive" },
+	{ "name": "halo", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "halo2", "bone": "halo2", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"halo2": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"n_02": {
+			"dubaoshu/Cloud_Asset_1": { "width": 120, "height": 120 },
+			"dubaoshu/Cloud_Asset_2": { "width": 130, "height": 130 },
+			"dubaoshu/Cloud_Asset_3": { "width": 170, "height": 170 },
+			"dubaoshu/Cloud_Asset_4": { "width": 180, "height": 180 },
+			"dubaoshu/Cloud_Asset_5": { "width": 200, "height": 200 }
+		},
+		"n_03": {
+			"dubaoshu/n_explode_0": { "width": 180, "height": 180 },
+			"dubaoshu/n_explode_1": { "width": 180, "height": 180 },
+			"dubaoshu/n_explode_2": { "width": 180, "height": 180 },
+			"dubaoshu/n_explode_3": { "width": 180, "height": 180 },
+			"dubaoshu/n_explode_4": { "width": 180, "height": 180 },
+			"dubaoshu/n_explode_5": { "width": 180, "height": 180 },
+			"dubaoshu/n_explode_6": { "width": 180, "height": 180 },
+			"dubaoshu/n_explode_7": { "width": 180, "height": 180 },
+			"dubaoshu/n_explode_8": { "width": 180, "height": 180 },
+			"dubaoshu/n_explode_9": { "width": 180, "height": 180 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"halo": {
+				"color": [
+					{ "time": 0, "color": "ff6000ff" },
+					{ "time": 1.1666, "color": "ff600000" }
+				]
+			},
+			"halo2": {
+				"color": [
+					{ "time": 0, "color": "ff6000ff" },
+					{ "time": 1.1666, "color": "ff600000" }
+				]
+			},
+			"n_02": {
+				"attachment": [
+					{ "time": 0, "name": "dubaoshu/Cloud_Asset_1" },
+					{ "time": 0.0333, "name": "dubaoshu/Cloud_Asset_2" },
+					{ "time": 0.0666, "name": "dubaoshu/Cloud_Asset_3" },
+					{ "time": 0.1, "name": "dubaoshu/Cloud_Asset_4" },
+					{ "time": 0.1333, "name": "dubaoshu/Cloud_Asset_5" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.8666, "color": "ffffff00" }
+				]
+			},
+			"n_03": {
+				"attachment": [
+					{ "time": 0.0333, "name": "dubaoshu/n_explode_0" },
+					{ "time": 0.0666, "name": "dubaoshu/n_explode_1" },
+					{ "time": 0.1, "name": "dubaoshu/n_explode_2" },
+					{ "time": 0.1333, "name": "dubaoshu/n_explode_3" },
+					{ "time": 0.1666, "name": "dubaoshu/n_explode_4" },
+					{ "time": 0.2, "name": "dubaoshu/n_explode_5" },
+					{ "time": 0.2333, "name": "dubaoshu/n_explode_6" },
+					{ "time": 0.2666, "name": "dubaoshu/n_explode_7" },
+					{ "time": 0.3, "name": "dubaoshu/n_explode_8" },
+					{ "time": 0.3333, "name": "dubaoshu/n_explode_9" }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "caff00ff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "caff00ff" },
+					{ "time": 0.3666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"n_02": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": 1.4, "y": 1.4 }
+				]
+			},
+			"n_03": {
+				"scale": [
+					{ "time": 0.0333, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"halo": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.1666, "x": 2, "y": 2 }
+				]
+			},
+			"halo2": {
+				"scale": [
+					{ "time": 0, "x": 0.6, "y": 0.6 },
+					{ "time": 1.1666, "x": 1.5, "y": 1.5 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

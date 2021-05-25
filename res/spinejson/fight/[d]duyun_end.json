@@ -1,0 +1,84 @@
+{
+"skeleton": { "hash": "vAb9+nzKhuk9YSWgWGyc114XPQc", "spine": "2.1.27", "width": 400, "height": 400, "images": "./../" },
+"bones": [
+	{ "name": "duyun_end" },
+	{ "name": "duyun", "parent": "duyun_end" },
+	{ "name": "duyun_1", "parent": "duyun_end" }
+],
+"slots": [
+	{ "name": "duyun_1", "bone": "duyun_1", "color": "ffffff00", "attachment": "duyun/duyun_end_08" },
+	{ "name": "duyun", "bone": "duyun", "color": "ffffff00", "attachment": "duyun/duyun_end_01" }
+],
+"skins": {
+	"default": {
+		"duyun": {
+			"duyun/duyun_end_01": { "width": 400, "height": 400 },
+			"duyun/duyun_end_02": { "width": 400, "height": 400 },
+			"duyun/duyun_end_03": { "width": 400, "height": 400 },
+			"duyun/duyun_end_04": { "width": 400, "height": 400 },
+			"duyun/duyun_end_05": { "width": 400, "height": 400 },
+			"duyun/duyun_end_06": { "width": 400, "height": 400 },
+			"duyun/duyun_end_07": { "width": 400, "height": 400 }
+		},
+		"duyun_1": {
+			"duyun/duyun_end_08": { "width": 400, "height": 400 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"duyun": {
+				"attachment": [
+					{ "time": 0, "name": "duyun/duyun_end_01" },
+					{ "time": 0.0666, "name": "duyun/duyun_end_02" },
+					{ "time": 0.1333, "name": "duyun/duyun_end_03" },
+					{ "time": 0.2, "name": "duyun/duyun_end_04" },
+					{ "time": 0.2666, "name": "duyun/duyun_end_05" },
+					{ "time": 0.3333, "name": "duyun/duyun_end_06" },
+					{ "time": 0.4, "name": "duyun/duyun_end_07" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"duyun_1": {
+				"color": [
+					{
+						"time": 0.0666,
+						"color": "ffffffff",
+						"curve": [ 0, 0.59, 0.75, 1 ]
+					},
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"duyun": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 53.23 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"duyun_1": {
+				"translate": [
+					{ "time": 0.0666, "x": 0, "y": -0.96 }
+				],
+				"scale": [
+					{
+						"time": 0.0666,
+						"x": 0.399,
+						"y": 0.25,
+						"curve": [ 0, 0.39, 0.75, 1 ]
+					},
+					{ "time": 0.4, "x": 0.7, "y": 0.5 }
+				]
+			}
+		}
+	}
+}
+}

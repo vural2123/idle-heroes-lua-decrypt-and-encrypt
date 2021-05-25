@@ -1,0 +1,178 @@
+{
+"skeleton": { "hash": "yPAyvpUhcPy4BMZbeqI/xBLSZmU", "spine": "2.1.27", "width": 200, "height": 200, "images": "../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "lanseshandian", "parent": "fx" },
+	{ "name": "glow", "parent": "lanseshandian" },
+	{ "name": "jizhong", "parent": "lanseshandian" },
+	{ "name": "s", "parent": "lanseshandian" },
+	{ "name": "huikan", "parent": "s" },
+	{ "name": "huikan2", "parent": "s" }
+],
+"slots": [
+	{
+		"name": "lanseshandian_huikan/lanseshandian_huikan_01",
+		"bone": "huikan",
+		"color": "ffffff00",
+		"attachment": "lanseshandian_huikan/lanseshandian_huikan_01"
+	},
+	{
+		"name": "lanseshandian_huikan/lanseshandian_huikan_1",
+		"bone": "huikan2",
+		"color": "ffffff00",
+		"attachment": "lanseshandian_huikan/lanseshandian_huikan_01",
+		"blend": "screen"
+	},
+	{
+		"name": "lanseshandian_huikan/lanseshandian_jizhong_01",
+		"bone": "jizhong",
+		"color": "ffffff00",
+		"attachment": "lanseshandian_huikan/lanseshandian_jizhong_01",
+		"blend": "additive"
+	},
+	{ "name": "common/glow", "bone": "glow", "color": "ffffff00", "attachment": "common/glow", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"common/glow": {
+			"common/glow": { "width": 50, "height": 50 }
+		},
+		"lanseshandian_huikan/lanseshandian_huikan_01": {
+			"lanseshandian_huikan/lanseshandian_huikan_01": { "width": 200, "height": 200 },
+			"lanseshandian_huikan/lanseshandian_huikan_02": { "width": 200, "height": 200 },
+			"lanseshandian_huikan/lanseshandian_huikan_03": { "width": 200, "height": 200 },
+			"lanseshandian_huikan/lanseshandian_huikan_04": { "width": 200, "height": 200 },
+			"lanseshandian_huikan/lanseshandian_huikan_05": { "width": 200, "height": 200 },
+			"lanseshandian_huikan/lanseshandian_huikan_06": { "width": 200, "height": 200 }
+		},
+		"lanseshandian_huikan/lanseshandian_huikan_1": {
+			"lanseshandian_huikan/lanseshandian_huikan_01": { "width": 200, "height": 200 },
+			"lanseshandian_huikan/lanseshandian_huikan_02": { "width": 200, "height": 200 },
+			"lanseshandian_huikan/lanseshandian_huikan_03": { "width": 200, "height": 200 },
+			"lanseshandian_huikan/lanseshandian_huikan_04": { "width": 200, "height": 200 },
+			"lanseshandian_huikan/lanseshandian_huikan_05": { "width": 200, "height": 200 },
+			"lanseshandian_huikan/lanseshandian_huikan_06": { "width": 200, "height": 200 }
+		},
+		"lanseshandian_huikan/lanseshandian_jizhong_01": {
+			"lanseshandian_huikan/lanseshandian_jizhong_01": { "width": 64, "height": 64 },
+			"lanseshandian_huikan/lanseshandian_jizhong_02": { "width": 64, "height": 64 },
+			"lanseshandian_huikan/lanseshandian_jizhong_03": { "width": 64, "height": 64 },
+			"lanseshandian_huikan/lanseshandian_jizhong_04": { "width": 64, "height": 64 },
+			"lanseshandian_huikan/lanseshandian_jizhong_05": { "width": 64, "height": 64 },
+			"lanseshandian_huikan/lanseshandian_jizhong_06": { "width": 64, "height": 64 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/glow": {
+				"color": [
+					{
+						"time": 0,
+						"color": "00a0ffff",
+						"curve": [ 0.11, 0.38, 0.75, 1 ]
+					},
+					{ "time": 0.2333, "color": "0041ff00" }
+				]
+			},
+			"lanseshandian_huikan/lanseshandian_huikan_01": {
+				"attachment": [
+					{ "time": 0, "name": "lanseshandian_huikan/lanseshandian_huikan_01" },
+					{ "time": 0.0333, "name": "lanseshandian_huikan/lanseshandian_huikan_02" },
+					{ "time": 0.0666, "name": "lanseshandian_huikan/lanseshandian_huikan_03" },
+					{ "time": 0.1, "name": "lanseshandian_huikan/lanseshandian_huikan_04" },
+					{ "time": 0.1333, "name": "lanseshandian_huikan/lanseshandian_huikan_05" },
+					{ "time": 0.1666, "name": "lanseshandian_huikan/lanseshandian_huikan_06" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"lanseshandian_huikan/lanseshandian_huikan_1": {
+				"attachment": [
+					{ "time": 0, "name": "lanseshandian_huikan/lanseshandian_huikan_01" },
+					{ "time": 0.0333, "name": "lanseshandian_huikan/lanseshandian_huikan_02" },
+					{ "time": 0.0666, "name": "lanseshandian_huikan/lanseshandian_huikan_03" },
+					{ "time": 0.1, "name": "lanseshandian_huikan/lanseshandian_huikan_04" },
+					{ "time": 0.1333, "name": "lanseshandian_huikan/lanseshandian_huikan_05" },
+					{ "time": 0.1666, "name": "lanseshandian_huikan/lanseshandian_huikan_06" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"lanseshandian_huikan/lanseshandian_jizhong_01": {
+				"attachment": [
+					{ "time": 0.0333, "name": "lanseshandian_huikan/lanseshandian_jizhong_01" },
+					{ "time": 0.0666, "name": "lanseshandian_huikan/lanseshandian_jizhong_02" },
+					{ "time": 0.1, "name": "lanseshandian_huikan/lanseshandian_jizhong_03" },
+					{ "time": 0.1333, "name": "lanseshandian_huikan/lanseshandian_jizhong_04" },
+					{ "time": 0.1666, "name": "lanseshandian_huikan/lanseshandian_jizhong_05" },
+					{ "time": 0.2, "name": "lanseshandian_huikan/lanseshandian_jizhong_06" }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "fffffffe", "curve": "stepped" },
+					{ "time": 0.1666, "color": "fffffffe" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"glow": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 1.5,
+						"y": 1.5,
+						"curve": [ 0.094, 0.42, 0.75, 1 ]
+					},
+					{ "time": 0.2333, "x": 3.5, "y": 3.5 }
+				]
+			},
+			"huikan": {
+				"translate": [
+					{ "time": 0, "x": -42.19, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.714, "y": 0.714 }
+				]
+			},
+			"jizhong": {
+				"translate": [
+					{ "time": 0.0333, "x": 0, "y": 0 }
+				]
+			},
+			"s": {
+				"translate": [
+					{ "time": 0, "x": -5.85, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"huikan2": {
+				"translate": [
+					{ "time": 0, "x": -42.19, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.714, "y": 0.714 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

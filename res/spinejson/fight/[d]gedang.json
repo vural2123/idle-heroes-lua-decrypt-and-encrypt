@@ -1,0 +1,49 @@
+{
+"skeleton": { "hash": "g89N0idvEH9IVqxmyHXBi8ITu/Q", "spine": "2.1.27", "width": 256, "height": 256, "images": "G:/svn/animation/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "dang", "parent": "root" }
+],
+"slots": [
+	{ "name": "1", "bone": "dang", "attachment": "gedang/01_00004", "blend": "screen" }
+],
+"skins": {
+	"default": {
+		"1": {
+			"gedang/01_00000": { "width": 256, "height": 256 },
+			"gedang/01_00001": { "width": 256, "height": 256 },
+			"gedang/01_00002": { "width": 256, "height": 256 },
+			"gedang/01_00003": { "width": 256, "height": 256 },
+			"gedang/01_00004": { "width": 256, "height": 256 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "time": 0, "name": "gedang/01_00000" },
+					{ "time": 0.0666, "name": "gedang/01_00001" },
+					{ "time": 0.1, "name": "gedang/01_00002" },
+					{ "time": 0.1333, "name": "gedang/01_00003" },
+					{ "time": 0.1666, "name": "gedang/01_00004" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"dang": {
+				"translate": [
+					{ "time": 0, "x": 66.36, "y": 7.43 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.616, "y": 1.076 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,52 @@
+{
+"skeleton": { "hash": "2xBU4EW73Dk0ceXjJ45URdOdhu0", "spine": "2.1.27", "width": 226, "height": 107, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "FX", "parent": "code_shake" },
+	{ "name": "zhongji", "parent": "FX" },
+	{ "name": "zhongji_down", "parent": "zhongji" },
+	{ "name": "d_02", "parent": "zhongji_down" }
+],
+"slots": [
+	{ "name": "d_02", "bone": "d_02", "color": "ffffff00", "attachment": "common/t_liewen_2" }
+],
+"skins": {
+	"default": {
+		"d_02": {
+			"common/t_liewen_2": { "width": 226, "height": 107 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"d_02": {
+				"color": [
+					{ "time": 0, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "000000ff" },
+					{ "time": 0.6666, "color": "00000000" }
+				]
+			}
+		},
+		"bones": {
+			"FX": {
+				"translate": [
+					{ "time": 0, "x": 139.02, "y": 15.17 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"d_02": {
+				"translate": [
+					{ "time": 0, "x": -222.96, "y": -26.9 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.833 }
+				]
+			}
+		}
+	}
+}
+}

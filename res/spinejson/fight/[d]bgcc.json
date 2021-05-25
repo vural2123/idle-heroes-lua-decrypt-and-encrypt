@@ -1,0 +1,178 @@
+{
+"skeleton": { "hash": "n8r0eIOXOQa1AMwl/w9CBuBkAWw", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "all", "parent": "fx" },
+	{ "name": "halo2", "parent": "fx" },
+	{ "name": "bone", "parent": "all" },
+	{ "name": "halo", "parent": "all" },
+	{ "name": "nwhite_01", "parent": "all" },
+	{ "name": "nwhite_02", "parent": "all" },
+	{ "name": "end", "parent": "bone", "length": 91.04 },
+	{ "name": "chuoci", "parent": "end", "length": 98 }
+],
+"slots": [
+	{ "name": "nwhite_01", "bone": "nwhite_01", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "nwhite_02", "bone": "nwhite_02", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "halo", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "halo2", "bone": "halo2", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"halo2": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"nwhite_01": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"nwhite_02": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 0.50829, 1, 1, 0, 1, 0, 0.49945, 0, 0, 1, 0 ],
+				"triangles": [ 3, 4, 5, 3, 5, 0, 2, 3, 0, 2, 0, 1 ],
+				"vertices": [ 50, -0.82, 50, -50, -50, -50, -50, 0.05, -50, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 2, 4, 8, 10, 4, 6, 6, 8, 2, 0, 0, 10 ],
+				"width": 100,
+				"height": 100
+			}
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"halo": {
+				"color": [
+					{ "time": 0.0333, "color": "00a8ffff" },
+					{ "time": 0.1666, "color": "edeaffff" },
+					{ "time": 0.2, "color": "edeaff00" }
+				]
+			},
+			"halo2": {
+				"color": [
+					{ "time": 0.0333, "color": "3579ffff" },
+					{ "time": 0.0666, "color": "bdd4ffff" }
+				]
+			},
+			"nwhite_01": {
+				"color": [
+					{ "time": 0, "color": "ffffff3f" },
+					{ "time": 0.0666, "color": "ffffff66" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"nwhite_02": {
+				"color": [
+					{ "time": 0, "color": "0047ffa1" },
+					{ "time": 0.1, "color": "79adff93" },
+					{ "time": 0.2, "color": "008cff00" }
+				]
+			}
+		},
+		"bones": {
+			"chuoci": {
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 0.3 }
+				]
+			},
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"halo": {
+				"translate": [
+					{ "time": 0.0333, "x": -66.37, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 2, "y": 0.4 },
+					{ "time": 0.1666, "x": 2, "y": 0 }
+				]
+			},
+			"all": {
+				"scale": [
+					{ "time": 0, "x": 0.65, "y": 0.65 }
+				]
+			},
+			"halo2": {
+				"translate": [
+					{ "time": 0.0333, "x": -32.44, "y": 0 },
+					{ "time": 0.0666, "x": -7.25, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 1, "y": 1 },
+					{ "time": 0.0666, "x": 0.5, "y": 0.5 },
+					{ "time": 0.1666, "x": 0.5, "y": 0 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"nwhite_01": {
+					"common/white": [
+						{
+							"time": 0,
+							"vertices": [ -5.03989, 50.07394, -64.84792, 50.00592, -113.19405, -49.80996, -164.72089, -47.78396 ]
+						},
+						{
+							"time": 0.0333,
+							"vertices": [ 61.38447, 50.01895, -1.4343, 20.8293, -158.58398, -48.93755, -102.09255, -18.6015 ]
+						},
+						{
+							"time": 0.0666,
+							"vertices": [ 127.80884, 49.96396, 35.56703, 27.54187, -149.47556, -51.0928, -64.67036, -27.19428 ]
+						},
+						{
+							"time": 0.1,
+							"vertices": [ 208.57475, 49.96396, 22.84766, 49.02569, -219.89784, -49.24879, -77.03326, -47.5046 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ 326.9448, 49.96396, 22.33566, 49.72767, -334.02643, -49.24879, -77.66329, -49.1213 ]
+						}
+					]
+				},
+				"nwhite_02": {
+					"common/white": [
+						{
+							"time": 0,
+							"vertices": [ 3.47208, 1.178, -159.82202, 49.71401, -104.17401, 48.914, -162.79208, 0.42398, -103.83401, -48.76598, -160.26201, -47.1 ]
+						},
+						{
+							"time": 0.0333,
+							"vertices": [ 65.92292, 1.383, -100.77213, 18.92762, -96.78601, 45.27999, -194.99599, 0, -96.20401, -42.25604, -101.76904, -16.01381 ]
+						},
+						{
+							"time": 0.0666,
+							"vertices": [ 130.40654, 1.09883, -35.89147, 27.9313, 11.15748, 28.05839, -150.74002, 0, 1.22765, -30.68889, -18.67767, -33.2005 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ 210.51996, 1.383, -17.2269, 49.59593, -57.1751, 49.66296, -213.72005, 0.15816, -57.08608, -48.92704, -17.08692, -49.05588 ]
+						}
+					]
+				}
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit" }
+		]
+	}
+}
+}

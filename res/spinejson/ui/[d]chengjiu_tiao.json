@@ -1,0 +1,104 @@
+{
+"skeleton": {
+	"hash": "kBAOaUcljZi0sjJluqwIQyBpym4",
+	"spine": "2.1.27",
+	"width": 191.22,
+	"height": 25.53,
+	"images": "./../../pngs/animation/ui/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 0.896, "rotation": 90 },
+	{ "name": "shine", "parent": "root", "x": 86.1, "scaleX": 0.21, "scaleY": 0.3 }
+],
+"slots": [
+	{ "name": "common/line3", "bone": "bone", "color": "ff40ebff", "attachment": "common/line3", "blend": "additive" },
+	{ "name": "common/n_light", "bone": "shine", "color": "ff5ce1ff", "attachment": "common/n_light", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"common/line3": {
+			"common/line3": {
+				"type": "mesh",
+				"uvs": [ 0, 0, 0.5, 0, 1, 0, 1, 1, 0.76287, 1, 0.5, 1, 0.24138, 1, 0, 1 ],
+				"triangles": [ 6, 7, 0, 1, 6, 0, 4, 5, 1, 6, 1, 5, 2, 4, 1, 4, 2, 3 ],
+				"vertices": [ -7.65, 94, 0, 94, 7.65, 94, 7.65, -88.06, 4.02, -92.88, 0, -94, -3.95, -92.88, -7.65, -88.06 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 14, 0, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14 ],
+				"width": 20,
+				"height": 188
+			}
+		},
+		"common/n_light": {
+			"common/n_light": { "x": 10.23, "y": 0.46, "width": 85, "height": 85 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/line3": {
+				"color": [
+					{ "time": 0, "color": "ff40eb00" },
+					{ "time": 0.2333, "color": "ff1bb7ff" },
+					{ "time": 1.3333, "color": "ff9e449e" },
+					{ "time": 1.6666, "color": "ff40eb7b" },
+					{ "time": 2, "color": "ff40eb00" }
+				]
+			},
+			"common/n_light": {
+				"color": [
+					{ "time": 0, "color": "ff5ce1ff", "curve": "stepped" },
+					{ "time": 1.6666, "color": "ff5ce1ff" },
+					{ "time": 2, "color": "ff5ce100" }
+				]
+			}
+		},
+		"bones": {
+			"shine": {
+				"translate": [
+					{ "time": 0, "x": -240.07, "y": 0 },
+					{ "time": 0.2333, "x": -189.92, "y": 0 },
+					{ "time": 0.6666, "x": -102.43, "y": 0 },
+					{ "time": 1.1, "x": -10.66, "y": 0 },
+					{ "time": 1.3333, "x": 1.06, "y": 0, "curve": "stepped" },
+					{ "time": 1.6666, "x": 1.06, "y": 0 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"common/line3": {
+					"common/line3": [
+						{
+							"time": 0,
+							"offset": 1,
+							"vertices": [ 59.75198, 0, 59.75198, 0, 59.75198, 2.0E-5, 239.00781, 2.0E-5, 239.00781, 2.0E-5, 239.00781, 2.0E-5, 239.00781, 2.0E-5, 239.00781 ]
+						},
+						{
+							"time": 0.6666,
+							"offset": 1,
+							"vertices": [ 59.75198, 0, 59.75198, 0, 59.75198, 0, 101.36497, 0, 101.36497, 0, 101.36497, 0, 101.36497, 0, 101.36497 ]
+						},
+						{
+							"time": 1.1,
+							"offset": 1,
+							"vertices": [ -57.13647, 0, -57.13647, 0, -57.13647, 0, 11.02567, 0, 11.02567, 0, 11.02567, 0, 11.02567, 0, 11.02567 ]
+						},
+						{
+							"time": 1.3333,
+							"offset": 1,
+							"vertices": [ -143.5798, -1.0E-5, -143.5798, -1.0E-5, -143.5798, 0, 1.06707, 0, 1.06707, 0, 1.06707, 0, 1.06707, 0, 1.06707 ]
+						},
+						{
+							"time": 1.6666,
+							"offset": 1,
+							"vertices": [ -174.9878, -1.0E-5, -174.9878, -1.0E-5, -174.9878, 0, 1.06707, 0, 1.06707, 0, 1.06707, 0, 1.06707, 0, 1.06707 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

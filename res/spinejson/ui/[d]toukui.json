@@ -1,0 +1,81 @@
+{
+"skeleton": { "hash": "icAr/hE61yltH4D03H+RJ2ARNaM", "spine": "2.1.27", "width": 100, "height": 100, "images": "../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_toukui", "parent": "root" },
+	{ "name": "1", "parent": "code_toukui" },
+	{ "name": "guang", "parent": "code_toukui" },
+	{ "name": "toukuiliang", "parent": "code_toukui" }
+],
+"slots": [
+	{ "name": "zhaohuan/toukui_liang", "bone": "toukuiliang", "attachment": "zhaohuan/guang_00000" },
+	{ "name": "rw", "bone": "root" },
+	{ "name": "1", "bone": "1", "attachment": "zhaohuan/toukui_3" },
+	{ "name": "zhaohuan/guang_00000", "bone": "guang", "attachment": "zhaohuan/guang_00000" }
+],
+"skins": {
+	"default": {
+		"1": {
+			"zhaohuan/toukui_1": { "width": 66, "height": 53 },
+			"zhaohuan/toukui_2": { "width": 66, "height": 53 },
+			"zhaohuan/toukui_3": { "width": 66, "height": 53 }
+		},
+		"zhaohuan/guang_00000": {
+			"zhaohuan/guang_00000": { "width": 100, "height": 100 }
+		},
+		"zhaohuan/toukui_liang": {
+			"zhaohuan/guang_00000": { "width": 100, "height": 100 },
+			"zhaohuan/toukui_an": { "width": 66, "height": 53 },
+			"zhaohuan/toukui_liang": { "width": 66, "height": 53 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "time": 0, "name": "zhaohuan/toukui_1" },
+					{ "time": 0.0666, "name": "zhaohuan/toukui_1" },
+					{ "time": 0.1333, "name": "zhaohuan/toukui_2" },
+					{ "time": 0.3, "name": "zhaohuan/toukui_3" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5666, "color": "ffffff00" }
+				]
+			},
+			"zhaohuan/guang_00000": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.5666, "color": "ffffffff" },
+					{ "time": 0.8, "color": "ffffffbe" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"zhaohuan/toukui_liang": {
+				"attachment": [
+					{ "time": 0, "name": "zhaohuan/toukui_an" },
+					{ "time": 0.3666, "name": "zhaohuan/toukui_an" },
+					{ "time": 0.4333, "name": "zhaohuan/toukui_liang" },
+					{ "time": 0.7333, "name": "zhaohuan/toukui_liang" }
+				],
+				"color": [
+					{ "time": 0.4333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"guang": {
+				"translate": [
+					{ "time": 0, "x": -1.13, "y": -5.29, "curve": "stepped" },
+					{ "time": 0.5666, "x": -1.13, "y": -5.29 }
+				]
+			}
+		}
+	}
+}
+}

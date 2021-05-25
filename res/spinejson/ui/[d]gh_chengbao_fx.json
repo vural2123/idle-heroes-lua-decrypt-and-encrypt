@@ -1,0 +1,71 @@
+{
+"skeleton": {
+	"hash": "JaLy+ll58cMAjSxj/+/y2lVhnSE",
+	"spine": "2.1.27",
+	"width": 32.75,
+	"height": 32.75,
+	"images": "./../../pngs/animation/ui/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root", "scaleX": 0.22, "scaleY": 0.22 },
+	{ "name": "bone3", "parent": "bone2", "x": 3.24, "y": -0.02, "scaleX": 0.416, "scaleY": 0.416 },
+	{ "name": "bone4", "parent": "bone2", "x": 3.24, "y": 84.31 }
+],
+"slots": [
+	{ "name": "common/n_light", "bone": "bone3", "color": "0093ffff", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "common/xuanwo", "bone": "bone2", "attachment": "common/xuanwo" }
+],
+"skins": {
+	"default": {
+		"common/n_light": {
+			"common/n_light": { "scaleX": 4.189, "scaleY": 4.189, "width": 85, "height": 85 }
+		},
+		"common/xuanwo": {
+			"common/xuanwo": { "width": 126, "height": 126 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/n_light": {
+				"color": [
+					{ "time": 0, "color": "0093ffff" },
+					{ "time": 1.3666, "color": "0093ff62" },
+					{ "time": 2.7666, "color": "0093ffff" },
+					{ "time": 4.1333, "color": "0093ff62" },
+					{ "time": 5.5333, "color": "0093ffff" },
+					{ "time": 6.9, "color": "0093ff62" },
+					{ "time": 8.3333, "color": "0093ffff" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.4, "angle": -60 },
+					{ "time": 2.7666, "angle": -120 },
+					{ "time": 4.1666, "angle": -180 },
+					{ "time": 5.5666, "angle": -240 },
+					{ "time": 6.9666, "angle": -300 },
+					{ "time": 8.3333, "angle": 0 }
+				]
+			},
+			"bone3": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1.3666, "x": 1.186, "y": 1.186 },
+					{ "time": 2.7666, "x": 1.148, "y": 1.148 },
+					{ "time": 4.1333, "x": 1.186, "y": 1.186 },
+					{ "time": 5.5333, "x": 1.248, "y": 1.248 },
+					{ "time": 6.9, "x": 1.186, "y": 1.186 },
+					{ "time": 8.3333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

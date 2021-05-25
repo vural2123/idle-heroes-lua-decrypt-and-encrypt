@@ -1,0 +1,148 @@
+{
+"skeleton": { "hash": "J1KJAeSP4T9ssKkp3vZqPuSBO8Q", "spine": "2.1.27", "width": 365.26, "height": 340, "images": "./../" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "longjuan", "parent": "fx" },
+	{ "name": "end", "parent": "longjuan" },
+	{ "name": "end1", "parent": "end", "rotation": -150 },
+	{ "name": "end2", "parent": "end", "rotation": -150 },
+	{ "name": "glow", "parent": "end" },
+	{ "name": "halo", "parent": "end" }
+],
+"slots": [
+	{ "name": "end1", "bone": "end1", "color": "ffffff00", "attachment": "longjuanfeng/end_01", "blend": "additive" },
+	{ "name": "end2", "bone": "end2", "color": "ffffff00", "attachment": "longjuanfeng/end_01", "blend": "additive" },
+	{ "name": "halo", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "glow", "bone": "glow", "color": "ffffff00", "attachment": "common/particle_circle", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"end1": {
+			"longjuanfeng/end_01": { "x": -71.61, "y": 24.15, "width": 168, "height": 187 },
+			"longjuanfeng/end_02": { "x": -71.61, "y": 24.15, "width": 168, "height": 187 },
+			"longjuanfeng/end_03": { "x": -71.61, "y": 24.15, "width": 168, "height": 187 },
+			"longjuanfeng/end_04": { "x": -71.61, "y": 24.15, "width": 168, "height": 187 },
+			"longjuanfeng/end_05": { "x": -71.61, "y": 24.15, "width": 168, "height": 187 }
+		},
+		"end2": {
+			"longjuanfeng/end_01": { "x": -73.46, "y": 24.27, "width": 168, "height": 187 },
+			"longjuanfeng/end_02": { "x": -73.46, "y": 24.27, "width": 168, "height": 187 },
+			"longjuanfeng/end_03": { "x": -73.46, "y": 24.27, "width": 168, "height": 187 },
+			"longjuanfeng/end_04": { "x": -73.46, "y": 24.27, "width": 168, "height": 187 },
+			"longjuanfeng/end_05": { "x": -73.46, "y": 24.27, "width": 168, "height": 187 }
+		},
+		"glow": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		},
+		"halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"end1": {
+				"attachment": [
+					{ "time": 0, "name": "longjuanfeng/end_01" },
+					{ "time": 0.0333, "name": "longjuanfeng/end_02" },
+					{ "time": 0.0666, "name": "longjuanfeng/end_03" },
+					{ "time": 0.1, "name": "longjuanfeng/end_04" },
+					{ "time": 0.1333, "name": "longjuanfeng/end_05" }
+				],
+				"color": [
+					{ "time": 0, "color": "7c63ffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "7c63ffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"end2": {
+				"attachment": [
+					{ "time": 0, "name": "longjuanfeng/end_01" },
+					{ "time": 0.0333, "name": "longjuanfeng/end_02" },
+					{ "time": 0.0666, "name": "longjuanfeng/end_03" },
+					{ "time": 0.1, "name": "longjuanfeng/end_04" },
+					{ "time": 0.1333, "name": "longjuanfeng/end_05" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"glow": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0, 0.8, 0.75, 1 ]
+					},
+					{ "time": 0.1666, "color": "b9bfff00" }
+				]
+			},
+			"halo": {
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffff",
+						"curve": [ 0, 0.79, 0.75, 1 ]
+					},
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"end1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"end2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.65, "y": 0.65 }
+				]
+			},
+			"glow": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 2,
+						"y": 2,
+						"curve": [ 0, 0.79, 0.75, 1 ]
+					},
+					{ "time": 0.1666, "x": 4, "y": 4 }
+				]
+			},
+			"halo": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.5,
+						"y": 0.5,
+						"curve": [ 0, 0.79, 0.75, 1 ]
+					},
+					{ "time": 0.2333, "x": 1.5, "y": 1.5 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

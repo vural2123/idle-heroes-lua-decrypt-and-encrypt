@@ -1,0 +1,180 @@
+{
+"skeleton": { "hash": "XhA6M3sVQnyz07Vj+nfzv/12ASo", "spine": "2.1.27", "width": 400, "height": 128, "images": "G:/svn/pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "jg", "parent": "root" },
+	{ "name": "beidi", "parent": "jg" },
+	{ "name": "diyun1", "parent": "jg" },
+	{ "name": "guangtiao", "parent": "jg" },
+	{ "name": "guangtou", "parent": "jg" }
+],
+"slots": [
+	{ "name": "hongsejg/森林光速蓝_00000", "bone": "beidi", "attachment": "hongsejg/beidi_00000" },
+	{ "name": "hongsejg_end/ring_00000", "bone": "diyun1", "attachment": "hongsejg/ring_00000" },
+	{ "name": "1", "bone": "guangtiao", "attachment": "hongsejg/01_00004", "blend": "screen" },
+	{ "name": "hongsejg/32_00000", "bone": "guangtou", "attachment": "hongsejg/32_00000", "blend": "additive" },
+	{ "name": "3", "bone": "jg", "attachment": "3" }
+],
+"skins": {
+	"default": {
+		"1": {
+			"hongsejg/01_00000": { "width": 400, "height": 100 },
+			"hongsejg/01_00001": { "width": 400, "height": 100 },
+			"hongsejg/01_00002": { "width": 400, "height": 100 },
+			"hongsejg/01_00003": { "width": 400, "height": 100 },
+			"hongsejg/01_00004": { "width": 400, "height": 100 },
+			"hongsejg/01_00005": { "width": 400, "height": 100 }
+		},
+		"3": {
+			"3": {
+				"type": "boundingbox",
+				"vertices": [ -358.65887, 69.82397, -360.84283, -33.91597, 34.61993, -33.91597, 36.64196, 68.73196 ]
+			}
+		},
+		"hongsejg/32_00000": {
+			"hongsejg/32_00000": { "width": 128, "height": 128 }
+		},
+		"hongsejg/森林光速蓝_00000": {
+			"hongsejg/beidi_00000": { "width": 256, "height": 128 },
+			"hongsejg/森林光速蓝_00000": { "width": 512, "height": 256 }
+		},
+		"hongsejg_end/ring_00000": {
+			"hongsejg/ring_00000": { "width": 128, "height": 128 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "time": 0, "name": "hongsejg/01_00000" },
+					{ "time": 0.0666, "name": "hongsejg/01_00001" },
+					{ "time": 0.1333, "name": "hongsejg/01_00002" },
+					{ "time": 0.2, "name": "hongsejg/01_00003" },
+					{ "time": 0.2666, "name": "hongsejg/01_00004" },
+					{ "time": 0.3333, "name": "hongsejg/01_00005" },
+					{ "time": 0.4, "name": "hongsejg/01_00000" },
+					{ "time": 0.4666, "name": "hongsejg/01_00001" },
+					{ "time": 0.5333, "name": "hongsejg/01_00002" },
+					{ "time": 0.6, "name": "hongsejg/01_00003" },
+					{ "time": 0.6666, "name": "hongsejg/01_00004" },
+					{ "time": 0.7333, "name": "hongsejg/01_00005" },
+					{ "time": 0.8, "name": "hongsejg/01_00000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"hongsejg/32_00000": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffe1" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				]
+			},
+			"hongsejg/森林光速蓝_00000": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.0333, "color": "ffffff00" },
+					{ "time": 0.0666, "color": "2a0000ff" },
+					{ "time": 0.6666, "color": "310000ff" },
+					{ "time": 0.7, "color": "6e000000" }
+				]
+			},
+			"hongsejg_end/ring_00000": {
+				"color": [
+					{ "time": 0, "color": "38000000", "curve": "stepped" },
+					{ "time": 0.0666, "color": "38000000" },
+					{ "time": 0.1, "color": "380000ff", "curve": "stepped" },
+					{ "time": 0.6333, "color": "380000ff" },
+					{ "time": 0.6666, "color": "38000000" }
+				]
+			}
+		},
+		"bones": {
+			"guangtiao": {
+				"translate": [
+					{ "time": 0, "x": -180.91, "y": 16.33 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 1, "y": 0.237 },
+					{ "time": 0.1, "x": 1, "y": 0.96 },
+					{ "time": 0.1333, "x": 1, "y": 1.319 },
+					{ "time": 0.1666, "x": 1, "y": 0.47 },
+					{ "time": 0.2333, "x": 1, "y": 1.106 },
+					{ "time": 0.3, "x": 1, "y": 0.627 },
+					{ "time": 0.4, "x": 1, "y": 0.588 },
+					{ "time": 0.5666, "x": 1, "y": 0.512 },
+					{ "time": 0.7, "x": 1, "y": 0 }
+				]
+			},
+			"beidi": {
+				"translate": [
+					{ "time": 0, "x": -168.53, "y": 15.96 },
+					{ "time": 0.0666, "x": -192.97, "y": 15.96 },
+					{ "time": 0.1, "x": -168.53, "y": 15.96 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.698, "y": 0.268 },
+					{ "time": 0.0666, "x": 1.454, "y": 0.457 }
+				]
+			},
+			"guangtou": {
+				"translate": [
+					{ "time": 0, "x": -343.4, "y": 16.41, "curve": "stepped" },
+					{ "time": 0.1, "x": -343.4, "y": 16.41 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.689, "y": 0.689, "curve": "stepped" },
+					{ "time": 0.1, "x": 0.689, "y": 0.689 },
+					{ "time": 0.1666, "x": 0.81, "y": 0.81 },
+					{ "time": 0.2333, "x": 0.993, "y": 0.993 },
+					{ "time": 0.3, "x": 0.672, "y": 0.672 },
+					{ "time": 0.3333, "x": 1.002, "y": 1.002 },
+					{ "time": 0.4, "x": 0.938, "y": 0.938 },
+					{ "time": 0.4666, "x": 0.714, "y": 0.714 },
+					{ "time": 0.5333, "x": 0.614, "y": 0.614 },
+					{ "time": 0.6, "x": 0.813, "y": 0.813 },
+					{ "time": 0.6666, "x": 0.349, "y": 0.349 }
+				]
+			},
+			"diyun1": {
+				"translate": [
+					{ "time": 0, "x": -340.13, "y": 16.88, "curve": "stepped" },
+					{ "time": 0.1, "x": -340.13, "y": 16.88 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.934, "y": 0.934, "curve": "stepped" },
+					{ "time": 0.1, "x": 0.934, "y": 0.934 },
+					{ "time": 0.1333, "x": 1.317, "y": 1.317 },
+					{ "time": 0.2, "x": 1.377, "y": 1.377 },
+					{ "time": 0.2666, "x": 1.122, "y": 1.122 },
+					{ "time": 0.3333, "x": 1.262, "y": 1.262 },
+					{ "time": 0.3666, "x": 0.938, "y": 0.938 },
+					{ "time": 0.4333, "x": 1.212, "y": 1.212 },
+					{ "time": 0.5, "x": 1.023, "y": 1.023 },
+					{ "time": 0.5666, "x": 0.665, "y": 0.665 },
+					{ "time": 0.6333, "x": 0.481, "y": 0.481 }
+				]
+			},
+			"jg": {
+				"translate": [
+					{ "time": 0, "x": 360.52, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1666, "name": "hit" }
+		]
+	}
+}
+}

@@ -1,0 +1,42 @@
+{
+"skeleton": { "hash": "rPO4Y5ZAgv8rRtJeAXQ+E6ZxMNs", "spine": "2.1.27", "width": 339, "height": 235, "images": "../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "shandianjian", "parent": "root" },
+	{ "name": "jian", "parent": "shandianjian" }
+],
+"slots": [
+	{ "name": "jian", "bone": "jian", "attachment": "shandianjian/01_00000", "blend": "screen" }
+],
+"skins": {
+	"default": {
+		"jian": {
+			"shandianjian/01_00000": { "width": 339, "height": 235 },
+			"shandianjian/01_00001": { "width": 339, "height": 235 },
+			"shandianjian/01_00002": { "width": 339, "height": 235 },
+			"shandianjian/01_00003": { "width": 339, "height": 235 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"jian": {
+				"attachment": [
+					{ "time": 0, "name": "shandianjian/01_00000" },
+					{ "time": 0.1, "name": "shandianjian/01_00001" },
+					{ "time": 0.2, "name": "shandianjian/01_00002" },
+					{ "time": 0.3, "name": "shandianjian/01_00003" }
+				]
+			}
+		},
+		"bones": {
+			"jian": {
+				"scale": [
+					{ "time": 0, "x": 0.658, "y": 0.658 }
+				]
+			}
+		}
+	}
+}
+}

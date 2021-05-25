@@ -1,0 +1,55 @@
+{
+"skeleton": { "hash": "jm+Ag/V42YL0jcmahqdVK6Fcd84", "spine": "2.1.27", "width": 725, "height": 560, "images": "../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "lanse", "parent": "fx" },
+	{ "name": "n_01", "parent": "fx", "x": 160.92, "scaleX": 1.45, "scaleY": 1.4 }
+],
+"slots": [
+	{ "name": "bd", "bone": "lanse", "attachment": "bd" },
+	{ "name": "n_01", "bone": "n_01", "attachment": "lansejg/lansejg_asset_002", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ 1.97348, 13.63199, 1.60446, -14.21733, 323.04666, -14.21733, 323.37207, 12.525 ]
+			}
+		},
+		"n_01": {
+			"lansejg/lansejg_asset_000": { "width": 500, "height": 400 },
+			"lansejg/lansejg_asset_001": { "width": 500, "height": 400 },
+			"lansejg/lansejg_asset_002": { "width": 500, "height": 400 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"n_01": {
+				"attachment": [
+					{ "time": 0, "name": "lansejg/lansejg_asset_000" },
+					{ "time": 0.0333, "name": "lansejg/lansejg_asset_001" },
+					{ "time": 0.0666, "name": "lansejg/lansejg_asset_002" }
+				]
+			}
+		},
+		"bones": {
+			"n_01": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1, "y": 1 },
+					{ "time": 0.2333, "x": 1, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0666, "name": "hit" }
+		]
+	}
+}
+}

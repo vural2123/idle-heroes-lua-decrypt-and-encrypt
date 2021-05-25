@@ -1,0 +1,42 @@
+{
+"skeleton": { "hash": "LrTmjbfptGM3JT5NVk2tuZjE7mE", "spine": "2.1.27", "width": 180, "height": 72, "images": "./../" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "start", "parent": "fx" }
+],
+"slots": [
+	{ "name": "start", "bone": "start", "color": "ffffff00", "attachment": "duye/duye_start_01" }
+],
+"skins": {
+	"default": {
+		"start": {
+			"duye/duye_start_01": { "width": 180, "height": 72 },
+			"duye/duye_start_02": { "width": 180, "height": 72 },
+			"duye/duye_start_03": { "width": 180, "height": 72 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"start": {
+				"attachment": [
+					{ "time": 0, "name": "duye/duye_start_01" },
+					{ "time": 0.0666, "name": "duye/duye_start_02" },
+					{ "time": 0.1333, "name": "duye/duye_start_03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"start": {
+				"scale": [
+					{ "time": 0, "x": 1.4, "y": 1.4 }
+				]
+			}
+		}
+	}
+}
+}

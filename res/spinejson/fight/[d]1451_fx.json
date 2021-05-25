@@ -1,0 +1,103 @@
+{
+"skeleton": { "hash": "/U9Ti6nVIyjufZuYv37bOvxg62Q", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Self_FX", "parent": "root" },
+	{ "name": "halo", "parent": "root" },
+	{ "name": "arrow_1", "parent": "Self_FX" },
+	{ "name": "fx_1", "parent": "Self_FX" }
+],
+"slots": [
+	{ "name": "arrow_1", "bone": "arrow_1", "color": "ffffff00", "attachment": "1451_fx/Asset_Arrow" },
+	{ "name": "fx_1", "bone": "fx_1", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "halo", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"arrow_1": {
+			"1451_fx/Asset_Arrow": { "width": 200, "height": 25 }
+		},
+		"fx_1": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"arrow_1": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"fx_1": {
+				"color": [
+					{ "time": 0.3, "color": "0053ffff", "curve": "stepped" },
+					{ "time": 0.4666, "color": "0053ffff" },
+					{ "time": 0.5, "color": "0053ff00" }
+				]
+			},
+			"halo": {
+				"color": [
+					{ "time": 0.4666, "color": "0451ffff" },
+					{ "time": 0.6666, "color": "0451ff00" }
+				]
+			}
+		},
+		"bones": {
+			"arrow_1": {
+				"rotate": [
+					{ "time": 0.3, "angle": 80 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": -786.9, "y": 51.86 },
+					{ "time": 0.4666, "x": -732.88, "y": 357.97 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"fx_1": {
+				"rotate": [
+					{ "time": 0.3, "angle": -11 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": -786.85, "y": 57.08 },
+					{ "time": 0.4666, "x": -728.89, "y": 371.26 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 0.25, "y": 1.3 }
+				]
+			},
+			"Self_FX": {
+				"rotate": [
+					{ "time": 0, "angle": 30 }
+				],
+				"translate": [
+					{ "time": 0, "x": 664.44, "y": 416.91 }
+				]
+			},
+			"halo": {
+				"translate": [
+					{ "time": 0.4666, "x": -167.55, "y": 465.69 }
+				],
+				"scale": [
+					{ "time": 0.4666, "x": 8, "y": 2 },
+					{ "time": 0.6666, "x": 25, "y": 2 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.9333, "name": "hit" }
+		]
+	}
+}
+}

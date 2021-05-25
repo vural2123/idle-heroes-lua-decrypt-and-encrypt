@@ -1,0 +1,212 @@
+{
+"skeleton": { "hash": "zZsEuPk8lhy/NVrM4uHW6nvr2oo", "spine": "3.2.01", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "8", "parent": "root" },
+	{ "name": "fx_1", "parent": "8" },
+	{ "name": "fx_2", "parent": "8" },
+	{ "name": "fx_3", "parent": "8" },
+	{ "name": "fx_4", "parent": "8" },
+	{ "name": "fx_5", "parent": "8" },
+	{ "name": "fx_6", "parent": "8" },
+	{ "name": "fx_7", "parent": "8", "scaleX": 0.15, "scaleY": 0.15 },
+	{ "name": "icon", "parent": "8" },
+	{ "name": "shine", "parent": "8", "scaleX": 1.192, "scaleY": 1.192 },
+	{ "name": "shine2", "parent": "8", "scaleX": 1.192, "scaleY": 1.192 }
+],
+"slots": [
+	{ "name": "bg", "bone": "8", "attachment": "jjc/9_1" },
+	{ "name": "common/n_light", "bone": "shine", "color": "2c8fff00", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "fx_1", "bone": "fx_1", "color": "ffffff00", "attachment": "common/t_line4", "blend": "additive" },
+	{ "name": "fx_2", "bone": "fx_2", "color": "ffffff00", "attachment": "common/t_line4", "blend": "additive" },
+	{ "name": "fx_3", "bone": "fx_3", "color": "ffffff00", "attachment": "common/t_line4", "blend": "additive" },
+	{ "name": "fx_4", "bone": "fx_4", "color": "ffffff00", "attachment": "common/t_line4", "blend": "additive" },
+	{ "name": "fx_5", "bone": "fx_5", "color": "ffffff00", "attachment": "common/t_line4", "blend": "additive" },
+	{ "name": "fx_6", "bone": "fx_6", "color": "d4b1ff00", "attachment": "common/t_line4", "blend": "additive" },
+	{ "name": "icon", "bone": "icon", "attachment": "jjc/9" },
+	{ "name": "common/n_light2", "bone": "shine2", "color": "2c8fff00", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "bd", "bone": "root", "attachment": "bd" },
+	{ "name": "fx_7", "bone": "fx_7", "color": "0060ff00", "attachment": "common/s3", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -40.0055, 40.382, -39.41151, -41.61999, 40.18447, -42.21399, 40.18447, 40.56998 ]
+			}
+		},
+		"bg": {
+			"jjc/9_1": { "path": "jjc_icon/9_1", "width": 78, "height": 78 }
+		},
+		"common/n_light": {
+			"common/n_light": { "color": "ff07f8ff", "width": 85, "height": 85 }
+		},
+		"common/n_light2": {
+			"common/n_light": { "color": "ac00ffff", "width": 85, "height": 85 }
+		},
+		"fx_1": {
+			"common/t_line4": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -27.78, -36.95, -37.41, -15.31, -25.07, 36.86, -15.24, 36.8 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 14,
+				"height": 200
+			}
+		},
+		"fx_2": {
+			"common/t_line4": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -15.36, -37.15, -33.66, -36.75, -20.11, 36.75999, -9.49, 36.81 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 14,
+				"height": 200
+			}
+		},
+		"fx_3": {
+			"common/t_line4": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -1.44, -33.95, -16.86, -37.39, -9.07, 36.28, 1.38, 36.65 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 14,
+				"height": 200
+			}
+		},
+		"fx_4": {
+			"common/t_line4": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ -1.44, -33.95, 12.4, -37.03, 8.5, 36.52, 1.38, 36.65 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 14,
+				"height": 200
+			}
+		},
+		"fx_5": {
+			"common/t_line4": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 30.9, -37.12, 15.39, -36.28, 8.5, 36.52, 16.16, 36.09 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 14,
+				"height": 200
+			}
+		},
+		"fx_6": {
+			"common/t_line4": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 36.95, -23.24, 27.04, -37.18, 17.69, 37.18999, 26.91, 36.53 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 14,
+				"height": 200
+			}
+		},
+		"fx_7": {
+			"common/s3": { "scaleX": 5, "scaleY": 5, "width": 130, "height": 130 }
+		},
+		"icon": {
+			"jjc/9": { "path": "jjc_icon/9", "width": 78, "height": 78 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/n_light": {
+				"color": [
+					{ "time": 0, "color": "2c8fff00" },
+					{ "time": 0.2666, "color": "ffffff7e", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ffffff7e" },
+					{ "time": 1.0333, "color": "2c8fff00" },
+					{ "time": 1.3, "color": "ffffff7e", "curve": "stepped" },
+					{ "time": 1.6666, "color": "ffffff7e" },
+					{ "time": 2.0666, "color": "2c8fff00" }
+				]
+			},
+			"common/n_light2": {
+				"color": [
+					{ "time": 0, "color": "fffe0000" },
+					{ "time": 0.3666, "color": "fffe00ff" },
+					{ "time": 1.1666, "color": "fffe0000" }
+				]
+			},
+			"fx_1": {
+				"color": [
+					{ "time": 0.9333, "color": "d4b1ff00" },
+					{ "time": 1.4333, "color": "ff9d00ff" },
+					{ "time": 1.9333, "color": "d4b1ff00" }
+				]
+			},
+			"fx_2": {
+				"color": [
+					{ "time": 0.2666, "color": "d4b1ff00" },
+					{ "time": 0.7666, "color": "ff9d00ff" },
+					{ "time": 1.2666, "color": "d4b1ff00" }
+				]
+			},
+			"fx_3": {
+				"color": [
+					{ "time": 0, "color": "d4b1ff00" },
+					{ "time": 0.5, "color": "ff9d00ff" },
+					{ "time": 1, "color": "d4b1ff00" }
+				]
+			},
+			"fx_4": {
+				"color": [
+					{ "time": 0, "color": "d4b1ff00" },
+					{ "time": 0.5, "color": "ff9d00ff" },
+					{ "time": 1, "color": "d4b1ff00" }
+				]
+			},
+			"fx_5": {
+				"color": [
+					{ "time": 0.2666, "color": "d4b1ff00" },
+					{ "time": 0.7666, "color": "ff9d00ff" },
+					{ "time": 1.2666, "color": "d4b1ff00" }
+				]
+			},
+			"fx_6": {
+				"color": [
+					{ "time": 0.9333, "color": "d4b1ff00" },
+					{ "time": 1.4333, "color": "ff9d00ff" },
+					{ "time": 1.9333, "color": "d4b1ff00" }
+				]
+			},
+			"fx_7": {
+				"color": [
+					{ "time": 0, "color": "0060ff00" },
+					{ "time": 1, "color": "ff9d00ff" },
+					{ "time": 2.0666, "color": "0060ff00" }
+				]
+			}
+		},
+		"bones": {
+			"fx_7": {
+				"translate": [
+					{ "time": 0, "x": 0.9, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.399, "y": 0.399 },
+					{ "time": 2.0666, "x": 1.333, "y": 1.333 }
+				]
+			}
+		}
+	}
+}
+}

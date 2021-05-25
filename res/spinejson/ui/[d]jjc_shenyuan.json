@@ -1,0 +1,97 @@
+{
+"skeleton": { "hash": "5HwlxBTACZQUSXAYw1Um+mE7oKU", "spine": "3.2.01", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "1", "parent": "root" },
+	{ "name": "icon", "parent": "1" },
+	{ "name": "shine", "parent": "1" },
+	{ "name": "shine2", "parent": "1" }
+],
+"slots": [
+	{ "name": "bg", "bone": "1", "attachment": "jjc/4_1" },
+	{ "name": "common/n_light", "bone": "shine", "color": "2c8fff00", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "icon", "bone": "icon", "attachment": "jjc/4" },
+	{ "name": "common/n_light2", "bone": "shine2", "color": "2c8fff00", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "bd", "bone": "root", "attachment": "bd" }
+],
+"skins": {
+	"default": {
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -39.60401, 38.48938, -39.60401, -40.35062, 41.39598, -39.81062, 40.856, 39.02937 ]
+			}
+		},
+		"bg": {
+			"jjc/4_1": { "path": "jjc_icon/4_1", "width": 78, "height": 78 }
+		},
+		"common/n_light": {
+			"common/n_light": { "width": 85, "height": 85 }
+		},
+		"common/n_light2": {
+			"common/n_light": { "width": 85, "height": 85 }
+		},
+		"icon": {
+			"jjc/4": { "path": "jjc_icon/4", "width": 62, "height": 67 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/n_light": {
+				"color": [
+					{ "time": 0, "color": "ff491300" },
+					{ "time": 0.3, "color": "ff571f7d" },
+					{ "time": 0.7333, "color": "ff792da6" },
+					{ "time": 1.2, "color": "ff211000" },
+					{ "time": 1.5333, "color": "ff33337d" },
+					{ "time": 1.9666, "color": "ff6015a6" },
+					{ "time": 2.4333, "color": "ff491300" }
+				]
+			},
+			"common/n_light2": {
+				"color": [
+					{ "time": 0, "color": "ff000100" },
+					{ "time": 0.4333, "color": "ff6610ff" },
+					{ "time": 1.3666, "color": "ff000100" }
+				]
+			}
+		},
+		"bones": {
+			"shine": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3, "x": 1.355, "y": 1.355 },
+					{ "time": 0.7333, "x": 0.981, "y": 0.981 },
+					{ "time": 1.2, "x": 0.925, "y": 0.925 },
+					{ "time": 1.5333, "x": 1.076, "y": 1.076 },
+					{ "time": 1.9666, "x": 0.793, "y": 0.793 },
+					{ "time": 2.4333, "x": 1, "y": 1 }
+				]
+			},
+			"shine2": {
+				"scale": [
+					{ "time": 0, "x": 1.088, "y": 1.088, "curve": "stepped" },
+					{ "time": 1.3666, "x": 1.088, "y": 1.088 }
+				]
+			},
+			"icon": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.208, 0.68, 0.75, 1 ]
+					},
+					{
+						"time": 0.7333,
+						"angle": -43.95,
+						"curve": [ 0.27, 0.93, 0.75, 1 ]
+					},
+					{ "time": 2.4333, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

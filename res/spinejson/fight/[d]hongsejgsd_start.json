@@ -1,0 +1,71 @@
+{
+"skeleton": { "hash": "k9DNV86fQjWiPRXY3284dAtms8Y", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "self", "parent": "code_shake" },
+	{ "name": "self_01", "parent": "self" },
+	{ "name": "self_1", "parent": "self" }
+],
+"slots": [
+	{ "name": "bd", "bone": "root" },
+	{ "name": "self_01", "bone": "self_01", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "self_1", "bone": "self_1", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -2.60389, 23.33119, 1.19697, -26.2564, 361.29373, -28.75769, 362.66315, 24.09765 ]
+			}
+		},
+		"self_01": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"self_1": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"self_01": {
+				"color": [
+					{ "time": 0, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ff0000ff" },
+					{ "time": 0.3333, "color": "ff000000" }
+				]
+			},
+			"self_1": {
+				"color": [
+					{ "time": 0, "color": "fcf3ffc6" },
+					{ "time": 0.0666, "color": "fcf3ffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "fcf3ffff" },
+					{ "time": 0.3333, "color": "fcf3ff00" }
+				]
+			}
+		},
+		"bones": {
+			"self_01": {
+				"scale": [
+					{ "time": 0, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"self_1": {
+				"scale": [
+					{ "time": 0, "x": 0.3, "y": 0.3 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0666, "name": "hit" }
+		]
+	}
+}
+}

@@ -1,0 +1,2611 @@
+{
+"skeleton": { "hash": "0qHhx1hlOMNovqzrQAcUlblxej4", "spine": "2.1.27", "width": 430, "height": 320, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "FX", "parent": "code_shake" },
+	{ "name": "hyzb_up", "parent": "FX", "x": 150 },
+	{ "name": "black_shatter", "parent": "hyzb_up" },
+	{ "name": "ele_01", "parent": "hyzb_up" },
+	{ "name": "ele_02", "parent": "hyzb_up" },
+	{ "name": "ele_02-add", "parent": "hyzb_up" },
+	{ "name": "ele_03", "parent": "hyzb_up" },
+	{ "name": "h_pj_01", "parent": "hyzb_up" },
+	{ "name": "h_pj_01-add", "parent": "hyzb_up" },
+	{ "name": "h_pj_02", "parent": "hyzb_up" },
+	{ "name": "h_pj_02-add", "parent": "hyzb_up" },
+	{ "name": "h_pj_03", "parent": "hyzb_up" },
+	{ "name": "h_pj_03-add", "parent": "hyzb_up", "x": 4.63 },
+	{ "name": "h_pj_04", "parent": "hyzb_up" },
+	{ "name": "h_pj_04-add", "parent": "hyzb_up" },
+	{ "name": "n_shatter_shine_a", "parent": "hyzb_up" },
+	{ "name": "n_shatter_shine_b", "parent": "hyzb_up" },
+	{ "name": "n_shine_01", "parent": "hyzb_up" },
+	{ "name": "n_shine_02", "parent": "hyzb_up" },
+	{ "name": "n_shine_03", "parent": "hyzb_up" },
+	{ "name": "n_shine_04", "parent": "hyzb_up" },
+	{ "name": "up_particle", "parent": "hyzb_up" },
+	{ "name": "v_pj_01", "parent": "hyzb_up" },
+	{ "name": "v_pj_02", "parent": "hyzb_up" },
+	{ "name": "v_pj_03", "parent": "hyzb_up" },
+	{ "name": "v_pj_1-add", "parent": "hyzb_up" },
+	{ "name": "v_pj_2-add", "parent": "hyzb_up" },
+	{ "name": "v_pj_3-add", "parent": "hyzb_up" },
+	{ "name": "shatter_01", "parent": "black_shatter" },
+	{ "name": "shatter_02", "parent": "black_shatter" },
+	{ "name": "shatter_03", "parent": "black_shatter" },
+	{ "name": "shatter_04", "parent": "black_shatter" },
+	{ "name": "shatter_05", "parent": "black_shatter" },
+	{ "name": "shatter_06", "parent": "black_shatter" },
+	{ "name": "shatter_07", "parent": "black_shatter" },
+	{ "name": "shatter_08", "parent": "black_shatter" },
+	{ "name": "shatter_09", "parent": "black_shatter" },
+	{ "name": "shatter_10", "parent": "black_shatter" },
+	{ "name": "shatter_11", "parent": "black_shatter" },
+	{ "name": "shatter_12", "parent": "black_shatter" },
+	{ "name": "shatter_13", "parent": "black_shatter" },
+	{ "name": "shatter_14", "parent": "black_shatter" },
+	{ "name": "shatter_15", "parent": "black_shatter" },
+	{ "name": "shatter_16", "parent": "black_shatter" },
+	{ "name": "up_01", "parent": "up_particle" },
+	{ "name": "up_02", "parent": "up_particle" },
+	{ "name": "up_03", "parent": "up_particle" },
+	{ "name": "up_04", "parent": "up_particle" },
+	{ "name": "up_05", "parent": "up_particle" },
+	{ "name": "up_06", "parent": "up_particle" },
+	{ "name": "up_07", "parent": "up_particle" },
+	{ "name": "up_08", "parent": "up_particle" },
+	{ "name": "up_09", "parent": "up_particle" },
+	{ "name": "up_10", "parent": "up_particle" },
+	{ "name": "up_11", "parent": "up_particle" },
+	{ "name": "up_12", "parent": "up_particle" },
+	{ "name": "up_13", "parent": "up_particle" },
+	{ "name": "up_14", "parent": "up_particle" },
+	{ "name": "up_15", "parent": "up_particle" },
+	{ "name": "up_16", "parent": "up_particle" }
+],
+"slots": [
+	{
+		"name": "n_shatter_shine_a",
+		"bone": "n_shatter_shine_a",
+		"color": "ffffff00",
+		"attachment": "effects/n_ground_shine_a_12",
+		"blend": "additive"
+	},
+	{ "name": "n_shatter_shine_b", "bone": "n_shatter_shine_b", "color": "ffffff00", "blend": "additive" },
+	{ "name": "h_pj_01", "bone": "h_pj_01", "color": "ffffff00", "attachment": "effects/t_penjian_02" },
+	{ "name": "h_pj_01-add", "bone": "h_pj_01-add", "color": "ffffff00", "attachment": "effects/t_penjian_02", "blend": "additive" },
+	{ "name": "h_pj_02", "bone": "h_pj_02", "color": "ffffff00", "attachment": "effects/t_penjian_07" },
+	{ "name": "h_pj_02-add", "bone": "h_pj_02-add", "color": "ffffff00", "attachment": "effects/t_penjian_07", "blend": "additive" },
+	{ "name": "h_pj_03", "bone": "h_pj_03", "color": "ffffff00", "attachment": "effects/t_penjian_07" },
+	{ "name": "h_pj_03-add", "bone": "h_pj_03-add", "color": "ffffff00", "attachment": "effects/t_penjian_07", "blend": "additive" },
+	{ "name": "h_pj_04", "bone": "h_pj_04", "color": "ffffff00", "attachment": "effects/t_penjian_07" },
+	{ "name": "v_pj_01", "bone": "v_pj_01", "color": "ffffff00", "attachment": "effects/t_penjian_07", "blend": "additive" },
+	{ "name": "v_pj_1-add", "bone": "v_pj_1-add", "color": "ffffff00", "attachment": "effects/t_penjian_07", "blend": "additive" },
+	{ "name": "v_pj_02", "bone": "v_pj_02", "color": "ffffff00", "attachment": "effects/t_penjian_07", "blend": "additive" },
+	{ "name": "v_pj_2-add", "bone": "v_pj_2-add", "color": "ffffff00", "attachment": "effects/t_penjian_07", "blend": "additive" },
+	{ "name": "v_pj_03", "bone": "v_pj_03", "color": "ffffff00", "attachment": "effects/t_penjian_07", "blend": "additive" },
+	{ "name": "v_pj_3-add", "bone": "v_pj_3-add", "color": "ffffff00", "attachment": "effects/t_penjian_07", "blend": "additive" },
+	{ "name": "h_pj_04-add", "bone": "h_pj_04-add", "color": "ffffff00", "attachment": "effects/t_penjian_07", "blend": "additive" },
+	{ "name": "ele_01", "bone": "ele_01", "color": "ffffff00", "attachment": "effects/n_electground_0", "blend": "additive" },
+	{ "name": "ele_02", "bone": "ele_02", "color": "ffffff00", "attachment": "effects/n_electground_6", "blend": "additive" },
+	{ "name": "ele_03", "bone": "ele_03", "color": "ffffff00", "attachment": "effects/n_electground_6", "blend": "additive" },
+	{ "name": "ele_02-add", "bone": "ele_02-add", "color": "ffffff00", "attachment": "effects/n_electground_6", "blend": "additive" },
+	{ "name": "n_shine_01", "bone": "n_shine_01", "color": "ffffff00", "attachment": "effects/n_shine_v2", "blend": "additive" },
+	{ "name": "n_shine_02", "bone": "n_shine_02", "color": "ffffff00", "attachment": "effects/n_shine_v2", "blend": "additive" },
+	{ "name": "n_shine_03", "bone": "n_shine_03", "color": "ffffff00", "attachment": "effects/n_shine_v2", "blend": "additive" },
+	{ "name": "n_shine_04", "bone": "n_shine_04", "color": "ffffff00", "attachment": "effects/n_shine_v2", "blend": "additive" },
+	{ "name": "shatter_01", "bone": "shatter_01", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_02", "bone": "shatter_02", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_03", "bone": "shatter_03", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_04", "bone": "shatter_04", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_05", "bone": "shatter_05", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_06", "bone": "shatter_06", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_07", "bone": "shatter_07", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_08", "bone": "shatter_08", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_09", "bone": "shatter_09", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_10", "bone": "shatter_10", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_11", "bone": "shatter_11", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_12", "bone": "shatter_12", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_13", "bone": "shatter_13", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_14", "bone": "shatter_14", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_15", "bone": "shatter_15", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "shatter_16", "bone": "shatter_16", "color": "ffffff00", "attachment": "effects/white" },
+	{ "name": "up_01", "bone": "up_01", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_02", "bone": "up_02", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_03", "bone": "up_03", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_04", "bone": "up_04", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_05", "bone": "up_05", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_06", "bone": "up_06", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_07", "bone": "up_07", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_08", "bone": "up_08", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_09", "bone": "up_09", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_10", "bone": "up_10", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_11", "bone": "up_11", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_12", "bone": "up_12", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_13", "bone": "up_13", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_14", "bone": "up_14", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_15", "bone": "up_15", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "up_16", "bone": "up_16", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"ele_01": {
+			"effects/n_electground_0": { "path": "huoyanzhibian/n_electground_0", "width": 250, "height": 100 },
+			"effects/n_electground_2": { "path": "huoyanzhibian/n_electground_2", "width": 250, "height": 100 },
+			"effects/n_electground_3": { "path": "huoyanzhibian/n_electground_3", "width": 250, "height": 100 },
+			"effects/n_electground_5": { "path": "huoyanzhibian/n_electground_5", "width": 250, "height": 100 },
+			"effects/n_electground_6": { "path": "huoyanzhibian/n_electground_6", "width": 250, "height": 100 }
+		},
+		"ele_02": {
+			"effects/n_electground_0": { "path": "huoyanzhibian/n_electground_0", "width": 250, "height": 100 },
+			"effects/n_electground_2": { "path": "huoyanzhibian/n_electground_2", "width": 250, "height": 100 },
+			"effects/n_electground_3": { "path": "huoyanzhibian/n_electground_3", "width": 250, "height": 100 },
+			"effects/n_electground_5": { "path": "huoyanzhibian/n_electground_5", "width": 250, "height": 100 },
+			"effects/n_electground_6": { "path": "huoyanzhibian/n_electground_6", "width": 250, "height": 100 }
+		},
+		"ele_02-add": {
+			"effects/n_electground_0": { "path": "huoyanzhibian/n_electground_0", "width": 250, "height": 100 },
+			"effects/n_electground_2": { "path": "huoyanzhibian/n_electground_2", "width": 250, "height": 100 },
+			"effects/n_electground_3": { "path": "huoyanzhibian/n_electground_3", "width": 250, "height": 100 },
+			"effects/n_electground_5": { "path": "huoyanzhibian/n_electground_5", "width": 250, "height": 100 },
+			"effects/n_electground_6": { "path": "huoyanzhibian/n_electground_6", "width": 250, "height": 100 }
+		},
+		"ele_03": {
+			"effects/n_electground_0": { "path": "huoyanzhibian/n_electground_0", "width": 250, "height": 100 },
+			"effects/n_electground_2": { "path": "huoyanzhibian/n_electground_2", "width": 250, "height": 100 },
+			"effects/n_electground_3": { "path": "huoyanzhibian/n_electground_3", "width": 250, "height": 100 },
+			"effects/n_electground_5": { "path": "huoyanzhibian/n_electground_5", "width": 250, "height": 100 },
+			"effects/n_electground_6": { "path": "huoyanzhibian/n_electground_6", "width": 250, "height": 100 }
+		},
+		"h_pj_01": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"h_pj_01-add": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"h_pj_02": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"h_pj_02-add": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"h_pj_03": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"h_pj_03-add": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"h_pj_04": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"h_pj_04-add": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"n_shatter_shine_a": {
+			"effects/n_ground_shine_a_12": { "path": "huoyanzhibian/n_ground_shine_a_12", "width": 430, "height": 190 },
+			"effects/n_ground_shine_a_13": { "path": "huoyanzhibian/n_ground_shine_a_13", "width": 430, "height": 190 },
+			"effects/n_ground_shine_a_14": { "path": "huoyanzhibian/n_ground_shine_a_14", "width": 430, "height": 190 }
+		},
+		"n_shatter_shine_b": {
+			"effects/n_ground_shine_b_0": { "path": "huoyanzhibian/n_ground_shine_b_0", "width": 400, "height": 400 },
+			"effects/n_ground_shine_b_1": { "path": "huoyanzhibian/n_ground_shine_b_1", "width": 400, "height": 400 }
+		},
+		"n_shine_01": {
+			"effects/n_shine_v2": { "path": "huoyanzhibian/n_shine_v2", "width": 130, "height": 320 }
+		},
+		"n_shine_02": {
+			"effects/n_shine_v2": { "path": "huoyanzhibian/n_shine_v2", "width": 130, "height": 320 }
+		},
+		"n_shine_03": {
+			"effects/n_shine_v2": { "path": "huoyanzhibian/n_shine_v2", "width": 130, "height": 320 }
+		},
+		"n_shine_04": {
+			"effects/n_shine_v2": { "path": "huoyanzhibian/n_shine_v2", "width": 130, "height": 320 }
+		},
+		"shatter_01": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_02": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_03": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_04": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_05": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_06": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_07": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_08": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_09": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_10": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_11": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_12": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_13": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_14": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_15": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"shatter_16": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49823, 1, 1, 0.50251, 1, 0, 1, 0, 0.50325, 0, 0, 0.49749, 0, 1, 0 ],
+				"triangles": [ 6, 7, 0, 4, 5, 6, 2, 4, 6, 2, 3, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 50, 0.17, 50, -50, 0.25, -50, -50, -50, -50, -0.32, -50, 50, -0.25, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 6, 8, 8, 10, 10, 12, 12, 14, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_01": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_02": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_03": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_04": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_05": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_06": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_07": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_08": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_09": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_10": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_11": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_12": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_13": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_14": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_15": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"up_16": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"v_pj_01": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"v_pj_02": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"v_pj_03": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"v_pj_1-add": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"v_pj_2-add": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		},
+		"v_pj_3-add": {
+			"effects/t_penjian_00": { "path": "huoyanzhibian/t_penjian_00", "width": 100, "height": 160 },
+			"effects/t_penjian_01": { "path": "huoyanzhibian/t_penjian_01", "width": 100, "height": 160 },
+			"effects/t_penjian_02": { "path": "huoyanzhibian/t_penjian_02", "width": 100, "height": 160 },
+			"effects/t_penjian_03": { "path": "huoyanzhibian/t_penjian_03", "width": 100, "height": 160 },
+			"effects/t_penjian_04": { "path": "huoyanzhibian/t_penjian_04", "width": 100, "height": 160 },
+			"effects/t_penjian_05": { "path": "huoyanzhibian/t_penjian_05", "width": 100, "height": 160 },
+			"effects/t_penjian_06": { "path": "huoyanzhibian/t_penjian_06", "width": 100, "height": 160 },
+			"effects/t_penjian_07": { "path": "huoyanzhibian/t_penjian_07", "width": 100, "height": 160 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"ele_01": {
+				"attachment": [
+					{ "time": 0, "name": "effects/n_electground_0" },
+					{ "time": 0.0666, "name": "effects/n_electground_2" },
+					{ "time": 0.1, "name": "effects/n_electground_3" },
+					{ "time": 0.1666, "name": "effects/n_electground_5" },
+					{ "time": 0.2, "name": "effects/n_electground_6" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffae99ff", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffae99ff" },
+					{ "time": 0.2333, "color": "b588ff00" }
+				]
+			},
+			"ele_02": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effects/n_electground_0" },
+					{ "time": 0.1333, "name": "effects/n_electground_2" },
+					{ "time": 0.1666, "name": "effects/n_electground_3" },
+					{ "time": 0.2333, "name": "effects/n_electground_5" },
+					{ "time": 0.2666, "name": "effects/n_electground_6" }
+				],
+				"color": [
+					{ "time": 0.0666, "color": "ffae99ff", "curve": "stepped" },
+					{ "time": 0.2666, "color": "ffae99ff" },
+					{ "time": 0.3, "color": "b588ff00" }
+				]
+			},
+			"ele_03": {
+				"attachment": [
+					{ "time": 0.1666, "name": "effects/n_electground_0" },
+					{ "time": 0.2333, "name": "effects/n_electground_2" },
+					{ "time": 0.2666, "name": "effects/n_electground_3" },
+					{ "time": 0.3333, "name": "effects/n_electground_5" },
+					{ "time": 0.3666, "name": "effects/n_electground_6" }
+				],
+				"color": [
+					{ "time": 0.1666, "color": "ffae99ff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "ffae99ff" },
+					{ "time": 0.4, "color": "b588ff00" }
+				]
+			},
+			"ele_02-add": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effects/n_electground_0" },
+					{ "time": 0.1333, "name": "effects/n_electground_2" },
+					{ "time": 0.1666, "name": "effects/n_electground_3" },
+					{ "time": 0.2, "name": "effects/n_electground_3" },
+					{ "time": 0.2333, "name": "effects/n_electground_5" },
+					{ "time": 0.2666, "name": "effects/n_electground_6" }
+				],
+				"color": [
+					{ "time": 0.0666, "color": "ff5b00ff" },
+					{ "time": 0.2666, "color": "ff7600ff" },
+					{ "time": 0.3, "color": "b588ff00" }
+				]
+			},
+			"h_pj_01": {
+				"attachment": [
+					{ "time": 0, "name": "effects/t_penjian_02" },
+					{ "time": 0.0333, "name": "effects/t_penjian_03" },
+					{ "time": 0.0666, "name": "effects/t_penjian_04" },
+					{ "time": 0.1, "name": "effects/t_penjian_05" },
+					{ "time": 0.1333, "name": "effects/t_penjian_06" },
+					{ "time": 0.1666, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ff0000ff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"h_pj_02": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effects/t_penjian_00" },
+					{ "time": 0.1, "name": "effects/t_penjian_01" },
+					{ "time": 0.1333, "name": "effects/t_penjian_02" },
+					{ "time": 0.1666, "name": "effects/t_penjian_03" },
+					{ "time": 0.2, "name": "effects/t_penjian_04" },
+					{ "time": 0.2333, "name": "effects/t_penjian_05" },
+					{ "time": 0.2666, "name": "effects/t_penjian_06" },
+					{ "time": 0.3, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.0666, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ff0000ff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"h_pj_03": {
+				"attachment": [
+					{ "time": 0.1333, "name": "effects/t_penjian_02" },
+					{ "time": 0.1666, "name": "effects/t_penjian_03" },
+					{ "time": 0.2, "name": "effects/t_penjian_04" },
+					{ "time": 0.2333, "name": "effects/t_penjian_05" },
+					{ "time": 0.2666, "name": "effects/t_penjian_06" },
+					{ "time": 0.3, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.1333, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ff0000ff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"h_pj_04": {
+				"attachment": [
+					{ "time": 0.2, "name": "effects/t_penjian_02" },
+					{ "time": 0.2333, "name": "effects/t_penjian_03" },
+					{ "time": 0.2666, "name": "effects/t_penjian_04" },
+					{ "time": 0.3, "name": "effects/t_penjian_05" },
+					{ "time": 0.3333, "name": "effects/t_penjian_06" },
+					{ "time": 0.3666, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "ff0000ff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"h_pj_01-add": {
+				"attachment": [
+					{ "time": 0, "name": "effects/t_penjian_02" },
+					{ "time": 0.0333, "name": "effects/t_penjian_03" },
+					{ "time": 0.0666, "name": "effects/t_penjian_04" },
+					{ "time": 0.1, "name": "effects/t_penjian_05" },
+					{ "time": 0.1333, "name": "effects/t_penjian_06" },
+					{ "time": 0.1666, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"h_pj_02-add": {
+				"attachment": [
+					{ "time": 0.0666, "name": "effects/t_penjian_00" },
+					{ "time": 0.1, "name": "effects/t_penjian_01" },
+					{ "time": 0.1333, "name": "effects/t_penjian_02" },
+					{ "time": 0.1666, "name": "effects/t_penjian_03" },
+					{ "time": 0.2, "name": "effects/t_penjian_04" },
+					{ "time": 0.2333, "name": "effects/t_penjian_05" },
+					{ "time": 0.2666, "name": "effects/t_penjian_06" },
+					{ "time": 0.3, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.0666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"h_pj_03-add": {
+				"attachment": [
+					{ "time": 0.1333, "name": "effects/t_penjian_02" },
+					{ "time": 0.1666, "name": "effects/t_penjian_03" },
+					{ "time": 0.2, "name": "effects/t_penjian_04" },
+					{ "time": 0.2333, "name": "effects/t_penjian_05" },
+					{ "time": 0.2666, "name": "effects/t_penjian_06" },
+					{ "time": 0.3, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"h_pj_04-add": {
+				"attachment": [
+					{ "time": 0.2, "name": "effects/t_penjian_02" },
+					{ "time": 0.2333, "name": "effects/t_penjian_03" },
+					{ "time": 0.2666, "name": "effects/t_penjian_04" },
+					{ "time": 0.3, "name": "effects/t_penjian_05" },
+					{ "time": 0.3333, "name": "effects/t_penjian_06" },
+					{ "time": 0.3666, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"n_shatter_shine_a": {
+				"attachment": [
+					{ "time": 0, "name": "effects/n_ground_shine_a_12" },
+					{ "time": 0.0333, "name": "effects/n_ground_shine_a_13" },
+					{ "time": 0.0666, "name": "effects/n_ground_shine_a_14" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffad82ff" },
+					{ "time": 0.5, "color": "ff5a00ff" },
+					{ "time": 0.8333, "color": "ff5a0000" }
+				]
+			},
+			"n_shatter_shine_b": {
+				"attachment": [
+					{ "time": 0.2, "name": "effects/n_ground_shine_b_0" },
+					{ "time": 0.2333, "name": "effects/n_ground_shine_b_1" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"n_shine_01": {
+				"color": [
+					{ "time": 0.2, "color": "ff0000ff" },
+					{ "time": 0.7, "color": "ff000000" }
+				]
+			},
+			"n_shine_02": {
+				"color": [
+					{ "time": 0.2, "color": "ff8c00ff" },
+					{ "time": 0.7, "color": "ff000000" }
+				]
+			},
+			"n_shine_03": {
+				"color": [
+					{ "time": 0.2, "color": "ff8c00ff" },
+					{ "time": 0.6666, "color": "ff5a0000" }
+				]
+			},
+			"n_shine_04": {
+				"color": [
+					{ "time": 0.2, "color": "ff6961ff" },
+					{ "time": 0.6666, "color": "ff060000" }
+				]
+			},
+			"shatter_01": {
+				"color": [
+					{ "time": 0, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "000000ff" },
+					{ "time": 0.4, "color": "00000000" }
+				]
+			},
+			"shatter_02": {
+				"color": [
+					{ "time": 0, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.4, "color": "000000ff" },
+					{ "time": 0.4333, "color": "00000000" }
+				]
+			},
+			"shatter_03": {
+				"color": [
+					{ "time": 0, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "000000ff" },
+					{ "time": 0.4, "color": "00000000" }
+				]
+			},
+			"shatter_04": {
+				"color": [
+					{ "time": 0.0333, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "000000ff" },
+					{ "time": 0.4, "color": "00000000" }
+				]
+			},
+			"shatter_05": {
+				"color": [
+					{ "time": 0.0333, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.5, "color": "000000ff" },
+					{ "time": 0.5333, "color": "00000000" }
+				]
+			},
+			"shatter_06": {
+				"color": [
+					{ "time": 0.0666, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.4, "color": "000000ff" },
+					{ "time": 0.4333, "color": "00000000" }
+				]
+			},
+			"shatter_07": {
+				"color": [
+					{ "time": 0.0666, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.5, "color": "000000ff" },
+					{ "time": 0.6, "color": "00000000" }
+				]
+			},
+			"shatter_08": {
+				"color": [
+					{ "time": 0.0666, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.7666, "color": "000000ff" },
+					{ "time": 0.8, "color": "00000000" }
+				]
+			},
+			"shatter_09": {
+				"color": [
+					{ "time": 0.1666, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "000000ff" },
+					{ "time": 0.7666, "color": "00000000" }
+				]
+			},
+			"shatter_10": {
+				"color": [
+					{ "time": 0.1666, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.4, "color": "000000ff" },
+					{ "time": 0.4666, "color": "00000000" }
+				]
+			},
+			"shatter_11": {
+				"color": [
+					{ "time": 0.2333, "color": "000000dc", "curve": "stepped" },
+					{ "time": 0.5666, "color": "000000dc" },
+					{ "time": 0.8333, "color": "00000000" }
+				]
+			},
+			"shatter_12": {
+				"color": [
+					{ "time": 0.2, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "000000ff" },
+					{ "time": 0.4, "color": "00000000" }
+				]
+			},
+			"shatter_13": {
+				"color": [
+					{ "time": 0.1666, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.2666, "color": "000000ff" },
+					{ "time": 0.3666, "color": "00000000" }
+				]
+			},
+			"shatter_14": {
+				"color": [
+					{ "time": 0.1333, "color": "000000cb", "curve": "stepped" },
+					{ "time": 0.5, "color": "000000cb" },
+					{ "time": 0.5666, "color": "00000000" }
+				]
+			},
+			"shatter_15": {
+				"color": [
+					{ "time": 0, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.7, "color": "000000ff" },
+					{ "time": 0.7333, "color": "00000000" }
+				]
+			},
+			"shatter_16": {
+				"color": [
+					{ "time": 0.2666, "color": "000000a7", "curve": "stepped" },
+					{ "time": 0.5333, "color": "000000a7" },
+					{ "time": 0.6, "color": "00000000" }
+				]
+			},
+			"up_01": {
+				"color": [
+					{ "time": 0, "color": "cb8effff" },
+					{ "time": 0.5666, "color": "ac57ffff" },
+					{ "time": 0.6, "color": "fbfcff00" }
+				]
+			},
+			"up_02": {
+				"color": [
+					{ "time": 0, "color": "ff0c00fa", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ff0c00fa" },
+					{ "time": 0.2333, "color": "ff0c0000" }
+				]
+			},
+			"up_03": {
+				"color": [
+					{ "time": 0.0666, "color": "ff0c00fa", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ff0c00fa" },
+					{ "time": 0.4, "color": "ff0c0000" }
+				]
+			},
+			"up_04": {
+				"color": [
+					{ "time": 0.1, "color": "d1c5ffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "d1c5ffff" },
+					{ "time": 0.4, "color": "d1c5ff00" }
+				]
+			},
+			"up_05": {
+				"color": [
+					{ "time": 0.1, "color": "dbb9ffff", "curve": "stepped" },
+					{ "time": 0.2333, "color": "dbb9ffff" },
+					{ "time": 0.2666, "color": "dbb9ff00" }
+				]
+			},
+			"up_06": {
+				"color": [
+					{ "time": 0.2333, "color": "ff0c00fa", "curve": "stepped" },
+					{ "time": 0.7, "color": "ff0c00fa" },
+					{ "time": 0.7333, "color": "caa6ff00" }
+				]
+			},
+			"up_07": {
+				"color": [
+					{ "time": 0.2666, "color": "eecbfff8", "curve": "stepped" },
+					{ "time": 0.8, "color": "eecbfff8" },
+					{ "time": 0.8333, "color": "eecbff00" }
+				]
+			},
+			"up_08": {
+				"color": [
+					{ "time": 0.2333, "color": "ff0c00fa", "curve": "stepped" },
+					{ "time": 0.7666, "color": "ff0c00fa" },
+					{ "time": 0.8, "color": "c9a6ff00" }
+				]
+			},
+			"up_09": {
+				"color": [
+					{ "time": 0.4666, "color": "c4a9ffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "c4a9ffff" },
+					{ "time": 0.8666, "color": "c4a9ff00" }
+				]
+			},
+			"up_10": {
+				"color": [
+					{ "time": 0.3666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7666, "color": "ffffffff" },
+					{ "time": 0.8, "color": "ffffff00" }
+				]
+			},
+			"up_11": {
+				"color": [
+					{ "time": 0.3666, "color": "d8b1ffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "d8b1ffff" },
+					{ "time": 0.8333, "color": "d8b1ff00" }
+				]
+			},
+			"up_12": {
+				"color": [
+					{ "time": 0.4333, "color": "ff0c00fa", "curve": "stepped" },
+					{ "time": 0.7, "color": "ff0c00fa" },
+					{ "time": 0.8, "color": "ff0c0000" }
+				]
+			},
+			"up_13": {
+				"color": [
+					{ "time": 0.0666, "color": "ff0c00fa", "curve": "stepped" },
+					{ "time": 0.6333, "color": "ff0c00fa" },
+					{ "time": 0.7666, "color": "ff0c0000" }
+				]
+			},
+			"up_14": {
+				"color": [
+					{ "time": 0, "color": "ff0c00fa", "curve": "stepped" },
+					{ "time": 0.3666, "color": "ff0c00fa" },
+					{ "time": 0.4333, "color": "ff0c0000" }
+				]
+			},
+			"up_15": {
+				"color": [
+					{ "time": 0.3666, "color": "c8b2ffee" },
+					{ "time": 0.7333, "color": "e3bffff1" },
+					{ "time": 0.8, "color": "ffffff00" }
+				]
+			},
+			"up_16": {
+				"color": [
+					{ "time": 0.4333, "color": "ff0c00fa", "curve": "stepped" },
+					{ "time": 0.8, "color": "ff0c00fa" },
+					{ "time": 0.8333, "color": "d6b2ff00" }
+				]
+			},
+			"v_pj_01": {
+				"attachment": [
+					{ "time": 0.1333, "name": "effects/t_penjian_00" },
+					{ "time": 0.1666, "name": "effects/t_penjian_01" },
+					{ "time": 0.2, "name": "effects/t_penjian_02" },
+					{ "time": 0.2333, "name": "effects/t_penjian_03" },
+					{ "time": 0.2666, "name": "effects/t_penjian_04" },
+					{ "time": 0.3, "name": "effects/t_penjian_05" },
+					{ "time": 0.3333, "name": "effects/t_penjian_06" },
+					{ "time": 0.3666, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.1333, "color": "ff4e00ff" },
+					{ "time": 0.3666, "color": "ffa500ff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"v_pj_02": {
+				"attachment": [
+					{ "time": 0.2, "name": "effects/t_penjian_00" },
+					{ "time": 0.2333, "name": "effects/t_penjian_01" },
+					{ "time": 0.2666, "name": "effects/t_penjian_02" },
+					{ "time": 0.3, "name": "effects/t_penjian_03" },
+					{ "time": 0.3333, "name": "effects/t_penjian_04" },
+					{ "time": 0.3666, "name": "effects/t_penjian_05" },
+					{ "time": 0.4, "name": "effects/t_penjian_06" },
+					{ "time": 0.4333, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ffa18bff" },
+					{ "time": 0.4333, "color": "ffd4c7ff" },
+					{ "time": 0.4666, "color": "ffffff00" }
+				]
+			},
+			"v_pj_03": {
+				"attachment": [
+					{ "time": 0.2, "name": "effects/t_penjian_00" },
+					{ "time": 0.2333, "name": "effects/t_penjian_01" },
+					{ "time": 0.2666, "name": "effects/t_penjian_02" },
+					{ "time": 0.3, "name": "effects/t_penjian_03" },
+					{ "time": 0.3333, "name": "effects/t_penjian_04" },
+					{ "time": 0.3666, "name": "effects/t_penjian_05" },
+					{ "time": 0.4, "name": "effects/t_penjian_06" },
+					{ "time": 0.4333, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4333, "color": "ffffffff" },
+					{ "time": 0.4666, "color": "ffffff00" }
+				]
+			},
+			"v_pj_1-add": {
+				"attachment": [
+					{ "time": 0.1333, "name": "effects/t_penjian_00" },
+					{ "time": 0.1666, "name": "effects/t_penjian_01" },
+					{ "time": 0.2, "name": "effects/t_penjian_02" },
+					{ "time": 0.2333, "name": "effects/t_penjian_03" },
+					{ "time": 0.2666, "name": "effects/t_penjian_04" },
+					{ "time": 0.3, "name": "effects/t_penjian_05" },
+					{ "time": 0.3333, "name": "effects/t_penjian_06" },
+					{ "time": 0.3666, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.1333, "color": "ff001bff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "ff001bff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"v_pj_2-add": {
+				"attachment": [
+					{ "time": 0.2, "name": "effects/t_penjian_00" },
+					{ "time": 0.2333, "name": "effects/t_penjian_01" },
+					{ "time": 0.2666, "name": "effects/t_penjian_02" },
+					{ "time": 0.3, "name": "effects/t_penjian_03" },
+					{ "time": 0.3333, "name": "effects/t_penjian_04" },
+					{ "time": 0.3666, "name": "effects/t_penjian_05" },
+					{ "time": 0.4, "name": "effects/t_penjian_06" },
+					{ "time": 0.4333, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ff4f39ff" },
+					{ "time": 0.4333, "color": "ff3501ff" },
+					{ "time": 0.4666, "color": "ffffff00" }
+				]
+			},
+			"v_pj_3-add": {
+				"attachment": [
+					{ "time": 0.2, "name": "effects/t_penjian_00" },
+					{ "time": 0.2333, "name": "effects/t_penjian_01" },
+					{ "time": 0.2666, "name": "effects/t_penjian_02" },
+					{ "time": 0.3, "name": "effects/t_penjian_03" },
+					{ "time": 0.3333, "name": "effects/t_penjian_04" },
+					{ "time": 0.3666, "name": "effects/t_penjian_05" },
+					{ "time": 0.4, "name": "effects/t_penjian_06" },
+					{ "time": 0.4333, "name": "effects/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ff2000ff" },
+					{ "time": 0.4333, "color": "ff3500ff" },
+					{ "time": 0.4666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"n_shatter_shine_a": {
+				"translate": [
+					{ "time": 0, "x": -120.75, "y": 358.5, "curve": "stepped" },
+					{ "time": 0.0333, "x": -120.75, "y": 358.5 },
+					{ "time": 0.0666, "x": -411.09, "y": 358.5 }
+				],
+				"scale": [
+					{ "time": 0, "x": 4, "y": 4 }
+				]
+			},
+			"n_shatter_shine_b": {
+				"translate": [
+					{ "time": 0.2, "x": -571.86, "y": 247.62 },
+					{ "time": 0.2333, "x": -574.74, "y": 247.62 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 2, "y": 2 }
+				]
+			},
+			"h_pj_01": {
+				"rotate": [
+					{ "time": 0, "angle": -110 }
+				],
+				"translate": [
+					{ "time": 0, "x": -250.85, "y": 126.17 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.999, "y": 1 }
+				]
+			},
+			"h_pj_02": {
+				"rotate": [
+					{ "time": 0.0666, "angle": -115 }
+				],
+				"translate": [
+					{ "time": 0.0666, "x": -419.02, "y": 199.04 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 4, "y": -0.866 }
+				]
+			},
+			"h_pj_03": {
+				"rotate": [
+					{ "time": 0.1333, "angle": -120 }
+				],
+				"translate": [
+					{ "time": 0.1333, "x": -612.62, "y": 211.82 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 5, "y": -1 }
+				]
+			},
+			"h_pj_04": {
+				"rotate": [
+					{ "time": 0.2, "angle": -125 }
+				],
+				"translate": [
+					{ "time": 0.2, "x": -828.27, "y": 228.47 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 5.999, "y": -1.366 }
+				]
+			},
+			"h_pj_01-add": {
+				"rotate": [
+					{ "time": 0, "angle": -110 }
+				],
+				"translate": [
+					{ "time": 0, "x": -250.85, "y": 126.17 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.999, "y": 1 }
+				]
+			},
+			"h_pj_02-add": {
+				"rotate": [
+					{ "time": 0.0666, "angle": -115 }
+				],
+				"translate": [
+					{ "time": 0.0666, "x": -419.03, "y": 199.04 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 4, "y": -0.866 }
+				]
+			},
+			"h_pj_03-add": {
+				"rotate": [
+					{ "time": 0.1333, "angle": -120 }
+				],
+				"translate": [
+					{ "time": 0.1333, "x": -617.25, "y": 211.82 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 5, "y": -1 }
+				]
+			},
+			"h_pj_04-add": {
+				"rotate": [
+					{ "time": 0.2, "angle": -125 }
+				],
+				"translate": [
+					{ "time": 0.2, "x": -828.27, "y": 228.47 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 5.999, "y": -1.366 }
+				]
+			},
+			"ele_01": {
+				"translate": [
+					{ "time": 0, "x": -349, "y": 13.37 }
+				]
+			},
+			"ele_02": {
+				"translate": [
+					{ "time": 0.0666, "x": -570.01, "y": 7.26 }
+				]
+			},
+			"ele_02-add": {
+				"translate": [
+					{ "time": 0.0666, "x": -570.01, "y": 7.26 }
+				]
+			},
+			"ele_03": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 230 }
+				],
+				"translate": [
+					{ "time": 0.1666, "x": -506.2, "y": 4.47 }
+				]
+			},
+			"n_shine_01": {
+				"translate": [
+					{ "time": 0.2, "x": -406.81, "y": 74.09 },
+					{ "time": 0.6666, "x": -406.81, "y": 420.08 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": -5, "y": 0.87 },
+					{ "time": 0.6666, "x": -5, "y": 2.65 }
+				]
+			},
+			"n_shine_02": {
+				"translate": [
+					{ "time": 0.2, "x": -406.81, "y": 74.09 },
+					{ "time": 0.6666, "x": -406.81, "y": 420.08 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": -5, "y": 0.87 },
+					{ "time": 0.6666, "x": -5, "y": 2.65 }
+				]
+			},
+			"n_shine_03": {
+				"translate": [
+					{ "time": 0.2, "x": -524.4, "y": 40.44 },
+					{ "time": 0.6666, "x": -524.4, "y": 323.98 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 1.25, "y": 1 },
+					{ "time": 0.6666, "x": 1.25, "y": 1.52 }
+				]
+			},
+			"n_shine_04": {
+				"translate": [
+					{ "time": 0.2, "x": -524.4, "y": 40.44 },
+					{ "time": 0.6666, "x": -524.4, "y": 323.98 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 1.25, "y": 1 },
+					{ "time": 0.6666, "x": 1.25, "y": 1.52 }
+				]
+			},
+			"v_pj_01": {
+				"rotate": [
+					{ "time": 0.1333, "angle": -110 }
+				],
+				"translate": [
+					{ "time": 0.1333, "x": -576.96, "y": 96.15 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 2, "y": 0.8 }
+				]
+			},
+			"v_pj_02": {
+				"rotate": [
+					{ "time": 0.2, "angle": -115 }
+				],
+				"translate": [
+					{ "time": 0.2, "x": -552.67, "y": 144.02 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 3, "y": 0.8 }
+				]
+			},
+			"v_pj_03": {
+				"rotate": [
+					{ "time": 0.2, "angle": -115 }
+				],
+				"translate": [
+					{ "time": 0.2, "x": -552.67, "y": 144.02 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 3, "y": 0.8 }
+				]
+			},
+			"black_shatter": {
+				"translate": [
+					{ "time": 0, "x": -267.11, "y": -22.03 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"up_particle": {
+				"translate": [
+					{ "time": 0, "x": -314.85, "y": -29.51 }
+				]
+			},
+			"hyzb_up": {
+				"translate": [
+					{ "time": 0, "x": 353.01, "y": -6.97 }
+				]
+			},
+			"FX": {
+				"scale": [
+					{ "time": 0, "x": -0.6, "y": 0.6 }
+				]
+			},
+			"v_pj_1-add": {
+				"rotate": [
+					{ "time": 0.1333, "angle": -110 }
+				],
+				"translate": [
+					{ "time": 0.1333, "x": -576.96, "y": 96.15 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 2, "y": 0.8 }
+				]
+			},
+			"v_pj_2-add": {
+				"rotate": [
+					{ "time": 0.2, "angle": -115 }
+				],
+				"translate": [
+					{ "time": 0.2, "x": -552.67, "y": 144.02 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 3, "y": 0.8 }
+				]
+			},
+			"v_pj_3-add": {
+				"rotate": [
+					{ "time": 0.2, "angle": -115 }
+				],
+				"translate": [
+					{ "time": 0.2, "x": -552.67, "y": 144.02 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 3, "y": 0.8 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"shatter_01": {
+					"effects/white": [
+						{
+							"time": 0,
+							"vertices": [ -74.2578, 62.09385, -76.53298, 112.03597, -28.34899, 112.34195, 19.39301, 112.34801, 17.15598, 67.41192, 15.61196, 22.39999, -25.38897, 19.74699, -74.66597, 16.60598 ]
+						},
+						{
+							"time": 0.0666,
+							"vertices": [ -71.17782, 60.95385, -73.95298, 111.13597, -26.02899, 111.34195, 23.53301, 112.08801, 23.23598, 64.45192, 22.43196, 18.1, -20.28898, 17.96699, -70.80599, 15.04599 ]
+						},
+						{
+							"time": 0.1,
+							"vertices": [ -70.0378, 60.30385, -73.26297, 110.60596, -25.42899, 110.84195, 24.32301, 111.95802, 23.35598, 65.73192, 24.84196, 17.75, -19.40498, 17.36899, -69.59399, 14.00099 ]
+						},
+						{
+							"time": 0.1333,
+							"vertices": [ -68.89779, 59.65385, -72.57297, 110.07596, -24.82899, 110.34196, 25.11301, 111.82802, 23.47598, 67.01192, 27.25195, 17.4, -18.70898, 17.14699, -68.946, 14.36599 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -64.09783, 56.71388, -66.69302, 106.95598, -18.82904, 107.04199, 30.09297, 109.96805, 30.73592, 62.27195, 33.1319, 12.30004, -13.90902, 11.80703, -64.32602, 9.44603 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -62.33783, 52.71388, -63.65301, 102.75598, -14.98905, 103.24199, 35.17296, 104.80806, 35.45591, 56.63196, 36.3719, 6.30005, -11.94902, 6.04704, -62.08603, 4.56604 ]
+						}
+					]
+				},
+				"shatter_02": {
+					"effects/white": [
+						{
+							"time": 0,
+							"vertices": [ -32.77487, 88.97499, -34.01587, 134.39688, 12.06799, 133.5539, 56.46586, 137.4879, 56.80786, 92.80898, 56.63485, 46.63814, 10.43699, 47.50813, -38.97484, 44.60312 ]
+						},
+						{
+							"time": 0.0666,
+							"vertices": [ -37.67684, 88.459, -40.46582, 137.83685, 7.76802, 138.97183, 54.34989, 141.25983, 54.00189, 95.24696, 54.93287, 48.93812, 5.19305, 50.0841, -37.16885, 42.71113 ]
+						},
+						{
+							"time": 0.1333,
+							"vertices": [ -38.53083, 90.28899, -41.01482, 139.36185, 7.76802, 138.97183, 54.34989, 141.25983, 54.00189, 95.24696, 53.95687, 48.75512, 4.21705, 50.5111, -38.69385, 44.05313 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -42.55682, 99.25598, -42.17381, 142.47287, 5.38902, 142.14383, 52.76389, 142.29681, 51.01289, 94.81995, 50.66288, 48.32811, 2.02106, 50.5111, -44.61082, 46.24913 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -46.65676, 95.77103, -47.25774, 142.51385, 0.10009, 143.12782, 49.07395, 144.3878, 48.34793, 95.92694, 48.57191, 48.20511, -1.01289, 50.1421, -49.32577, 46.94612 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -48.36249, 94.63387, -48.63858, 142.47324, -0.5497, 142.72168, 48.30231, 143.33185, 47.21077, 93.97753, 47.47537, 45.9714, -1.66269, 46.85245, -50.42231, 46.13386 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -50.52249, 94.55387, -50.51858, 142.79323, -1.5897, 142.36165, 47.06231, 142.49185, 45.73078, 93.09753, 45.79538, 44.5714, -3.10269, 46.21245, -51.66231, 45.97385 ]
+						}
+					]
+				},
+				"shatter_03": {
+					"effects/white": [
+						{
+							"time": 0,
+							"vertices": [ -21.70479, 65.32293, -22.3262, 111.61401, 22.19995, 115.49828, 67.75783, 117.68626, 67.52163, 70.2501, 70.98704, 20.76638, 24.63935, 20.33722, -22.10122, 18.34066 ]
+						},
+						{
+							"time": 0.0333,
+							"vertices": [ -24.98108, 69.84338, -24.85599, 115.51238, 21.16315, 118.69163, 66.67955, 121.12844, 67.06543, 72.44811, 68.41575, 23.58647, 22.31692, 23.69645, -25.29456, 22.07314 ]
+						},
+						{
+							"time": 0.1,
+							"vertices": [ -29.46546, 77.21376, -30.05077, 123.41554, 16.85637, 126.284, 63.57155, 127.34441, 63.73545, 80.21808, 65.66297, 29.84684, 17.92133, 30.09002, -30.66694, 29.93191 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ -30.98545, 78.89375, -31.61077, 126.25554, 15.69637, 128.844, 61.69156, 129.78442, 61.89546, 82.09808, 64.30296, 32.12683, 16.48133, 32.09002, -31.34694, 31.05191 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -35.59137, 82.18538, -36.50747, 131.69241, 11.46625, 132.77057, 60.06489, 133.00565, 59.01327, 84.6309, 60.81941, 35.58075, 12.41847, 35.8566, -36.16854, 34.8016 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -38.95076, 84.71584, -38.90705, 134.00475, 10.20102, 134.12303, 59.14869, 134.92526, 58.27159, 85.15444, 56.89286, 36.49694, 9.1027, 37.16546, -38.96077, 35.7178 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -41.0013, 87.59531, -40.91396, 136.27342, 8.76128, 135.12648, 58.36338, 135.36153, 57.44265, 85.50347, 56.89286, 36.49694, 7.79385, 38.08166, -41.36034, 38.24825 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -42.31014, 87.76983, -41.83016, 137.18964, 7.58331, 136.39166, 57.14177, 136.45224, 56.17743, 86.94321, 55.62763, 36.80234, 5.65605, 37.81989, -43.4545, 38.07374 ]
+						}
+					]
+				},
+				"shatter_04": {
+					"effects/white": [
+						{
+							"time": 0.0333,
+							"vertices": [ -55.65249, 102.12597, -55.1956, 150.37424, -7.16996, 150.34872, 40.25485, 152.67868, 40.94388, 104.57199, 41.2389, 55.85304, -7.03733, 56.39079, -55.5074, 57.37008 ]
+						},
+						{
+							"time": 0.0666,
+							"vertices": [ -50.85249, 100.60597, -51.11561, 148.09424, -2.76996, 149.18875, 47.61484, 150.39868, 45.22388, 100.97199, 45.8389, 52.49304, -3.07734, 53.91079, -51.2674, 54.17008 ]
+						},
+						{
+							"time": 0.1333,
+							"vertices": [ -48.45248, 100.04597, -47.75561, 147.29422, -0.44996, 148.02875, 48.93484, 148.83868, 48.34389, 101.05199, 49.15889, 51.93303, 0.72265, 53.63079, -48.34741, 53.85008 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -39.27257, 93.74603, -39.53568, 142.19427, 8.78995, 142.92883, 59.07475, 143.79877, 58.4838, 94.75204, 58.45881, 45.57309, 9.42258, 46.13086, -39.52749, 46.11015 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -36.58692, 92.48714, -37.10181, 140.80951, 11.47559, 141.54407, 62.01217, 142.12027, 61.58908, 93.32529, 61.73194, 43.43297, 12.56982, 44.41037, -36.75792, 44.93518 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -32.58691, 88.72713, -33.70181, 137.52957, 14.5156, 138.38405, 65.25218, 139.32028, 64.98909, 90.76529, 65.17194, 41.39296, 16.36982, 41.53037, -32.55791, 41.93518 ]
+						}
+					]
+				},
+				"shatter_05": {
+					"effects/white": [
+						{
+							"time": 0.0333,
+							"vertices": [ -54.33985, 21.53598, -55.63985, 67.03589, -7.79998, 65.47588, 40.28988, 69.63586, 37.6899, 23.396, 39.90988, -26.01386, -7.60998, -25.19385, -55.11985, -25.26387 ]
+						},
+						{
+							"time": 0.0666,
+							"vertices": [ -51.84086, 19.57599, -53.48386, 66.30089, -9.12297, 66.70086, 41.61288, 69.14586, 43.52088, 20.99501, 44.80985, -25.91586, -2.514, -25.78185, -51.59186, -26.78286 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ -47.92087, 20.50699, -49.66188, 67.96686, -4.36999, 67.38687, 45.38585, 69.78285, 47.58785, 21.387, 47.55384, -26.30786, -1.14201, -25.14485, -49.19086, -25.99887 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -40.64087, 20.42699, -37.98188, 69.80684, 12.34998, 66.70687, 59.62583, 68.70288, 56.74785, 20.067, 52.55382, -32.90786, 4.01798, -28.94485, -43.31086, -25.87886 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -42.80089, 23.94699, -41.30188, 74.08686, 8.62998, 68.74688, 57.46584, 67.42286, 55.78785, 17.787, 54.11383, -31.70784, 4.01798, -28.94485, -44.03085, -28.83887 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -40.04089, 20.34699, -37.62188, 69.72684, 10.46998, 67.66691, 58.98584, 66.42288, 55.78785, 17.787, 55.15383, -31.58784, 6.61798, -30.86485, -41.71085, -30.67887 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -36.74393, 16.18239, -35.19255, 66.03946, 12.81256, 64.41333, 63.15043, 62.82225, 61.77444, 13.8827, 61.661, -35.66567, 11.99725, -34.76915, -37.58964, -34.36627 ]
+						}
+					]
+				},
+				"shatter_06": {
+					"effects/white": [
+						{
+							"time": 0.0666,
+							"vertices": [ -90.92999, 61.39899, -91.58998, 110.23898, -43.90499, 110.23898, 4.11, 110.07398, 3.94499, 62.719, 4.27358, 14.00695, -42.66251, 14.25927, -90.5208, 13.20118 ]
+						},
+						{
+							"time": 0.1333,
+							"vertices": [ -88.35737, 62.30417, -88.82682, 111.19179, -40.85598, 110.66774, 8.49296, 113.02771, 6.80344, 64.86283, 8.56126, 15.24561, -38.61304, 15.35501, -88.23405, 14.29691 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -79.94247, 64.75618, -81.86084, 114.14536, -32.49681, 115.01451, 15.79329, 115.70264, 16.44434, 66.70185, 17.31051, 16.97316, -30.92261, 17.08258, -80.71081, 15.96875 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -73.30272, 65.29619, -74.50109, 114.70535, -25.25705, 115.01451, 24.07306, 115.72264, 24.14412, 66.66185, 24.61028, 16.97316, -23.68284, 17.08258, -73.31106, 16.04875 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -70.42294, 65.27619, -71.70132, 115.26536, -22.57728, 115.01451, 27.47283, 115.58264, 27.28389, 66.62185, 27.35005, 16.97316, -21.00307, 17.08258, -70.47128, 16.12875 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -65.66295, 64.07618, -66.62133, 114.30536, -17.49728, 114.25451, 32.55283, 114.62264, 32.48388, 65.54185, 32.95005, 15.33316, -16.00306, 15.56258, -65.99128, 15.12875 ]
+						}
+					]
+				},
+				"shatter_07": {
+					"effects/white": [
+						{
+							"time": 0.0666,
+							"vertices": [ -215.33447, 97.99464, -215.67085, 146.0169, -168.4939, 142.80597, -120.32895, 145.02895, -122.69618, 97.22746, -120.5524, 48.81369, -169.14487, 50.06424, -217.02266, 49.70693 ]
+						},
+						{
+							"time": 0.1333,
+							"vertices": [ -219.01659, 100.3325, -220.28812, 148.0918, -171.29932, 146.07896, -122.37457, 148.53574, -124.44956, 98.9224, -123.35781, 51.18076, -171.8626, 51.29161, -220.35408, 52.51235 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ -222.17265, 102.81646, -222.85974, 151.36478, -174.54308, 147.71547, -125.23843, 150.28912, -127.95633, 100.82191, -126.60158, 52.4958, -175.72006, 53.74635, -223.86086, 53.91506 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -231.8163, 107.81361, -231.18832, 157.5893, -183.66068, 154.99208, -134.35605, 156.07529, -136.28491, 107.04643, -135.3685, 57.66829, -184.13632, 58.12982, -233.50449, 59.5259 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -233.22845, 109.07974, -232.6667, 158.37167, -184.99905, 156.79453, -135.87444, 157.03769, -136.7833, 108.02881, -136.54688, 58.63067, -185.3347, 59.0922, -234.92287, 60.04828 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -238.28062, 110.34586, -237.78506, 159.15405, -189.89742, 157.95688, -140.39279, 158.00008, -140.92166, 109.01119, -141.36523, 59.59305, -190.17307, 60.05458, -239.50122, 61.05066 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -243.36386, 108.85316, -242.74728, 158.02441, -194.29346, 156.58417, -144.38676, 157.43527, -144.95598, 108.40604, -145.60127, 58.66516, -194.2074, 58.88462, -243.73726, 60.12277 ]
+						}
+					]
+				},
+				"shatter_08": {
+					"effects/white": [
+						{
+							"time": 0.0666,
+							"vertices": [ -176.83163, 23.95001, -177.79771, 71.13601, -130.94371, 69.42602, -83.40571, 72.16204, -83.45576, 26.64601, -81.03178, -24.2579, -129.3097, -21.8339, -177.38562, -23.65191 ]
+						},
+						{
+							"time": 0.1333,
+							"vertices": [ -164.54633, 28.19066, -165.1264, 77.69468, -116.42437, 77.7487, -66.31441, 79.16267, -66.56246, 30.02068, -66.57046, -18.87725, -115.06437, -19.13322, -163.87631, -19.83524 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ -156.46564, 28.14502, -158.55374, 76.70802, -110.62871, 74.59004, -60.84672, 79.92701, -61.76378, 33.646, -59.3398, -16.18692, -106.80171, -14.47691, -157.12164, -17.92691 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -157.83363, 28.67701, -158.55374, 76.70802, -110.5527, 75.73002, -60.84672, 79.92701, -61.76378, 33.19001, -59.3398, -16.18692, -107.6377, -15.9969, -157.12164, -17.92691 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -157.68164, 27.99302, -158.47775, 75.94803, -110.62871, 74.43805, -62.06271, 78.02703, -59.86379, 32.27802, -57.74381, -16.71892, -104.59773, -18.42888, -156.05765, -21.04288 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -158.11548, 25.71304, -158.47775, 73.66804, -110.65041, 72.57022, -61.84579, 75.48675, -60.31932, 28.63146, -58.76333, -20.21364, -105.57387, -20.70886, -156.53487, -23.27948 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -158.54932, 23.43306, -158.47775, 71.38807, -110.6721, 70.095, -61.62887, 72.94648, -60.77485, 24.98489, -59.78284, -22.92746, -106.55, -22.98884, -157.01208, -25.51607 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -158.38933, 21.63306, -158.6778, 69.62808, -110.3521, 69.55101, -61.18088, 70.19448, -60.64685, 22.18489, -59.71884, -26.17545, -106.84599, -25.75683, -157.0441, -27.62807 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -158.14934, 17.43306, -158.07777, 65.38807, -109.67209, 64.93499, -60.50888, 66.06647, -60.45485, 17.9849, -59.62284, -31.04745, -107.39, -30.30883, -157.0921, -31.39607 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -157.94931, 13.59306, -158.07777, 62.34806, -109.67209, 62.29498, -60.50888, 63.02646, -60.45485, 14.9449, -59.70284, -34.48745, -108.39, -34.06884, -157.69212, -34.91609 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -157.6293, 16.37561, -158.11777, 66.01062, -109.11209, 66.47753, -59.62887, 66.449, -60.33484, 16.76745, -59.70284, -33.22491, -108.39, -32.8063, -158.01215, -33.21355 ]
+						}
+					]
+				},
+				"shatter_09": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -240.28275, 89.38901, -239.54771, 137.18579, -194.8369, 136.83385, -148.56305, 137.23483, -148.02702, 90.284, -146.83, 40.69413, -194.3939, 41.40313, -242.50871, 41.96217 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -244.8898, 93.34412, -244.58942, 140.4455, -198.61816, 140.78897, -152.08354, 139.58182, -152.24292, 92.06598, -150.95897, 41.73724, -198.78365, 43.57628, -246.3769, 44.52648 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ -252.60979, 97.26413, -251.50941, 146.24554, -205.21815, 145.42899, -157.84354, 145.62184, -157.64291, 97.06598, -157.23895, 48.29724, -204.98364, 49.21628, -253.0169, 49.08648 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -254.15404, 98.41064, -252.7298, 146.98822, -206.73335, 146.73576, -159.36967, 146.34645, -158.52881, 98.20535, -157.90318, 49.08375, -206.52788, 50.08253, -255.28497, 49.6656 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -257.85828, 99.55715, -256.35022, 148.13094, -210.56854, 148.28255, -163.29582, 147.71109, -162.5347, 99.66474, -162.48743, 50.59026, -210.23212, 50.94878, -258.67303, 51.12472 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -261.1383, 99.55715, -260.6703, 148.45093, -213.84854, 148.28255, -166.09583, 148.1911, -166.29471, 99.74474, -165.76743, 50.59026, -213.5521, 50.94878, -262.07306, 51.04471 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -264.85828, 97.63715, -265.99023, 147.4509, -216.76854, 146.52255, -168.17583, 146.59111, -168.45473, 97.90474, -168.28741, 48.55026, -217.1921, 49.10879, -266.35303, 48.60471 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -268.69833, 96.79714, -268.67023, 146.69087, -219.16853, 146.28256, -169.89581, 146.15108, -170.37473, 97.02474, -169.76743, 47.15026, -219.07211, 47.50879, -268.27307, 47.36471 ]
+						}
+					]
+				},
+				"shatter_10": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -193.29794, 81.64185, -192.8529, 130.39694, -145.03697, 130.60495, -96.65303, 130.46086, -96.2507, 81.95337, -95.49168, 32.51392, -144.34134, 34.04177, -193.76404, 33.28002 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -195.41795, 84.28185, -195.4129, 133.43698, -146.11697, 132.60495, -96.65305, 134.4209, -97.49071, 85.11337, -97.25168, 35.79392, -145.42134, 36.04177, -194.84404, 35.28002 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -198.21794, 86.80185, -198.6129, 137.35696, -149.15697, 136.92496, -99.29305, 136.5409, -100.13071, 87.23337, -99.89168, 37.91391, -148.06134, 38.16177, -197.48404, 37.40001 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -200.11127, 89.33518, -199.0929, 138.8236, -149.18364, 137.85826, -99.97305, 138.08754, -100.54406, 88.79337, -101.01168, 39.55391, -150.23468, 40.20177, -199.48404, 40.28001 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -201.05794, 90.60185, -200.6529, 140.03694, -150.99696, 139.28494, -101.09305, 138.02087, -101.65073, 89.03337, -101.69168, 40.55391, -151.02135, 42.00178, -200.48404, 41.72001 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -202.14992, 90.60185, -201.74487, 140.03694, -152.08894, 139.28494, -102.18503, 138.02087, -102.74271, 89.03337, -102.78366, 40.55391, -152.11333, 42.00178, -201.57602, 41.72001 ]
+						}
+					]
+				},
+				"shatter_11": {
+					"effects/white": [
+						{
+							"time": 0.2333,
+							"vertices": [ -254.32898, 44.64396, -255.07492, 89.38493, -208.60097, 86.87695, -160.76498, 93.46402, -160.76495, 47.768, -159.09698, -1.12397, -206.16898, 1.02802, -253.50098, -0.168 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -255.71498, 39.60399, -257.46893, 86.86496, -210.93195, 85.74294, -161.01698, 87.98305, -161.07996, 42.79102, -159.47498, -5.09295, -208.31096, -1.68096, -257.21802, -5.83797 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -259.58728, 32.39338, -261.78638, 80.322, -213.4245, 78.44331, -164.08818, 81.4846, -163.79507, 36.15904, -162.81323, -11.23532, -210.75902, -10.31589, -258.68677, -14.51741 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -260.46722, 28.71338, -262.2664, 78.12199, -214.3045, 74.56331, -164.12817, 79.04459, -163.71509, 32.03904, -162.57324, -15.67532, -211.03902, -15.43589, -259.72678, -19.95741 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -263.1621, 18.4285, -264.08136, 68.1121, -215.8995, 67.2484, -164.40317, 69.3097, -163.60509, 20.65417, -162.68324, -28.38017, -210.48901, -28.80073, -261.4317, -31.28728 ]
+						}
+					]
+				},
+				"shatter_12": {
+					"effects/white": [
+						{
+							"time": 0.2,
+							"vertices": [ -276.88385, 88.25987, -277.52582, 135.9818, -229.33592, 134.90985, -181.08199, 135.8598, -181.73245, 87.63474, -180.46597, 40.5799, -227.8379, 41.03792, -274.95782, 39.8959 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -282.66946, 88.25987, -283.31143, 135.9818, -235.3615, 135.54987, -186.86755, 135.8598, -187.51807, 87.63474, -186.41158, 39.9399, -233.62347, 41.03792, -281.82343, 40.3359 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -284.06946, 88.89987, -284.5914, 136.94183, -236.0815, 136.18985, -186.86755, 136.09984, -187.51807, 87.63474, -187.41158, 39.37989, -235.94348, 40.55793, -284.34338, 40.3359 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -285.63635, 88.89987, -286.15826, 136.94183, -237.64845, 136.18985, -188.43452, 136.09984, -189.08502, 87.63474, -188.97855, 39.37989, -237.51047, 40.55793, -285.91028, 40.3359 ]
+						}
+					]
+				},
+				"shatter_13": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -95.47518, 23.9723, -91.5599, 69.6509, -46.76095, 73.13071, 0.29082, 75.67001, -3.995, 26.71163, -3.35342, -20.54356, -49.2683, -21.67192, -96.49667, -23.35723 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -103.96909, 29.61423, -104.14575, 77.71081, -56.74283, 78.40063, -7.76908, 78.33598, -9.51293, 29.0676, -10.17334, -19.17958, -56.89422, -19.62594, -104.99059, -19.69927 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -109.05302, 30.42023, -108.79568, 77.83481, -61.26879, 79.76462, -13.10102, 79.82396, -14.34888, 32.22956, -17.24126, -14.71562, -62.84615, -17.64197, -110.44653, -18.33528 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -112.71099, 30.91622, -113.13565, 80.12874, -65.23675, 80.32258, -16.13899, 81.4359, -17.44885, 32.91155, -20.34123, -14.03363, -65.94612, -16.95997, -114.53848, -18.02529 ]
+						}
+					]
+				},
+				"shatter_14": {
+					"effects/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -150.1322, 34.93756, -151.63963, 82.83177, -104.17278, 82.41691, -56.6128, 82.62187, -56.0878, 35.23189, -56.45751, -12.25185, -104.16591, -11.33791, -152.05707, -13.53138 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ -150.63577, 32.50345, -152.14322, 82.11833, -104.9282, 81.53557, -55.89934, 83.37727, -56.54944, 36.32304, -54.94669, -14.01448, -102.65508, -13.81398, -151.00787, -15.00024 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -148.3802, 31.33062, -150.16766, 80.6655, -101.63264, 81.16276, -52.56379, 82.04445, -52.37388, 33.8702, -51.69114, -16.14731, -100.31952, -15.86681, -149.35233, -16.69307 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -149.4602, 28.85062, -151.12766, 77.22548, -102.35265, 77.92274, -52.72379, 78.76445, -52.85389, 30.7502, -51.97114, -17.74731, -100.91952, -17.50681, -150.47234, -17.85307 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ -146.50018, 24.17062, -148.16763, 72.54548, -99.19264, 73.92275, -51.36378, 74.48445, -50.37388, 25.6702, -50.09114, -23.26731, -98.95952, -22.42681, -146.95233, -23.61307 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -145.62021, 22.01062, -146.84763, 70.30546, -98.27264, 71.08275, -48.16379, 73.16443, -48.85389, 23.59021, -48.57114, -25.34731, -96.79952, -24.66681, -145.27234, -25.77307 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -144.72354, 16.83191, -145.99095, 65.88675, -97.41595, 66.66403, -47.5071, 68.70572, -47.19719, 19.6915, -46.51445, -29.76601, -94.18283, -29.88551, -143.61568, -32.23177 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -143.20352, 12.51191, -144.07098, 62.72674, -94.85595, 63.18404, -44.7871, 63.78571, -44.19719, 14.17151, -44.11445, -35.80601, -93.10283, -35.64552, -142.6557, -36.71178 ]
+						}
+					]
+				},
+				"shatter_15": {
+					"effects/white": [
+						{
+							"time": 0,
+							"vertices": [ 16.28987, 23.63697, 17.10287, 70.79094, 61.54686, 68.62295, 106.53284, 69.43593, 104.77678, 20.86996, 107.45582, -25.80096, 60.92587, -21.57097, 14.01388, -23.71302 ]
+						},
+						{
+							"time": 0.0333,
+							"vertices": [ 16.28987, 23.63697, 17.88287, 71.15092, 62.50685, 69.94293, 107.85284, 70.69593, 106.57676, 22.12995, 110.99577, -25.26097, 63.80585, -21.63097, 14.01388, -23.71302 ]
+						},
+						{
+							"time": 0.1,
+							"vertices": [ 18.77019, 24.85537, 18.10044, 73.19611, 64.55203, 72.94543, 113.94484, 74.56871, 112.75579, 26.26381, 114.52043, -21.64929, 66.46023, -19.54228, 17.88665, -21.92893 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ 21.53019, 25.77537, 18.14045, 75.87613, 66.67204, 73.86543, 114.42484, 73.80871, 113.35579, 26.02381, 114.52043, -21.64929, 67.62023, -20.94228, 20.08664, -21.76893 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ 23.69019, 25.29537, 21.10044, 74.19611, 68.23204, 75.18545, 116.06483, 74.36873, 114.6758, 26.7438, 115.68043, -21.52929, 68.58023, -20.14228, 20.60664, -21.76893 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ 24.93019, 25.37537, 22.90043, 73.47611, 69.51204, 72.94544, 116.90483, 74.40872, 115.6758, 25.38381, 117.80042, -23.16929, 70.30024, -20.26228, 22.48664, -22.44893 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ 25.10182, 21.08464, 22.48362, 70.01901, 69.71309, 70.68974, 118.80255, 71.99609, 118.75041, 23.46647, 120.10516, -26.18505, 72.09008, -24.67559, 24.49225, -26.24929 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ 25.23912, 17.65206, 22.15017, 67.25332, 69.15897, 68.09079, 119.28802, 69.11273, 120.17738, 21.05876, 121.94894, -28.59767, 73.52195, -28.20625, 24.82571, -29.68677 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ 24.39912, 10.77207, 22.19017, 60.53332, 70.19897, 61.53077, 119.48803, 62.23274, 120.85738, 13.45875, 122.26894, -36.39767, 73.64196, -36.04625, 25.3057, -38.04676 ]
+						}
+					]
+				},
+				"shatter_16": {
+					"effects/white": [
+						{
+							"time": 0.2666,
+							"vertices": [ -219.02197, 35.36804, -222.65796, 83.44395, -173.99403, 83.10602, -124.74605, 85.11206, -124.89012, 35.97404, -124.68813, -13.71788, -172.15802, -12.30389, -221.44595, -13.11188 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -218.18196, 35.44804, -220.05795, 84.24394, -171.19405, 85.62601, -121.98605, 85.75206, -122.53012, 36.77404, -121.84813, -12.47789, -170.23802, -11.74389, -220.20596, -12.87188 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -217.58195, 37.72804, -218.41795, 85.88394, -169.27403, 85.94602, -120.54605, 85.91206, -120.49013, 36.73404, -120.52814, -12.99788, -170.23802, -11.74389, -219.52599, -12.07188 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -216.26193, 39.16804, -216.33797, 87.60394, -167.67404, 86.98602, -118.70605, 86.99207, -118.97012, 37.73403, -119.40814, -12.39788, -168.39803, -11.78389, -217.96597, -11.15188 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -214.46194, 39.96804, -213.45796, 89.68396, -163.59404, 88.58603, -114.38606, 87.87205, -114.85013, 38.81403, -115.00813, -10.99789, -165.11803, -10.46389, -215.28598, -10.11188 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -213.30194, 39.96804, -212.73796, 89.64397, -162.63403, 88.58603, -113.18607, 88.59205, -113.61012, 39.37404, -113.84813, -10.75788, -163.91801, -10.46389, -214.00598, -10.19188 ]
+						}
+					]
+				},
+				"up_01": {
+					"effects/white": [
+						{
+							"time": 0,
+							"vertices": [ 55.53654, 101.87983, 152.8199, 103.27209, 151.40741, 6.02674, 54.61251, 5.33898 ]
+						},
+						{
+							"time": 0.0333,
+							"vertices": [ 50.51458, 104.39082, 148.12192, 106.10707, 148.00545, 9.42871, 49.91456, 7.60696 ]
+						},
+						{
+							"time": 0.0666,
+							"vertices": [ 50.59557, 106.9828, 144.88197, 110.31905, 142.9025, 16.31366, 46.51258, 11.33293 ]
+						},
+						{
+							"time": 0.1,
+							"vertices": [ 45.11931, 109.98938, 142.4123, 113.16455, 142.9025, 16.31366, 44.52609, 13.10466 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ 44.26762, 111.5863, 140.76216, 117.31655, 140.8797, 18.70904, 43.56794, 14.59512 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ 42.05964, 115.22027, 137.56818, 118.57855, 137.0437, 22.98701, 38.96798, 19.83906 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ 39.38067, 118.35522, 135.9722, 120.06054, 136.1317, 22.58802, 37.88499, 22.06204 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ 36.5877, 119.21021, 134.20522, 121.71352, 133.79474, 25.26698, 36.346, 22.51804 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ 35.33372, 119.03921, 133.57823, 123.87949, 132.93976, 26.97696, 34.29403, 26.84998 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ 34.43773, 121.59918, 133.57823, 123.87949, 132.85974, 27.41696, 34.97403, 26.20998 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ 32.99773, 126.55918, 131.5782, 128.91946, 132.29974, 30.61696, 33.53403, 29.44997 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ 32.03773, 130.47919, 130.0982, 133.79947, 130.0998, 35.53695, 31.61403, 34.00997 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ 31.67773, 131.19917, 129.2982, 135.23947, 129.77982, 36.89695, 30.85403, 36.24996 ]
+						}
+					]
+				},
+				"up_02": {
+					"effects/white": [
+						{
+							"time": 0,
+							"vertices": [ 63.11105, 90.10295, 162.08493, 89.82494, 162.29489, -6.44797, 62.76304, -4.05196 ]
+						},
+						{
+							"time": 0.0333,
+							"vertices": [ 63.35105, 94.30294, 161.76492, 93.82494, 161.65485, -4.04797, 62.64303, -1.93196 ]
+						},
+						{
+							"time": 0.1,
+							"vertices": [ 62.57105, 102.34286, 163.08493, 97.48489, 161.17487, 1.23197, 60.48303, 4.98802 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ 62.45105, 103.34286, 162.00488, 101.36491, 160.37486, 3.23197, 60.48303, 5.66803 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ 58.93105, 110.10287, 159.4849, 105.48489, 158.37485, 6.83197, 58.12303, 10.74802 ]
+						}
+					]
+				},
+				"up_03": {
+					"effects/white": [
+						{
+							"time": 0.0666,
+							"vertices": [ 31.94897, 108.1329, 126.61687, 113.42489, 124.84882, 20.3422, 29.48806, 15.00105 ]
+						},
+						{
+							"time": 0.1,
+							"vertices": [ 26.475, 116.58186, 123.99889, 120.08885, 123.18282, 24.15018, 26.75108, 20.83203 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ 25.16601, 121.69884, 122.09489, 124.61083, 121.63583, 28.91016, 24.72808, 25.59202 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ 21.53604, 127.62781, 119.3119, 130.66081, 119.20282, 34.36116, 21.9451, 31.64299 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ 20.32605, 131.74179, 117.25491, 134.04883, 117.62983, 36.53915, 20.00911, 34.78897 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ 18.26905, 134.2828, 115.43993, 136.95285, 116.17784, 39.44313, 17.83113, 37.08796 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ 16.81705, 136.82382, 114.35092, 138.40488, 114.84685, 41.25812, 16.62113, 39.26595 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ 15.11252, 138.75269, 113.63322, 139.88521, 112.91802, 41.70668, 15.09602, 41.23962 ]
+						}
+					]
+				},
+				"up_04": {
+					"effects/white": [
+						{
+							"time": 0.1,
+							"vertices": [ -110.18489, 107.1549, -14.55388, 111.67892, -14.94153, 17.21945, -111.88888, 13.72546 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -122.46514, 125.27576, -23.59799, 127.84267, -22.87877, 29.64946, -121.53491, 28.12283 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -124.86514, 129.78777, -26.95799, 133.79465, -28.73475, 37.80943, -125.3749, 33.3068 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -128.70514, 134.34781, -29.39798, 135.63464, -29.21474, 37.80943, -128.45488, 36.1068 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -130.10515, 134.06778, -30.47799, 136.63467, -30.13474, 38.80943, -129.61487, 36.30679 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -131.8671, 137.73453, -32.43039, 140.01567, -32.13476, 41.99995, -131.6149, 39.9735 ]
+						}
+					]
+				},
+				"up_05": {
+					"effects/white": [
+						{
+							"time": 0.1,
+							"vertices": [ -12.6249, 106.08836, 84.18607, 107.27338, 83.276, 10.44445, -13.74592, 9.14738 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ -16.02491, 108.56837, 80.18606, 112.19338, 80.39599, 14.36445, -17.30592, 12.54738 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -20.36486, 113.09431, 76.03209, 117.21533, 76.49003, 20.31639, -20.96389, 17.94132 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -23.99884, 116.96529, 74.9261, 120.69131, 74.91006, 25.29335, -24.04486, 21.18031 ]
+						}
+					]
+				},
+				"up_06": {
+					"effects/white": [
+						{
+							"time": 0.2333,
+							"vertices": [ -112.81052, 101.95477, -15.21971, 103.34717, -16.76331, 6.33141, -113.89729, 4.92191 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ -119.42625, 109.92758, -20.87418, 111.99851, -22.41778, 14.98276, -120.45648, 13.51671 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -124.20446, 118.56189, -26.99364, 121.97406, -26.86067, 25.2098, -124.39641, 21.81569 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -130.69849, 130.60538, -32.77927, 133.66336, -33.0005, 36.66295, -129.23743, 30.55315 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -135.9758, 138.16553, -36.55773, 140.53839, -35.37801, 41.96649, -134.65363, 38.73629 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -139.99374, 143.6535, -40.37972, 145.73233, -38.80799, 46.27847, -137.69159, 44.12626 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -141.11377, 146.01352, -41.53971, 148.37231, -41.08799, 50.07847, -140.53162, 48.44626 ]
+						}
+					]
+				},
+				"up_07": {
+					"effects/white": [
+						{
+							"time": 0.2666,
+							"vertices": [ -98.1165, 104.96089, -0.51575, 106.39687, -0.58969, 10.59307, -97.94854, 7.93406 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -100.29149, 108.56089, -2.54075, 110.14685, -2.76469, 14.11806, -100.87354, 11.30905 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -101.40986, 111.72961, -2.91354, 113.87476, -3.78986, 17.47318, -101.61913, 14.85057 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -102.44986, 114.00962, -3.91354, 115.71476, -3.78986, 17.47318, -102.17912, 16.25057 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -103.24986, 117.20962, -4.87354, 119.11475, -5.38986, 21.11319, -103.13911, 20.57057 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -103.43477, 118.59642, -5.01222, 120.50156, -5.75968, 23.23962, -103.69384, 21.68002 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -105.33008, 121.87852, -7.13865, 124.93934, -6.26817, 26.61417, -104.71083, 24.73098 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -105.36089, 126.13139, -6.35279, 128.12898, -5.85213, 29.38779, -105.06523, 29.64643 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -105.3763, 125.48421, -6.16788, 127.9903, -5.71345, 29.80383, -104.61838, 27.8744 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -105.28386, 129.64462, -6.58393, 131.73471, -5.75968, 33.31706, -104.80328, 31.89613 ]
+						}
+					]
+				},
+				"up_08": {
+					"effects/white": [
+						{
+							"time": 0.2333,
+							"vertices": [ -157.01991, 109.96002, -59.56211, 111.82587, -60.6877, 15.21294, -158.258, 12.99502 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -160.8629, 113.68102, -63.3441, 117.13285, -63.98169, 22.28892, -161.67404, 18.851 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -166.66045, 122.21329, -71.43881, 125.77451, -71.20129, 29.8367, -168.23732, 26.94572 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -173.93242, 130.19226, -78.7108, 134.86449, -79.88727, 39.93669, -176.72131, 36.74271 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -182.04156, 138.3494, -85.42844, 142.87766, -86.74887, 46.36643, -183.00713, 43.65228 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -188.43604, 146.18774, -91.27283, 150.02841, -91.76819, 53.99853, -189.5391, 52.10947 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -192.43602, 153.54776, -94.43283, 155.50839, -95.00818, 57.91852, -193.5391, 57.78946 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -195.8293, 158.41142, -97.31712, 160.08932, -98.68423, 62.21669, -196.19717, 61.91795 ]
+						}
+					]
+				},
+				"up_09": {
+					"effects/white": [
+						{
+							"time": 0.4666,
+							"vertices": [ -176.38393, 114.05597, -79.76278, 117.30598, -80.22066, 22.8041, -177.12842, 18.30968 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -184.6339, 124.85593, -86.51276, 126.30595, -88.47063, 31.20407, -185.9784, 28.20966 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -185.6839, 135.0559, -86.81276, 137.55592, -86.97063, 41.40404, -186.12839, 40.20963 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -185.2789, 156.90479, -86.55475, 158.45383, -86.58364, 61.26999, -185.7414, 59.43059 ]
+						}
+					]
+				},
+				"up_10": {
+					"effects/white": [
+						{
+							"time": 0.3666,
+							"vertices": [ -195.48405, 102.44803, -99.24178, 108.61076, -98.55722, 17.48665, -196.25702, 10.52795 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -198.63007, 112.601, -102.95977, 117.90574, -105.56419, 24.35063, -202.835, 23.68391 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -204.5127, 123.0828, -107.66587, 125.82056, -111.44684, 31.94458, -207.96893, 28.81785 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -210.76315, 141.47261, -112.44894, 144.70667, -113.47902, 51.47864, -212.2942, 49.33377 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -212.48634, 148.14468, -114.03291, 148.91838, -115.37198, 54.38118, -214.43137, 53.8369 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -213.7062, 153.41626, -114.55572, 152.97003, -115.02345, 56.38525, -215.12843, 58.10644 ]
+						}
+					]
+				},
+				"up_11": {
+					"effects/white": [
+						{
+							"time": 0.3666,
+							"vertices": [ -180.0215, 118.84296, -83.40196, 123.05798, -83.51195, 26.46599, -181.27805, 23.814 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -183.5615, 129.93494, -85.87997, 131.90799, -86.93394, 35.66998, -185.05405, 35.25999 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -186.6355, 137.7649, -88.83795, 138.57796, -89.65993, 42.16594, -188.012, 41.75595 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -191.26427, 146.65504, -92.58505, 147.76202, -94.36217, 51.57044, -192.64078, 49.3971 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -193.74426, 156.65512, -94.54504, 158.40201, -94.84216, 60.09044, -194.16078, 58.7171 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -196.34425, 165.13516, -97.22505, 166.16202, -97.40219, 67.01043, -196.80078, 66.3971 ]
+						}
+					]
+				},
+				"up_12": {
+					"effects/white": [
+						{
+							"time": 0.4333,
+							"vertices": [ -218.01189, 97.75595, -119.4001, 100.25992, -119.03995, 3.07201, -217.3248, -1.09489 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -219.97186, 102.19594, -120.0401, 109.61989, -119.07994, 9.832, -218.6848, 1.9451 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -220.36649, 109.62778, -121.81584, 114.42097, -119.73763, 12.59426, -218.75056, 6.2858 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -221.1557, 113.04773, -122.21045, 116.98592, -120.13223, 14.50154, -219.47401, 9.70576 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -222.99722, 119.29572, -122.53928, 127.24578, -121.97374, 27.98405, -221.57861, 16.80874 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -223.39185, 130.14749, -123.39426, 137.96603, -121.84219, 38.0466, -221.97322, 29.96239 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -224.59183, 136.2275, -124.71426, 142.52602, -123.24219, 42.0066, -222.61322, 34.44238 ]
+						}
+					]
+				},
+				"up_13": {
+					"effects/white": [
+						{
+							"time": 0.0666,
+							"vertices": [ 111.76503, 108.80583, 208.94089, 107.18642, 209.10873, 11.69615, 112.23303, 14.03613 ]
+						},
+						{
+							"time": 0.1,
+							"vertices": [ 113.49803, 109.96104, 211.5263, 108.57442, 210.66415, 13.60857, 112.79092, 15.71997 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ 114.00203, 117.01701, 212.6603, 113.48838, 211.86115, 18.27055, 113.04291, 22.39795 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ 114.52203, 118.217, 213.0203, 118.04838, 212.58115, 21.67055, 113.48291, 25.43795 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ 114.46703, 122.50695, 212.9103, 121.45834, 212.74614, 25.5755, 113.6479, 29.4529 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ 115.28601, 130.0669, 214.2333, 126.18333, 213.50214, 30.11148, 114.69316, 34.58467 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ 117.12601, 137.6269, 215.2333, 130.30331, 214.50214, 34.99147, 115.45316, 39.10466 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ 119.58466, 146.04907, 217.90121, 141.02725, 217.9024, 46.02926, 119.63809, 50.09013 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ 121.36325, 150.86176, 218.99976, 145.83989, 218.42552, 49.84802, 121.46901, 54.17045 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ 122.82797, 155.6221, 221.19684, 153.94818, 221.14574, 56.387, 122.72449, 59.29701 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ 125.86206, 162.0564, 221.56302, 155.98837, 221.19804, 59.10721, 124.81696, 62.74959 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ 126.9606, 163.52109, 222.8185, 158.2378, 222.7674, 61.46124, 126.59555, 65.36518 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ 129.73312, 167.65372, 227.7358, 166.2938, 227.6847, 68.00021, 129.4727, 69.07932 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ 134.65044, 172.6233, 231.71152, 169.85097, 231.97426, 71.81897, 135.27931, 74.72899 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 138.0507, 174.61111, 236.41959, 173.35583, 236.05458, 74.69612, 137.68565, 78.28618 ]
+						}
+					]
+				},
+				"up_14": {
+					"effects/white": [
+						{
+							"time": 0,
+							"vertices": [ 118.70601, 114.34886, 217.57687, 118.19684, 217.28677, 22.35306, 118.67915, 22.3106 ]
+						},
+						{
+							"time": 0.0666,
+							"vertices": [ 116.36357, 129.53429, 215.4768, 131.68597, 214.70203, 38.50779, 116.90215, 33.78045 ]
+						},
+						{
+							"time": 0.1,
+							"vertices": [ 116.20201, 133.65375, 213.9421, 140.08646, 214.45969, 45.13123, 116.09441, 40.32312 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ 115.70258, 141.45734, 213.00566, 146.32938, 213.46085, 50.31283, 114.72098, 48.87588 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ 113.67291, 146.37125, 211.29646, 152.632, 212.28577, 57.47004, 113.54591, 56.13991 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ 113.46703, 158.4406, 211.72034, 165.60446, 211.5044, 71.23131, 114.36076, 65.89705 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ 112.5379, 162.41692, 211.07101, 169.75894, 211.93768, 74.35094, 112.80898, 70.89857 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ 111.50174, 170.07628, 211.1271, 176.84332, 211.95724, 79.6877, 112.65417, 76.69907 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ 112.73846, 180.81676, 212.8907, 186.37656, 214.04105, 91.33068, 114.23383, 86.23614 ]
+						}
+					]
+				},
+				"up_15": {
+					"effects/white": [
+						{
+							"time": 0.3666,
+							"vertices": [ -214.8362, 118.92867, -117.23255, 121.4834, -117.92603, 25.194, -215.3396, 22.05616 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -218.43178, 129.00903, -119.83961, 132.03246, -119.4269, 34.03426, -217.96481, 31.73556 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -219.06319, 135.23483, -121.22216, 138.7549, -122.30925, 41.8702, -220.69347, 41.17153 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -220.36366, 136.18222, -122.97091, 139.31155, -122.82245, 42.201, -221.31091, 40.34426 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -224.39748, 146.11784, -126.01022, 151.00504, -126.4586, 54.79628, -223.77905, 49.90503 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -227.01756, 153.71207, -127.82198, 155.96854, -127.56564, 58.46597, -226.24318, 56.38721 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -227.58876, 157.22966, -129.25749, 158.61772, -128.94067, 62.08094, -227.7927, 61.29526 ]
+						}
+					]
+				},
+				"up_16": {
+					"effects/white": [
+						{
+							"time": 0.4333,
+							"vertices": [ -247.50842, 123.68603, -149.18655, 125.44286, -148.29471, 29.83487, -247.33034, 27.75714 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -249.67847, 129.40059, -150.97919, 138.78116, -148.18309, 35.17466, -248.98055, 32.26159 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -252.32503, 138.39584, -152.87433, 147.21558, -151.77173, 46.04296, -250.9983, 40.0444 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -254.40742, 151.015, -155.53723, 159.00223, -154.03813, 54.34895, -253.74324, 52.39584 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -255.47948, 159.91928, -156.56192, 163.09451, -154.41373, 61.16624, -254.5166, 57.88916 ]
+						}
+					]
+				}
+			}
+		},
+		"events": [
+			{ "time": 0.1666, "name": "hit" }
+		]
+	}
+}
+}

@@ -1,0 +1,38 @@
+{
+"skeleton": { "hash": "sC4hAtDCflsVv0vggD9P3P3UumY", "spine": "2.1.27", "width": 100, "height": 100, "images": "G:/svn/pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "kuloutou", "parent": "root" }
+],
+"slots": [
+	{ "name": "zhaohuan/guang_00000", "bone": "kuloutou", "attachment": "zhaohuan/guang_00000" }
+],
+"skins": {
+	"default": {
+		"zhaohuan/guang_00000": {
+			"zhaohuan/guang_00000": { "x": 236.89, "width": 100, "height": 100 },
+			"zhaohuan/toukui_liang": { "x": 237.69, "y": 5.29, "width": 66, "height": 53 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"zhaohuan/guang_00000": {
+				"attachment": [
+					{ "time": 0, "name": "zhaohuan/guang_00000" },
+					{ "time": 0.2666, "name": "zhaohuan/toukui_liang" },
+					{ "time": 0.5333, "name": "zhaohuan/guang_00000" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1333, "color": "ffffff80" },
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff80" },
+					{ "time": 0.5333, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

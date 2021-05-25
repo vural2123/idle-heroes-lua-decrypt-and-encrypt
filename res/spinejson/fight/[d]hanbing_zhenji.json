@@ -1,0 +1,169 @@
+{
+"skeleton": { "hash": "FkV/Ry5TxFT8EjO06QbvtZbAscg", "spine": "2.1.27", "width": 400, "height": 340, "images": "./../" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "end", "parent": "fx" },
+	{ "name": "add1", "parent": "end" },
+	{ "name": "add2", "parent": "end" },
+	{ "name": "add3", "parent": "end" },
+	{ "name": "particle", "parent": "end" },
+	{ "name": "zhenji", "parent": "end" }
+],
+"slots": [
+	{
+		"name": "zhenji",
+		"bone": "zhenji",
+		"color": "ffffff00",
+		"attachment": "hanbing_zhenji/huoyan_zhenji_preview_01",
+		"blend": "screen"
+	},
+	{ "name": "add1", "bone": "add1", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "add2", "bone": "add2", "color": "ffffff00", "attachment": "common/n_ground_flow", "blend": "additive" },
+	{ "name": "add3", "bone": "add3", "color": "ffffff00", "attachment": "common/n_ground_flow", "blend": "additive" },
+	{ "name": "particle", "bone": "particle", "color": "ffffff00", "attachment": "common/particle_circle" }
+],
+"skins": {
+	"default": {
+		"add1": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"add2": {
+			"common/n_ground_flow": { "width": 400, "height": 200 }
+		},
+		"add3": {
+			"common/n_ground_flow": { "width": 400, "height": 200 }
+		},
+		"particle": {
+			"common/particle_circle": { "width": 50, "height": 50 }
+		},
+		"zhenji": {
+			"hanbing_zhenji/huoyan_zhenji_preview_01": { "width": 300, "height": 300 },
+			"hanbing_zhenji/huoyan_zhenji_preview_02": { "width": 300, "height": 300 },
+			"hanbing_zhenji/huoyan_zhenji_preview_03": { "width": 300, "height": 300 },
+			"hanbing_zhenji/huoyan_zhenji_preview_04": { "width": 300, "height": 300 },
+			"hanbing_zhenji/huoyan_zhenji_preview_05": { "width": 300, "height": 300 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"add1": {
+				"color": [
+					{ "time": 0, "color": "00caffff" },
+					{
+						"time": 0.0666,
+						"color": "0059ffff",
+						"curve": [ 0, 0.59, 0.75, 1 ]
+					},
+					{ "time": 0.3, "color": "0094ff00" }
+				]
+			},
+			"add2": {
+				"color": [
+					{ "time": 0, "color": "00d4ffff" },
+					{ "time": 0.0333, "color": "08a4ffff" },
+					{ "time": 0.1666, "color": "077aff00" }
+				]
+			},
+			"add3": {
+				"color": [
+					{ "time": 0, "color": "8dd8ffff" },
+					{ "time": 0.0666, "color": "0bc5ffff" },
+					{ "time": 0.1666, "color": "e0efff00" }
+				]
+			},
+			"particle": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"zhenji": {
+				"attachment": [
+					{ "time": 0, "name": "hanbing_zhenji/huoyan_zhenji_preview_01" },
+					{ "time": 0.0333, "name": "hanbing_zhenji/huoyan_zhenji_preview_02" },
+					{ "time": 0.0666, "name": "hanbing_zhenji/huoyan_zhenji_preview_03" },
+					{ "time": 0.1, "name": "hanbing_zhenji/huoyan_zhenji_preview_04" },
+					{ "time": 0.1333, "name": "hanbing_zhenji/huoyan_zhenji_preview_05" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"zhenji": {
+				"scale": [
+					{ "time": 0, "x": 0.6, "y": 0.6 },
+					{ "time": 0.1333, "x": 0.8, "y": 0.4 }
+				]
+			},
+			"add1": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0, 0.79, 0.75, 1 ]
+					},
+					{ "time": 0.3, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"add2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.2,
+						"y": 0.2,
+						"curve": [ 0.094, 0.14, 0.75, 1 ]
+					},
+					{ "time": 0.1333, "x": 0.7, "y": 0.7 }
+				]
+			},
+			"add3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 3 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.4,
+						"y": 0.4,
+						"curve": [ 0.094, 0.14, 0.75, 1 ]
+					},
+					{ "time": 0.1666, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"particle": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 2,
+						"y": 2,
+						"curve": [ 0, 0.59, 0.75, 1 ]
+					},
+					{ "time": 0.1666, "x": 2.5, "y": 1 }
+				]
+			},
+			"end": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

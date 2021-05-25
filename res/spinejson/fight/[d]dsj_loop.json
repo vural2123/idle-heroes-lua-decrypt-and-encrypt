@@ -1,0 +1,94 @@
+{
+"skeleton": { "hash": "g2ui6QBnV5iAbMmuGCUwfj0JNFs", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root" },
+	{ "name": "fly", "parent": "all" },
+	{ "name": "fly_01", "parent": "fly" },
+	{ "name": "fly_02", "parent": "fly" }
+],
+"slots": [
+	{ "name": "fly_01", "bone": "fly_01", "color": "ffffff00", "attachment": "dsj_loop/green_arrow_11" },
+	{ "name": "fly_02", "bone": "fly_02", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"fly_01": {
+			"dsj_loop/green_arrow_00": { "width": 140, "height": 100 },
+			"dsj_loop/green_arrow_01": { "width": 140, "height": 100 },
+			"dsj_loop/green_arrow_02": { "width": 140, "height": 100 },
+			"dsj_loop/green_arrow_03": { "width": 140, "height": 100 },
+			"dsj_loop/green_arrow_04": { "width": 140, "height": 100 },
+			"dsj_loop/green_arrow_05": { "width": 140, "height": 100 },
+			"dsj_loop/green_arrow_06": { "width": 140, "height": 100 },
+			"dsj_loop/green_arrow_07": { "width": 140, "height": 100 },
+			"dsj_loop/green_arrow_08": { "width": 140, "height": 100 },
+			"dsj_loop/green_arrow_09": { "width": 140, "height": 100 },
+			"dsj_loop/green_arrow_10": { "width": 140, "height": 100 },
+			"dsj_loop/green_arrow_11": { "width": 140, "height": 100 }
+		},
+		"fly_02": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"fly_01": {
+				"attachment": [
+					{ "time": 0, "name": "dsj_loop/green_arrow_00" },
+					{ "time": 0.0333, "name": "dsj_loop/green_arrow_01" },
+					{ "time": 0.0666, "name": "dsj_loop/green_arrow_02" },
+					{ "time": 0.1, "name": "dsj_loop/green_arrow_03" },
+					{ "time": 0.1333, "name": "dsj_loop/green_arrow_04" },
+					{ "time": 0.1666, "name": "dsj_loop/green_arrow_05" },
+					{ "time": 0.2, "name": "dsj_loop/green_arrow_06" },
+					{ "time": 0.2333, "name": "dsj_loop/green_arrow_07" },
+					{ "time": 0.2666, "name": "dsj_loop/green_arrow_08" },
+					{ "time": 0.3, "name": "dsj_loop/green_arrow_09" },
+					{ "time": 0.3333, "name": "dsj_loop/green_arrow_10" },
+					{ "time": 0.3666, "name": "dsj_loop/green_arrow_11" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2, "color": "46ff00ff" },
+					{ "time": 0.3666, "color": "ffffffff" },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"fly_02": {
+				"color": [
+					{ "time": 0, "color": "7fff00ff" }
+				]
+			}
+		},
+		"bones": {
+			"all": {
+				"translate": [
+					{ "time": 0, "x": 94.24, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.35 }
+				]
+			},
+			"fly": {
+				"translate": [
+					{ "time": 0, "x": -49.12, "y": 0 }
+				]
+			},
+			"fly_02": {
+				"translate": [
+					{ "time": 0, "x": 49.79, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 49.79, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.1, "y": 0.103 },
+					{ "time": 0.2, "x": 0.5, "y": 0.503 },
+					{ "time": 0.4, "x": 0.1, "y": 0.103 }
+				]
+			}
+		}
+	}
+}
+}

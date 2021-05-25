@@ -1,0 +1,3161 @@
+{
+"skeleton": { "hash": "gfCkWh9FSP1BnjWKckDL0PPTQCk", "spine": "2.1.27", "width": 400, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "FX", "parent": "code_shake" },
+	{ "name": "FX_up", "parent": "FX" },
+	{ "name": "Ash_Group", "parent": "FX_up" },
+	{ "name": "ICE_1-1", "parent": "FX_up", "scaleX": 0.9, "scaleY": 0.9 },
+	{ "name": "ICE_1-2", "parent": "FX_up", "scaleX": 0.9, "scaleY": 0.9 },
+	{ "name": "ICE_1-3", "parent": "FX_up", "scaleX": 0.9, "scaleY": 0.9 },
+	{ "name": "ICE_1-4", "parent": "FX_up", "scaleX": 0.9, "scaleY": 0.9 },
+	{ "name": "cloud_1", "parent": "FX_up" },
+	{ "name": "cloud_2", "parent": "FX_up" },
+	{ "name": "halo2", "parent": "FX_up" },
+	{ "name": "hit_group", "parent": "FX_up" },
+	{ "name": "ice_crack", "parent": "FX_up" },
+	{ "name": "ice_crack2", "parent": "FX_up" },
+	{ "name": "shine_up", "parent": "FX_up" },
+	{ "name": "spay_1", "parent": "FX_up" },
+	{ "name": "spay_2", "parent": "FX_up" },
+	{ "name": "spay_3", "parent": "FX_up" },
+	{ "name": "ash_1", "parent": "Ash_Group" },
+	{ "name": "ash_10", "parent": "Ash_Group" },
+	{ "name": "ash_11", "parent": "Ash_Group" },
+	{ "name": "ash_12", "parent": "Ash_Group" },
+	{ "name": "ash_13", "parent": "Ash_Group" },
+	{ "name": "ash_14", "parent": "Ash_Group" },
+	{ "name": "ash_15", "parent": "Ash_Group" },
+	{ "name": "ash_16", "parent": "Ash_Group" },
+	{ "name": "ash_17", "parent": "Ash_Group" },
+	{ "name": "ash_18", "parent": "Ash_Group" },
+	{ "name": "ash_19", "parent": "Ash_Group" },
+	{ "name": "ash_2", "parent": "Ash_Group" },
+	{ "name": "ash_20", "parent": "Ash_Group" },
+	{ "name": "ash_3", "parent": "Ash_Group" },
+	{ "name": "ash_4", "parent": "Ash_Group" },
+	{ "name": "ash_5", "parent": "Ash_Group" },
+	{ "name": "ash_6", "parent": "Ash_Group" },
+	{ "name": "ash_7", "parent": "Ash_Group" },
+	{ "name": "ash_8", "parent": "Ash_Group" },
+	{ "name": "ash_9", "parent": "Ash_Group" },
+	{ "name": "hit_w1", "parent": "hit_group" },
+	{ "name": "hit_w10", "parent": "hit_group" },
+	{ "name": "hit_w11", "parent": "hit_group" },
+	{ "name": "hit_w12", "parent": "hit_group" },
+	{ "name": "hit_w13", "parent": "hit_group" },
+	{ "name": "hit_w14", "parent": "hit_group" },
+	{ "name": "hit_w15", "parent": "hit_group" },
+	{ "name": "hit_w16", "parent": "hit_group" },
+	{ "name": "hit_w17", "parent": "hit_group" },
+	{ "name": "hit_w18", "parent": "hit_group" },
+	{ "name": "hit_w19", "parent": "hit_group" },
+	{ "name": "hit_w2", "parent": "hit_group" },
+	{ "name": "hit_w20", "parent": "hit_group" },
+	{ "name": "hit_w3", "parent": "hit_group" },
+	{ "name": "hit_w4", "parent": "hit_group" },
+	{ "name": "hit_w5", "parent": "hit_group" },
+	{ "name": "hit_w6", "parent": "hit_group" },
+	{ "name": "hit_w7", "parent": "hit_group" },
+	{ "name": "hit_w8", "parent": "hit_group" },
+	{ "name": "hit_w9", "parent": "hit_group" }
+],
+"slots": [
+	{ "name": "ash_1", "bone": "ash_1", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_2", "bone": "ash_2", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_3", "bone": "ash_3", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_4", "bone": "ash_4", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_5", "bone": "ash_5", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_6", "bone": "ash_6", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_7", "bone": "ash_7", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_8", "bone": "ash_8", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_9", "bone": "ash_9", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_10", "bone": "ash_10", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_11", "bone": "ash_11", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_12", "bone": "ash_12", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_13", "bone": "ash_13", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_14", "bone": "ash_14", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_15", "bone": "ash_15", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_16", "bone": "ash_16", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_17", "bone": "ash_17", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_18", "bone": "ash_18", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_19", "bone": "ash_19", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "ash_20", "bone": "ash_20", "color": "ffffff00", "attachment": "common/fx_white", "blend": "additive" },
+	{ "name": "halo2", "bone": "halo2", "color": "ffffff00", "attachment": "common/fx_halo", "blend": "additive" },
+	{ "name": "shine_up", "bone": "shine_up", "color": "ffffff00", "attachment": "common/shine", "blend": "additive" },
+	{ "name": "ICE_1-1", "bone": "ICE_1-1", "color": "ffffff00", "attachment": "0863_fx/Asset_Ice1_00" },
+	{ "name": "ICE_1-4", "bone": "ICE_1-4", "color": "ffffff00", "attachment": "0863_fx/Asset_Ice1_00", "blend": "additive" },
+	{ "name": "ICE_1-2", "bone": "ICE_1-2", "color": "ffffff00", "attachment": "0863_fx/Asset_Ice1_00" },
+	{ "name": "ICE_1-3", "bone": "ICE_1-3", "color": "ffffff00", "attachment": "0863_fx/Asset_Ice1_00", "blend": "additive" },
+	{ "name": "hit_w1", "bone": "hit_w1", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w2", "bone": "hit_w2", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w3", "bone": "hit_w3", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w4", "bone": "hit_w4", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w5", "bone": "hit_w5", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w6", "bone": "hit_w6", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w7", "bone": "hit_w7", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w8", "bone": "hit_w8", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w9", "bone": "hit_w9", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w10", "bone": "hit_w10", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w11", "bone": "hit_w11", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w12", "bone": "hit_w12", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w13", "bone": "hit_w13", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w14", "bone": "hit_w14", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w15", "bone": "hit_w15", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w16", "bone": "hit_w16", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w17", "bone": "hit_w17", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w18", "bone": "hit_w18", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w19", "bone": "hit_w19", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "hit_w20", "bone": "hit_w20", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "cloud_1", "bone": "cloud_1", "color": "ffffff00", "attachment": "0863_fx/asset_cloud_00", "blend": "additive" },
+	{ "name": "cloud_2", "bone": "cloud_2", "color": "ffffff00", "attachment": "0863_fx/asset_cloud_00", "blend": "screen" },
+	{ "name": "spay_1", "bone": "spay_1", "color": "ffffff00", "attachment": "common/t_penjian_07", "blend": "additive" },
+	{ "name": "spay_3", "bone": "spay_3", "color": "ffffff00", "attachment": "common/t_penjian_07", "blend": "additive" },
+	{ "name": "spay_2", "bone": "spay_2", "color": "ffffff00", "attachment": "common/t_penjian_07", "blend": "additive" },
+	{ "name": "ice_crack", "bone": "ice_crack", "color": "ffffff00", "attachment": "0863_fx/Asset_icecrack_00" },
+	{ "name": "ice_crack2", "bone": "ice_crack2", "color": "ffffff00", "attachment": "0863_fx/Asset_icecrack_00", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"ICE_1-1": {
+			"0863_fx/Asset_Ice1_00": { "width": 250, "height": 350 }
+		},
+		"ICE_1-2": {
+			"0863_fx/Asset_Ice1_00": {
+				"type": "mesh",
+				"uvs": [ 0.23666, 0.25831, 0.90385, 0.26824, 1, 0.29008, 1, 1, 0, 1, 0, 0.32781, 0.34786, 0.29604, 0.47018, 0.26427, 0.5647, 0.30398, 0.6759, 0.27221, 0.79544, 0.30001 ],
+				"triangles": [ 1, 7, 0, 9, 7, 1, 6, 0, 7, 10, 9, 1, 8, 7, 9, 6, 4, 5, 6, 5, 0, 6, 7, 8, 4, 6, 8, 10, 1, 2, 3, 10, 2, 8, 9, 10, 3, 8, 10, 4, 8, 3 ],
+				"vertices": [ -65.83, 84.58, 100.96, 81.11, 125, 73.46, 125, -175, -125, -175, -125, 60.26, -38.03, 71.37999, -7.45, 82.5, 16.17, 68.6, 43.97, 79.72, 73.85, 69.99 ],
+				"hull": 6,
+				"edges": [ 6, 8, 8, 10, 6, 4, 10, 0, 0, 2, 2, 4 ],
+				"width": 250,
+				"height": 350
+			}
+		},
+		"ICE_1-3": {
+			"0863_fx/Asset_Ice1_00": {
+				"type": "mesh",
+				"uvs": [ 0.23666, 0.25831, 0.90385, 0.26824, 1, 0.29008, 1, 1, 0, 1, 0, 0.32781, 0.34786, 0.29604, 0.47018, 0.26427, 0.5647, 0.30398, 0.6759, 0.27221, 0.79544, 0.30001 ],
+				"triangles": [ 1, 7, 0, 9, 7, 1, 6, 0, 7, 10, 9, 1, 8, 7, 9, 6, 4, 5, 6, 5, 0, 6, 7, 8, 4, 6, 8, 10, 1, 2, 3, 10, 2, 8, 9, 10, 3, 8, 10, 4, 8, 3 ],
+				"vertices": [ -65.83, 84.58, 100.96, 81.11, 125, 73.46, 125, -175, -125, -175, -125, 60.26, -38.03, 71.37999, -7.45, 82.5, 16.17, 68.6, 43.97, 79.72, 73.85, 69.99 ],
+				"hull": 6,
+				"edges": [ 6, 8, 8, 10, 6, 4, 10, 0, 0, 2, 2, 4 ],
+				"width": 250,
+				"height": 350
+			}
+		},
+		"ICE_1-4": {
+			"0863_fx/Asset_Ice1_00": { "width": 250, "height": 350 }
+		},
+		"ash_1": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_10": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_11": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_12": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_13": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_14": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_15": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_16": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_17": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_18": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_19": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_2": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_20": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_3": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_4": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_5": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_6": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_7": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_8": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ash_9": {
+			"common/fx_white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50461, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.46, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"cloud_1": {
+			"0863_fx/asset_cloud_00": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0, 0.50011, 0.50477 ],
+				"triangles": [ 4, 2, 3, 1, 2, 4, 4, 3, 0, 1, 4, 0 ],
+				"vertices": [ 200, -135, -200, -135, -200, 135, 200, 135, 0.04, -1.28 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6, 8, 4, 8, 2, 8, 0, 8, 6 ],
+				"width": 400,
+				"height": 270
+			}
+		},
+		"cloud_2": {
+			"0863_fx/asset_cloud_00": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0, 0.50011, 0.50477 ],
+				"triangles": [ 4, 2, 3, 1, 2, 4, 4, 3, 0, 1, 4, 0 ],
+				"vertices": [ 200, -135, -200, -135, -200, 135, 200, 135, 0.04, -1.28 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6, 8, 4, 8, 2, 8, 0, 8, 6 ],
+				"width": 400,
+				"height": 270
+			}
+		},
+		"halo2": {
+			"common/fx_halo": { "path": "common/n_halo", "width": 340, "height": 340 }
+		},
+		"hit_w1": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w10": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w11": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w12": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w13": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w14": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w15": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w16": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w17": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w18": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w19": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w2": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w20": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w3": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w4": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w5": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w6": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w7": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w8": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hit_w9": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 0.50506, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 3, 4, 0, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 0.5, 50, 50, 50 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 0, 8, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ice_crack": {
+			"0863_fx/Asset_icecrack_00": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_01": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_02": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_03": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_04": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_05": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_06": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_07": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_08": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_09": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_10": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_11": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_12": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_13": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_14": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_15": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_16": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_17": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_18": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_19": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_20": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_21": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_22": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_23": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_24": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_25": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_26": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_27": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_28": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_29": { "width": 150, "height": 130 }
+		},
+		"ice_crack2": {
+			"0863_fx/Asset_icecrack_00": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_01": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_02": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_03": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_04": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_05": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_06": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_07": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_08": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_09": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_10": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_11": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_12": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_13": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_14": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_15": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_16": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_17": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_18": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_19": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_20": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_21": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_22": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_23": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_24": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_25": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_26": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_27": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_28": { "width": 150, "height": 130 },
+			"0863_fx/Asset_icecrack_29": { "width": 150, "height": 130 }
+		},
+		"shine_up": {
+			"common/shine": { "width": 105, "height": 317 }
+		},
+		"spay_1": {
+			"common/t_penjian_00": { "width": 100, "height": 160 },
+			"common/t_penjian_01": { "width": 100, "height": 160 },
+			"common/t_penjian_02": { "width": 100, "height": 160 },
+			"common/t_penjian_03": { "width": 100, "height": 160 },
+			"common/t_penjian_04": { "width": 100, "height": 160 },
+			"common/t_penjian_05": { "width": 100, "height": 160 },
+			"common/t_penjian_06": { "width": 100, "height": 160 },
+			"common/t_penjian_07": { "width": 100, "height": 160 }
+		},
+		"spay_2": {
+			"common/t_penjian_00": { "width": 100, "height": 160 },
+			"common/t_penjian_01": { "width": 100, "height": 160 },
+			"common/t_penjian_02": { "width": 100, "height": 160 },
+			"common/t_penjian_03": { "width": 100, "height": 160 },
+			"common/t_penjian_04": { "width": 100, "height": 160 },
+			"common/t_penjian_05": { "width": 100, "height": 160 },
+			"common/t_penjian_06": { "width": 100, "height": 160 },
+			"common/t_penjian_07": { "width": 100, "height": 160 }
+		},
+		"spay_3": {
+			"common/t_penjian_00": { "width": 100, "height": 160 },
+			"common/t_penjian_01": { "width": 100, "height": 160 },
+			"common/t_penjian_02": { "width": 100, "height": 160 },
+			"common/t_penjian_03": { "width": 100, "height": 160 },
+			"common/t_penjian_04": { "width": 100, "height": 160 },
+			"common/t_penjian_05": { "width": 100, "height": 160 },
+			"common/t_penjian_06": { "width": 100, "height": 160 },
+			"common/t_penjian_07": { "width": 100, "height": 160 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"ICE_1-1": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffffa2", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffffa2" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"ICE_1-2": {
+				"color": [
+					{ "time": 0.5, "color": "ffffffb3", "curve": "stepped" },
+					{ "time": 1.1333, "color": "ffffffb3" },
+					{ "time": 1.4666, "color": "ffffff00" }
+				]
+			},
+			"ICE_1-3": {
+				"color": [
+					{ "time": 0.5, "color": "91a8ffa2", "curve": "stepped" },
+					{ "time": 1.1333, "color": "91a8ffa2" },
+					{ "time": 1.4666, "color": "91a8ff00" }
+				]
+			},
+			"ICE_1-4": {
+				"color": [
+					{ "time": 0.3333, "color": "91a8ffa2", "curve": "stepped" },
+					{ "time": 0.4666, "color": "91a8ffa2" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"ash_1": {
+				"color": [
+					{ "time": 0.3666, "color": "005dffff" },
+					{ "time": 1.2333, "color": "88d2ffff" },
+					{ "time": 1.4, "color": "88d2ff00" }
+				]
+			},
+			"ash_2": {
+				"color": [
+					{ "time": 0.3666, "color": "005dffff" },
+					{ "time": 1.0666, "color": "88d2ffff" },
+					{ "time": 1.2666, "color": "88d2ff00" }
+				]
+			},
+			"ash_3": {
+				"color": [
+					{ "time": 0.3666, "color": "005dffff" },
+					{ "time": 1.2, "color": "88d2ffff" },
+					{ "time": 1.4333, "color": "88d2ff00" }
+				]
+			},
+			"ash_4": {
+				"color": [
+					{ "time": 0.3666, "color": "005dffff" },
+					{ "time": 1.2, "color": "88d2ffff" },
+					{ "time": 1.4, "color": "88d2ff00" }
+				]
+			},
+			"ash_5": {
+				"color": [
+					{ "time": 0.3666, "color": "005dffff" },
+					{ "time": 1.1666, "color": "88d2ffff" },
+					{ "time": 1.3333, "color": "88d2ff00" }
+				]
+			},
+			"ash_6": {
+				"color": [
+					{ "time": 0.4, "color": "005dffff" },
+					{ "time": 0.8666, "color": "88d2ffff" },
+					{ "time": 1.0333, "color": "88d2ff00" }
+				]
+			},
+			"ash_7": {
+				"color": [
+					{ "time": 0.4, "color": "005dffff" },
+					{ "time": 1.0666, "color": "88d2ffff" },
+					{ "time": 1.1666, "color": "88d2ff00" }
+				]
+			},
+			"ash_8": {
+				"color": [
+					{ "time": 0.4, "color": "005dffff" },
+					{ "time": 0.9333, "color": "88d2ffff" },
+					{ "time": 1.1333, "color": "88d2ff00" }
+				]
+			},
+			"ash_9": {
+				"color": [
+					{ "time": 0.4, "color": "005dffff" },
+					{ "time": 0.9, "color": "88d2ffff" },
+					{ "time": 1.1, "color": "88d2ff00" }
+				]
+			},
+			"ash_10": {
+				"color": [
+					{ "time": 0.4, "color": "005dffff" },
+					{ "time": 0.7666, "color": "88d2ffff" },
+					{ "time": 0.9333, "color": "88d2ff00" }
+				]
+			},
+			"ash_11": {
+				"color": [
+					{ "time": 0.4, "color": "005dffff" },
+					{ "time": 0.9333, "color": "88d2ffff" },
+					{ "time": 1.3333, "color": "88d2ff00" }
+				]
+			},
+			"ash_12": {
+				"color": [
+					{ "time": 0.4333, "color": "005dffff" },
+					{ "time": 1.1333, "color": "88d2ffff" },
+					{ "time": 1.4666, "color": "88d2ff00" }
+				]
+			},
+			"ash_13": {
+				"color": [
+					{ "time": 0.4333, "color": "005dffff" },
+					{ "time": 1.0333, "color": "88d2ffff" },
+					{ "time": 1.3333, "color": "88d2ff00" }
+				]
+			},
+			"ash_14": {
+				"color": [
+					{ "time": 0.4666, "color": "005dffff" },
+					{ "time": 0.9666, "color": "88d2ffff" },
+					{ "time": 1.2, "color": "88d2ff00" }
+				]
+			},
+			"ash_15": {
+				"color": [
+					{ "time": 0.4333, "color": "005dffff" },
+					{ "time": 0.6, "color": "88d2ffff" },
+					{ "time": 0.7666, "color": "88d2ff00" }
+				]
+			},
+			"ash_16": {
+				"color": [
+					{ "time": 0.4, "color": "005dffff" },
+					{ "time": 0.5666, "color": "88d2ffff" },
+					{ "time": 0.7, "color": "88d2ff00" }
+				]
+			},
+			"ash_17": {
+				"color": [
+					{ "time": 0.4333, "color": "005dffff" },
+					{ "time": 1.2666, "color": "88d2ffff" },
+					{ "time": 1.4666, "color": "88d2ff00" }
+				]
+			},
+			"ash_18": {
+				"color": [
+					{ "time": 0.4333, "color": "005dffff" },
+					{ "time": 0.7666, "color": "88d2ffff" },
+					{ "time": 0.9666, "color": "88d2ff00" }
+				]
+			},
+			"ash_19": {
+				"color": [
+					{ "time": 0.4333, "color": "005dffff" },
+					{ "time": 1.1666, "color": "88d2ffff" },
+					{ "time": 1.4, "color": "88d2ff00" }
+				]
+			},
+			"ash_20": {
+				"color": [
+					{ "time": 0.4, "color": "005dffff" },
+					{ "time": 1.0333, "color": "88d2ffff" },
+					{ "time": 1.2, "color": "88d2ff00" }
+				]
+			},
+			"cloud_1": {
+				"color": [
+					{ "time": 0.4333, "color": "abe5ff9c" },
+					{ "time": 1.3, "color": "abe5ff00" }
+				]
+			},
+			"cloud_2": {
+				"color": [
+					{ "time": 0.4666, "color": "85c6ffff" },
+					{ "time": 1.2666, "color": "85c6ff00" }
+				]
+			},
+			"halo2": {
+				"color": [
+					{ "time": 0.4, "color": "003dffff" },
+					{ "time": 0.5, "color": "1600ffff" },
+					{ "time": 0.6, "color": "003dff00" }
+				]
+			},
+			"hit_w1": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 0.9666, "color": "53b0ffa2" },
+					{ "time": 1.0333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w2": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 0.6333, "color": "53b0ffa2" },
+					{ "time": 0.7, "color": "53b0ff00" }
+				]
+			},
+			"hit_w3": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 0.8666, "color": "53b0ffa2" },
+					{ "time": 0.9333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w4": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 0.7, "color": "53b0ffa2" },
+					{ "time": 0.7666, "color": "53b0ff00" }
+				]
+			},
+			"hit_w5": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 0.6666, "color": "53b0ffa2" },
+					{ "time": 0.7, "color": "53b0ff00" }
+				]
+			},
+			"hit_w6": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 0.7666, "color": "53b0ffa2" },
+					{ "time": 0.8333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w7": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 0.7, "color": "53b0ffa2" },
+					{ "time": 0.7666, "color": "53b0ff00" }
+				]
+			},
+			"hit_w8": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 1.0666, "color": "53b0ffa2" },
+					{ "time": 1.1333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w9": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 0.6333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w10": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 0.8666, "color": "53b0ffa2" },
+					{ "time": 0.9333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w11": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 1.1333, "color": "53b0ffa2" },
+					{ "time": 1.2333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w12": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 1.1333, "color": "53b0ffa2" },
+					{ "time": 1.2333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w13": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 1.1666, "color": "53b0ffa2" },
+					{ "time": 1.2333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w14": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 1, "color": "53b0ffa2" },
+					{ "time": 1.0666, "color": "53b0ff00" }
+				]
+			},
+			"hit_w15": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 0.9333, "color": "53b0ffa2" },
+					{ "time": 1.0333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w16": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 0.6666, "color": "53b0ffa2" },
+					{ "time": 0.7666, "color": "53b0ff00" }
+				]
+			},
+			"hit_w17": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 1.1333, "color": "53b0ffa2" },
+					{ "time": 1.2333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w18": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 0.9333, "color": "53b0ffa2" },
+					{ "time": 1.0333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w19": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 1.1666, "color": "53b0ffa2" },
+					{ "time": 1.2333, "color": "53b0ff00" }
+				]
+			},
+			"hit_w20": {
+				"color": [
+					{ "time": 0.5333, "color": "0051fffe" },
+					{ "time": 1.1, "color": "53b0ffa2" },
+					{ "time": 1.2333, "color": "53b0ff00" }
+				]
+			},
+			"ice_crack": {
+				"attachment": [
+					{ "time": 0.4, "name": "0863_fx/Asset_icecrack_00" },
+					{ "time": 0.4333, "name": "0863_fx/Asset_icecrack_01" },
+					{ "time": 0.4666, "name": "0863_fx/Asset_icecrack_02" },
+					{ "time": 0.5, "name": "0863_fx/Asset_icecrack_03" },
+					{ "time": 0.5333, "name": "0863_fx/Asset_icecrack_04" },
+					{ "time": 0.5666, "name": "0863_fx/Asset_icecrack_05" },
+					{ "time": 0.6, "name": "0863_fx/Asset_icecrack_06" },
+					{ "time": 0.6333, "name": "0863_fx/Asset_icecrack_07" },
+					{ "time": 0.6666, "name": "0863_fx/Asset_icecrack_08" },
+					{ "time": 0.7, "name": "0863_fx/Asset_icecrack_09" },
+					{ "time": 0.7333, "name": "0863_fx/Asset_icecrack_10" },
+					{ "time": 0.7666, "name": "0863_fx/Asset_icecrack_11" },
+					{ "time": 0.8, "name": "0863_fx/Asset_icecrack_12" },
+					{ "time": 0.8333, "name": "0863_fx/Asset_icecrack_13" },
+					{ "time": 0.8666, "name": "0863_fx/Asset_icecrack_14" },
+					{ "time": 0.9, "name": "0863_fx/Asset_icecrack_15" },
+					{ "time": 0.9333, "name": "0863_fx/Asset_icecrack_16" },
+					{ "time": 0.9666, "name": "0863_fx/Asset_icecrack_17" },
+					{ "time": 1, "name": "0863_fx/Asset_icecrack_18" },
+					{ "time": 1.0333, "name": "0863_fx/Asset_icecrack_19" },
+					{ "time": 1.0666, "name": "0863_fx/Asset_icecrack_20" },
+					{ "time": 1.1, "name": "0863_fx/Asset_icecrack_21" },
+					{ "time": 1.1333, "name": "0863_fx/Asset_icecrack_22" },
+					{ "time": 1.1666, "name": "0863_fx/Asset_icecrack_23" },
+					{ "time": 1.2, "name": "0863_fx/Asset_icecrack_24" },
+					{ "time": 1.2333, "name": "0863_fx/Asset_icecrack_25" },
+					{ "time": 1.2666, "name": "0863_fx/Asset_icecrack_26" },
+					{ "time": 1.3, "name": "0863_fx/Asset_icecrack_27" },
+					{ "time": 1.3333, "name": "0863_fx/Asset_icecrack_28" },
+					{ "time": 1.3666, "name": "0863_fx/Asset_icecrack_29" }
+				],
+				"color": [
+					{ "time": 0.4, "color": "40adffff" },
+					{ "time": 1.2333, "color": "8bd2ffff" },
+					{ "time": 1.4, "color": "8bd2ff00" }
+				]
+			},
+			"ice_crack2": {
+				"attachment": [
+					{ "time": 0.4, "name": "0863_fx/Asset_icecrack_00" },
+					{ "time": 0.4333, "name": "0863_fx/Asset_icecrack_01" },
+					{ "time": 0.4666, "name": "0863_fx/Asset_icecrack_02" },
+					{ "time": 0.5, "name": "0863_fx/Asset_icecrack_03" },
+					{ "time": 0.5333, "name": "0863_fx/Asset_icecrack_04" },
+					{ "time": 0.5666, "name": "0863_fx/Asset_icecrack_05" },
+					{ "time": 0.6, "name": "0863_fx/Asset_icecrack_06" },
+					{ "time": 0.6333, "name": "0863_fx/Asset_icecrack_07" },
+					{ "time": 0.6666, "name": "0863_fx/Asset_icecrack_08" },
+					{ "time": 0.7, "name": "0863_fx/Asset_icecrack_09" },
+					{ "time": 0.7333, "name": "0863_fx/Asset_icecrack_10" },
+					{ "time": 0.7666, "name": "0863_fx/Asset_icecrack_11" },
+					{ "time": 0.8, "name": "0863_fx/Asset_icecrack_12" },
+					{ "time": 0.8333, "name": "0863_fx/Asset_icecrack_13" },
+					{ "time": 0.8666, "name": "0863_fx/Asset_icecrack_14" },
+					{ "time": 0.9, "name": "0863_fx/Asset_icecrack_15" },
+					{ "time": 0.9333, "name": "0863_fx/Asset_icecrack_16" },
+					{ "time": 0.9666, "name": "0863_fx/Asset_icecrack_17" },
+					{ "time": 1, "name": "0863_fx/Asset_icecrack_18" },
+					{ "time": 1.0333, "name": "0863_fx/Asset_icecrack_19" },
+					{ "time": 1.0666, "name": "0863_fx/Asset_icecrack_20" },
+					{ "time": 1.1, "name": "0863_fx/Asset_icecrack_21" },
+					{ "time": 1.1333, "name": "0863_fx/Asset_icecrack_22" },
+					{ "time": 1.1666, "name": "0863_fx/Asset_icecrack_23" },
+					{ "time": 1.2, "name": "0863_fx/Asset_icecrack_24" },
+					{ "time": 1.2333, "name": "0863_fx/Asset_icecrack_25" },
+					{ "time": 1.2666, "name": "0863_fx/Asset_icecrack_26" },
+					{ "time": 1.3, "name": "0863_fx/Asset_icecrack_27" },
+					{ "time": 1.3333, "name": "0863_fx/Asset_icecrack_28" },
+					{ "time": 1.3666, "name": "0863_fx/Asset_icecrack_29" },
+					{ "time": 1.4, "name": "0863_fx/Asset_icecrack_29" }
+				],
+				"color": [
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.2333, "color": "ffffffff" },
+					{ "time": 1.4, "color": "ffffff00" }
+				]
+			},
+			"shine_up": {
+				"color": [
+					{ "time": 0.5666, "color": "2654ffad" },
+					{ "time": 0.8333, "color": "2654ff00" }
+				]
+			},
+			"spay_1": {
+				"attachment": [
+					{ "time": 0.4333, "name": "common/t_penjian_00" },
+					{ "time": 0.4666, "name": "common/t_penjian_01" },
+					{ "time": 0.5, "name": "common/t_penjian_02" },
+					{ "time": 0.5333, "name": "common/t_penjian_03" },
+					{ "time": 0.5666, "name": "common/t_penjian_04" },
+					{ "time": 0.6, "name": "common/t_penjian_05" },
+					{ "time": 0.6333, "name": "common/t_penjian_06" },
+					{ "time": 0.6666, "name": "common/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.4333, "color": "5fafffff" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				]
+			},
+			"spay_2": {
+				"attachment": [
+					{ "time": 0.4333, "name": "common/t_penjian_00" },
+					{ "time": 0.4666, "name": "common/t_penjian_01" },
+					{ "time": 0.5, "name": "common/t_penjian_02" },
+					{ "time": 0.5333, "name": "common/t_penjian_03" },
+					{ "time": 0.5666, "name": "common/t_penjian_04" },
+					{ "time": 0.6, "name": "common/t_penjian_05" },
+					{ "time": 0.6333, "name": "common/t_penjian_06" },
+					{ "time": 0.6666, "name": "common/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.4333, "color": "5fafffff" },
+					{ "time": 0.6666, "color": "f8ffffff" },
+					{ "time": 0.7, "color": "f8ffff00" }
+				]
+			},
+			"spay_3": {
+				"attachment": [
+					{ "time": 0.4, "name": "common/t_penjian_00" },
+					{ "time": 0.4333, "name": "common/t_penjian_01" },
+					{ "time": 0.4666, "name": "common/t_penjian_02" },
+					{ "time": 0.5, "name": "common/t_penjian_03" },
+					{ "time": 0.5333, "name": "common/t_penjian_04" },
+					{ "time": 0.5666, "name": "common/t_penjian_05" },
+					{ "time": 0.6, "name": "common/t_penjian_06" },
+					{ "time": 0.6333, "name": "common/t_penjian_07" }
+				],
+				"color": [
+					{ "time": 0.4, "color": "5fafffff" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.6666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"halo2": {
+				"translate": [
+					{ "time": 0.4, "x": 0, "y": 31.98 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 1.25, "y": 1.25 },
+					{ "time": 0.5, "x": 3, "y": 3 }
+				]
+			},
+			"Ash_Group": {
+				"scale": [
+					{ "time": 0.3666, "x": 0.7, "y": 0.7 }
+				]
+			},
+			"shine_up": {
+				"translate": [
+					{ "time": 0.5666, "x": 0, "y": 86.12 },
+					{ "time": 0.8, "x": 0, "y": 335.66 }
+				],
+				"scale": [
+					{ "time": 0.5666, "x": 2, "y": 1 },
+					{ "time": 0.8, "x": 3, "y": 3 }
+				]
+			},
+			"hit_group": {
+				"translate": [
+					{ "time": 0.5333, "x": 0, "y": 20 }
+				],
+				"scale": [
+					{ "time": 0.5333, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"spay_1": {
+				"rotate": [
+					{ "time": 0.4333, "angle": 120 }
+				],
+				"translate": [
+					{ "time": 0.4333, "x": -59.98, "y": 77.12 }
+				],
+				"scale": [
+					{ "time": 0.4333, "x": 2, "y": 1 }
+				]
+			},
+			"spay_2": {
+				"rotate": [
+					{ "time": 0.4333, "angle": -100 }
+				],
+				"translate": [
+					{ "time": 0.4333, "x": 38.89, "y": 108.47 }
+				],
+				"scale": [
+					{ "time": 0.4333, "x": -2.5, "y": 1 }
+				]
+			},
+			"spay_3": {
+				"rotate": [
+					{ "time": 0.4, "angle": 90 }
+				],
+				"translate": [
+					{ "time": 0.4, "x": 0, "y": 88.09 },
+					{ "time": 0.6333, "x": 0, "y": 148.21 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 2, "y": 1.5 }
+				]
+			},
+			"ice_crack": {
+				"translate": [
+					{ "time": 0.4, "x": 11.42, "y": 112.51 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 3, "y": 2 }
+				]
+			},
+			"ice_crack2": {
+				"translate": [
+					{ "time": 0.4, "x": 11.42, "y": 112.51 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 3, "y": 2 }
+				]
+			},
+			"ICE_1-1": {
+				"rotate": [
+					{ "time": 0.3333, "angle": 180 }
+				],
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": 556.91 },
+					{ "time": 0.4666, "x": 0, "y": 143.08 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 1.35, "y": 1.2 }
+				]
+			},
+			"ICE_1-2": {
+				"rotate": [
+					{ "time": 0.5, "angle": 180 }
+				],
+				"translate": [
+					{ "time": 0.5, "x": 0, "y": 86.16 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 1.35, "y": 1.2 }
+				]
+			},
+			"ICE_1-4": {
+				"rotate": [
+					{ "time": 0.3333, "angle": 180 }
+				],
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": 556.91 },
+					{ "time": 0.4666, "x": 0, "y": 143.08 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 1.35, "y": 1.2 }
+				]
+			},
+			"ICE_1-3": {
+				"rotate": [
+					{ "time": 0.5, "angle": 180 }
+				],
+				"translate": [
+					{ "time": 0.5, "x": 0, "y": 86.16 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 1.35, "y": 1.2 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"ash_1": {
+					"common/fx_white": [
+						{
+							"time": 0.3666,
+							"vertices": [ -100.1908, 128.22575, -5.39701, 127.78474, -8.202, 39.49601, -55.54798, 41.222, -101.93202, 39.268 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -117.22478, 124.05077, -14.08099, 121.10475, -23.23198, 13.27704, -75.58796, 13.83404, -126.64799, 15.38703 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -109.10481, 131.30072, -5.81602, 128.35472, -14.24202, 20.52701, -67.75799, 20.93901, -117.51302, 24.23199 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -102.63684, 137.85269, -0.18805, 136.75468, 0.28991, 34.63895, -57.34204, 27.65899, -110.87704, 29.60797 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -96.11233, 143.2976, 6.85279, 142.34042, 7.04912, 39.05122, -51.09915, 33.38554, -104.16476, 35.6631 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -88.39027, 148.539, 13.65459, 147.50177, 14.09098, 44.77273, -44.77748, 38.62693, -97.24295, 41.58467 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -81.62848, 152.86009, 20.53642, 151.78287, 20.73274, 48.73378, -39.41607, 42.62799, -90.32115, 47.30618 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -73.90848, 157.4201, 28.05641, 155.6229, 28.09274, 53.01378, -30.97607, 48.02798, -83.72117, 51.26618 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -66.94849, 160.86017, 34.97641, 159.14294, 35.33273, 56.37377, -23.13608, 52.42798, -76.92117, 55.58617 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -52.94587, 165.4737, 48.81716, 163.51367, 48.36406, 61.06828, -10.59038, 58.41753, -61.13788, 63.43734 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -29.9862, 169.16367, 70.58784, 167.61366, 69.64276, 64.67622, 9.54032, 65.14144, -38.34221, 69.38226 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -23.43954, 170.53696, 76.86783, 168.21368, 76.48275, 66.07622, 16.87364, 65.63477, -33.06222, 70.00892 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ -16.46621, 171.24367, 84.14781, 169.17368, 83.44274, 67.07622, 28.6603, 66.86144, -21.90223, 71.02226 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ -15.74621, 172.12366, 86.48782, 170.55368, 85.90274, 67.87621, 32.4603, 67.94144, -17.68223, 70.44227 ]
+						},
+						{
+							"time": 1.0333,
+							"vertices": [ -15.02622, 172.36366, 87.38782, 171.05368, 87.08273, 68.67621, 33.4603, 68.62144, -17.06223, 70.74226 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ -16.70359, 173.40372, 85.13741, 172.04327, 84.80495, 69.83445, 31.3345, 69.70164, -18.60465, 72.1053 ]
+						},
+						{
+							"time": 1.1666,
+							"vertices": [ -21.35429, 174.57712, 82.32701, 173.20624, 81.96716, 71.29938, 29.20871, 70.78184, -22.52039, 72.135 ]
+						},
+						{
+							"time": 1.2,
+							"vertices": [ -25.41965, 175.4638, 79.0618, 173.7277, 78.98828, 72.87185, 28.14581, 71.32194, -25.31827, 73.34985 ]
+						},
+						{
+							"time": 1.2333,
+							"vertices": [ -28.45033, 176.22787, 74.09259, 176.2305, 76.2054, 75.05098, 25.25091, 72.49804, -28.56947, 74.50737 ]
+						},
+						{
+							"time": 1.2666,
+							"vertices": [ -32.28102, 177.47192, 70.1634, 176.97331, 73.58252, 75.55011, 21.47602, 73.99414, -32.54067, 76.22488 ]
+						},
+						{
+							"time": 1.3666,
+							"vertices": [ -45.17308, 182.484, 57.6158, 181.44177, 59.77386, 79.86749, 9.47132, 78.90243, -45.1743, 81.23744 ]
+						}
+					]
+				},
+				"ash_2": {
+					"common/fx_white": [
+						{
+							"time": 0.3666,
+							"vertices": [ -55.536, 147.05896, 42.00304, 149.94353, 48.10799, 54.53896, 0.204, 54.21501, -48.69598, 51.63496 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -63.27994, 144.15494, 36.41509, 146.59956, 39.13206, 48.42301, -8.90392, 45.96507, -60.37789, 43.71502 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -65.12793, 144.15494, 34.9631, 146.59958, 37.46006, 47.41102, -11.0599, 44.05108, -63.17186, 42.57103 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -64.34794, 144.27496, 36.75643, 147.55959, 40.10673, 48.62436, -8.3199, 44.97775, -60.67853, 42.90437 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -58.70793, 145.3549, 41.18309, 148.8796, 46.48006, 50.33101, -1.75991, 48.27107, -51.97188, 45.85103 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -50.00127, 148.02158, 50.44974, 151.46625, 56.06672, 52.70435, 8.32007, 50.81774, -42.53188, 48.35769 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -45.64794, 149.35492, 55.08307, 152.75958, 60.86004, 53.89101, 13.06007, 52.09107, -37.81189, 49.61102 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -34.52795, 151.19489, 66.16308, 154.95956, 72.18002, 55.37101, 22.82006, 53.73107, -27.3319, 51.57102 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -29.95462, 151.64822, 71.57641, 155.42621, 77.82001, 55.371, 28.82005, 53.53773, -22.34523, 51.66436 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -25.38129, 152.10155, 75.94973, 154.53288, 80.89999, 55.051, 32.82005, 52.8644, -18.87857, 51.27769 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ -20.80796, 152.55487, 80.84306, 154.31955, 83.34001, 53.81101, 32.66005, 51.05107, -19.4519, 50.41102 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ -21.44463, 151.55487, 81.09639, 153.26625, 82.44668, 51.47101, 30.36339, 48.59108, -21.56857, 48.83435 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ -23.5813, 149.95485, 80.16973, 151.6329, 81.19334, 49.15101, 27.46671, 47.15107, -23.42524, 47.87768 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ -25.71796, 148.35483, 77.88307, 149.59958, 78.50001, 47.15102, 24.57006, 45.71107, -26.6419, 46.52102 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ -29.48795, 145.99484, 74.48308, 147.83957, 75.82003, 46.53102, 21.66006, 43.93107, -29.73189, 44.53102 ]
+						},
+						{
+							"time": 1.0666,
+							"vertices": [ -38.2231, 143.12564, 67.40112, 144.7576, 67.65808, 43.16704, 12.17291, 41.46628, -38.78064, 42.05983 ]
+						},
+						{
+							"time": 1.1666,
+							"vertices": [ -54.9258, 139.12189, 51.17821, 140.33463, 52.51517, 39.42106, -5.35776, 37.76911, -54.85374, 38.05306 ]
+						},
+						{
+							"time": 1.2333,
+							"vertices": [ -65.04581, 137.00186, 39.0582, 137.25458, 39.47517, 36.10106, -15.35776, 35.76911, -65.45376, 36.21305 ]
+						}
+					]
+				},
+				"ash_3": {
+					"common/fx_white": [
+						{
+							"time": 0.3666,
+							"vertices": [ -66.62992, 214.9049, 32.48498, 212.2899, 23.99908, 117.52211, -26.43745, 119.22462, -74.07766, 119.72574 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -55.77402, 209.66093, 44.44485, 207.50597, 42.85889, 106.75822, -12.2236, 109.42673, -62.16378, 113.14781 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -48.2301, 204.98431, 52.3261, 202.96732, 50.98547, 101.95895, -3.89768, 104.47411, -52.68788, 106.89188 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -44.87213, 203.81902, 55.30074, 201.94, 54.22077, 100.59428, -0.63172, 102.75679, -49.05392, 105.41989 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -40.15214, 205.29903, 61.66073, 204.94, 61.74077, 102.95427, 8.48826, 100.3568, -42.85392, 103.5799 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -38.39515, 210.63387, 63.4816, 210.46652, 64.32833, 105.47794, 11.36333, 104.86106, -40.20247, 107.82861 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -36.63816, 215.9687, 65.30248, 215.99303, 66.27699, 114.00729, 14.2384, 109.36533, -37.55103, 112.07732 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -34.70581, 225.03256, 67.12543, 225.20628, 67.04111, 118.62094, 13.68448, 118.4819, -36.31553, 122.70115 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ -34.79344, 237.21638, 67.20838, 237.59953, 67.16523, 130.87457, 15.37057, 128.71846, -35.12003, 130.42497 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ -34.08109, 249.40022, 67.29133, 249.99278, 67.12935, 144.4082, 16.41666, 141.75507, -34.80452, 145.50883 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ -33.99631, 255.53291, 67.17829, 256.1255, 67.18588, 150.28654, 16.16231, 148.17038, -34.64669, 149.60109 ]
+						},
+						{
+							"time": 1.0666,
+							"vertices": [ -33.82674, 267.79834, 66.95221, 268.39093, 67.29893, 162.04326, 15.6536, 161.001, -34.21104, 162.4656 ]
+						},
+						{
+							"time": 1.1333,
+							"vertices": [ -33.84674, 280.25293, 67.5865, 280.22272, 68.1018, 174.26073, 16.62789, 172.68704, -34.21961, 174.05167 ]
+						},
+						{
+							"time": 1.1666,
+							"vertices": [ -33.29674, 285.2003, 67.58365, 285.3386, 68.18321, 180.28946, 17.11503, 178.77007, -33.50389, 180.16466 ]
+						},
+						{
+							"time": 1.2,
+							"vertices": [ -33.38673, 289.9876, 67.58079, 290.45447, 68.26465, 189.99821, 17.84217, 184.85312, -33.18818, 184.1977 ]
+						},
+						{
+							"time": 1.2333,
+							"vertices": [ -33.30673, 295.34497, 68.11127, 295.33362, 68.1094, 190.5536, 17.52598, 189.41614, -33.2358, 189.4674 ]
+						},
+						{
+							"time": 1.2666,
+							"vertices": [ -33.30673, 299.26224, 67.92174, 299.57285, 68.43418, 195.34901, 17.20979, 193.97916, -33.28342, 194.7371 ]
+						},
+						{
+							"time": 1.3,
+							"vertices": [ -33.26673, 303.89954, 67.91221, 304.13205, 68.21895, 199.34442, 16.8936, 198.54218, -33.33104, 200.00677 ]
+						},
+						{
+							"time": 1.4,
+							"vertices": [ -32.89849, 314.21017, 67.78947, 313.9926, 67.97345, 211.41441, 17.05726, 211.06226, -33.00372, 211.5449 ]
+						}
+					]
+				},
+				"ash_4": {
+					"common/fx_white": [
+						{
+							"time": 0.3666,
+							"vertices": [ 119.03099, 288.216, 215.6769, 289.5849, 216.04628, 192.7167, 173.27892, 199.40533, 127.01965, 195.29913 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ 110.84302, 280.81555, 207.19942, 281.80792, 206.5288, 185.17972, 162.85745, 190.27039, 115.84918, 184.7547 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ 107.06904, 277.51532, 204.12068, 278.51935, 204.69006, 182.85123, 159.28671, 185.5429, 111.86395, 180.64249 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ 106.65504, 276.29504, 202.48193, 277.39093, 202.85133, 180.52277, 155.71599, 183.9354, 109.63873, 179.01022 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ 106.67504, 274.82507, 201.52196, 275.82095, 201.63133, 178.98274, 154.536, 181.8254, 108.39874, 179.2702 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ 106.70837, 273.08173, 201.08862, 274.28427, 200.84467, 178.10274, 153.82266, 180.52206, 108.37873, 177.39021 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ 106.42171, 272.2984, 201.69528, 272.90762, 201.498, 177.14275, 154.06932, 178.57874, 108.35872, 175.5102 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ 106.41504, 271.21506, 202.80196, 271.75092, 201.97131, 175.80273, 155.15599, 178.21542, 109.47873, 173.81023 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 112.78304, 270.11902, 208.20995, 271.65494, 208.09932, 175.41876, 163.068, 176.56741, 115.95871, 173.48224 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ 120.29503, 270.85498, 215.08194, 271.391, 214.85132, 176.16277, 168.87598, 176.53542, 122.27872, 173.53021 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ 126.53502, 273.85498, 222.40192, 272.5509, 221.5713, 176.00275, 173.63596, 178.6954, 127.47871, 178.45024 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ 130.85503, 279.17493, 228.28192, 276.911, 225.89133, 179.44273, 177.75597, 182.61542, 130.4387, 182.09023 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ 134.15501, 284.2949, 230.6219, 281.93106, 228.8913, 185.12274, 181.13596, 187.37543, 133.8187, 187.17023 ]
+						},
+						{
+							"time": 1.0666,
+							"vertices": [ 137.45502, 289.41486, 233.92192, 287.1911, 233.1713, 189.84271, 184.51596, 192.1354, 137.1987, 192.25021 ]
+						},
+						{
+							"time": 1.1333,
+							"vertices": [ 140.212, 295.61813, 238.31502, 292.46515, 236.3731, 193.02345, 187.25536, 197.33405, 139.76454, 197.63979 ]
+						},
+						{
+							"time": 1.2,
+							"vertices": [ 142.24896, 300.62146, 240.70815, 297.33923, 239.33495, 199.80415, 189.99477, 202.53265, 141.93039, 202.14935 ]
+						},
+						{
+							"time": 1.3,
+							"vertices": [ 144.36096, 310.25348, 244.02814, 306.44324, 242.73492, 206.77219, 192.25073, 208.38866, 143.29037, 210.33336 ]
+						},
+						{
+							"time": 1.3666,
+							"vertices": [ 144.96896, 315.3415, 245.30817, 312.97922, 244.53493, 211.48415, 193.35477, 213.09264, 144.13039, 215.38937 ]
+						}
+					]
+				},
+				"ash_5": {
+					"common/fx_white": [
+						{
+							"time": 0.3666,
+							"vertices": [ 109.75301, 357.2708, 211.3929, 360.07083, 222.48688, 258.42596, 171.97597, 252.37698, 110.31299, 253.95097 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ 98.65245, 362.0132, 201.74174, 364.12424, 210.32391, 259.87854, 156.10861, 254.96, 98.99343, 258.26697 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ 93.42689, 367.5702, 196.47723, 368.4126, 201.82698, 262.41214, 146.69595, 258.85898, 91.66888, 264.77625 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ 90.8141, 369.36172, 193.845, 370.5568, 199.482, 264.52493, 142.7651, 262.00693, 89.7691, 267.3259 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ 89.97887, 375.77512, 193.15892, 375.26987, 194.91805, 267.4035, 138.46962, 268.50983, 88.09864, 274.39557 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ 89.56125, 378.9818, 192.81589, 377.62643, 192.90454, 269.84955, 136.32187, 271.7613, 87.26341, 277.9304 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ 90.53425, 385.05148, 193.30222, 382.8454, 191.16457, 276.0809, 135.97688, 278.3873, 87.37843, 284.53305 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 91.02074, 388.08633, 193.89339, 386.32492, 190.64255, 279.54456, 136.76138, 281.5263, 87.43593, 287.83438 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ 91.39124, 391.2951, 193.96254, 389.6981, 192.26654, 282.8342, 136.40523, 284.8393, 87.75442, 291.0487 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ 91.76173, 394.50397, 194.0317, 393.07123, 192.15054, 286.23987, 137.67305, 287.8043, 88.07291, 294.26306 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ 92.48024, 397.1908, 194.62286, 395.8354, 192.90454, 289.58752, 138.12888, 290.9433, 89.3484, 297.39038 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ 92.52025, 411.1508, 194.38286, 410.3954, 193.94453, 304.14752, 140.28886, 306.2233, 90.78841, 310.35037 ]
+						},
+						{
+							"time": 1.0333,
+							"vertices": [ 92.62685, 414.03717, 194.34392, 413.3771, 194.05882, 307.45416, 140.41658, 308.1004, 90.7544, 313.34332 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ 92.84004, 419.8099, 194.26607, 419.34048, 194.28735, 314.06747, 141.27206, 314.85464, 91.5264, 319.32925 ]
+						},
+						{
+							"time": 1.1666,
+							"vertices": [ 93.05324, 425.5826, 194.05486, 425.2372, 193.78255, 320.3474, 141.26085, 322.3422, 92.01839, 325.31516 ]
+						},
+						{
+							"time": 1.3,
+							"vertices": [ 92.39325, 439.26248, 193.09486, 438.13705, 193.30254, 333.30728, 141.20085, 334.94208, 91.6584, 338.03503 ]
+						}
+					]
+				},
+				"ash_6": {
+					"common/fx_white": [
+						{
+							"time": 0.4,
+							"vertices": [ -207.23778, 188.0308, -105.58902, 182.16081, -118.59073, 81.99962, -171.04384, 85.08699, -218.29575, 87.56898 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -217.44205, 186.65945, -116.55962, 182.32216, -127.827, 81.91895, -183.50676, 84.482, -226.84636, 87.97231 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -231.31667, 188.63577, -134.50786, 184.09682, -142.6696, 85.7506, -194.6387, 88.35399, -242.85863, 89.86797 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -251.1605, 191.84229, -153.02078, 187.4243, -159.91199, 90.16706, -211.15512, 92.83097, -258.40704, 93.67945 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -262.77643, 195.53276, -165.2417, 192.20377, -170.62044, 94.82553, -221.13756, 97.06595, -268.38947, 98.21692 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -266.98267, 197.78403, -168.3692, 193.55502, -173.48918, 95.42553, -223.87506, 97.89095, -272.41318, 99.45442 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -270.38892, 198.19527, -172.2167, 194.26627, -176.35793, 96.02552, -226.61256, 98.71595, -274.27698, 99.49191 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -273.95517, 198.7815, -173.8442, 195.5525, -178.31668, 95.69553, -229.38509, 98.01093, -277.93066, 99.45441 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -276.8014, 198.00777, -177.39168, 195.87875, -180.59541, 96.32552, -231.03754, 98.26595, -279.2644, 99.41692 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ -279.42136, 198.17773, -179.58167, 195.86874, -181.98541, 95.56551, -232.96751, 96.96593, -281.86435, 98.46693 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ -280.68127, 197.38779, -180.57169, 194.97874, -183.37543, 94.80551, -233.77753, 96.54594, -282.70428, 97.83692 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ -281.70132, 196.75777, -181.76167, 194.48874, -183.8854, 94.52552, -234.94756, 95.80594, -283.2243, 97.08691 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ -282.72137, 196.12776, -182.95168, 193.99873, -183.8354, 93.76552, -234.83754, 94.50595, -283.74432, 96.33691 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ -282.6814, 195.32776, -182.95168, 193.99873, -183.8354, 93.76552, -234.83754, 94.50595, -283.70435, 95.33693 ]
+						}
+					]
+				},
+				"ash_7": {
+					"common/fx_white": [
+						{
+							"time": 0.4,
+							"vertices": [ 59.26498, 122.59988, 155.50089, 123.05392, 156.1449, 28.17698, 108.92593, 29.35798, 61.16996, 27.62498 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ 61.82797, 129.23186, 158.71489, 129.08238, 158.76988, 35.09044, 110.40092, 35.74395, 62.16095, 33.92896 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ 62.80696, 134.80783, 159.4649, 133.87888, 158.4029, 38.48393, 110.46792, 39.66594, 62.44794, 38.82493 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ 62.11397, 139.67982, 159.0709, 138.67535, 157.2439, 42.49341, 108.42293, 44.11592, 62.03093, 43.63292 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ 61.42097, 144.55182, 159.0289, 141.1838, 155.55692, 46.5029, 106.37794, 48.5659, 58.62197, 48.79289 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ 54.72278, 155.90736, 154.05756, 152.01602, 149.69603, 55.76524, 99.88908, 57.82824, 51.87144, 58.47387 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ 48.22444, 167.2985, 148.125, 161.69113, 146.31784, 63.35775, 95.29849, 67.58385, 46.6099, 68.30976 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ 45.75887, 176.15923, 146.83661, 170.60793, 144.79907, 71.28609, 93.30476, 74.88759, 44.23552, 76.7337 ]
+						},
+						{
+							"time": 1.0666,
+							"vertices": [ 42.99888, 188.11922, 143.03662, 184.00792, 142.03906, 84.1261, 91.30476, 88.00758, 42.35551, 88.25369 ]
+						},
+						{
+							"time": 1.1333,
+							"vertices": [ 40.63888, 196.0792, 142.23662, 192.6479, 141.79906, 91.84608, 89.10477, 95.72757, 40.15551, 96.1337 ]
+						}
+					]
+				},
+				"ash_8": {
+					"common/fx_white": [
+						{
+							"time": 0.4,
+							"vertices": [ -199.96182, 89.77197, -102.30008, 89.26199, -106.82861, 0.17399, -156.17618, 1.78711, -204.20277, 0.95857 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -197.07884, 80.79503, -99.80209, 81.10103, -101.91663, -13.27294, -153.20119, -8.97084, -200.3668, -8.62938 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -191.54385, 67.69202, -93.88211, 67.32008, -95.78865, -29.7719, -147.48221, -24.0188, -194.54282, -24.57134 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -189.30386, 61.97202, -92.44211, 62.00007, -93.94865, -34.49188, -144.96222, -30.4988, -191.86282, -30.73133 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -183.78387, 50.37203, -86.76212, 50.24008, -87.94865, -48.09187, -139.76222, -44.89879, -186.58282, -44.25132 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -180.4439, 42.91203, -82.70211, 43.16008, -84.38866, -55.59187, -134.20222, -52.5588, -181.16283, -54.43132 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -178.11057, 41.2587, -79.27544, 39.66674, -80.92199, -59.01854, -132.44223, -56.69214, -179.56277, -56.33798 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -176.9439, 40.01203, -78.64211, 39.84007, -80.26866, -59.89187, -130.72223, -57.49879, -177.7428, -57.89131 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ -175.66388, 40.93203, -77.08211, 39.24006, -78.34866, -60.09187, -128.4289, -56.41879, -176.00946, -56.34464 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ -174.6639, 49.25205, -74.56211, 46.44006, -75.10866, -55.45187, -127.92223, -55.2188, -175.90279, -50.73131 ]
+						},
+						{
+							"time": 1.0666,
+							"vertices": [ -171.8039, 62.0669, -73.24214, 57.60493, -74.39366, -41.81202, -124.29227, -40.14898, -172.71281, -37.53144 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ -172.16394, 64.4669, -72.00213, 63.04493, -72.87366, -38.09201, -123.65227, -36.46897, -172.99281, -35.73144 ]
+						}
+					]
+				},
+				"ash_9": {
+					"common/fx_white": [
+						{
+							"time": 0.4,
+							"vertices": [ -161.82993, 229.27702, -64.35211, 230.56203, -61.14608, 136.66614, -105.90398, 140.69218, -157.7739, 134.10712 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -167.28989, 223.03708, -69.09206, 224.02206, -63.78605, 132.22618, -111.84393, 131.15228, -164.67386, 126.72719 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -174.00987, 244.54094, -73.17206, 246.44594, -61.74605, 148.41005, -111.36392, 145.33614, -172.91388, 142.91106 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -192.40988, 241.98094, -90.93204, 244.00594, -81.30604, 144.37006, -132.4839, 141.09615, -191.31386, 140.31107 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -204.78989, 242.32094, -103.49201, 243.56592, -96.92603, 143.45006, -147.76389, 139.87616, -204.21387, 140.15106 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -214.20985, 245.94093, -112.61201, 246.56593, -107.26601, 143.65005, -159.92387, 141.37614, -214.71384, 143.91106 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -218.1432, 249.2743, -116.47198, 249.50587, -111.60596, 145.29004, -164.90382, 143.73611, -218.3138, 146.79103 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -221.29654, 252.66766, -119.61195, 252.77583, -115.49594, 148.19002, -169.0138, 146.8161, -222.21378, 151.171 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -224.56985, 257.38098, -122.75192, 257.0058, -119.3859, 151.08998, -172.52376, 150.61606, -225.51373, 156.15096 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -230.25935, 270.62762, -128.55045, 269.70108, -126.03445, 161.32216, -179.22443, 162.49608, -231.28699, 169.22704 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ -234.4448, 285.8207, -133.02185, 285.05066, -131.70981, 176.68584, -183.9787, 176.7649, -235.46768, 185.22276 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ -236.41283, 301.65588, -134.86185, 299.6378, -133.53381, 191.625, -186.1227, 192.13605, -236.92368, 199.82591 ]
+						},
+						{
+							"time": 1.0666,
+							"vertices": [ -238.5648, 322.2086, -137.62184, 321.5185, -136.2698, 214.03372, -189.3387, 215.19273, -239.10768, 221.73062 ]
+						}
+					]
+				},
+				"ash_10": {
+					"common/fx_white": [
+						{
+							"time": 0.4,
+							"vertices": [ -184.77094, 115.591, -91.18103, 116.346, -90.35303, 21.36311, -134.99704, 22.16261, -182.24693, 18.09809 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -189.60094, 115.88766, -96.31601, 116.20767, -95.97137, 20.67978, -142.4087, 21.92094, -187.42194, 19.53809 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -199.77094, 117.50101, -105.82101, 119.756, -105.67803, 22.88311, -153.66203, 24.24261, -196.75195, 21.39809 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -209.77094, 121.46601, -114.30602, 124.721, -114.47803, 27.86312, -161.99702, 28.03761, -205.99696, 23.5981 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -223.47343, 128.89606, -127.82101, 133.051, -127.41304, 35.04313, -175.51952, 35.50761, -219.98695, 31.1106 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -237.05594, 138.12604, -141.33601, 141.38098, -140.82803, 42.82313, -189.28201, 43.33761, -234.21698, 38.9831 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -245.04839, 143.77713, -149.28966, 147.4623, -148.54962, 48.3499, -197.57492, 48.42986, -243.75996, 45.25888 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ -252.00082, 148.70816, -153.4033, 150.66357, -152.43121, 51.31665, -201.6278, 51.04212, -250.18295, 49.05465 ]
+						}
+					]
+				},
+				"ash_11": {
+					"common/fx_white": [
+						{
+							"time": 0.4,
+							"vertices": [ -181.12769, 279.40384, -83.68811, 277.05188, -91.75801, 187.26906, -141.43495, 189.35107, -188.4668, 189.43608 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -171.48166, 266.78986, -73.67112, 263.85492, -80.09802, 171.15707, -129.03297, 172.7621, -177.12479, 173.0591 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -165.65166, 255.87193, -67.89412, 255.3219, -71.61802, 159.70908, -120.65897, 162.1091, -168.53882, 162.19409 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -159.24034, 247.4304, -61.85682, 246.55981, -64.67246, 149.2373, -114.62167, 152.27844, -161.80695, 151.93602 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -156.7506, 244.70563, -59.34574, 243.78159, -61.76601, 144.61049, -111.64041, 147.86533, -158.27002, 148.16405 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -153.4167, 244.22476, -54.91126, 242.55273, -57.67347, 143.41371, -107.56924, 146.18771, -154.43396, 146.37958 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ -151.86732, 248.2051, -52.02618, 244.50285, -55.21581, 142.82602, -105.99313, 145.46646, -154.80797, 148.48996 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ -151.06592, 255.07054, -51.81247, 249.33804, -54.46782, 149.50444, -105.05814, 152.86615, -153.15172, 156.04994 ]
+						},
+						{
+							"time": 1.0666,
+							"vertices": [ -150.27348, 273.891, -49.83137, 265.97937, -52.28861, 167.43343, -102.97798, 170.10176, -151.96304, 172.69122 ]
+						},
+						{
+							"time": 1.2,
+							"vertices": [ -149.86777, 293.86066, -49.99137, 286.81766, -51.42003, 187.2945, -102.03513, 190.91711, -151.42587, 193.49516 ]
+						},
+						{
+							"time": 1.3,
+							"vertices": [ -150.19348, 309.39795, -50.11137, 302.44635, -51.04861, 203.9403, -101.81798, 206.24866, -151.16302, 208.95811 ]
+						}
+					]
+				},
+				"ash_12": {
+					"common/fx_white": [
+						{
+							"time": 0.4333,
+							"vertices": [ 125.8846, 72.44293, 220.70644, 70.89592, 215.33046, -18.98998, 165.47948, -15.54194, 119.20425, -16.6915 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ 54.59969, 138.00287, 149.62152, 137.29587, 144.44562, 48.36992, 94.99457, 50.81796, 47.79934, 49.9884 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ 59.06381, 123.02641, 155.9484, 124.11711, 153.75574, 32.45996, 106.19898, 33.11027, 60.33965, 26.10161 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ 60.79567, 117.53891, 158.36151, 118.02791, 156.59758, 25.81796, 110.05054, 25.88202, 62.4833, 18.97248 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ 63.04101, 109.45891, 158.32686, 113.07856, 159.34158, 16.45796, 111.74389, 17.30334, 64.43265, 12.53779 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ 62.39968, 107.6029, 159.82153, 107.4959, 158.4456, 10.76996, 110.99457, 15.618, 64.39933, 11.58844 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 57.68544, 104.91267, 155.39978, 106.3909, 156.36235, 8.98822, 109.74232, 10.61652, 61.60058, 5.37047 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ 52.28521, 103.88841, 150.29205, 105.77589, 150.94714, 7.79447, 105.84407, 7.67303, 56.15584, 4.44447 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ 48.80497, 104.08716, 143.61531, 106.52988, 143.08191, 9.14872, 95.35986, 9.61652, 50.21111, 7.50846 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ 41.48474, 106.44592, 136.05855, 108.56388, 135.21666, 10.50297, 86.87563, 11.88001, 43.30638, 9.45245 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ 35.59496, 108.55464, 133.2667, 111.56973, 133.59052, 14.19372, 85.27316, 14.48669, 38.46149, 9.9416 ]
+						},
+						{
+							"time": 1.0333,
+							"vertices": [ 32.0954, 114.69209, 129.84299, 118.66142, 130.6982, 19.89523, 81.8282, 20.06006, 34.29172, 15.11992 ]
+						},
+						{
+							"time": 1.1333,
+							"vertices": [ 27.29041, 124.34884, 125.30245, 128.6708, 126.35603, 29.64014, 77.04525, 29.91518, 29.50878, 25.54808 ]
+						},
+						{
+							"time": 1.2333,
+							"vertices": [ 24.05041, 134.58884, 122.46246, 139.15085, 123.03602, 40.12015, 73.92524, 39.83517, 25.34878, 34.98808 ]
+						},
+						{
+							"time": 1.3,
+							"vertices": [ 21.61042, 142.78883, 120.46246, 145.43085, 121.19601, 46.52015, 71.68525, 45.99517, 23.30879, 41.30808 ]
+						},
+						{
+							"time": 1.4333,
+							"vertices": [ 17.41046, 157.78862, 117.14246, 159.11086, 117.47601, 59.76015, 67.48528, 59.31506, 18.44883, 58.10792 ]
+						}
+					]
+				},
+				"ash_13": {
+					"common/fx_white": [
+						{
+							"time": 0.4333,
+							"vertices": [ -13.62998, 209.40892, 80.33001, 205.05891, 73.65999, 113.99893, 24.36, 118.92894, -21.17, 116.31892 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -3.89221, 196.74924, 91.88129, 197.10182, 86.24023, 101.13409, 38.29599, 105.06445, -4.71566, 101.26077 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ 12.34391, 193.64697, 109.41189, 191.073, 104.29586, 92.02101, 54.1079, 96.28502, 8.35589, 97.005 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ 24.02732, 193.072, 120.74413, 191.0506, 114.13185, 91.15575, 63.8847, 96.87163, 21.46296, 96.63893 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ 38.25243, 198.2095, 136.5425, 195.71698, 130.28583, 94.05785, 78.54989, 97.75154, 35.32356, 100.58983 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ 52.38941, 203.3825, 152.24646, 200.92899, 145.07883, 98.80484, 93.41389, 102.24854, 50.41253, 105.52983 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ 60.71644, 208.7215, 161.3105, 206.805, 159.37384, 104.71385, 105.6219, 106.24754, 58.36357, 109.80583 ]
+						},
+						{
+							"time": 1.0333,
+							"vertices": [ 63.0642, 213.40842, 163.82167, 211.7499, 162.831, 108.62679, 109.74123, 109.02529, 60.89192, 113.31457 ]
+						},
+						{
+							"time": 1.1333,
+							"vertices": [ 63.89839, 219.25632, 165.22345, 218.41483, 164.79175, 115.67867, 112.58779, 115.44939, 62.96449, 118.57768 ]
+						},
+						{
+							"time": 1.2,
+							"vertices": [ 62.45839, 224.17632, 163.94342, 224.37482, 164.47168, 120.51868, 112.42779, 120.84938, 61.76449, 123.13768 ]
+						},
+						{
+							"time": 1.3,
+							"vertices": [ 59.25838, 230.5763, 160.06345, 230.49483, 161.31168, 128.31866, 109.66779, 127.68938, 58.44449, 130.21768 ]
+						}
+					]
+				},
+				"ash_14": {
+					"common/fx_white": [
+						{
+							"time": 0.4666,
+							"vertices": [ 19.38702, 61.53394, 116.42872, 63.48398, 111.79887, -26.82282, 63.293, -23.51682, 18.93209, -35.7928 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ 28.473, 45.06039, 126.13068, 45.07883, 121.48325, -46.03756, 74.56136, -43.90636, 29.97166, -54.14954 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ 39.24198, 28.93, 136.28366, 28.58103, 132.48984, -65.06975, 86.07395, -64.48074, 40.04105, -68.81474 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ 45.78291, 22.61703, 142.4194, 22.73208, 139.13242, -74.16958, 90.43706, -70.74903, 45.41345, -73.2247 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ 51.12384, 22.06406, 149.11514, 20.56313, 144.41502, -78.5494, 95.52016, -74.53732, 49.18584, -74.67465 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ 57.65524, 26.5046, 158.45877, 24.76969, 154.26898, -78.92917, 101.76482, -76.40974, 55.48443, -72.27958 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ 63.07525, 39.88459, 164.1188, 38.98967, 162.14903, -67.92917, 109.40482, -66.96976, 61.40443, -60.9996 ]
+						},
+						{
+							"time": 1.0666,
+							"vertices": [ 66.25525, 57.90458, 166.97882, 57.44966, 166.109, -50.12919, 113.92481, -48.24977, 65.08442, -42.59961 ]
+						},
+						{
+							"time": 1.1666,
+							"vertices": [ 69.41024, 76.17311, 170.25027, 76.36022, 168.9815, -31.45798, 117.27605, -30.45626, 68.43567, -25.52423 ]
+						}
+					]
+				},
+				"ash_15": {
+					"common/fx_white": [
+						{
+							"time": 0.4333,
+							"vertices": [ -131.87291, 344.27185, -35.36399, 347.69485, -29.89804, 260.6029, -77.6582, 260.8064, -125.22076, 259.02512 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -127.28291, 355.1258, -30.77401, 360.06085, -26.28005, 270.53888, -74.3102, 271.71442, -121.54877, 270.31113 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -119.56094, 377.31976, -24.99601, 378.4748, -24.39006, 288.95285, -71.98821, 289.64236, -119.06477, 288.50906 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -119.79694, 394.19376, -22.99001, 394.5228, -25.33406, 303.93887, -74.11221, 304.51038, -121.54277, 304.67505 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -123.68094, 409.63773, -26.01799, 409.33075, -29.80555, 317.68835, -79.2482, 318.70233, -127.4287, 318.25555 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -131.08492, 424.52167, -32.64598, 423.89877, -36.91704, 330.15784, -86.62418, 330.8943, -135.1547, 331.03598 ]
+						}
+					]
+				},
+				"ash_16": {
+					"common/fx_white": [
+						{
+							"time": 0.4,
+							"vertices": [ 3.97403, 82.0739, 101.59184, 77.0799, 88.7339, -16.03094, 38.61997, -12.62396, -7.65794, -10.77993 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -24.19707, 97.85652, 73.59044, 92.09886, 63.19323, -0.58775, 13.41872, 2.47981, -33.79257, 3.30561 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -41.60401, 107.075, 58.70698, 103.06834, 49.03077, 10.27871, -0.43473, 11.90428, -47.90353, 12.57558 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -55.30297, 116.49947, 43.82351, 114.03781, 34.86832, 21.14518, -14.28818, 21.32875, -62.01448, 21.84555 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -63.70296, 121.77946, 35.78349, 120.43781, 28.94831, 26.02518, -20.52818, 26.24875, -69.09447, 26.36554 ]
+						}
+					]
+				},
+				"ash_17": {
+					"common/fx_white": [
+						{
+							"time": 0.4333,
+							"vertices": [ 103.31999, 153.94806, 196.792, 159.19308, 199.47598, 62.05205, 156.489, 57.61304, 106.53604, 55.66002 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ 121.49576, 150.42807, 214.19975, 151.51318, 214.45178, 55.90814, 171.1448, 55.05308, 122.21585, 52.65207 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ 133.175, 150.03645, 228.80458, 151.05246, 229.44823, 54.80242, 185.35802, 53.87823, 136.03745, 50.83223 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 145.22285, 146.23552, 241.1058, 149.39384, 243.33891, 52.31452, 197.91266, 50.3998, 148.29262, 46.70878 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ 150.8173, 139.93759, 248.50925, 147.35034, 251.57988, 47.42356, 204.6126, 43.73335, 154.89207, 40.24334 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ 155.47377, 130.55771, 254.30469, 139.14291, 257.81085, 38.91463, 209.03456, 31.84095, 158.00754, 30.29392 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ 153.1518, 116.9698, 256.11066, 123.49103, 259.27283, 21.80073, 206.54057, 15.50106, 154.23557, 15.11407 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ 143.95789, 102.34589, 248.36073, 105.14916, 251.50291, 2.70486, 195.70667, -1.55483, 143.51163, 0.13017 ]
+						},
+						{
+							"time": 1.1666,
+							"vertices": [ 137.50093, 97.43394, 241.12578, 98.73824, 243.17796, -3.06306, 188.66974, -4.92277, 138.0297, -4.42176 ]
+						},
+						{
+							"time": 1.2666,
+							"vertices": [ 127.62094, 96.43394, 231.36578, 96.25822, 232.05798, -6.14306, 176.18974, -6.24277, 126.1497, -4.42176 ]
+						},
+						{
+							"time": 1.3333,
+							"vertices": [ 121.82584, 99.44437, 225.3443, 96.31112, 223.71388, -4.16162, 170.06355, -1.88253, 120.68397, -0.84621 ]
+						},
+						{
+							"time": 1.4333,
+							"vertices": [ 113.63318, 110.25999, 216.81206, 104.99049, 214.99776, 4.61053, 161.47429, 8.9578, 112.48537, 10.6171 ]
+						}
+					]
+				},
+				"ash_18": {
+					"common/fx_white": [
+						{
+							"time": 0.4333,
+							"vertices": [ -156.29495, 317.66586, -61.62116, 319.30582, -66.696, 233.56789, -110.94603, 235.44289, -155.53403, 222.4899 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -147.995, 291.272, -50.8312, 293.24393, -52.58606, 202.19398, -98.33006, 202.74098, -144.57803, 194.27 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -143.04619, 275.48798, -46.708, 277.3623, -45.43887, 184.88039, -92.38287, 184.20978, -140.08682, 177.01082 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -141.94699, 266.63202, -44.5592, 267.70795, -44.07406, 175.53798, -89.81806, 175.18898, -139.42603, 167.83801 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -142.67258, 262.0632, -44.7952, 264.0599, -43.00446, 169.14677, -89.74046, 167.58018, -139.71082, 162.27 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ -144.66098, 257.31, -45.14921, 257.08792, -44.90007, 161.25998, -91.82407, 159.96698, -143.43797, 157.218 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ -145.341, 256.51, -46.90921, 257.72787, -46.66006, 159.97998, -95.74406, 160.04698, -144.59796, 157.658 ]
+						}
+					]
+				},
+				"ash_19": {
+					"common/fx_white": [
+						{
+							"time": 0.4333,
+							"vertices": [ 117.09508, 216.43571, 217.95985, 212.16673, 208.11687, 111.83388, 155.6669, 114.2579, 108.21709, 114.96399 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ 105.26842, 214.90237, 203.61322, 211.54008, 198.47685, 112.22054, 146.81358, 115.43124, 98.76378, 116.03065 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ 100.73509, 215.27573, 199.4399, 212.12674, 192.99686, 114.03387, 142.38692, 116.0179, 95.17711, 117.64398 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ 91.73542, 217.67546, 189.2363, 214.8833, 183.91821, 118.26677, 133.69234, 120.60217, 86.15021, 121.29397 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ 87.35818, 219.30432, 184.9925, 217.36475, 180.05304, 121.48637, 130.20305, 123.44588, 81.63675, 123.11896 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ 79.52978, 224.71391, 176.92712, 222.42296, 171.42381, 126.45471, 122.08047, 128.39787, 74.17609, 129.08421 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ 67.68648, 234.58336, 165.7924, 232.64668, 160.44096, 136.93149, 110.59145, 138.92526, 63.34503, 139.56099 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ 57.96647, 244.58337, 154.75235, 243.80669, 152.40094, 148.77148, 102.95144, 150.32524, 54.98503, 149.84099 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ 55.00648, 248.6834, 151.81226, 250.9867, 152.48096, 153.7715, 103.63144, 154.30524, 55.42503, 153.56099 ]
+						},
+						{
+							"time": 1.0333,
+							"vertices": [ 54.52648, 253.98338, 152.79233, 256.0867, 154.16096, 158.21149, 105.19144, 158.28523, 55.86503, 157.28099 ]
+						},
+						{
+							"time": 1.1666,
+							"vertices": [ 59.68648, 263.42334, 158.23232, 265.48676, 160.52094, 167.45148, 111.43144, 167.00523, 62.22503, 165.961 ]
+						},
+						{
+							"time": 1.2666,
+							"vertices": [ 66.89849, 270.81628, 165.57729, 272.9002, 168.43192, 175.44798, 119.39693, 175.45874, 70.14203, 174.5495 ]
+						},
+						{
+							"time": 1.3666,
+							"vertices": [ 77.15048, 280.76935, 176.5223, 281.59375, 178.10294, 183.20445, 128.48244, 183.11221, 79.09904, 182.658 ]
+						}
+					]
+				},
+				"ash_20": {
+					"common/fx_white": [
+						{
+							"time": 0.4,
+							"vertices": [ -49.04792, 83.67183, 48.11989, 83.18382, 46.96789, -14.43995, -2.464, -13.02397, -49.93591, -13.17598 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -47.29592, 84.39981, 50.3679, 82.74381, 48.80789, -16.72795, -0.216, -13.51197, -47.73592, -13.17598 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -39.76793, 93.19181, 60.63988, 91.58381, 55.36789, -12.55996, 2.85599, -10.54397, -41.73592, -6.57598 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -29.13313, 104.90978, 71.47162, 103.40024, 66.79045, -1.23587, 14.77089, 0.38623, -30.5103, 5.24044 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -21.99587, 113.36608, 78.4012, 111.72438, 74.68599, 7.14668, 21.64487, 8.50722, -23.82382, 13.56143 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -16.2186, 122.38239, 84.73677, 121.63251, 80.58156, 15.76924, 28.67885, 17.50821, -17.53733, 22.36242 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -13.8746, 127.48639, 87.26971, 126.29452, 84.15868, 19.97896, 32.09892, 22.27233, -15.29006, 27.21608 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ -15.4266, 130.37439, 85.85558, 129.25851, 86.27296, 27.91842, 33.77905, 27.6006, -16.67553, 29.24341 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ -20.09859, 132.7024, 80.73478, 132.9425, 83.80055, 31.95122, 32.24585, 29.86219, -20.23433, 31.49741 ]
+						},
+						{
+							"time": 1.0333,
+							"vertices": [ -26.2186, 135.42238, 74.33477, 136.0625, 77.88055, 33.99122, 26.84585, 32.66219, -26.47433, 34.25741 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ -34.2386, 138.68242, 66.49476, 139.1025, 71.28055, 37.19123, 19.46584, 36.06219, -34.31433, 37.65742 ]
+						},
+						{
+							"time": 1.1666,
+							"vertices": [ -42.2586, 141.94246, 58.65477, 142.14249, 62.28055, 40.47123, 11.44585, 39.70219, -42.31433, 41.05742 ]
+						}
+					]
+				},
+				"cloud_1": {
+					"0863_fx/asset_cloud_00": [
+						{
+							"time": 0.4333,
+							"vertices": [ -85.105, 89.84097, 98.65199, 96.61697, 45.36593, 53.46652, -57.34804, 61.79899, -0.72869, 40.07868 ]
+						},
+						{
+							"time": 1.3,
+							"vertices": [ -119.08895, 60.10497, 86.97, 82.81099, 30.65008, 172.98732, -19.21356, 196.0126, 8.80345, 90.91685 ]
+						}
+					]
+				},
+				"cloud_2": {
+					"0863_fx/asset_cloud_00": [
+						{
+							"time": 0.4666,
+							"vertices": [ -262.38187, 94.00292, 71.27694, 260.31592, 280.97583, -16.528, -109.49794, -174.57687, -16.52801, 34.08903 ]
+						},
+						{
+							"time": 1.2666,
+							"vertices": [ -280.97586, 88.83797, 56.03589, 394.00485, 425.2318, 388.89087, -105.36594, -186.9729, -9.29699, 55.78204 ]
+						}
+					]
+				},
+				"hit_w1": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -84.00105, 99.91301, 17.184, 110.92202, 21.19498, 19.41697, -23.96998, 19.093, -70.836, 13.93598 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -75.5448, 116.56194, 26.16383, 125.06836, 30.6765, 31.03874, -13.43522, 29.74455, -61.82948, 23.74698 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -68.20459, 128.56088, 37.93362, 134.7507, 44.62197, 36.15054, -3.08649, 32.21212, -53.56696, 26.11801 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -58.16066, 131.81587, 47.60557, 135.2157, 56.33991, 34.19756, 7.14344, 29.14313, -47.15, 24.16503 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ -48.95371, 128.37488, 59.88151, 129.91475, 66.66285, 25.17661, 15.97839, 17.6112, -39.15204, 16.81808 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ -41.51374, 123.35291, 66.01948, 123.2188, 69.63884, 20.06164, 18.48937, 14.17022, -36.17606, 13.4701 ]
+						}
+					]
+				},
+				"hit_w2": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -24.73802, 146.97397, 71.6, 128.71198, 63.18398, 60.63595, 18.66998, 66.18596, -25.00001, 61.99795 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -26.15468, 163.6279, 71.09868, 140.96991, 62.61199, 72.13757, 17.48399, 75.44126, -26.81334, 73.10292 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -27.44835, 170.54501, 69.24876, 153.70447, 61.43605, 81.71902, 16.30684, 85.11781, -27.76567, 82.66334 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -28.74201, 175.2879, 67.88201, 164.7479, 61.468, 83.0869, 16.09599, 87.06392, -28.718, 84.7349 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -30.31225, 180.48177, 67.39886, 174.29005, 63.03824, 86.22738, 15.85441, 88.63416, -29.56351, 85.58041 ]
+						}
+					]
+				},
+				"hit_w3": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ 2.55398, 155.12196, 95.62998, 140.39703, 97.64983, 68.26802, 51.52295, 69.46301, 5.87406, 66.83401 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ 8.41697, 181.2909, 101.77898, 170.42703, 104.37082, 93.57895, 58.81594, 94.63096, 12.16605, 91.00097 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 14.70895, 202.88387, 107.92796, 192.73499, 110.66283, 114.02791, 64.96493, 114.50791, 18.02903, 111.59292 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ 16.56795, 207.69817, 109.50095, 198.74097, 112.85549, 118.79456, 66.96692, 119.7989, 19.64969, 113.64258 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ 20.28593, 217.32681, 112.64693, 210.75291, 117.24081, 128.32787, 71.39993, 128.23587, 24.17801, 124.60589 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ 22.74593, 223.9688, 117.48492, 221.4949, 119.3728, 130.13187, 72.62993, 130.44986, 24.99801, 127.80386 ]
+						}
+					]
+				},
+				"hit_w4": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ 35.08887, 163.97281, 124.13683, 150.08487, 133.87384, 78.06091, 88.10585, 78.36187, 41.20688, 74.3089 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ 50.70878, 192.08865, 140.75073, 182.3187, 150.48773, 104.61478, 104.15176, 104.20575, 56.54281, 99.86877 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ 59.22598, 204.58672, 150.28627, 197.87183, 158.63461, 114.89096, 111.92832, 114.1116, 63.85648, 110.70041 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 60.98497, 209.95624, 156.11868, 205.83354, 160.11586, 116.09447, 112.8541, 116.05576, 64.13421, 113.84807 ]
+						}
+					]
+				},
+				"hit_w5": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -27.82293, 62.37188, 66.81689, 64.06389, 63.08897, -31.93899, 14.83199, -27.82298, -30.09299, -27.487 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -28.99626, 66.93189, 67.84355, 64.75721, 62.51564, -31.32566, 13.81866, -27.55631, -32.02632, -26.607 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -31.34293, 67.77189, 64.37689, 66.74389, 61.36897, -30.09899, 11.79199, -27.02298, -33.85299, -26.167 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -32.86293, 69.21188, 64.7769, 67.86388, 63.08898, -30.25899, 13.63199, -28.02298, -34.01298, -28.007 ]
+						}
+					]
+				},
+				"hit_w6": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -16.56497, 36.33495, 81.00694, 32.49198, 78.67488, -55.04595, 31.19498, -53.43396, -16.00397, -54.75993 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -18.42796, 36.95594, 79.76497, 41.8609, 78.59388, -52.15697, 30.97898, -50.59898, -16.13897, -51.95195 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -18.26596, 45.00189, 78.73896, 49.66385, 78.43187, -46.379, 30.54698, -44.92901, -16.40897, -46.33597 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -17.20387, 49.60429, 79.3183, 49.50291, 78.35142, -45.23644, 30.56308, -43.65772, -16.16758, -45.00031 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -17.5418, 51.42272, 79.02862, 51.49836, 78.19049, -43.96515, 30.3056, -42.70827, -16.11931, -44.21179 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -17.78318, 52.0986, 79.3183, 51.93286, 78.09393, -44.8824, 29.91938, -43.04621, -16.84346, -44.4049 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -18.12112, 52.58138, 79.55969, 52.22253, 79.05948, -45.26861, 30.06422, -44.1083, -17.66417, -44.88767 ]
+						}
+					]
+				},
+				"hit_w7": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -99.07484, 92.59989, -3.83496, 87.70982, -4.52099, 1.35398, -50.63117, 2.24497, -96.78075, -1.35198 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -97.41467, 98.35511, -3.28157, 95.45723, -3.63557, 6.2238, -49.19237, 6.34003, -94.6779, 2.96443 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -96.30791, 99.90459, -0.95735, 100.76974, -0.42592, 7.33057, -46.86815, 7.66816, -94.01383, 4.51391 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -97.06792, 101.86459, 0.24264, 102.76974, 0.25407, 5.93057, -47.70815, 6.22816, -95.45383, 4.07392 ]
+						}
+					]
+				},
+				"hit_w8": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -111.11791, 78.35795, -14.46597, 90.17194, -15.95295, 1.79, -61.96493, 4.93598, -106.50991, 2.20199 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -111.0069, 103.22175, -13.91098, 111.70577, -15.61995, 21.54784, -62.40893, 23.47284, -107.7309, 21.51585 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -111.76291, 115.4017, -14.66698, 122.96172, -16.03995, 30.87181, -62.74493, 33.0488, -108.15089, 31.0918 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -111.73491, 125.84566, -14.19098, 130.57768, -15.92795, 37.08778, -63.19292, 39.79678, -108.43089, 36.91578 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -112.35091, 129.42964, -15.33898, 134.38567, -15.87196, 40.19577, -63.16492, 42.03677, -108.57089, 39.82776 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ -110.83891, 136.40161, -14.83498, 137.15765, -16.45995, 42.96776, -63.41693, 45.22876, -109.66289, 43.01975 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ -111.09091, 138.5016, -15.50698, 138.24965, -16.45995, 42.96776, -63.41693, 45.22876, -109.66289, 43.01975 ]
+						},
+						{
+							"time": 1.0333,
+							"vertices": [ -111.42691, 135.14162, -14.91898, 134.55367, -17.46795, 37.25579, -64.59293, 43.04477, -110.67088, 40.16376 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ -112.26691, 134.46962, -14.83498, 133.62967, -16.29195, 35.49179, -64.50894, 39.18078, -112.43488, 37.89577 ]
+						}
+					]
+				},
+				"hit_w9": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -104.93128, 140.57028, -9.29002, 122.29787, -12.89331, 46.78604, -58.54297, 48.96097, -104.1529, 45.79698 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -107.58128, 151.3823, -8.44202, 142.9679, -9.81931, 54.84204, -58.86097, 56.59296, -107.1209, 54.91298 ]
+						}
+					]
+				},
+				"hit_w10": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -124.14183, 104.8719, -25.03791, 95.61193, -33.62188, 10.888, -80.55183, 14.70397, -125.88985, 14.104 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -127.07204, 116.37572, -27.64255, 105.92197, -36.87767, 21.95771, -84.67584, 25.44809, -129.57977, 25.06518 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -128.98933, 120.64443, -29.3428, 111.38447, -38.72263, 25.53908, -86.88255, 30.04239, -131.35239, 29.18919 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -132.82393, 129.18185, -32.7433, 122.30947, -42.41253, 32.70184, -90.97038, 36.62633, -135.8743, 36.78604 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -133.031, 132.05563, -36.70129, 127.97746, -44.03404, 33.72812, -93.10503, 38.14521, -138.54262, 38.96174 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ -137.87321, 138.2952, -39.69728, 133.65544, -47.27707, 35.78067, -97.37432, 41.18298, -143.87924, 43.31314 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ -142.24118, 141.06717, -43.72927, 136.17542, -48.66306, 36.36866, -101.29121, 40.93077, -146.81921, 42.51515 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ -146.99716, 140.65717, -47.33725, 139.12741, -49.97506, 39.23866, -101.70121, 40.43877, -149.2792, 41.44915 ]
+						}
+					]
+				},
+				"hit_w11": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -18.63599, 120.16892, 76.92396, 106.75194, 74.4819, 28.05595, 27.81196, 30.74897, -18.36996, 27.80896 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -18.81082, 149.71565, 77.79813, 136.99796, 74.30706, 59.70064, 27.98679, 62.91815, -18.71963, 59.10399 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -18.47881, 167.21756, 77.79813, 157.25787, 74.58307, 76.90454, 27.94578, 79.80398, -17.80563, 77.35989 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ -18.53481, 182.97354, 77.79814, 176.74184, 74.85907, 89.64653, 27.71078, 91.62207, -18.44362, 89.60188 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ -18.85814, 181.68022, 75.3085, 181.8828, 74.6974, 91.84518, 27.71078, 93.65905, -18.31429, 91.54186 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ -18.92281, 188.40549, 75.27617, 188.38174, 74.37407, 96.24248, 27.71078, 97.73302, -18.05563, 95.42183 ]
+						},
+						{
+							"time": 1.0666,
+							"vertices": [ -18.92281, 190.15147, 75.27617, 190.32172, 74.47107, 97.11548, 27.71078, 98.994, -17.95863, 96.10083 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ -21.22654, 188.18723, 74.88818, 190.78244, 75.51381, 96.82447, 29.57802, 96.95701, -17.44939, 89.8201 ]
+						},
+						{
+							"time": 1.2,
+							"vertices": [ -21.54179, 180.35455, 74.50018, 181.3008, 75.92605, 92.07152, 29.74777, 91.62206, -17.86163, 81.45395 ]
+						}
+					]
+				},
+				"hit_w12": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -105.68981, 51.50593, -8.81597, 43.56791, -9.77199, -42.52993, -57.4659, -40.98795, -105.05581, -43.01191 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -105.32581, 55.35389, -8.26998, 48.55986, -9.55999, -38.53597, -56.9979, -36.562, -104.13982, -38.64996 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -104.23381, 66.89781, -6.632, 63.53574, -7.9, -29.11404, -55.59391, -28.40405, -103.18382, -30.42801 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -103.80157, 69.32905, -6.84811, 69.64089, -6.71139, -25.92639, -54.67544, -25.3785, -102.53548, -27.07829 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -104.13925, 69.62622, -6.6455, 71.34276, -6.11709, -25.61573, -54.05412, -25.25693, -102.06274, -28.10482 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ -102.34282, 67.92433, -4.95713, 67.80394, -5.84694, -27.06098, -52.62238, -26.62114, -100.64452, -31.18441 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ -101.42262, 62.49517, -4.03694, 62.97291, -3.91453, -30.28166, -52.16229, -30.43995, -100.13841, -35.78539 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ -101.23858, 55.04159, -2.9327, 55.74938, -3.08635, -36.63102, -51.70219, -35.91513, -99.44827, -43.51504 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ -99.85828, 38.10997, -2.56461, 41.57835, -0.9699, -47.21327, -49.76978, -51.65048, -97.88394, -58.14617 ]
+						},
+						{
+							"time": 1.2,
+							"vertices": [ -98.95851, 17.27657, -1.24954, 19.15302, -0.13933, -65.34733, -48.10865, -72.6223, -97.05338, -79.46406 ]
+						}
+					]
+				},
+				"hit_w13": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -9.468, 69.38302, 87.269, 60.36401, 86.29002, -18.411, 39.71, -16.96699, -6.963, -19.434 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -6.255, 89.57899, 88.952, 82.39598, 89.83, -0.4621, 42.87199, 0.42388, -4.26601, -2.4151 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -4.42051, 98.76308, 91.06398, 92.52396, 91.41463, 8.15421, 45.06917, 8.49922, -1.93589, 6.14023 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -2.25002, 106.15517, 93.17596, 102.65192, 94.00724, 13.18658, 47.26635, 13.66259, -0.05377, 9.76759 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -3.20201, 108.89915, 94.77196, 112.78787, 98.51521, 15.93058, 50.79433, 14.4746, 0.95421, 10.43959 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ -3.14601, 112.87514, 98.71994, 115.30788, 103.4712, 12.85059, 52.19433, 9.7986, 0.05821, 9.2076 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ -0.76042, 113.67033, 103.17752, 111.83589, 105.21839, 8.4602, 53.33672, 5.80022, 0.30462, 6.46361 ]
+						},
+						{
+							"time": 1.0666,
+							"vertices": [ 2.39795, 108.28316, 106.50391, 103.54793, 108.39918, -2.88534, 55.33031, -4.81732, 2.9142, -3.95234 ]
+						},
+						{
+							"time": 1.1666,
+							"vertices": [ 5.74595, 95.4852, 108.87993, 89.93994, 109.47916, -12.92932, 57.54431, -14.91531, 5.5062, -13.88832 ]
+						},
+						{
+							"time": 1.2,
+							"vertices": [ 7.09595, 88.6812, 108.06995, 86.64597, 108.45317, -14.54932, 57.54431, -14.91531, 7.2882, -14.75232 ]
+						}
+					]
+				},
+				"hit_w14": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ 23.60511, 127.73161, 114.63515, 118.14162, 124.04613, 37.76862, 77.09212, 37.71062, 29.20412, 34.08263 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ 31.37011, 138.12158, 122.58765, 131.50414, 132.65863, 47.6286, 85.76963, 46.85063, 37.25412, 43.61512 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ 37.63509, 145.21155, 130.39014, 141.71658, 141.8711, 54.78858, 93.99709, 54.0406, 45.30409, 50.29759 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 45.80505, 151.20782, 138.22281, 150.8609, 150.71565, 60.14777, 102.76669, 57.71333, 52.94938, 54.04528 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ 49.89004, 153.86865, 141.2959, 153.40933, 154.80063, 61.30956, 107.15148, 59.5497, 56.77202, 55.58183 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ 62.932, 156.34207, 154.9, 159.36813, 167.84262, 61.53442, 119.63129, 58.0881, 67.79023, 55.4694 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ 69.73601, 154.65045, 164.63611, 159.89441, 176.75174, 58.22639, 127.60062, 54.06584, 74.66942, 52.68765 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ 77.14148, 152.20703, 172.56786, 157.41338, 183.40538, 52.96362, 133.31448, 49.74285, 81.09751, 49.00372 ]
+						},
+						{
+							"time": 1.0333,
+							"vertices": [ 80.14877, 150.3275, 175.27441, 156.43605, 185.36012, 51.91107, 134.29184, 48.76548, 82.22524, 48.02635 ]
+						}
+					]
+				},
+				"hit_w15": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -40.91318, 45.27953, 55.65992, 45.01995, 50.83998, -52.25998, 1.03999, -48.51998, -44.35001, -48.23999 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -43.35423, 47.21985, 52.56165, 46.35002, 48.60235, -51.99397, -1.8079, -48.37914, -47.2605, -47.52019 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -48.37719, 50.67803, 48.6184, 47.17935, 44.12707, -53.01108, -8.34869, -50.35077, -55.8981, -46.92558 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -57.39032, 49.73916, 42.09326, 44.50357, 38.82247, -57.94014, -15.76576, -58.00255, -65.70929, -52.88739 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -64.99515, 42.55681, 34.01898, 35.86598, 31.02986, -69.62907, -23.74615, -70.06701, -73.92441, -65.37434 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ -70.04486, 35.37268, 28.2925, 25.55832, 25.45955, -82.01909, -28.7438, -82.45703, -79.4947, -79.01378 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ -76.34395, 23.6074, 22.77427, 14.83422, 19.88927, -94.40908, -33.74144, -94.84701, -85.06498, -92.65317 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ -79.77983, 15.06976, 20.17133, 8.37893, 18.74397, -97.11615, -34.67849, -97.55406, -86.00203, -94.83963 ]
+						}
+					]
+				},
+				"hit_w16": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -35.30891, 78.68283, 65.64786, 68.63186, 56.19398, -18.09598, 7.93999, -13.862, -37.51598, -15.52398 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -37.37306, 82.61512, 62.71424, 76.08269, 54.087, -15.1305, 5.31835, -10.59803, -39.9798, -10.62991 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -41.50138, 90.47973, 58.74738, 83.65426, 49.87301, -9.19953, 0.07503, -4.07006, -45.45043, -4.37105 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -43.65088, 93.30272, 56.6179, 87.63774, 47.76603, -7.00204, -1.86395, -2.85406, -48.26592, -1.59207 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -49.71406, 97.01302, 51.55018, 93.06745, 45.68464, -3.47273, -4.85029, -0.59168, -51.88572, -1.13959 ]
+						}
+					]
+				},
+				"hit_w17": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ 43.45196, 109.7659, 132.91187, 102.80791, 144.69781, 21.86797, 100.53592, 22.00998, 50.97792, 15.19399 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ 55.49193, 120.21789, 143.5148, 115.21986, 160.07677, 34.25592, 114.32288, 32.47894, 65.13487, 26.07396 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ 68.44383, 130.21384, 156.6257, 126.94777, 175.22766, 43.45186, 128.79378, 40.89588, 79.51977, 35.35789 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 82.13276, 138.28482, 169.50362, 136.37373, 189.90756, 49.72983, 143.7847, 46.90186, 93.4537, 41.59586 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ 96.37368, 143.77979, 183.30154, 143.59166, 205.3235, 54.1678, 158.77562, 50.69983, 106.65163, 44.70585 ]
+						},
+						{
+							"time": 0.8666,
+							"vertices": [ 110.36783, 145.86732, 194.66698, 150.49057, 220.73907, 55.00638, 173.31097, 50.30731, 120.56847, 45.32437 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ 117.36488, 146.91109, 204.75665, 150.55003, 227.93832, 54.74767, 180.57864, 49.77205, 127.52686, 45.63363 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ 132.75069, 145.21013, 219.292, 152.40561, 243.44012, 52.04162, 195.57788, 47.02735, 141.9849, 42.69563 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ 140.4436, 144.35965, 226.9076, 151.5938, 250.66911, 50.34067, 202.03375, 43.74143, 149.21391, 41.22664 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ 162.49542, 135.25772, 251.32738, 145.96986, 273.97882, 38.87076, 223.7037, 33.24445, 170.30374, 31.31071 ]
+						},
+						{
+							"time": 1.2,
+							"vertices": [ 183.3273, 122.6098, 272.1592, 135.36787, 295.7406, 22.78185, 245.0936, 15.85355, 190.29861, 15.3148 ]
+						}
+					]
+				},
+				"hit_w18": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ 32.164, 94.83202, 125.97501, 93.20699, 134.97983, 0.82899, 87.94985, 0.08599, 37.20594, -3.28701 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ 36.63591, 97.32597, 129.85925, 96.91925, 140.19707, 3.20828, 92.80876, 1.94929, 41.60618, -1.35204 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ 44.93479, 100.63692, 138.78879, 100.86086, 149.72858, 5.64491, 102.39761, 3.86993, 50.66471, 1.09891 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ 54.85519, 102.0665, 150.7019, 104.36981, 160.94861, 5.47163, 112.27468, 2.9602, 60.02195, 0.96895 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ 59.74853, 101.05317, 154.07526, 105.20981, 164.66861, 5.16496, 117.1982, 2.02351, 64.76862, 0.12894 ]
+						},
+						{
+							"time": 0.8,
+							"vertices": [ 69.53519, 99.0265, 164.54189, 103.64983, 174.62859, 1.55163, 126.80524, -2.72986, 73.90195, -2.75104 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ 74.39514, 96.58655, 168.8418, 102.34985, 179.36855, -0.78832, 131.32518, -5.28983, 78.6819, -5.931 ]
+						},
+						{
+							"time": 0.9,
+							"vertices": [ 84.83506, 89.6666, 178.88174, 97.10986, 190.16844, -8.82827, 140.84512, -13.28977, 88.48182, -13.25095 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ 89.47506, 85.70659, 182.7751, 95.66986, 195.63512, -14.56161, 145.00513, -18.03643, 92.05515, -17.06428 ]
+						},
+						{
+							"time": 0.9666,
+							"vertices": [ 92.87505, 82.92659, 187.26843, 90.86987, 198.84177, -17.77494, 147.62512, -20.80311, 95.36849, -20.53762 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ 94.91506, 82.22659, 191.76173, 86.06987, 197.80844, -18.10827, 147.20511, -19.96977, 96.20182, -19.53095 ]
+						}
+					]
+				},
+				"hit_w19": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -49.16393, 115.14983, 42.46394, 128.8558, 39.41401, 36.58701, -9.13998, 38.87589, -54.66999, 37.522 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -62.36586, 146.54471, 31.42395, 154.89578, 26.65602, 61.54099, -22.09997, 64.91587, -67.26698, 64.478 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -74.27983, 171.33858, 18.705, 178.56271, 12.32707, 85.20788, -36.5899, 89.22676, -82.23993, 88.78889 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -87.96477, 192.2685, 4.21506, 198.20462, -3.28985, 103.8838, -53.49483, 108.70767, -98.01788, 108.59179 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ -101.97171, 208.52943, -11.07986, 211.56757, -18.4238, 114.02676, -69.43376, 119.49463, -114.43982, 121.47173 ]
+						},
+						{
+							"time": 1.0333,
+							"vertices": [ -114.04666, 218.5114, -26.85779, 218.16853, -34.20173, 118.21275, -86.82169, 123.03661, -131.82774, 126.62371 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ -126.20214, 221.97285, -36.51777, 218.41003, -42.89571, 118.13225, -96.96468, 121.74859, -140.60223, 126.78472 ]
+						},
+						{
+							"time": 1.1666,
+							"vertices": [ -139.64557, 223.18037, -46.17771, 217.04153, -53.19964, 115.47576, -106.14162, 118.20662, -154.20667, 124.04772 ]
+						},
+						{
+							"time": 1.2,
+							"vertices": [ -145.11955, 221.89236, -48.2707, 217.68555, -53.19964, 114.83175, -107.10761, 117.56261, -154.85066, 122.27674 ]
+						}
+					]
+				},
+				"hit_w20": {
+					"common/white": [
+						{
+							"time": 0.5333,
+							"vertices": [ -120.65496, 53.291, -24.78, 57.89796, -27.80499, -39.15901, -77.91198, -36.56999, -124.35297, -36.55999 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -122.85495, 59.46097, -27.74, 61.35797, -31.005, -37.19901, -81.75199, -34.88999, -128.85297, -34.09999 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -124.39494, 62.30595, -29.57999, 62.40796, -32.40499, -37.37901, -83.83198, -35.40999, -131.30295, -33.59 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -126.97492, 64.91092, -31.33998, 62.41796, -33.80498, -38.27901, -85.59198, -36.32999, -133.75293, -34.28 ]
+						},
+						{
+							"time": 0.7333,
+							"vertices": [ -131.13493, 65.99093, -33.29999, 61.89795, -35.16498, -40.79901, -87.95197, -40.53, -138.15292, -37.68001 ]
+						},
+						{
+							"time": 0.8333,
+							"vertices": [ -135.65494, 63.07092, -38.09999, 54.77796, -40.32498, -50.199, -93.03197, -50.00999, -143.75291, -48.00002 ]
+						},
+						{
+							"time": 0.9333,
+							"vertices": [ -140.85217, 54.04063, -42.84252, 42.75921, -45.2624, -65.27115, -98.03436, -65.60183, -149.08017, -63.91671 ]
+						},
+						{
+							"time": 1,
+							"vertices": [ -144.42719, 43.51565, -47.19251, 27.48423, -48.43739, -78.29614, -101.03436, -79.72681, -151.98016, -77.04168 ]
+						},
+						{
+							"time": 1.1,
+							"vertices": [ -150.72717, 20.54061, -52.46751, 4.25921, -54.1374, -103.77115, -106.15936, -104.35184, -156.95517, -102.6667 ]
+						},
+						{
+							"time": 1.2,
+							"vertices": [ -156.99716, -11.13937, -57.25252, -21.97577, -58.5924, -129.51114, -110.28436, -129.59686, -160.91522, -128.57167 ]
+						}
+					]
+				}
+			}
+		},
+		"events": [
+			{ "time": 0.5, "name": "hit" }
+		]
+	}
+}
+}

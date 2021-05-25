@@ -1,0 +1,92 @@
+{
+"skeleton": { "hash": "kMfa6+skSFAShLInd2Kmi3gQPBE", "spine": "2.1.27", "width": 216, "height": 96, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root", "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "fly1", "parent": "all", "scaleX": 1.5, "scaleY": 1.5 },
+	{ "name": "white1", "parent": "all" },
+	{ "name": "white2", "parent": "all" },
+	{ "name": "white3", "parent": "all" },
+	{ "name": "white4", "parent": "all" }
+],
+"slots": [
+	{ "name": "fly1", "bone": "fly1", "attachment": "yuancheng_gongji/arrow" },
+	{ "name": "white1", "bone": "white1", "color": "ff5b00fa", "attachment": "common/white", "blend": "additive" },
+	{ "name": "white2", "bone": "white2", "color": "ff8251b5", "attachment": "common/white", "blend": "additive" },
+	{ "name": "white3", "bone": "white3", "color": "ff9b006f", "attachment": "common/white", "blend": "additive" },
+	{ "name": "white4", "bone": "white4", "color": "ffc02980", "attachment": "common/white", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"fly1": {
+			"yuancheng_gongji/arrow": { "x": 36.8, "width": 180, "height": 80 }
+		},
+		"white1": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 0.49315, 1, 1, 0.49468, 1, 0, 1, 0, 0.49036, 0, 0, 0.50586, 0, 1, 0 ],
+				"triangles": [ 4, 5, 6, 6, 7, 0, 4, 2, 3, 6, 2, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 122.2, 0.24, 109.09, -7.13, 86.78, -20.51, 100.91, -0.73, 101.09, 0.3, 85.62, 20.95999, 101.73, 1.94, 85.23, 21.2 ],
+				"hull": 8,
+				"edges": [ 10, 12, 12, 14, 6, 8, 8, 10, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"white2": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 0.49315, 1, 1, 0.49468, 1, 0, 1, 0, 0.49036, 0, 0, 0.50586, 0, 1, 0 ],
+				"triangles": [ 4, 5, 6, 6, 7, 0, 4, 2, 3, 6, 2, 4, 6, 0, 2, 2, 0, 1 ],
+				"vertices": [ 101.04, 4.14, 121.76, 0.4, 101.05, -3.14, 78.01999, -0.07, 51.74, -2.01, -31.83, -0.24, 51.76, 2.13, 78.06, 0.32 ],
+				"hull": 8,
+				"edges": [ 10, 12, 12, 14, 6, 8, 8, 10, 2, 0, 0, 14, 2, 4, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"white3": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 0.50301, 1, 1, 0, 1, 0, 0.50009, 0, 0, 0.49917, 0, 1, 0 ],
+				"triangles": [ 3, 4, 5, 5, 6, 0, 3, 5, 0, 2, 3, 0, 2, 0, 1 ],
+				"vertices": [ 95.6, 0.57, 77.19999, -10.57, 82.9, -1.52, 51.66, -1.16999, 50.64, 0.21, 82.89, 1.82, 75.8, 11.32 ],
+				"hull": 7,
+				"edges": [ 2, 4, 8, 10, 10, 12, 4, 6, 6, 8, 2, 0, 0, 12 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"white4": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 0.50301, 1, 1, 0, 1, 0, 0.50009, 0, 0, 0.49917, 0, 1, 0 ],
+				"triangles": [ 3, 4, 5, 5, 6, 0, 3, 5, 0, 2, 3, 0, 2, 0, 1 ],
+				"vertices": [ 52.9, 0.44, 38.43, -7.6, 40.99, -1.52, 9.74, -1.16999, 8.72, 0.21, 40.97, 1.82, 37.81, 7.34 ],
+				"hull": 7,
+				"edges": [ 2, 4, 8, 10, 10, 12, 4, 6, 6, 8, 2, 0, 0, 12 ],
+				"width": 100,
+				"height": 100
+			}
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"fly1": {
+				"color": [
+					{ "time": 0, "color": "ffffff5b" }
+				]
+			}
+		},
+		"bones": {
+			"fly1": {
+				"translate": [
+					{ "time": 0, "x": 2.29, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

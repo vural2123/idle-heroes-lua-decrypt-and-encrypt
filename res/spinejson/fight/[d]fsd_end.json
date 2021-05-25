@@ -1,0 +1,87 @@
+{
+"skeleton": { "hash": "UHuLMfVYnRVQI59wo/hr+D3gS5U", "spine": "2.1.27", "width": 340, "height": 340, "images": "../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root" },
+	{ "name": "halo", "parent": "root" },
+	{ "name": "fx_fsd_end", "parent": "all", "length": 65.26 },
+	{ "name": "fsd_end/fsd_end_01", "parent": "fx_fsd_end", "length": 71.01, "x": 55.99, "y": 17 }
+],
+"slots": [
+	{
+		"name": "fsd_end/fsd_end_01",
+		"bone": "fsd_end/fsd_end_01",
+		"color": "ffffff00",
+		"attachment": "fsd_end/fsd_end_01",
+		"blend": "additive"
+	},
+	{ "name": "halo", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"fsd_end/fsd_end_01": {
+			"fsd_end/fsd_end_01": { "width": 200, "height": 200 },
+			"fsd_end/fsd_end_02": { "width": 200, "height": 200 },
+			"fsd_end/fsd_end_03": { "width": 200, "height": 200 },
+			"fsd_end/fsd_end_04": { "width": 200, "height": 200 },
+			"fsd_end/fsd_end_05": { "width": 200, "height": 200 }
+		},
+		"halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"fsd_end/fsd_end_01": {
+				"attachment": [
+					{ "time": 0, "name": "fsd_end/fsd_end_01" },
+					{ "time": 0.0666, "name": "fsd_end/fsd_end_02" },
+					{ "time": 0.1333, "name": "fsd_end/fsd_end_03" },
+					{ "time": 0.2, "name": "fsd_end/fsd_end_04" },
+					{ "time": 0.2666, "name": "fsd_end/fsd_end_05" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"halo": {
+				"color": [
+					{ "time": 0, "color": "0355ffff" },
+					{ "time": 0.5333, "color": "0355ff00" }
+				]
+			}
+		},
+		"bones": {
+			"fsd_end/fsd_end_01": {
+				"translate": [
+					{ "time": 0, "x": -55.99, "y": -7 }
+				]
+			},
+			"all": {
+				"translate": [
+					{ "time": 0, "x": 36.66, "y": 6.68 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"halo": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0666, "name": "hit" }
+		]
+	}
+}
+}

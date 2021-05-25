@@ -1,0 +1,167 @@
+{
+"skeleton": { "hash": "IbFyfBPAEVtueNH0RRI9Bu0Lqfc", "spine": "3.2.01", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "1", "parent": "root" },
+	{ "name": "icon", "parent": "1", "scaleX": 1.4, "scaleY": 1.4 },
+	{ "name": "shine", "parent": "1" },
+	{ "name": "sphere_1", "parent": "1", "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "sphere_2", "parent": "1", "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "sphere_3", "parent": "1", "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "sphere_4", "parent": "1", "scaleX": 0.5, "scaleY": 0.5 }
+],
+"slots": [
+	{ "name": "bg", "bone": "1", "attachment": "jjc_icon/13_1" },
+	{ "name": "icon", "bone": "icon", "attachment": "jjc_icon/13" },
+	{ "name": "common/n_light2", "bone": "shine", "color": "2c8fff00", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "bd", "bone": "root", "attachment": "bd" },
+	{ "name": "sphere_1", "bone": "sphere_1", "color": "ffffff00", "attachment": "common/particle" },
+	{ "name": "sphere_2", "bone": "sphere_2", "color": "ffffff00", "attachment": "common/particle" },
+	{ "name": "sphere_3", "bone": "sphere_3", "color": "ffffff00", "attachment": "common/particle" },
+	{ "name": "sphere_4", "bone": "sphere_4", "color": "ffffff00", "attachment": "common/particle" }
+],
+"skins": {
+	"default": {
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -39.60401, 38.48938, -39.60401, -40.35062, 41.39598, -39.81062, 40.856, 39.02937 ]
+			}
+		},
+		"bg": {
+			"jjc_icon/13_1": { "scaleX": 1.4, "scaleY": 1.4, "width": 56, "height": 56 }
+		},
+		"common/n_light2": {
+			"common/n_light": { "width": 85, "height": 85 }
+		},
+		"icon": {
+			"jjc_icon/13": { "width": 56, "height": 56 }
+		},
+		"sphere_1": {
+			"common/particle": { "width": 24, "height": 24 }
+		},
+		"sphere_2": {
+			"common/particle": { "width": 24, "height": 24 }
+		},
+		"sphere_3": {
+			"common/particle": { "width": 24, "height": 24 }
+		},
+		"sphere_4": {
+			"common/particle": { "width": 24, "height": 24 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"common/n_light2": {
+				"color": [
+					{ "time": 0, "color": "7900ff00" },
+					{ "time": 0.6666, "color": "7900ffa5" },
+					{ "time": 1.6666, "color": "7900ff00", "curve": "stepped" },
+					{ "time": 2.6666, "color": "7900ff00" },
+					{ "time": 3.3333, "color": "7900ffa5" },
+					{ "time": 4.3333, "color": "7900ff00" }
+				]
+			},
+			"sphere_1": {
+				"color": [
+					{ "time": 0, "color": "360c0000" },
+					{ "time": 0.3333, "color": "360c00ff", "curve": "stepped" },
+					{ "time": 3, "color": "360c00ff" },
+					{ "time": 3.3, "color": "360c0000" }
+				]
+			},
+			"sphere_2": {
+				"color": [
+					{ "time": 0.6666, "color": "360c0000" },
+					{ "time": 1, "color": "360c00ff", "curve": "stepped" },
+					{ "time": 3.8333, "color": "360c00ff" },
+					{ "time": 4.3333, "color": "360c0000" }
+				]
+			},
+			"sphere_3": {
+				"color": [
+					{ "time": 2, "color": "360c00ff", "curve": "stepped" },
+					{ "time": 2.3333, "color": "360c00ff", "curve": "stepped" },
+					{ "time": 4, "color": "360c00ff" },
+					{ "time": 4.3333, "color": "360c0000" }
+				]
+			},
+			"sphere_4": {
+				"color": [
+					{ "time": 3, "color": "360c0000" },
+					{ "time": 3.3333, "color": "360c00ff", "curve": "stepped" },
+					{ "time": 4, "color": "360c00ff" },
+					{ "time": 4.3333, "color": "360c0000" }
+				]
+			}
+		},
+		"bones": {
+			"shine": {
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"sphere_1": {
+				"translate": [
+					{
+						"time": 0,
+						"x": -14.84,
+						"y": -25.13,
+						"curve": [ 0, 0.39, 0.75, 1 ]
+					},
+					{ "time": 3.3, "x": -10.93, "y": 14.02 }
+				]
+			},
+			"sphere_2": {
+				"translate": [
+					{
+						"time": 0.6666,
+						"x": -27.15,
+						"y": 11.97,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.3333,
+						"x": -23.35,
+						"y": 20.46,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4.3333, "x": -14.59, "y": 29.82 }
+				],
+				"scale": [
+					{ "time": 0.6666, "x": 1, "y": 1 },
+					{ "time": 4.3333, "x": 1.8, "y": 1.8 }
+				]
+			},
+			"sphere_3": {
+				"translate": [
+					{
+						"time": 2,
+						"x": -17.21,
+						"y": -22.83,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4.3333, "x": -24.49, "y": 7.61 }
+				]
+			},
+			"sphere_4": {
+				"translate": [
+					{
+						"time": 3,
+						"x": -16.85,
+						"y": -27.95,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 4.3333, "x": -11.78, "y": -18.01 }
+				],
+				"scale": [
+					{ "time": 3, "x": 1, "y": 1 },
+					{ "time": 4.3333, "x": 0.4, "y": 0.4 }
+				]
+			}
+		}
+	}
+}
+}

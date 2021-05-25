@@ -1,0 +1,132 @@
+{
+"skeleton": {
+	"hash": "B2AAcoNPS9LdVHG11RDkm2No7E4",
+	"spine": "2.1.27",
+	"width": 819.15,
+	"height": 372.95,
+	"images": "./../../pngs/animation/ui/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Light_refer", "parent": "root", "y": 171.84 },
+	{ "name": "new_1", "parent": "root", "x": -295.03, "y": 99 },
+	{ "name": "new_2", "parent": "root", "x": 338.12, "y": 96.2 },
+	{ "name": "refer", "parent": "root" },
+	{ "name": "refer2", "parent": "root" },
+	{ "name": "tree1", "parent": "root", "x": 202.14, "y": -207.94 },
+	{ "name": "tree2", "parent": "root", "x": -310.99, "y": -149.95 },
+	{ "name": "tree4", "parent": "root", "x": 321.38, "y": -163.74 },
+	{ "name": "tree_side", "parent": "root", "x": -381.83, "y": -234.57 }
+],
+"slots": [
+	{ "name": "refer", "bone": "refer", "attachment": "useless/shengmingzhishu/shengmingzhishu_refer" },
+	{ "name": "refer2", "bone": "refer2", "attachment": "useless/shengmingzhishu/shengmingzhishu_refer2" },
+	{ "name": "Light_refer", "bone": "Light_refer", "attachment": "useless/shengmingzhishu/light_00" },
+	{ "name": "tree1", "bone": "tree1", "attachment": "shengmingzhishu/tree1" },
+	{ "name": "tree2", "bone": "tree2", "attachment": "shengmingzhishu/tree2" },
+	{ "name": "tree4", "bone": "tree4", "attachment": "shengmingzhishu/tree4" },
+	{ "name": "new_2", "bone": "new_2", "attachment": "shengmingzhishu/tree_right" },
+	{ "name": "new_1", "bone": "new_1", "attachment": "shengmingzhishu/tree_left" },
+	{ "name": "bd", "bone": "root", "attachment": "bd" }
+],
+"skins": {
+	"default": {
+		"Light_refer": {
+			"useless/shengmingzhishu/light_00": { "y": -171.84, "width": 960, "height": 576 }
+		},
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -411.57507, -232.59769, 410.37305, -232.32, 409.78214, 141.46805, -412.48627, 141.73297 ]
+			}
+		},
+		"new_1": {
+			"shengmingzhishu/tree_left": {
+				"type": "mesh",
+				"uvs": [ 1, 0.50535, 1, 1, 0, 1, 0, 0.47997, 0, 0, 1, 0, 0.51048, 0.51048 ],
+				"triangles": [ 6, 3, 4, 5, 6, 4, 0, 6, 5, 2, 3, 6, 6, 0, 1, 2, 6, 1 ],
+				"vertices": [ 114.5, -0.43, 114.5, -40.5, -114.5, -40.5, -114.5, 1.62, -114.5, 40.5, 114.5, 40.5, 2.4, -0.84 ],
+				"hull": 6,
+				"edges": [ 2, 4, 8, 10, 4, 6, 6, 8, 2, 0, 0, 10, 2, 12, 12, 8, 4, 12, 12, 10 ],
+				"width": 229,
+				"height": 81
+			}
+		},
+		"new_2": {
+			"shengmingzhishu/tree_right": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0, 0.51295, 0.51295 ],
+				"triangles": [ 4, 2, 3, 1, 2, 4, 4, 3, 0, 1, 4, 0 ],
+				"vertices": [ 71.5, -42.5, -71.5, -42.5, -71.5, 42.5, 71.5, 42.5, 1.85, -1.1 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6, 0, 8, 8, 4, 2, 8, 8, 6 ],
+				"width": 143,
+				"height": 85
+			}
+		},
+		"refer": {
+			"useless/shengmingzhishu/shengmingzhishu_refer": { "width": 960, "height": 576 }
+		},
+		"refer2": {
+			"useless/shengmingzhishu/shengmingzhishu_refer2": { "width": 960, "height": 576 }
+		},
+		"tree1": {
+			"shengmingzhishu/tree1": { "width": 54, "height": 49 }
+		},
+		"tree2": {
+			"shengmingzhishu/tree2": { "width": 197, "height": 167 }
+		},
+		"tree4": {
+			"shengmingzhishu/tree4": { "width": 175, "height": 138 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"ffd": {
+			"default": {
+				"new_1": {
+					"shengmingzhishu/tree_left": [
+						{ "time": 0 },
+						{
+							"time": 1.2,
+							"offset": 2,
+							"vertices": [ 7.24996, -2.89996, 0, 0, 0, 0, 0, 0, 0, 0, 9.634, -3.00401 ]
+						},
+						{
+							"time": 2.8,
+							"vertices": [ -2.17498, 1.45001, -8.99849, 3.7444, -2.17498, 1.45001, 0, 0, 0, 0, -5.07492, 2.175, -3.74442, 2.2347 ]
+						},
+						{ "time": 4.1 },
+						{
+							"time": 5.4,
+							"offset": 2,
+							"vertices": [ 7.24996, -2.89996, 0, 0, 0, 0, 0, 0, 0, 0, 2.89999, -1.45001 ]
+						},
+						{ "time": 6.6666 }
+					]
+				},
+				"new_2": {
+					"shengmingzhishu/tree_right": [
+						{ "time": 0 },
+						{
+							"time": 1.4,
+							"vertices": [ 5.05804, 7.30597, 0, 0, 0, 0, 0, 0, 3.93399, 6.74401 ]
+						},
+						{
+							"time": 2.8,
+							"vertices": [ 1.89676, 2.73974, -8.39801, 0.988, -6.42199, 1.482, 0, 0, -7.91074, 6.48098 ]
+						},
+						{ "time": 4.0333 },
+						{
+							"time": 5.3666,
+							"vertices": [ 5.05804, 7.30597, 0, 0, 0, 0, 0, 0, 3.93399, 6.74401 ]
+						},
+						{ "time": 6.6666 }
+					]
+				}
+			}
+		}
+	}
+}
+}

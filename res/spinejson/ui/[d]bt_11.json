@@ -1,0 +1,111 @@
+{
+"skeleton": { "hash": "8EjZ8fTsMG/4HGF4kLr0sV4sMhQ", "spine": "2.1.27", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "11", "parent": "root" },
+	{ "name": "bd", "parent": "root" },
+	{ "name": "refer", "parent": "root" },
+	{ "name": "11_1", "parent": "11", "x": 6.71, "y": 90.33 },
+	{ "name": "11_2", "parent": "11", "x": 28.83, "y": -24.76 },
+	{ "name": "11_fx1", "parent": "11" },
+	{ "name": "11_fx2", "parent": "11", "x": 22.59, "y": 89.12, "scaleX": 0.24, "scaleY": 0.16, "rotation": -15 }
+],
+"slots": [
+	{ "name": "refer", "bone": "refer", "color": "ffffff8d" },
+	{ "name": "bd", "bone": "bd", "attachment": "bd" },
+	{ "name": "11_2", "bone": "11_2", "attachment": "bt_changjing/11_2" },
+	{ "name": "11_fx1", "bone": "11_fx1", "color": "ffffff00", "attachment": "common/z_trailing", "blend": "additive" },
+	{ "name": "11_1", "bone": "11_1", "attachment": "bt_changjing/11_1" },
+	{ "name": "11_fx2", "bone": "11_fx2", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"11_1": {
+			"bt_changjing/11_1": { "width": 191, "height": 114 }
+		},
+		"11_2": {
+			"bt_changjing/11_2": { "width": 285, "height": 228 }
+		},
+		"11_fx1": {
+			"common/z_trailing": {
+				"type": "mesh",
+				"uvs": [ 1, 0.49767, 1, 1, 0.49786, 1, 0, 1, 0, 0.50143, 0, 0, 1, 0, 0.51291, 0.50143 ],
+				"triangles": [ 7, 5, 6, 7, 4, 5, 6, 0, 7, 3, 4, 7, 2, 3, 7, 7, 0, 1, 2, 7, 1 ],
+				"vertices": [ 49.04, 72.64, 99.27, 72.64, 99.27, 47.54, 99.27, 22.64, 49.41, 22.64, -0.72, 22.64, -0.72, 72.64, 49.41, 48.29 ],
+				"hull": 7,
+				"edges": [ 10, 12, 10, 14, 14, 6, 14, 2, 2, 4, 4, 6, 4, 14, 6, 8, 8, 10, 14, 12, 2, 0, 0, 12, 14, 0, 14, 8 ],
+				"width": 50,
+				"height": 100
+			}
+		},
+		"11_fx2": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -124.66467, -144.7155, 178.87988, -145.31094, 179.9675, 153.18423, -128.49664, 155.69577 ]
+			}
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"11_fx1": {
+				"color": [
+					{ "time": 0, "color": "deff0000" },
+					{ "time": 1.3333, "color": "ffaf008a" },
+					{ "time": 2.6666, "color": "deff0000" }
+				]
+			},
+			"11_fx2": {
+				"color": [
+					{ "time": 0, "color": "ff5c004b" },
+					{ "time": 1.3333, "color": "ffd1008a" },
+					{ "time": 2.6666, "color": "ff5c004b" }
+				]
+			}
+		},
+		"bones": {
+			"11": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"x": 0,
+						"y": 4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"11_fx1": {
+					"common/z_trailing": [
+						{
+							"time": 0,
+							"vertices": [ -13.28395, -4.67398, -23.61592, 2.95198, -15.74395, -7.13397, -56.61583, 2.20198, -31.85391, 10.01397, 9.02394, 9.52795, 4.75797, -5.72396, -28.08596, 0.05997 ]
+						},
+						{
+							"time": 1.3333,
+							"vertices": [ -13.28395, -4.67398, 12.01302, 5.20699, -2.66496, -14.80093, -34.51687, -14.03398, -31.85391, 10.01397, 9.02394, 9.52795, 4.75797, -5.72396, -28.08596, 0.05997 ]
+						},
+						{
+							"time": 2.6666,
+							"vertices": [ -13.28395, -4.67398, -23.61592, 2.95198, -15.74395, -7.13397, -56.61583, 2.20198, -31.85391, 10.01397, 9.02394, 9.52795, 4.75797, -5.72396, -28.08596, 0.05997 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

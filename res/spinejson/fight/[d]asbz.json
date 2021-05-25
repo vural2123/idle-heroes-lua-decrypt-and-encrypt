@@ -1,0 +1,1740 @@
+{
+"skeleton": { "hash": "8Xx4yvh22Acmr4uemL3CJoKahMg", "spine": "2.1.27", "width": 820, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "FX", "parent": "code_shake", "x": 600 },
+	{ "name": "Ability_Reversion_Up", "parent": "FX" },
+	{ "name": "ARU_bottom_circle", "parent": "Ability_Reversion_Up" },
+	{ "name": "ARU_bottom_circle_stripe", "parent": "Ability_Reversion_Up" },
+	{ "name": "ARU_halo_blue", "parent": "Ability_Reversion_Up" },
+	{ "name": "ARU_halo_purple", "parent": "Ability_Reversion_Up" },
+	{ "name": "ARU_par2_group", "parent": "Ability_Reversion_Up" },
+	{ "name": "ARU_par_01_group", "parent": "Ability_Reversion_Up" },
+	{ "name": "ARU_par_spread", "parent": "Ability_Reversion_Up" },
+	{ "name": "ARU_smk_01", "parent": "Ability_Reversion_Up" },
+	{ "name": "ARU_stat_01", "parent": "Ability_Reversion_Up" },
+	{ "name": "ARU_stat_02", "parent": "Ability_Reversion_Up" },
+	{ "name": "ARU_stat_03", "parent": "Ability_Reversion_Up" },
+	{ "name": "ARU_stat_04", "parent": "Ability_Reversion_Up" },
+	{ "name": "line_01", "parent": "Ability_Reversion_Up", "x": -600 },
+	{ "name": "line_02", "parent": "Ability_Reversion_Up", "x": -600 },
+	{ "name": "line_03", "parent": "Ability_Reversion_Up", "x": -600 },
+	{ "name": "line_04", "parent": "Ability_Reversion_Up", "x": -600 },
+	{ "name": "line_05", "parent": "Ability_Reversion_Up", "x": -600 },
+	{ "name": "ARU_par2_01", "parent": "ARU_par2_group" },
+	{ "name": "ARU_par2_02", "parent": "ARU_par2_group" },
+	{ "name": "ARU_par2_03", "parent": "ARU_par2_group" },
+	{ "name": "ARU_par2_04", "parent": "ARU_par2_group" },
+	{ "name": "ARU_par2_05", "parent": "ARU_par2_group" },
+	{ "name": "ARU_par2_06", "parent": "ARU_par2_group" },
+	{ "name": "ARU_par_01", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_02", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_03", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_04", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_05", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_06", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_07", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_08", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_09", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_10", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_11", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_12", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_13", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_14", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_15", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_16", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_17", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_18", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_19", "parent": "ARU_par_01_group" },
+	{ "name": "ARU_par_20", "parent": "ARU_par_01_group" }
+],
+"slots": [
+	{
+		"name": "ARU_bottom_circle",
+		"bone": "ARU_bottom_circle",
+		"color": "ffffff00",
+		"attachment": "effects/n_bottom_circle_013",
+		"blend": "additive"
+	},
+	{ "name": "ARU_bottom_circle_stripe", "bone": "ARU_bottom_circle_stripe", "color": "ffffff00", "blend": "additive" },
+	{ "name": "ARU_halo_blue", "bone": "ARU_halo_blue", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{
+		"name": "ARU_par_spread",
+		"bone": "ARU_par_spread",
+		"color": "ffffff00",
+		"attachment": "effects/n_particle_spread_010",
+		"blend": "additive"
+	},
+	{ "name": "ARU_halo_purple", "bone": "ARU_halo_purple", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "ARU_par_01", "bone": "ARU_par_01", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_02", "bone": "ARU_par_02", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_03", "bone": "ARU_par_03", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_04", "bone": "ARU_par_04", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_05", "bone": "ARU_par_05", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_06", "bone": "ARU_par_06", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_07", "bone": "ARU_par_07", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_08", "bone": "ARU_par_08", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_09", "bone": "ARU_par_09", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_10", "bone": "ARU_par_10", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_11", "bone": "ARU_par_11", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_12", "bone": "ARU_par_12", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_13", "bone": "ARU_par_13", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_14", "bone": "ARU_par_14", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_15", "bone": "ARU_par_15", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_16", "bone": "ARU_par_16", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_17", "bone": "ARU_par_17", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_18", "bone": "ARU_par_18", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_19", "bone": "ARU_par_19", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par_20", "bone": "ARU_par_20", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "line_01", "bone": "line_01", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "line_02", "bone": "line_02", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "line_03", "bone": "line_03", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "line_04", "bone": "line_04", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "line_05", "bone": "line_05", "color": "ffffff00", "attachment": "common/white", "blend": "additive" },
+	{ "name": "ARU_par2_01", "bone": "ARU_par2_01", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par2_02", "bone": "ARU_par2_02", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par2_03", "bone": "ARU_par2_03", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par2_04", "bone": "ARU_par2_04", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par2_05", "bone": "ARU_par2_05", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_par2_06", "bone": "ARU_par2_06", "color": "ffffff00", "attachment": "effects/white", "blend": "additive" },
+	{ "name": "ARU_smk_01", "bone": "ARU_smk_01", "color": "ffffff00", "attachment": "effects/t_smoke_3", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"ARU_bottom_circle": {
+			"effects/n_bottom_circle_000": { "path": "asbz/n_bottom_circle_000", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_001": { "path": "asbz/n_bottom_circle_001", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_002": { "path": "asbz/n_bottom_circle_002", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_003": { "path": "asbz/n_bottom_circle_003", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_004": { "path": "asbz/n_bottom_circle_004", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_005": { "path": "asbz/n_bottom_circle_005", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_006": { "path": "asbz/n_bottom_circle_006", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_007": { "path": "asbz/n_bottom_circle_007", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_008": { "path": "asbz/n_bottom_circle_008", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_009": { "path": "asbz/n_bottom_circle_009", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_010": { "path": "asbz/n_bottom_circle_010", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_011": { "path": "asbz/n_bottom_circle_011", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_012": { "path": "asbz/n_bottom_circle_012", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_013": { "path": "asbz/n_bottom_circle_013", "width": 125, "height": 100 }
+		},
+		"ARU_bottom_circle_stripe": {
+			"effects/n_bottom_circle_stripe_001": { "path": "asbz/n_bottom_circle_stripe_001", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_stripe_002": { "path": "asbz/n_bottom_circle_stripe_002", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_stripe_003": { "path": "asbz/n_bottom_circle_stripe_003", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_stripe_004": { "path": "asbz/n_bottom_circle_stripe_004", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_stripe_005": { "path": "asbz/n_bottom_circle_stripe_005", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_stripe_006": { "path": "asbz/n_bottom_circle_stripe_006", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_stripe_007": { "path": "asbz/n_bottom_circle_stripe_007", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_stripe_008": { "path": "asbz/n_bottom_circle_stripe_008", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_stripe_009": { "path": "asbz/n_bottom_circle_stripe_009", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_stripe_010": { "path": "asbz/n_bottom_circle_stripe_010", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_stripe_011": { "path": "asbz/n_bottom_circle_stripe_011", "width": 125, "height": 100 },
+			"effects/n_bottom_circle_stripe_012": { "path": "asbz/n_bottom_circle_stripe_012", "width": 125, "height": 100 }
+		},
+		"ARU_halo_blue": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"ARU_halo_purple": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"ARU_par2_01": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49886, 1, 1, 0.50839, 1, 0, 1, 0, 0.49407, 0, 0, 0.51984, 0, 1, 0 ],
+				"triangles": [ 4, 5, 6, 6, 7, 0, 4, 2, 3, 0, 4, 6, 0, 2, 4, 2, 0, 1 ],
+				"vertices": [ 50, 0.11, 50, -50, 0.83, -50, -50, -50, -50, 0.58999, -50, 50, 1.98, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 10, 12, 12, 14, 6, 8, 8, 10, 2, 4, 4, 6, 2, 0, 0, 14 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par2_02": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49886, 1, 1, 0.50839, 1, 0, 1, 0, 0.49407, 0, 0, 0.51984, 0, 1, 0 ],
+				"triangles": [ 4, 5, 6, 6, 7, 0, 4, 2, 3, 0, 4, 6, 0, 2, 4, 2, 0, 1 ],
+				"vertices": [ 50, 0.11, 50, -50, 0.83, -50, -50, -50, -50, 0.58999, -50, 50, 1.98, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 10, 12, 12, 14, 6, 8, 8, 10, 2, 4, 4, 6, 2, 0, 0, 14 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par2_03": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49886, 1, 1, 0.50839, 1, 0, 1, 0, 0.49407, 0, 0, 0.51984, 0, 1, 0 ],
+				"triangles": [ 4, 5, 6, 6, 7, 0, 4, 2, 3, 0, 4, 6, 0, 2, 4, 2, 0, 1 ],
+				"vertices": [ 50, 0.11, 50, -50, 0.83, -50, -50, -50, -50, 0.58999, -50, 50, 1.98, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 10, 12, 12, 14, 6, 8, 8, 10, 2, 4, 4, 6, 2, 0, 0, 14 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par2_04": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49886, 1, 1, 0.50839, 1, 0, 1, 0, 0.49407, 0, 0, 0.51984, 0, 1, 0 ],
+				"triangles": [ 4, 5, 6, 6, 7, 0, 4, 2, 3, 0, 4, 6, 0, 2, 4, 2, 0, 1 ],
+				"vertices": [ 50, 0.11, 50, -50, 0.83, -50, -50, -50, -50, 0.58999, -50, 50, 1.98, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 10, 12, 12, 14, 6, 8, 8, 10, 2, 4, 4, 6, 2, 0, 0, 14 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par2_05": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49886, 1, 1, 0.50839, 1, 0, 1, 0, 0.49407, 0, 0, 0.51984, 0, 1, 0 ],
+				"triangles": [ 4, 5, 6, 6, 7, 0, 4, 2, 3, 0, 4, 6, 0, 2, 4, 2, 0, 1 ],
+				"vertices": [ 50, 0.11, 50, -50, 0.83, -50, -50, -50, -50, 0.58999, -50, 50, 1.98, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 10, 12, 12, 14, 6, 8, 8, 10, 2, 4, 4, 6, 2, 0, 0, 14 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par2_06": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 0.49886, 1, 1, 0.50839, 1, 0, 1, 0, 0.49407, 0, 0, 0.51984, 0, 1, 0 ],
+				"triangles": [ 4, 5, 6, 6, 7, 0, 4, 2, 3, 0, 4, 6, 0, 2, 4, 2, 0, 1 ],
+				"vertices": [ 50, 0.11, 50, -50, 0.83, -50, -50, -50, -50, 0.58999, -50, 50, 1.98, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 10, 12, 12, 14, 6, 8, 8, 10, 2, 4, 4, 6, 2, 0, 0, 14 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_01": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_02": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_03": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_04": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_05": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_06": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_07": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_08": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_09": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_10": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_11": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_12": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_13": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_14": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_15": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_16": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_17": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_18": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_19": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_20": {
+			"effects/white": {
+				"type": "mesh",
+				"path": "common/white",
+				"uvs": [ 1, 1, 0.51227, 1, 0, 1, 0, 0, 0.49754, 0, 1, 0 ],
+				"triangles": [ 2, 3, 4, 1, 4, 5, 2, 4, 1, 1, 5, 0 ],
+				"vertices": [ 50, -50, 1.22, -50, -50, -50, -50, 50, -0.24, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 4, 6, 0, 10, 6, 8, 8, 10, 0, 2, 2, 4 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"ARU_par_spread": {
+			"effects/n_particle_spread_000": { "path": "asbz/n_particle_spread_000", "width": 150, "height": 150 },
+			"effects/n_particle_spread_001": { "path": "asbz/n_particle_spread_001", "width": 150, "height": 150 },
+			"effects/n_particle_spread_002": { "path": "asbz/n_particle_spread_002", "width": 150, "height": 150 },
+			"effects/n_particle_spread_003": { "path": "asbz/n_particle_spread_003", "width": 150, "height": 150 },
+			"effects/n_particle_spread_004": { "path": "asbz/n_particle_spread_004", "width": 150, "height": 150 },
+			"effects/n_particle_spread_005": { "path": "asbz/n_particle_spread_005", "width": 150, "height": 150 },
+			"effects/n_particle_spread_006": { "path": "asbz/n_particle_spread_006", "width": 150, "height": 150 },
+			"effects/n_particle_spread_007": { "path": "asbz/n_particle_spread_007", "width": 150, "height": 150 },
+			"effects/n_particle_spread_008": { "path": "asbz/n_particle_spread_008", "width": 150, "height": 150 },
+			"effects/n_particle_spread_009": { "path": "asbz/n_particle_spread_009", "width": 150, "height": 150 },
+			"effects/n_particle_spread_010": { "path": "asbz/n_particle_spread_010", "width": 150, "height": 150 }
+		},
+		"ARU_smk_01": {
+			"effects/t_smoke_3": { "path": "asbz/t_smoke_3", "width": 100, "height": 100 }
+		},
+		"line_01": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"line_02": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"line_03": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"line_04": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"line_05": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 50, -50, -50, -50, -50, 50, 50, 50 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"ARU_bottom_circle": {
+				"attachment": [
+					{ "time": 0, "name": "effects/n_bottom_circle_000" },
+					{ "time": 0.0333, "name": "effects/n_bottom_circle_001" },
+					{ "time": 0.0666, "name": "effects/n_bottom_circle_002" },
+					{ "time": 0.1, "name": "effects/n_bottom_circle_003" },
+					{ "time": 0.1333, "name": "effects/n_bottom_circle_004" },
+					{ "time": 0.1666, "name": "effects/n_bottom_circle_005" },
+					{ "time": 0.2, "name": "effects/n_bottom_circle_006" },
+					{ "time": 0.2333, "name": "effects/n_bottom_circle_007" },
+					{ "time": 0.2666, "name": "effects/n_bottom_circle_008" },
+					{ "time": 0.3, "name": "effects/n_bottom_circle_009" },
+					{ "time": 0.3333, "name": "effects/n_bottom_circle_010" },
+					{ "time": 0.3666, "name": "effects/n_bottom_circle_011" },
+					{ "time": 0.4, "name": "effects/n_bottom_circle_012" },
+					{ "time": 0.4333, "name": "effects/n_bottom_circle_013" }
+				],
+				"color": [
+					{ "time": 0, "color": "c000ffff" },
+					{ "time": 0.0333, "color": "ffffffd4" },
+					{ "time": 0.1666, "color": "aa37ffff" },
+					{ "time": 0.4333, "color": "a100ffff" },
+					{ "time": 0.4666, "color": "ffffff00" }
+				]
+			},
+			"ARU_bottom_circle_stripe": {
+				"attachment": [
+					{ "time": 0.0333, "name": "effects/n_bottom_circle_stripe_001" },
+					{ "time": 0.0666, "name": "effects/n_bottom_circle_stripe_002" },
+					{ "time": 0.1, "name": "effects/n_bottom_circle_stripe_003" },
+					{ "time": 0.1333, "name": "effects/n_bottom_circle_stripe_004" },
+					{ "time": 0.1666, "name": "effects/n_bottom_circle_stripe_005" },
+					{ "time": 0.2, "name": "effects/n_bottom_circle_stripe_006" },
+					{ "time": 0.2333, "name": "effects/n_bottom_circle_stripe_007" },
+					{ "time": 0.2666, "name": "effects/n_bottom_circle_stripe_008" },
+					{ "time": 0.3, "name": "effects/n_bottom_circle_stripe_009" },
+					{ "time": 0.3333, "name": "effects/n_bottom_circle_stripe_010" },
+					{ "time": 0.3666, "name": "effects/n_bottom_circle_stripe_011" },
+					{ "time": 0.4, "name": "effects/n_bottom_circle_stripe_012" }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			},
+			"ARU_halo_blue": {
+				"color": [
+					{ "time": 0, "color": "005affff", "curve": "stepped" },
+					{ "time": 0.0333, "color": "005affff" },
+					{ "time": 0.1666, "color": "005aff89" },
+					{ "time": 0.6666, "color": "005aff00" }
+				]
+			},
+			"ARU_halo_purple": {
+				"color": [
+					{ "time": 0, "color": "a735ffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "a735ffff" },
+					{ "time": 0.8333, "color": "a735ff00" }
+				]
+			},
+			"ARU_par2_01": {
+				"color": [
+					{ "time": 0.1333, "color": "9c6dffff" },
+					{ "time": 0.2333, "color": "9c6dff00" }
+				]
+			},
+			"ARU_par2_02": {
+				"color": [
+					{ "time": 0.1333, "color": "815effff" },
+					{ "time": 0.2666, "color": "7f4dff00" }
+				]
+			},
+			"ARU_par2_03": {
+				"color": [
+					{ "time": 0.1666, "color": "a067ffff" },
+					{ "time": 0.2666, "color": "a067ff00" }
+				]
+			},
+			"ARU_par2_04": {
+				"color": [
+					{ "time": 0.1333, "color": "9453ffff" },
+					{ "time": 0.2, "color": "9453ff00" }
+				]
+			},
+			"ARU_par2_05": {
+				"color": [
+					{ "time": 0.1333, "color": "a178ffff", "curve": "stepped" },
+					{ "time": 0.3, "color": "a178ffff" },
+					{ "time": 0.4333, "color": "a178ff00" }
+				]
+			},
+			"ARU_par2_06": {
+				"color": [
+					{ "time": 0.1666, "color": "ae9fffff" },
+					{ "time": 0.6, "color": "b59cffff" },
+					{ "time": 0.7, "color": "9870ff00" }
+				]
+			},
+			"ARU_par_01": {
+				"color": [
+					{ "time": 0.1333, "color": "910affff" },
+					{ "time": 0.5, "color": "c884ffff" },
+					{ "time": 0.6, "color": "910aff00" }
+				]
+			},
+			"ARU_par_02": {
+				"color": [
+					{ "time": 0.1333, "color": "910affff" },
+					{ "time": 0.3666, "color": "b482ffff" },
+					{ "time": 0.4666, "color": "910aff00" }
+				]
+			},
+			"ARU_par_03": {
+				"color": [
+					{ "time": 0.1333, "color": "910affff" },
+					{ "time": 0.4, "color": "c18cffff" },
+					{ "time": 0.5, "color": "c18cff00" }
+				]
+			},
+			"ARU_par_04": {
+				"color": [
+					{ "time": 0.1333, "color": "910affff" },
+					{ "time": 0.4, "color": "bb84ffff" },
+					{ "time": 0.5333, "color": "bb84ff00" }
+				]
+			},
+			"ARU_par_05": {
+				"color": [
+					{ "time": 0.1666, "color": "910affff" },
+					{ "time": 0.4, "color": "cd96ffff" },
+					{ "time": 0.6666, "color": "cd96ff00" }
+				]
+			},
+			"ARU_par_06": {
+				"color": [
+					{ "time": 0.1666, "color": "910affff" },
+					{ "time": 0.2666, "color": "c58dffff" },
+					{ "time": 0.3666, "color": "c58dff00" }
+				]
+			},
+			"ARU_par_07": {
+				"color": [
+					{ "time": 0.1333, "color": "910affff" },
+					{ "time": 0.3333, "color": "b685ffff" },
+					{ "time": 0.4666, "color": "b685ff00" }
+				]
+			},
+			"ARU_par_08": {
+				"color": [
+					{ "time": 0.1666, "color": "971effff" },
+					{ "time": 0.4333, "color": "c89affff" },
+					{ "time": 0.6, "color": "c89aff00" }
+				]
+			},
+			"ARU_par_09": {
+				"color": [
+					{ "time": 0.1666, "color": "971effff" },
+					{ "time": 0.4333, "color": "c8a3ffff" },
+					{ "time": 0.5666, "color": "c8a3ff00" }
+				]
+			},
+			"ARU_par_10": {
+				"color": [
+					{ "time": 0.1333, "color": "971effff" },
+					{ "time": 0.4333, "color": "bf95ffff" },
+					{ "time": 0.6, "color": "bf95ff00" }
+				]
+			},
+			"ARU_par_11": {
+				"color": [
+					{ "time": 0.1333, "color": "971effff" },
+					{ "time": 0.4333, "color": "d8abffff" },
+					{ "time": 0.5333, "color": "d8abff00" }
+				]
+			},
+			"ARU_par_12": {
+				"color": [
+					{ "time": 0.1666, "color": "971effff" },
+					{ "time": 0.5, "color": "d7a9ffff" },
+					{ "time": 0.6333, "color": "d7a9ff00" }
+				]
+			},
+			"ARU_par_13": {
+				"color": [
+					{ "time": 0.1666, "color": "971effff" },
+					{ "time": 0.4, "color": "ccaeffff" },
+					{ "time": 0.5, "color": "ccaeff00" }
+				]
+			},
+			"ARU_par_14": {
+				"color": [
+					{ "time": 0.1666, "color": "971effff" },
+					{ "time": 0.4333, "color": "cc9dffff" },
+					{ "time": 0.5333, "color": "cc9dff00" }
+				]
+			},
+			"ARU_par_15": {
+				"color": [
+					{ "time": 0.1666, "color": "971effff" },
+					{ "time": 0.3333, "color": "cfa2ffff" },
+					{ "time": 0.4333, "color": "cfa2ff00" }
+				]
+			},
+			"ARU_par_16": {
+				"color": [
+					{ "time": 0.2, "color": "971effff" },
+					{ "time": 0.5, "color": "ccb0ffff" },
+					{ "time": 0.6, "color": "ccb0ff00" }
+				]
+			},
+			"ARU_par_17": {
+				"color": [
+					{ "time": 0.2333, "color": "971effff" },
+					{ "time": 0.4333, "color": "d1b0ffff" },
+					{ "time": 0.5333, "color": "d1b0ff00" }
+				]
+			},
+			"ARU_par_18": {
+				"color": [
+					{ "time": 0.1666, "color": "971effff" },
+					{ "time": 0.4666, "color": "ceabffff" },
+					{ "time": 0.5666, "color": "ceabff00" }
+				]
+			},
+			"ARU_par_19": {
+				"color": [
+					{ "time": 0.2, "color": "971effff" },
+					{ "time": 0.6, "color": "cdadffff" },
+					{ "time": 0.7333, "color": "cdadff00" }
+				]
+			},
+			"ARU_par_20": {
+				"color": [
+					{ "time": 0.2, "color": "971effff" },
+					{ "time": 0.4333, "color": "d0a4ffff" },
+					{ "time": 0.5333, "color": "d0a4ff00" }
+				]
+			},
+			"ARU_par_spread": {
+				"attachment": [
+					{ "time": 0.3333, "name": "effects/n_particle_spread_000" },
+					{ "time": 0.3666, "name": "effects/n_particle_spread_001" },
+					{ "time": 0.4, "name": "effects/n_particle_spread_002" },
+					{ "time": 0.4333, "name": "effects/n_particle_spread_003" },
+					{ "time": 0.4666, "name": "effects/n_particle_spread_004" },
+					{ "time": 0.5, "name": "effects/n_particle_spread_005" },
+					{ "time": 0.5333, "name": "effects/n_particle_spread_006" },
+					{ "time": 0.5666, "name": "effects/n_particle_spread_007" },
+					{ "time": 0.6, "name": "effects/n_particle_spread_008" },
+					{ "time": 0.6333, "name": "effects/n_particle_spread_009" },
+					{ "time": 0.6666, "name": "effects/n_particle_spread_010" }
+				],
+				"color": [
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				]
+			},
+			"ARU_smk_01": {
+				"color": [
+					{ "time": 0.1666, "color": "b3abffff" },
+					{ "time": 0.8666, "color": "b3abff00" }
+				]
+			},
+			"line_01": {
+				"color": [
+					{ "time": 0.1, "color": "9d4bffff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "9d4bffff" },
+					{ "time": 0.4, "color": "9d4bff00" }
+				]
+			},
+			"line_02": {
+				"color": [
+					{ "time": 0.1, "color": "9d4bffff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "9d4bffff" },
+					{ "time": 0.4, "color": "9d4bff00" }
+				]
+			},
+			"line_03": {
+				"color": [
+					{ "time": 0.1, "color": "9d4bffff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "9d4bffff" },
+					{ "time": 0.4, "color": "9d4bff00" }
+				]
+			},
+			"line_04": {
+				"color": [
+					{ "time": 0.1, "color": "9d4bffff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "9d4bffff" },
+					{ "time": 0.4, "color": "9d4bff00" }
+				]
+			},
+			"line_05": {
+				"color": [
+					{ "time": 0.1, "color": "9d4bffff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "9d4bffff" },
+					{ "time": 0.4, "color": "9d4bff00" }
+				]
+			}
+		},
+		"bones": {
+			"ARU_bottom_circle": {
+				"translate": [
+					{ "time": 0, "x": -600, "y": 195 }
+				],
+				"scale": [
+					{ "time": 0, "x": 8, "y": 8 }
+				]
+			},
+			"ARU_bottom_circle_stripe": {
+				"translate": [
+					{ "time": 0.0333, "x": -600, "y": 195 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 8, "y": 8 }
+				]
+			},
+			"ARU_halo_blue": {
+				"translate": [
+					{ "time": 0, "x": -600, "y": 65 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3.7, "y": 3.7 }
+				]
+			},
+			"ARU_par_spread": {
+				"translate": [
+					{ "time": 0.3333, "x": -600, "y": 105 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 2.66, "y": 2.66 }
+				]
+			},
+			"ARU_stat_01": {
+				"translate": [
+					{ "time": 0.0333, "x": -716.22, "y": 164.8 },
+					{ "time": 0.6666, "x": -866.82, "y": 274.96 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"ARU_stat_02": {
+				"translate": [
+					{ "time": 0.1, "x": -547.01, "y": 194.84 },
+					{ "time": 0.7333, "x": -452.18, "y": 343.84 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 1.5, "y": 1.5, "curve": "stepped" },
+					{ "time": 0.4, "x": 1.5, "y": 1.5 },
+					{ "time": 0.7333, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"ARU_stat_03": {
+				"translate": [
+					{ "time": 0.0333, "x": -528.04, "y": 64 },
+					{ "time": 0.6666, "x": -314.2, "y": 18.91 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 1.5, "y": 1.5, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1.5, "y": 1.5 },
+					{ "time": 0.6666, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"ARU_stat_04": {
+				"translate": [
+					{ "time": 0.0666, "x": -642.03, "y": 59.8 },
+					{ "time": 0.7, "x": -849.59, "y": 3.51 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 1, "y": 1 },
+					{ "time": 0.3666, "x": 1.5, "y": 1.5 },
+					{ "time": 0.7, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"ARU_halo_purple": {
+				"translate": [
+					{ "time": 0, "x": -600, "y": 65 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"ARU_par_01_group": {
+				"translate": [
+					{ "time": 0.1333, "x": 128.33, "y": -48.01 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"ARU_par2_06": {
+				"translate": [
+					{ "time": 0.1666, "x": 202.39, "y": 0 }
+				]
+			},
+			"ARU_par2_group": {
+				"translate": [
+					{ "time": 0.1333, "x": 81.04, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"ARU_smk_01": {
+				"translate": [
+					{ "time": 0.1666, "x": -603.67, "y": 91.87 },
+					{ "time": 0.8333, "x": -583.94, "y": 113.58 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 2, "y": 2 },
+					{ "time": 0.8333, "x": 3.5, "y": 3.5 }
+				]
+			},
+			"code_shake": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 20 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 0.5 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"ARU_par2_01": {
+					"effects/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -595.97125, 187.1157, -597.6661, 233.96262, -551.30334, 233.31958, -501.1054, 236.01357, -500.84793, 187.09135, -500.20227, 139.12877, -549.3552, 142.01172, -596.16614, 140.32277 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -590.69226, 208.5746, -592.1021, 258.3265, -543.7954, 258.76953, -493.0875, 259.8155, -492.99396, 210.80724, -492.7093, 163.04668, -542.7333, 164.34163, -590.46814, 161.88266 ]
+						}
+					]
+				},
+				"ARU_par2_02": {
+					"effects/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -464.9138, 182.99202, -465.1519, 230.78581, -419.3359, 228.40993, -373.26627, 227.48784, -372.1601, 179.22195, -371.57693, 130.18495, -421.04395, 131.76799, -467.2819, 132.66696 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -427.0804, 199.43263, -427.11847, 247.43976, -380.02252, 246.06386, -332.1055, 245.56313, -333.9666, 195.90257, -333.6902, 148.53221, -383.75723, 149.82191, -429.35513, 150.38756 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -414.7037, 204.53291, -417.10175, 251.20673, -370.44583, 251.2308, -320.94516, 251.90073, -321.82996, 202.56287, -320.4468, 154.64584, -371.35388, 155.78888, -416.99176, 155.76784 ]
+						}
+					]
+				},
+				"ARU_par2_03": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -626.95105, 267.70035, -628.18396, 315.81177, -579.6352, 317.22482, -530.4074, 319.4154, -529.2901, 272.94638, -527.97266, 226.7026, -578.7616, 223.8502, -625.7791, 219.60329 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -628.983, 285.93225, -630.56793, 333.8676, -581.90717, 336.54468, -532.2634, 337.60727, -531.7541, 295.29822, -529.8206, 247.20647, -581.55365, 242.78606, -628.5951, 239.13914 ]
+						}
+					]
+				},
+				"ARU_par2_04": {
+					"effects/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -790.74554, 26.43703, -795.9706, 73.63098, -750.4607, 71.60296, -706.39984, 71.89123, -703.7265, 23.4206, -701.3874, -24.25731, -746.82074, -22.0186, -788.96173, -20.89424 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ -827.39935, 11.38811, -829.1974, 59.92305, -785.9636, 57.81797, -737.3878, 58.02924, -736.11743, 8.82265, -732.2472, -38.27324, -781.5776, -36.64054, -827.1056, -36.83715 ]
+						}
+					]
+				},
+				"ARU_par2_05": {
+					"effects/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -515.9237, 47.48698, -514.79065, 95.84895, -468.6148, 96.83013, -420.5746, 97.6721, -422.75687, 47.8422, -423.2773, 0.21247, -473.81677, 0.2937, -520.3163, 0.13288 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -483.27057, 23.94985, -483.36285, 71.88766, -436.24448, 72.68034, -387.49734, 74.41775, -388.78415, 25.43617, -388.97467, -22.94761, -440.59808, -22.0652, -487.1447, -22.17889 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -459.90677, -6.75104, -460.23904, 41.54675, -412.60065, 42.29942, -362.73352, 43.27683, -364.14035, -5.86472, -364.0109, -54.24854, -415.5543, -53.08611, -461.9409, -54.55981 ]
+						}
+					]
+				},
+				"ARU_par2_06": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -901.72974, 161.66997, -903.9048, 211.55183, -854.882, 210.64381, -805.3339, 210.72386, -806.54626, 161.46198, -806.595, 112.84273, -856.6369, 112.95401, -901.69086, 113.198 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -947.9412, 169.66316, -946.1161, 218.70502, -902.81335, 218.997, -860.1452, 218.99706, -862.15753, 169.53516, -862.6463, 121.75591, -908.64825, 121.14719, -953.7023, 120.27119 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ -977.4244, 173.39604, -980.7193, 222.11792, -939.33655, 222.2099, -894.4684, 222.00993, -895.9607, 172.82803, -894.5695, 124.5688, -940.1315, 124.44008, -982.5854, 124.36409 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -1025.1765, 175.9114, -1023.8115, 224.96318, -979.17126, 225.13762, -934.9628, 225.02013, -933.8986, 175.797, -932.4662, 127.7027, -980.54346, 127.65645, -1026.3793, 127.0444 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -1064.9478, 175.9114, -1059.2676, 224.27963, -1015.0544, 224.02686, -966.57385, 224.08025, -967.0049, 172.46472, -968.47754, 123.17424, -1021.63855, 124.83684, -1066.9194, 125.12195 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -1100.8512, 169.8189, -1097.211, 219.66711, -1047.0378, 218.85434, -996.9172, 217.26775, -998.98834, 165.3322, -1000.621, 116.20172, -1053.3018, 117.74432, -1101.3029, 118.82944 ]
+						},
+						{
+							"time": 0.6666,
+							"vertices": [ -1109.1469, 165.38074, -1108.0782, 215.68523, -1058.2783, 214.5821, -1007.6185, 213.7421, -1010.146, 160.93553, -1012.4837, 111.26582, -1065.8282, 111.3152, -1112.0457, 113.22989 ]
+						}
+					]
+				},
+				"ARU_par_01": {
+					"effects/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -687.2178, 286.75745, -641.00195, 283.40558, -590.2482, 260.62097, -594.3878, 203.54099, -645.6479, 221.5828, -692.4578, 219.23978 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -695.5661, 334.68915, -646.5028, 326.58374, -595.55194, 318.05698, -600.5392, 241.80621, -652.56824, 256.9602, -698.82886, 255.52779 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -699.74023, 358.65497, -650.2333, 349.7408, -598.9878, 341.28693, -603.61487, 260.93878, -657.1554, 279.31787, -702.0144, 273.67175 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -703.9144, 382.62076, -653.96375, 372.89783, -602.4236, 364.51685, -606.69055, 280.07138, -659.4885, 292.33752, -705.1999, 291.8157 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -708.2944, 402.2578, -658.8864, 398.21198, -607.5271, 392.63345, -610.8497, 300.61002, -662.44147, 309.46558, -709.358, 308.82565 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -712.6743, 421.89474, -663.16174, 416.4058, -611.7676, 412.5508, -615.0088, 321.1486, -666.47327, 326.80936, -713.5159, 325.83557 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -716.0006, 431.60995, -666.82056, 429.64603, -617.5369, 429.8044, -618.2043, 331.68753, -668.77124, 334.0874, -716.3948, 333.61447 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -717.5438, 436.2275, -668.94995, 434.40613, -619.2215, 433.2112, -619.74207, 335.757, -669.9202, 337.7264, -717.83417, 337.5039 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -720.2438, 440.63745, -671.3349, 439.851, -621.1565, 439.06107, -621.902, 340.25693, -671.7202, 341.10135, -721.119, 341.55383 ]
+						}
+					]
+				},
+				"ARU_par_02": {
+					"effects/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -674.7077, 281.95184, -625.2996, 263.69586, -577.5397, 278.8158, -577.35187, 187.934, -626.7337, 207.11496, -674.5865, 202.12897 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -677.8536, 329.7137, -629.62164, 316.76974, -580.11365, 327.72174, -580.99585, 234.64188, -630.81177, 248.04486, -678.59045, 238.73688 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -679.93494, 351.21835, -631.76666, 339.7777, -582.4153, 349.76505, -583.31586, 257.6385, -632.95844, 268.52817, -680.9972, 260.78015 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ -682.59766, 376.97763, -634.55664, 368.54367, -585.5186, 376.60168, -586.4558, 286.38174, -635.7517, 292.24475, -684.31055, 287.61673 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -685.7896, 398.48553, -637.1586, 393.61856, -587.7986, 397.1216, -588.2918, 302.72574, -637.79443, 307.02075, -686.74255, 304.71664 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -687.3856, 409.23944, -639.1166, 403.1995, -588.9386, 407.38153, -589.20984, 310.8977, -638.8158, 314.40872, -687.95856, 313.26657 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -688.7293, 417.56995, -640.4602, 411.0821, -590.1926, 415.35367, -590.7326, 319.8552, -640.33856, 324.79944, -689.4814, 322.04492 ]
+						}
+					]
+				},
+				"ARU_par_03": {
+					"effects/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -709.556, 256.01697, -669.2306, 271.8292, -619.9898, 275.54382, -622.2031, 180.55994, -673.926, 193.57964, -717.0509, 182.11993 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -731.55994, 318.23987, -687.8035, 326.78195, -639.6598, 334.83466, -643.6293, 247.80511, -695.7222, 257.41684, -741.44366, 247.38731 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -748.72986, 364.64963, -704.1234, 368.60175, -655.46967, 374.10443, -657.3992, 280.61496, -706.94214, 283.2567, -755.0436, 281.89716 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -764.36584, 401.12347, -717.14325, 401.6416, -667.4876, 402.34033, -669.0032, 304.99496, -718.6617, 307.07935, -767.4404, 305.92386 ]
+						}
+					]
+				},
+				"ARU_par_04": {
+					"effects/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -724.30286, 256.1004, -680.7772, 262.2646, -633.2855, 270.465, -638.5454, 180.8937, -688.2367, 186.95734, -730.6733, 171.0975 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -740.8228, 293.30322, -696.35315, 298.13635, -649.56946, 305.39285, -654.95935, 217.26157, -700.7137, 217.5172, -745.8082, 206.4394 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -758.0169, 327.53815, -718.6731, 343.39633, -671.88947, 352.04773, -670.70935, 253.94353, -718.5387, 253.63213, -763.7852, 244.7223 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -771.23785, 354.77115, -728.7301, 363.51028, -681.7204, 370.12772, -681.33136, 272.5885, -728.48267, 272.8421, -774.6332, 265.1753 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -780.5338, 372.35507, -735.3381, 375.15823, -689.4484, 384.79965, -688.3874, 286.70044, -736.43463, 286.28204, -783.03314, 278.95123 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -792.48987, 392.485, -745.70807, 393.45825, -694.9994, 394.98663, -694.5482, 295.91144, -743.02264, 295.18802, -792.6101, 294.1402 ]
+						}
+					]
+				},
+				"ARU_par_05": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -790.14465, 161.45645, -754.2035, 165.37886, -712.0275, 168.79137, -715.6976, 72.4338, -763.9364, 74.11084, -800.2864, 68.71221 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -816.26935, 171.55504, -775.7179, 174.81882, -746.9336, 185.03694, -751.70135, 88.02077, -794.2322, 86.40479, -822.0204, 77.71314 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -857.60913, 189.96297, -817.3697, 189.63873, -771.58154, 190.96492, -773.6972, 93.48073, -821.376, 93.58073, -866.1681, 93.93707 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -897.0541, 193.87294, -853.13464, 192.97375, -804.4715, 191.76991, -806.7021, 92.6757, -853.69086, 93.81071, -902.623, 96.12206 ]
+						},
+						{
+							"time": 0.6333,
+							"vertices": [ -907.78394, 190.76494, -861.79266, 190.67976, -811.87146, 190.14194, -813.0661, 90.30772, -863.3848, 91.14673, -907.3589, 93.90209 ]
+						}
+					]
+				},
+				"ARU_par_06": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -781.4888, 165.71387, -739.1787, 168.23672, -691.2908, 169.83205, -692.3552, 71.41607, -739.85925, 71.6279, -786.98975, 69.70683 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -812.57214, 182.34087, -769.1274, 182.6555, -721.215, 184.51923, -724.3168, 85.65184, -770.1984, 85.80268, -816.8775, 84.5648 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -828.0077, 187.22385, -784.7215, 187.7947, -737.1997, 188.109, -738.81305, 89.44904, -785.9512, 89.66087, -833.14264, 89.69181 ]
+						}
+					]
+				},
+				"ARU_par_07": {
+					"effects/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -732.6881, 120.59785, -693.3941, 123.18984, -650.35205, 126.31786, -651.3301, 30.09488, -697.9841, 31.10489, -739.9971, 26.81789 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -762.6221, 133.65184, -716.731, 133.55283, -671.656, 134.42786, -675.8641, 35.17088, -722.048, 36.18089, -764.554, 35.93089 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -777.056, 137.70581, -735.318, 137.66583, -690.96, 138.53784, -700.398, 40.24686, -746.112, 41.25687, -782.86096, 41.29388 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -799.9339, 137.45982, -752.5379, 137.41986, -704.8589, 139.02983, -708.516, 41.10785, -753.984, 41.62588, -800.0809, 40.67888 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -807.05286, 137.64886, -759.9719, 137.35686, -710.46594, 137.83286, -710.532, 39.59586, -758.58295, 40.23988, -807.38885, 40.11189 ]
+						}
+					]
+				},
+				"ARU_par_08": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -771.78766, 100.45902, -727.91974, 101.70602, -682.8009, 101.42602, -687.31995, 4.64303, -726.9098, 5.50807, -768.5596, 3.1281 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -807.42566, 99.63501, -764.6906, 99.54305, -715.6578, 98.95404, -715.2329, 0.62604, -755.13165, 1.18209, -800.2835, 1.3771 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -820.9457, 96.99501, -778.33075, 96.58305, -727.8178, 97.19404, -727.1929, -1.17395, -770.41174, -0.0579, -816.72345, 0.0571 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -835.26245, 92.73878, -791.7827, 89.68306, -743.5778, 89.95403, -743.7929, -8.33395, -786.0835, -5.22918, -830.9953, -5.55417 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -850.1456, 84.26466, -802.8227, 83.56306, -753.7014, 83.07509, -752.1928, -14.85394, -800.34424, -13.99782, -847.645, -14.17948 ]
+						}
+					]
+				},
+				"ARU_par_09": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -769.4716, 220.28271, -721.3548, 216.5187, -677.8068, 224.25655, -686.1788, 133.96591, -728.7788, 131.97792, -772.0719, 124.9115 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -785.9835, 237.0767, -735.20734, 232.6128, -693.708, 240.82028, -699.8084, 147.2169, -745.46185, 147.44409, -789.58215, 141.00197 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -796.3049, 245.83818, -748.33, 244.06181, -701.65857, 249.10213, -706.6232, 153.84238, -751.4948, 152.99017, -798.3372, 149.0472 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -807.5249, 257.38818, -759.33, 255.28175, -710.56854, 256.80212, -714.5432, 160.33237, -761.61475, 160.14015, -809.1172, 158.72717 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -821.7475, 266.3485, -774.61945, 264.6687, -725.28906, 266.11792, -725.63696, 167.72818, -774.0596, 167.89153, -823.411, 167.82973 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -831.7075, 270.10852, -784.81934, 269.94867, -735.20905, 270.0379, -735.933, 170.69817, -784.2596, 170.81152, -832.571, 170.7897 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -834.7874, 270.0285, -787.73944, 269.9087, -738.24915, 269.87793, -738.373, 170.65817, -786.3796, 170.77151, -834.49097, 170.5497 ]
+						}
+					]
+				},
+				"ARU_par_10": {
+					"effects/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -583.2484, 226.01035, -544.3794, 212.8534, -486.80347, 228.8304, -473.3354, 152.30943, -514.4904, 164.46341, -570.53143, 149.34338 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ -564.3563, 259.44345, -522.6988, 253.16689, -465.4739, 264.24036, -454.32236, 182.80844, -498.5739, 189.78493, -552.58044, 181.3429 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -552.06433, 278.35638, -508.42245, 277.5374, -453.7145, 283.48038, -442.23935, 203.7374, -489.91745, 205.53636, -541.2295, 200.47237 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -535.8725, 307.2444, -486.89447, 313.63943, -435.13553, 316.53735, -427.77637, 225.88544, -472.06943, 231.68439, -524.66956, 224.02435 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -535.8725, 307.2444, -486.89447, 313.63943, -435.13553, 316.53735, -427.77637, 225.88544, -465.2876, 237.26299, -515.3721, 233.75958 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -515.5924, 333.0621, -468.3307, 334.9332, -418.28772, 336.11517, -415.68655, 237.97528, -463.18164, 237.029, -515.3721, 233.75958 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -512.86255, 337.17847, -465.55753, 337.66302, -413.56467, 339.0616, -410.61688, 239.44852, -460.23517, 238.3289, -510.909, 237.26933 ]
+						}
+					]
+				},
+				"ARU_par_11": {
+					"effects/white": [
+						{
+							"time": 0.1333,
+							"vertices": [ -545.54395, 215.0369, -503.3879, 209.56194, -446.5131, 218.62395, -441.46805, 124.42203, -484.04996, 129.82706, -535.15985, 123.58607 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -503.4356, 257.4934, -462.09467, 250.58347, -419.54153, 241.85388, -419.39145, 147.5753, -445.33505, 169.62859, -489.11505, 170.0409 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -477.8766, 281.51633, -431.62772, 278.38538, -385.6255, 277.97186, -381.79547, 181.5673, -427.09003, 185.61858, -473.82104, 185.38292 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -463.49268, 292.65225, -417.24384, 290.33334, -370.6616, 288.75977, -369.15155, 191.42722, -413.51813, 194.78252, -459.90112, 196.86684 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -451.42877, 299.3803, -403.20795, 299.14935, -353.6097, 298.96777, -354.18765, 200.24313, -403.0782, 201.62648, -451.20117, 201.27483 ]
+						}
+					]
+				},
+				"ARU_par_12": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -713.5667, 84.78483, -668.47485, 83.17985, -623.251, 83.66484, -620.57, -14.54695, -665.2019, -13.73495, -708.6568, -13.22394 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -730.1356, 78.4917, -685.1798, 76.42598, -637.34045, 76.28322, -635.7031, -21.92477, -683.33887, -18.92012, -728.8024, -18.45322 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -743.25446, 71.44853, -697.23486, 67.8721, -648.8799, 66.50161, -648.28625, -30.20259, -694.4258, -26.95528, -740.5479, -25.63249 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -754.8824, 57.88261, -707.1528, 54.76217, -659.4818, 53.39168, -659.4582, -43.42653, -706.9657, -40.0652, -752.9738, -36.57641 ]
+						},
+						{
+							"time": 0.6,
+							"vertices": [ -759.5444, 49.37268, -710.8527, 46.77023, -662.95984, 45.32575, -662.78815, -51.93644, -710.29565, -47.02114, -759.18976, -48.56432 ]
+						}
+					]
+				},
+				"ARU_par_13": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -729.78784, 57.64785, -683.8618, 57.27584, -634.495, 57.88289, -632.63696, -40.28191, -678.26184, -38.79491, -727.8618, -40.42992 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -746.11774, 46.83788, -707.2068, 39.91088, -656.115, 41.3229, -654.1419, -55.23188, -696.7768, -49.14488, -743.50183, -51.2399 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -769.0783, 25.50085, -724.83307, 22.16868, -674.78485, 24.62436, -671.53625, -72.97409, -718.3457, -70.01806, -766.3464, -71.53328 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -779.1534, 12.18588, -732.538, 10.8987, -680.53485, 13.19438, -679.67615, -85.84395, -728.4656, -85.63789, -778.0613, -86.5481 ]
+						}
+					]
+				},
+				"ARU_par_14": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -486.934, 194.02484, -454.20197, 188.46078, -392.40405, 195.60284, -383.476, 101.53293, -427.79596, 102.29494, -479.326, 97.78693 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -455.84073, 211.1432, -415.8406, 210.34496, -356.21945, 215.36232, -349.00153, 119.34102, -388.7426, 120.91684, -445.64615, 116.61115 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ -428.7916, 224.76353, -386.06528, 224.91512, -327.7089, 228.4078, -321.8411, 131.7431, -365.2893, 133.12474, -418.64432, 129.71135 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -419.48047, 228.63226, -376.30527, 228.42398, -317.70682, 232.54558, -310.24832, 135.47968, -357.0059, 135.47699, -408.8401, 133.04173 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -410.16937, 232.50096, -366.54535, 231.93285, -307.7048, 236.68333, -298.6556, 139.21623, -341.9065, 140.66919, -399.03592, 136.3721 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -392.6063, 238.29202, -347.17847, 237.7239, -298.0214, 239.05672, -292.86456, 140.4504, -337.25464, 141.71347, -388.593, 139.22017 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -381.0241, 240.76036, -334.83688, 241.23653, -285.11014, 242.1896, -279.3837, 142.72885, -324.91302, 142.56789, -377.58047, 140.73914 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -373.8192, 241.42033, -326.58698, 241.89651, -276.03522, 242.57458, -273.88376, 142.83885, -321.22806, 142.56789, -372.35556, 141.45412 ]
+						}
+					]
+				},
+				"ARU_par_15": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -468.85223, 103.87697, -439.46713, 103.87991, -394.23523, 104.9259, -389.11526, 6.54808, -420.84723, 7.94806, -466.92712, 6.32999 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -425.46515, 104.08495, -388.94107, 105.31072, -340.5856, 106.00707, -336.3008, 6.91269, -375.73734, 6.61607, -418.4279, 5.5392 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -404.7804, 101.47696, -366.41528, 103.51791, -318.55243, 104.66785, -315.3395, 4.92409, -354.2474, 3.66807, -400.3433, 1.92201 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -388.88965, 97.79366, -342.84225, 98.36131, -292.66418, 99.72171, -291.76645, 0.29367, -339.51425, 0.82667, -386.45203, -1.12985 ]
+						}
+					]
+				},
+				"ARU_par_16": {
+					"effects/white": [
+						{
+							"time": 0.2,
+							"vertices": [ -590.6699, 49.13197, -548.26984, 51.96998, -500.02893, 55.36493, -503.54132, -39.64822, -549.6999, -41.028, -595.19586, -44.088 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ -581.92395, 37.96361, -535.54626, 40.21242, -486.17377, 42.82118, -486.67838, -54.55696, -534.14996, -55.20094, -582.5827, -58.21914 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -574.8, 26.63805, -528.6739, 29.61405, -480.157, 33.14701, -480.77136, -62.55615, -528.31, -64.48791, -575.3239, -69.47992 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -568.88403, 12.48615, -521.36597, 13.49016, -471.92108, 18.06711, -472.3034, -78.10003, -519.61005, -80.49579, -568.48, -84.7918 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ -566.44806, 2.27822, -518.002, 2.47023, -467.51312, 3.68321, -467.6634, -92.71591, -515.78204, -94.87968, -566.044, -96.73972 ]
+						}
+					]
+				},
+				"ARU_par_17": {
+					"effects/white": [
+						{
+							"time": 0.2333,
+							"vertices": [ -650.14484, 299.16867, -602.45996, 291.5128, -551.8049, 299.3578, -552.28796, 205.0339, -600.4089, 210.09293, -650.08185, 205.38593 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -649.31537, 325.35718, -602.10443, 317.1088, -551.68634, 325.6648, -552.1695, 232.52592, -600.3299, 233.79294, -648.7784, 233.47041 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -649.0389, 334.08667, -601.98596, 325.64078, -551.64685, 334.43378, -552.13, 241.68993, -600.0929, 248.0129, -648.3439, 242.8319 ]
+						},
+						{
+							"time": 0.4333,
+							"vertices": [ -649.24396, 342.70193, -601.57574, 340.9226, -551.3392, 343.04904, -551.51465, 249.58723, -599.88776, 249.9616, -649.16437, 248.98569 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -649.19666, 352.30515, -601.9069, 351.28275, -552.04877, 352.22653, -552.0823, 254.9329, -600.7393, 255.6384, -649.77936, 255.04095 ]
+						}
+					]
+				},
+				"ARU_par_18": {
+					"effects/white": [
+						{
+							"time": 0.1666,
+							"vertices": [ -561.5349, 100.16791, -517.54596, 100.661, -474.72717, 103.26591, -469.59888, 4.61153, -516.335, 5.32304, -559.42346, 4.02278 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ -536.6948, 98.5119, -495.4661, 99.97101, -449.88724, 101.47192, -444.48297, 3.09354, -490.39108, 3.66705, -535.9635, 1.26279 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ -524.71484, 92.58368, -477.7432, 94.47505, -431.23807, 97.39627, -427.9334, -2.15539, -474.70605, -3.12569, -520.77246, -7.32077 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -518.88684, 87.25172, -470.92328, 89.32912, -421.81415, 92.25032, -418.3235, -8.23132, -466.39813, -10.87561, -516.4944, -13.3967 ]
+						},
+						{
+							"time": 0.5333,
+							"vertices": [ -514.2991, 80.55581, -466.58337, 82.57118, -417.04025, 85.8024, -413.98352, -14.18326, -461.99615, -17.19953, -512.4645, -19.65864 ]
+						}
+					]
+				},
+				"ARU_par_19": {
+					"effects/white": [
+						{
+							"time": 0.2,
+							"vertices": [ -616.6799, 282.55292, -570.5759, 278.1328, -519.73804, 282.55283, -519.25104, 186.45209, -567.292, 191.26, -615.2189, 186.93909 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ -609.27985, 318.96085, -561.99194, 312.32074, -512.93005, 316.59277, -511.703, 220.19601, -560.51654, 225.56816, -607.80786, 225.57416 ]
+						},
+						{
+							"time": 0.4666,
+							"vertices": [ -601.421, 349.15543, -554.02966, 344.06644, -504.24396, 346.684, -503.7408, 248.73611, -553.6918, 251.83336, -600.2592, 250.39165 ]
+						},
+						{
+							"time": 0.7,
+							"vertices": [ -600.56104, 352.3804, -552.4387, 352.6663, -502.05096, 353.26288, -502.36475, 253.89604, -551.4558, 255.2303, -600.3882, 254.04655 ]
+						}
+					]
+				},
+				"ARU_par_20": {
+					"effects/white": [
+						{
+							"time": 0.2,
+							"vertices": [ -551.4349, 126.51173, -506.56693, 125.49571, -459.2249, 126.02978, -455.86093, 28.90174, -502.57697, 29.32179, -549.43494, 28.27978 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ -531.93677, 128.12573, -487.7534, 128.0751, -438.03003, 130.82436, -435.46817, 31.79192, -481.1229, 31.09777, -527.33154, 29.54216 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -518.5581, 127.68172, -475.21103, 128.65472, -426.46503, 131.64574, -422.633, 30.77374, -468.5301, 29.90679, -514.68604, 27.34378 ]
+						},
+						{
+							"time": 0.5,
+							"vertices": [ -505.73416, 119.33776, -458.52313, 122.38275, -406.9211, 123.80577, -405.04907, 23.10177, -453.07416, 20.94683, -503.4301, 18.71982 ]
+						}
+					]
+				},
+				"line_01": {
+					"common/white": [
+						{
+							"time": 0.1,
+							"vertices": [ -48.44188, 143.80476, 33.57596, 126.79774, 11.904, 12.27596, -70.29395, 30.14594 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ -47.67127, 143.16478, 6.42278, 105.97316, -62.11056, -43.87178, -102.90611, 6.11618 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -47.869, 144.46146, -31.79703, 77.54027, -146.2234, -105.55286, -138.97661, -21.37192 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -76.60286, 121.45479, -50.90694, 63.32381, -140.96986, -102.15591, -157.01187, -35.11598 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -167.53482, 54.50883, -100.6689, 25.73384, -140.96986, -102.15591, -202.11984, -69.48396 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -208.00381, 23.66183, -123.02591, 10.16883, -140.96986, -102.15591, -225.32587, -87.02997 ]
+						}
+					]
+				},
+				"line_02": {
+					"common/white": [
+						{
+							"time": 0.1,
+							"vertices": [ -47.12095, 145.1199, 36.99197, 143.25592, 18.59901, 49.52401, -63.14902, 50.76702 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ -44.72846, 146.25888, 14.19099, 144.53392, -42.32145, 49.54802, -85.74648, 51.21249 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -42.33597, 147.39787, -8.60998, 145.81192, -93.76195, 53.52197, -108.34393, 51.65796 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -61.13798, 147.29256, -24.72598, 146.75995, -97.65929, 52.6793, -124.67059, 52.3953 ]
+						},
+						{
+							"time": 0.3,
+							"vertices": [ -86.89198, 148.4512, -40.84197, 147.70796, -101.55663, 51.83663, -140.99725, 53.13262 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -123.86396, 150.8739, -56.95796, 148.65598, -105.45396, 50.99396, -157.32391, 53.86995 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -166.0369, 151.2359, -72.88595, 148.65598, -105.45396, 50.99396, -173.0709, 53.86995 ]
+						}
+					]
+				},
+				"line_03": {
+					"common/white": [
+						{
+							"time": 0.1,
+							"vertices": [ -46.48981, 145.57477, 35.79398, 160.1128, 23.938, 76.85597, -59.45186, 64.129 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ -45.37519, 146.96805, 4.02714, 191.04366, -33.18659, 132.58728, -90.94005, 95.05987 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ -50.12118, 151.14902, -12.47082, 207.08965, -64.37456, 162.64526, -106.87303, 111.67085 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ -75.88517, 177.139, -39.02581, 233.4186, -79.96856, 177.67426, -133.654, 137.77383 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ -126.61501, 225.73286, -49.70577, 243.8316, -79.96856, 177.67426, -143.79997, 147.65279 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ -152.41501, 251.93285, -64.50577, 258.03162, -79.96856, 177.67426, -157.99997, 161.05278 ]
+						}
+					]
+				},
+				"line_04": {
+					"common/white": [
+						{
+							"time": 0.1,
+							"vertices": [ -26.36495, 151.5658, 57.52492, 145.41486, 68.39989, 57.21794, -6.62502, 68.3389 ]
+						},
+						{
+							"time": 0.2333,
+							"vertices": [ 26.09905, 184.83884, 57.52492, 145.41486, 122.51955, 90.16364, 117.06495, 147.20862 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ 61.88303, 208.77882, 146.22885, 201.10683, 157.29558, 112.84363, 117.06495, 147.20862 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ 83.10096, 222.58078, 175.68677, 219.85278, 181.19151, 126.43959, 117.06495, 147.20862 ]
+						}
+					]
+				},
+				"line_05": {
+					"common/white": [
+						{
+							"time": 0.1,
+							"vertices": [ -0.41101, 127.40977, 65.5179, 135.85081, 55.29594, 43.77395, -27.83095, 40.87198 ]
+						},
+						{
+							"time": 0.2,
+							"vertices": [ 162.0149, 74.27978, 105.76581, 122.30585, 55.29594, 43.77395, 8.93398, 28.101 ]
+						},
+						{
+							"time": 0.2666,
+							"vertices": [ 193.53918, 65.10932, 130.50688, 112.47304, 96.22487, 29.58248, 34.35465, 20.01091 ]
+						},
+						{
+							"time": 0.3333,
+							"vertices": [ 188.96751, 64.96283, 200.93188, 91.36021, 184.52972, 1.29104, 103.7673, -2.17912 ]
+						},
+						{
+							"time": 0.3666,
+							"vertices": [ 188.96751, 64.96283, 234.5808, 80.98726, 230.8286, -13.63591, 138.17523, -13.0581 ]
+						}
+					]
+				}
+			}
+		},
+		"events": [
+			{ "time": 0.0666, "name": "hit" }
+		]
+	}
+}
+}

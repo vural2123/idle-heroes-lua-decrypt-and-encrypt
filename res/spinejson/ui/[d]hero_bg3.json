@@ -1,0 +1,54 @@
+{
+"skeleton": { "hash": "lvdEv/3E6PpahkBdOMZ1TGXtdsU", "spine": "2.1.27", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "hero_et/bg6", "bone": "root" },
+	{ "name": "eye", "bone": "root", "attachment": "hero_et/6_1" },
+	{ "name": "light", "bone": "root", "color": "ff8a0000", "attachment": "common/n_light", "blend": "additive" },
+	{ "name": "light2", "bone": "root", "color": "ff8a0000", "attachment": "common/n_light", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"eye": {
+			"hero_et/6_1": { "x": -61.8, "y": -24.01, "width": 99, "height": 35 }
+		},
+		"light": {
+			"common/n_light": { "x": -98.36, "y": -18.65, "scaleX": 0.825, "scaleY": 0.825, "width": 85, "height": 85 }
+		},
+		"light2": {
+			"common/n_light": { "x": -16.96, "y": -22.04, "scaleX": 0.825, "scaleY": 0.825, "width": 85, "height": 85 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"eye": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 1.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3.8333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.9666, "color": "ffffff00" }
+				]
+			},
+			"light": {
+				"color": [
+					{ "time": 1.4333, "color": "ff8a0000" },
+					{ "time": 2.0333, "color": "ff8a008f" },
+					{ "time": 3.8, "color": "ff8a0000" }
+				]
+			},
+			"light2": {
+				"color": [
+					{ "time": 1.4333, "color": "ff8a0000" },
+					{ "time": 2.0333, "color": "ff8a008f" },
+					{ "time": 3.8, "color": "ff8a0000" }
+				]
+			}
+		}
+	}
+}
+}

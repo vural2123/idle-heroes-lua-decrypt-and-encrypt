@@ -1,0 +1,131 @@
+{
+"skeleton": { "hash": "FCJ0hTLw6m/kBEsmEVx67b8zlLM", "spine": "3.2.01", "width": 310, "height": 180, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "FX", "parent": "code_shake" },
+	{ "name": "Ancient_Root_Down", "parent": "FX" },
+	{ "name": "ARD_ground_shatter_01", "parent": "Ancient_Root_Down" },
+	{ "name": "ARD_ground_shatter_02", "parent": "Ancient_Root_Down" },
+	{ "name": "ARD_ground_shatter_03", "parent": "Ancient_Root_Down" }
+],
+"slots": [
+	{ "name": "ARD_ground_shatter_01", "bone": "ARD_ground_shatter_01", "color": "ffffff00", "attachment": "effects/n_crack_004" },
+	{ "name": "ARD_ground_shatter_02", "bone": "ARD_ground_shatter_02", "color": "ffffff00", "attachment": "effects/n_crack_004" },
+	{ "name": "ARD_ground_shatter_03", "bone": "ARD_ground_shatter_03", "color": "ffffff00", "attachment": "effects/n_crack_004" }
+],
+"skins": {
+	"default": {
+		"ARD_ground_shatter_01": {
+			"effects/n_crack_000": { "path": "shufutengman/n_crack_000", "width": 310, "height": 180 },
+			"effects/n_crack_001": { "path": "shufutengman/n_crack_001", "width": 310, "height": 180 },
+			"effects/n_crack_002": { "path": "shufutengman/n_crack_002", "width": 310, "height": 180 },
+			"effects/n_crack_003": { "path": "shufutengman/n_crack_003", "width": 310, "height": 180 },
+			"effects/n_crack_004": { "path": "shufutengman/n_crack_004", "width": 310, "height": 180 }
+		},
+		"ARD_ground_shatter_02": {
+			"effects/n_crack_000": { "path": "shufutengman/n_crack_000", "width": 310, "height": 180 },
+			"effects/n_crack_001": { "path": "shufutengman/n_crack_001", "width": 310, "height": 180 },
+			"effects/n_crack_002": { "path": "shufutengman/n_crack_002", "width": 310, "height": 180 },
+			"effects/n_crack_003": { "path": "shufutengman/n_crack_003", "width": 310, "height": 180 },
+			"effects/n_crack_004": { "path": "shufutengman/n_crack_004", "width": 310, "height": 180 }
+		},
+		"ARD_ground_shatter_03": {
+			"effects/n_crack_000": { "path": "shufutengman/n_crack_000", "width": 310, "height": 180 },
+			"effects/n_crack_001": { "path": "shufutengman/n_crack_001", "width": 310, "height": 180 },
+			"effects/n_crack_002": { "path": "shufutengman/n_crack_002", "width": 310, "height": 180 },
+			"effects/n_crack_003": { "path": "shufutengman/n_crack_003", "width": 310, "height": 180 },
+			"effects/n_crack_004": { "path": "shufutengman/n_crack_004", "width": 310, "height": 180 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"ARD_ground_shatter_01": {
+				"color": [
+					{ "time": 0.2, "color": "14141096", "curve": "stepped" },
+					{ "time": 0.8666, "color": "14141096" },
+					{ "time": 1.2333, "color": "14141000" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "effects/n_crack_000" },
+					{ "time": 0.2333, "name": "effects/n_crack_001" },
+					{ "time": 0.2666, "name": "effects/n_crack_002" },
+					{ "time": 0.3, "name": "effects/n_crack_003" },
+					{ "time": 0.3333, "name": "effects/n_crack_004" }
+				]
+			},
+			"ARD_ground_shatter_02": {
+				"color": [
+					{ "time": 0.2, "color": "14141096", "curve": "stepped" },
+					{ "time": 0.8666, "color": "14141096" },
+					{ "time": 1.2333, "color": "14141000" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "effects/n_crack_000" },
+					{ "time": 0.2333, "name": "effects/n_crack_001" },
+					{ "time": 0.2666, "name": "effects/n_crack_002" },
+					{ "time": 0.3, "name": "effects/n_crack_003" },
+					{ "time": 0.3333, "name": "effects/n_crack_004" },
+					{ "time": 0.3666, "name": "effects/n_crack_004" }
+				]
+			},
+			"ARD_ground_shatter_03": {
+				"color": [
+					{ "time": 0.2, "color": "14141096", "curve": "stepped" },
+					{ "time": 0.8666, "color": "14141096" },
+					{ "time": 1.2333, "color": "14141000" }
+				],
+				"attachment": [
+					{ "time": 0.2, "name": "effects/n_crack_000" },
+					{ "time": 0.2333, "name": "effects/n_crack_001" },
+					{ "time": 0.2666, "name": "effects/n_crack_002" },
+					{ "time": 0.3, "name": "effects/n_crack_003" },
+					{ "time": 0.3333, "name": "effects/n_crack_004" },
+					{ "time": 0.3666, "name": "effects/n_crack_004" }
+				]
+			}
+		},
+		"bones": {
+			"ARD_ground_shatter_01": {
+				"translate": [
+					{ "time": 0.2, "x": -585, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 1.3, "y": 0.8 }
+				]
+			},
+			"ARD_ground_shatter_02": {
+				"translate": [
+					{ "time": 0.2, "x": -585, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 1.3, "y": 0.8 }
+				]
+			},
+			"ARD_ground_shatter_03": {
+				"translate": [
+					{ "time": 0.2, "x": -600, "y": 10 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": -1, "y": -1 }
+				]
+			},
+			"FX": {
+				"translate": [
+					{ "time": 0, "x": 355.39, "y": 8.74 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"Ancient_Root_Down": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -18.19 }
+				]
+			}
+		}
+	}
+}
+}

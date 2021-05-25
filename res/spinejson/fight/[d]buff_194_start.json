@@ -1,0 +1,135 @@
+{
+"skeleton": { "hash": "zxB2a+ogCDwXVFYzIB7Q8ssDuC4", "spine": "2.1.27", "width": 341.42, "height": 359.35, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fx", "parent": "root" },
+	{ "name": "buff", "parent": "fx" },
+	{ "name": "halo", "parent": "buff" },
+	{ "name": "halo2", "parent": "buff", "x": 1.42, "y": 19.35 },
+	{ "name": "zidan", "parent": "buff", "x": 1.96, "y": 21.64 },
+	{ "name": "zidanquan1", "parent": "buff", "x": 1.97, "y": 20.31 },
+	{ "name": "zidanquan2", "parent": "buff", "x": 1.97, "y": 20.31 }
+],
+"slots": [
+	{ "name": "halo3", "bone": "halo2", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "halo4", "bone": "halo2", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "zidan", "bone": "zidan", "color": "ffffff00", "attachment": "buff_194/buff_zidan" },
+	{ "name": "halo", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "halo2", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "zidanquan1", "bone": "zidanquan1", "color": "ffffff00", "attachment": "common/t_circle_2", "blend": "additive" },
+	{ "name": "zidanquan2", "bone": "zidanquan2", "color": "ffffff00", "attachment": "common/t_circle_2", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"halo2": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"halo3": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"halo4": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"zidan": {
+			"buff_194/buff_zidan": { "path": "buff_194/buff_zd_self", "width": 42, "height": 47 }
+		},
+		"zidanquan1": {
+			"common/t_circle_2": { "width": 100, "height": 100 }
+		},
+		"zidanquan2": {
+			"common/t_circle_2": { "width": 100, "height": 100 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"halo": {
+				"color": [
+					{ "time": 0, "color": "f554ffff" },
+					{ "time": 0.0666, "color": "9264ffff" },
+					{ "time": 0.1666, "color": "007eff52" },
+					{ "time": 0.2, "color": "007eff00" }
+				]
+			},
+			"halo2": {
+				"color": [
+					{ "time": 0, "color": "f554ffb0" },
+					{ "time": 0.0666, "color": "9365ff92" },
+					{ "time": 0.1666, "color": "007eff33" },
+					{ "time": 0.2, "color": "007eff00" }
+				]
+			},
+			"halo3": {
+				"color": [
+					{ "time": 0.1666, "color": "009cffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "009cffff" }
+				]
+			},
+			"halo4": {
+				"color": [
+					{ "time": 0.1666, "color": "009cff32", "curve": "stepped" },
+					{ "time": 0.3333, "color": "009cff32" }
+				]
+			},
+			"zidan": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"halo": {
+				"translate": [
+					{ "time": 0, "x": 1.41, "y": 19.35 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.15,
+						"y": 0.15,
+						"curve": [ 0.109, 0.46, 0.75, 1 ]
+					},
+					{ "time": 0.1666, "x": 0.7, "y": 0.7 }
+				]
+			},
+			"zidan": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.4,
+						"y": 0.4,
+						"curve": [ 0.115, 0.33, 0.562, 0.81 ]
+					},
+					{
+						"time": 0.2333,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.25, 0, 0.87, 0.83 ]
+					},
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"halo2": {
+				"scale": [
+					{ "time": 0.1666, "x": 0.21, "y": 0.21 },
+					{ "time": 0.3333, "x": 0.4, "y": 0.4 }
+				]
+			},
+			"fx": {
+				"translate": [
+					{ "time": 0, "x": -15, "y": -50 }
+				]
+			}
+		}
+	}
+}
+}

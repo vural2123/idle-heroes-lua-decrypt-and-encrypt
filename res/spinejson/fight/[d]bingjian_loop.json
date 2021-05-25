@@ -1,0 +1,63 @@
+{
+"skeleton": { "hash": "zr5VTJH1Atde9V4xLSRGP7FNoeQ", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "all", "parent": "fx" },
+	{ "name": "halo", "parent": "all" },
+	{ "name": "new_01", "parent": "all", "y": -0.29 }
+],
+"slots": [
+	{ "name": "new_01", "bone": "new_01", "color": "ffffff00", "attachment": "bingjian/t_arrow_2_00", "blend": "screen" },
+	{ "name": "halo", "bone": "halo", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"new_01": {
+			"bingjian/t_arrow_2_00": { "width": 200, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"halo": {
+				"color": [
+					{ "time": 0, "color": "00abffff" },
+					{ "time": 0.1666, "color": "96d5ffff" },
+					{ "time": 0.3333, "color": "00abffff" }
+				]
+			},
+			"new_01": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"new_01": {
+				"translate": [
+					{ "time": 0, "x": -61.24, "y": 0 }
+				]
+			},
+			"halo": {
+				"scale": [
+					{ "time": 0, "x": 0.4, "y": 0.4 },
+					{ "time": 0.1666, "x": 0.55, "y": 0.55 },
+					{ "time": 0.3333, "x": 0.4, "y": 0.4 }
+				]
+			},
+			"all": {
+				"translate": [
+					{ "time": 0, "x": 50.75, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			}
+		}
+	}
+}
+}

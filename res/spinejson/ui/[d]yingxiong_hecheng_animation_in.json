@@ -1,0 +1,49 @@
+{
+"skeleton": { "hash": "Ea+KUGvCFmXl9ygEiwfTRoS1JWI", "spine": "2.1.27", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "BG_v2", "parent": "root" },
+	{ "name": "code_rightplane", "parent": "root" }
+],
+"slots": [
+	{ "name": "BG_v2", "bone": "BG_v2" },
+	{ "name": "code_rightplane", "bone": "code_rightplane" }
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"BG_v2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"BG_v2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"code_rightplane": {
+				"translate": [
+					{ "time": 0, "x": 800, "y": -10 },
+					{ "time": 0.2, "x": 150, "y": -10 },
+					{
+						"time": 0.3333,
+						"x": 260,
+						"y": -10,
+						"curve": [ 0.257, 0, 0.618, 0.45 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 210,
+						"y": -10,
+						"curve": [ 0.362, 0.44, 0.754, 1 ]
+					},
+					{ "time": 0.5, "x": 230.31, "y": -10 }
+				]
+			}
+		}
+	}
+}
+}

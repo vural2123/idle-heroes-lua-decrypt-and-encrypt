@@ -1,0 +1,156 @@
+{
+"skeleton": { "hash": "5FZSeUyTk3yJpeVXWb8yVMdredc", "spine": "2.1.27", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": -0.16, "scaleY": 0.16, "rotation": 345 },
+	{ "name": "star", "parent": "root" }
+],
+"slots": [
+	{ "name": "hero_et/star", "bone": "star", "attachment": "hero_et/star" },
+	{ "name": "common/white", "bone": "bone", "color": "b490ffb2", "attachment": "common/white", "blend": "additive" },
+	{ "name": "common/white2", "bone": "bone", "color": "b490ffb2", "attachment": "common/white", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"common/white": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 0.5, 0.5, 1, 0, 1, 0.5, 1, 1, 0.5, 1, 0, 1, 0.84013, 0.82319 ],
+				"triangles": [ 0, 1, 2, 6, 0, 2, 4, 0, 6, 5, 0, 4, 6, 2, 3, 4, 6, 3 ],
+				"vertices": [ 0, 0, 49.47, 49.47, 77.12, 22.09, 55.55, -55.55, -22.1, -77.12999, -49.68, -49.68, 38.34999, -34.99 ],
+				"hull": 6,
+				"edges": [ 2, 4, 4, 6, 6, 8, 8, 10, 10, 0, 0, 2 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"common/white2": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 0, 0, 0.5, 0, 1, 0, 0, 1, 0, 0.5, 0.5, 0.5, 0.16961, 0.17202 ],
+				"triangles": [ 6, 0, 1, 4, 0, 6, 5, 1, 2, 6, 1, 5, 4, 6, 5, 3, 4, 5 ],
+				"vertices": [ -55.55, 55.55, 22.1, 77.12999, 49.47, 49.47, -49.68, -49.68, -77.12, -22.09, 0, 0, -36.63, 36.16 ],
+				"hull": 5,
+				"edges": [ 0, 2, 2, 4, 6, 8, 8, 0, 4, 6 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hero_et/star": {
+			"hero_et/star": { "width": 25, "height": 29 }
+		}
+	}
+},
+"animations": {
+	"end": {
+		"slots": {
+			"common/white": {
+				"color": [
+					{ "time": 0, "color": "b490ff00" },
+					{ "time": 0.2666, "color": "b490ffb2", "curve": "stepped" },
+					{ "time": 0.5333, "color": "b490ffb2" },
+					{ "time": 1.3333, "color": "b490ff00" }
+				]
+			},
+			"common/white2": {
+				"color": [
+					{ "time": 0, "color": "b490ff00" },
+					{ "time": 0.2666, "color": "b490ffb2", "curve": "stepped" },
+					{ "time": 0.5333, "color": "b490ffb2" },
+					{ "time": 1.3333, "color": "b490ff00" }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"common/white": {
+					"common/white": [
+						{ "time": 0, "curve": "stepped" },
+						{ "time": 1.3333 }
+					]
+				},
+				"common/white2": {
+					"common/white": [
+						{ "time": 0, "curve": "stepped" },
+						{ "time": 1.3333 }
+					]
+				}
+			}
+		}
+	},
+	"srat": {
+		"slots": {
+			"common/white": {
+				"color": [
+					{ "time": 0, "color": "b490ff3f" },
+					{ "time": 0.1333, "color": "b490ffb2", "curve": "stepped" },
+					{ "time": 0.4, "color": "b490ff00" }
+				]
+			},
+			"common/white2": {
+				"color": [
+					{ "time": 0, "color": "b490ff00", "curve": "stepped" },
+					{ "time": 0.1, "color": "b490ff00" },
+					{ "time": 0.1333, "color": "b490ffb2", "curve": "stepped" },
+					{ "time": 0.2666, "color": "b490ffb2", "curve": "stepped" },
+					{
+						"time": 0.4,
+						"color": "b490ffb2",
+						"curve": [ 0.807, -0.02, 0.75, 1 ]
+					},
+					{ "time": 0.5333, "color": "b490ff00" }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"common/white": {
+					"common/white": [
+						{
+							"time": 0,
+							"vertices": [ 50.15318, -49.63032, 26.46926, -27.65982, 0, 0, 0, 0, 0, 0, 27.37643, -24.27299, 14.65576, -22.07527 ]
+						},
+						{ "time": 0.1333, "curve": "stepped" },
+						{ "time": 0.2666 },
+						{
+							"time": 0.4,
+							"offset": 4,
+							"vertices": [ -27.7057, 27.05273, -54.94462, 55.1969, -27.33257, 26.44172, 0, 0, -39.10926, 34.67567 ]
+						}
+					],
+					"common/white": [
+						{ "time": 0.2666 }
+					]
+				},
+				"common/white2": {
+					"common/white": [
+						{
+							"time": 0,
+							"vertices": [ 53.99933, -53.79855, 27.17662, -27.24106, 0, 0, 0, 0, 27.35354, -26.72556, 0, 0, 36.60323, -35.21433 ],
+							"curve": "stepped"
+						},
+						{
+							"time": 0.1333,
+							"vertices": [ 53.99933, -53.79855, 27.17662, -27.24106, 0, 0, 0, 0, 27.35354, -26.72556, 0, 0, 36.60323, -35.21433 ]
+						},
+						{ "time": 0.2666, "curve": "stepped" },
+						{ "time": 0.4 },
+						{
+							"time": 0.5333,
+							"offset": 4,
+							"vertices": [ -28.55122, 27.18237, -27.2473, 26.37366, 0, 0, -53.57704, 52.8639, -18.70424, 18.87001 ]
+						}
+					],
+					"common/white": [
+						{
+							"time": 0,
+							"offset": 4,
+							"vertices": [ -27.7057, 27.05273, -54.94462, 55.1969, -27.33257, 26.44172 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

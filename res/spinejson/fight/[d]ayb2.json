@@ -1,0 +1,53 @@
+{
+"skeleton": { "hash": "J3vHN1pjqCqKL9AOlym9ZgZ72aE", "spine": "2.1.27", "width": 300, "height": 200, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root" },
+	{ "name": "fx_ayb_end", "parent": "all", "length": 97.03 },
+	{ "name": "ayb_end/ayb_end_08", "parent": "fx_ayb_end", "length": 57.18 }
+],
+"slots": [
+	{ "name": "ayb_end/ayb_end_08", "bone": "ayb_end/ayb_end_08", "color": "ffffff00", "attachment": "ayb/ayb_end_08" }
+],
+"skins": {
+	"default": {
+		"ayb_end/ayb_end_08": {
+			"ayb/ayb_end_08": { "width": 300, "height": 200 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"ayb_end/ayb_end_08": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffffff" },
+					{ "time": 1.1666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"ayb_end/ayb_end_08": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"all": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 10 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0666, "name": "hit" }
+		]
+	}
+}
+}

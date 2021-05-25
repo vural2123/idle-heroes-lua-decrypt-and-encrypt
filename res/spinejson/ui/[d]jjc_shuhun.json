@@ -1,0 +1,230 @@
+{
+"skeleton": { "hash": "KdvkTjJXFeNElCUrATYrtLwJXrE", "spine": "3.2.01", "width": 0, "height": 0, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "1", "parent": "root" },
+	{ "name": "halo", "parent": "1", "y": -4.84, "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "hun_1", "parent": "1" },
+	{ "name": "hun_2", "parent": "1" },
+	{ "name": "icon2", "parent": "1", "scaleX": 1.4, "scaleY": 1.4 },
+	{ "name": "shine", "parent": "1", "scaleX": 0.6, "scaleY": 0.6 },
+	{ "name": "spirit_1", "parent": "1" },
+	{ "name": "spirit_2", "parent": "1", "x": 4.91, "y": -8.6, "scaleX": -0.88, "scaleY": 0.88 }
+],
+"slots": [
+	{ "name": "bg2", "bone": "1", "attachment": "jjc_icon/14_1" },
+	{ "name": "shine", "bone": "shine", "color": "ffffff00", "attachment": "common/xuanwo2", "blend": "additive" },
+	{ "name": "spirit_1", "bone": "spirit_1", "color": "ffffff00", "attachment": "jjc_icon/14_2" },
+	{ "name": "spirit_2", "bone": "spirit_2", "color": "328fff00", "attachment": "jjc_icon/14_2" },
+	{ "name": "icon2", "bone": "icon2", "attachment": "jjc_icon/14" },
+	{ "name": "bd", "bone": "root", "attachment": "bd" },
+	{ "name": "hun_1", "bone": "hun_1", "color": "ffffff00", "attachment": "common/smoke_02", "blend": "additive" },
+	{ "name": "hun_2", "bone": "hun_2", "color": "ffffff00", "attachment": "common/smoke_02", "blend": "additive" },
+	{ "name": "halo", "bone": "halo", "color": "00ff7100", "attachment": "common/n_halo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -39.60401, 38.48938, -39.60401, -40.35062, 41.39598, -39.81062, 40.856, 39.02937 ]
+			}
+		},
+		"bg2": {
+			"jjc_icon/14_1": { "scaleX": 1.4, "scaleY": 1.4, "width": 56, "height": 56 }
+		},
+		"halo": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"hun_1": {
+			"common/smoke_02": {
+				"type": "mesh",
+				"uvs": [ 1, 0.29613, 1, 0.66841, 1, 1, 0, 1, 0, 0.66841, 0, 0.33018, 0, 0, 1, 0 ],
+				"triangles": [ 5, 6, 7, 0, 5, 7, 4, 5, 0, 4, 0, 1, 3, 4, 1, 3, 1, 2 ],
+				"vertices": [ 50, 20.37999, 50, -16.84, 50, -50, -50, -50, -50, -16.84, -50, 16.98, -50, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 4, 6, 12, 14, 6, 8, 4, 2, 8, 10, 10, 12, 2, 0, 0, 14, 6, 2, 2, 8, 8, 0, 0, 10, 10, 14 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"hun_2": {
+			"common/smoke_02": {
+				"type": "mesh",
+				"uvs": [ 1, 0.29613, 1, 0.66841, 1, 1, 0, 1, 0, 0.66841, 0, 0.33018, 0, 0, 1, 0 ],
+				"triangles": [ 5, 6, 7, 0, 5, 7, 4, 5, 0, 4, 0, 1, 3, 4, 1, 3, 1, 2 ],
+				"vertices": [ 50, 20.37999, 50, -16.84, 50, -50, -50, -50, -50, -16.84, -50, 16.98, -50, 50, 50, 50 ],
+				"hull": 8,
+				"edges": [ 4, 6, 12, 14, 6, 8, 4, 2, 8, 10, 10, 12, 2, 0, 0, 14, 6, 2, 2, 8, 8, 0, 0, 10, 10, 14 ],
+				"width": 100,
+				"height": 100
+			}
+		},
+		"icon2": {
+			"jjc_icon/14": { "width": 56, "height": 56 }
+		},
+		"shine": {
+			"common/xuanwo2": { "width": 126, "height": 126 }
+		},
+		"spirit_1": {
+			"jjc_icon/14_2": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0, 0.50536, 0.49291 ],
+				"triangles": [ 4, 2, 3, 1, 2, 4, 4, 3, 0, 1, 4, 0 ],
+				"vertices": [ -21.9, -22.82, -32.7, -24.22, -33.5, 0.97, -22.9, 0.97, -28.31, -10.65 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6, 8, 4, 8, 0, 8, 2, 8, 6 ],
+				"width": 17,
+				"height": 39
+			}
+		},
+		"spirit_2": {
+			"jjc_icon/14_2": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0, 0.50536, 0.49291 ],
+				"triangles": [ 4, 2, 3, 1, 2, 4, 4, 3, 0, 1, 4, 0 ],
+				"vertices": [ -18.7, -15.02, -35.7, -15.02, -35.7, 23.97, -18.7, 23.97, -27.11, 4.73999 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6, 8, 4, 8, 0, 8, 2, 8, 6 ],
+				"width": 17,
+				"height": 39
+			}
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"halo": {
+				"color": [
+					{ "time": 0, "color": "1a8fffea" },
+					{ "time": 2.1333, "color": "ff510058" },
+					{ "time": 4.3333, "color": "1a8fffea" }
+				]
+			},
+			"hun_1": {
+				"color": [
+					{ "time": 0, "color": "ff7f0000" },
+					{ "time": 0.6666, "color": "ff7f00ff", "curve": "stepped" },
+					{ "time": 3.3333, "color": "ff7f00ff" },
+					{ "time": 4.3333, "color": "ff7f0000" }
+				]
+			},
+			"hun_2": {
+				"color": [
+					{ "time": 0, "color": "70d7ff00" },
+					{ "time": 0.8333, "color": "70d7ffff", "curve": "stepped" },
+					{ "time": 3.3333, "color": "70d7ffff" },
+					{ "time": 4.3333, "color": "70d7ff00" }
+				]
+			},
+			"shine": {
+				"color": [
+					{ "time": 0, "color": "ff890000" },
+					{ "time": 2.1666, "color": "ff8900ff" },
+					{ "time": 4.3333, "color": "ff890000" }
+				]
+			},
+			"spirit_1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.3333, "color": "ffffffff" },
+					{ "time": 4.3333, "color": "ffffff00" }
+				]
+			},
+			"spirit_2": {
+				"color": [
+					{ "time": 0.6666, "color": "328fff00" },
+					{ "time": 1.3333, "color": "328fffff", "curve": "stepped" },
+					{ "time": 3, "color": "328fffff" },
+					{ "time": 3.6666, "color": "328fff00" }
+				]
+			}
+		},
+		"bones": {
+			"shine": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 2.1666, "angle": -180 },
+					{ "time": 4.3333, "angle": -360 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 2.1666, "x": 1.25, "y": 1.25 },
+					{ "time": 4.3333, "x": 1, "y": 1 }
+				]
+			},
+			"hun_1": {
+				"translate": [
+					{ "time": 0, "x": -13.19, "y": 14.61 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.35, "y": 0.35 }
+				]
+			},
+			"hun_2": {
+				"translate": [
+					{ "time": 0, "x": 5.34, "y": 8.11 }
+				],
+				"scale": [
+					{ "time": 0, "x": -0.35, "y": 0.35 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"hun_1": {
+					"common/smoke_02": [
+						{
+							"time": 0,
+							"vertices": [ -18.51126, -29.1912, -18.97687, -2.53129, -17.97986, 5.22, 32.48, 9.27994, 43.29134, -2.73999, 43.43695, -22.69406, 31.43992, -22.99977, -18.83705, -40.00831 ]
+						},
+						{
+							"time": 4.3333,
+							"vertices": [ -27.90777, 8.15267, -20.69801, 8.58622, -15.535, 18.42285, 40.30371, 3.41214, 21.40417, 13.38484, 3.62932, 8.39181, -19.49029, 37.19732, -22.34682, 28.99713 ]
+						}
+					]
+				},
+				"hun_2": {
+					"common/smoke_02": [
+						{
+							"time": 0,
+							"vertices": [ -44.30244, -2.61113, -42.75337, 19.20763, -44.31486, 41.18843, 35.44053, 38.3531, 26.43136, 13.78851, 21.87425, -5.31471, -1.32999, -8.62196, -53.15663, -9.93678 ]
+						},
+						{
+							"time": 4.3333,
+							"vertices": [ -56.45955, 31.746, -44.33906, 30.3077, -46.95776, 35.9028, 25.39772, 15.62466, 23.26, 27.53147, 9.18862, 19.52816, -34.10132, 33.13507, -71.65655, 31.82031 ]
+						}
+					]
+				},
+				"spirit_1": {
+					"jjc_icon/14_2": [
+						{
+							"time": 0,
+							"vertices": [ 1.88599, 0.492, 0.40999, 0.57399, 0.29199, -5.05099, -1.21799, -5.68298, 0.81999, -3.44398 ],
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							"time": 4.3333,
+							"vertices": [ 3.34029, 27.72641, 2.0678, 28.9988, 3.0485, 34.2254, 4.14045, 35.16123, 5.2018, 36.27273 ]
+						}
+					]
+				},
+				"spirit_2": {
+					"jjc_icon/14_2": [
+						{
+							"time": 0.6666,
+							"curve": [ 0.25, 0, 0.75, 1 ]
+						},
+						{
+							"time": 3.6666,
+							"vertices": [ 4.03634, 12.05574, 4.06134, 5.02279, 0.4386, 28.04096, 2.41589, 29.02726, 5.25336, 35.45908 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

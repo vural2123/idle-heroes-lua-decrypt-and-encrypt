@@ -1,0 +1,168 @@
+{
+"skeleton": { "hash": "QLvOYJUFlq410Ns7dyEkE1iRpIU", "spine": "2.1.27", "width": 320, "height": 120, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "line", "parent": "code_shake" },
+	{ "name": "birth", "parent": "line" },
+	{ "name": "loop", "parent": "line" },
+	{ "name": "white_01", "parent": "line" }
+],
+"slots": [
+	{ "name": "birth", "bone": "birth", "color": "ffffff00", "attachment": "lansejiguang/blue_birth_03", "blend": "additive" },
+	{ "name": "bd", "bone": "root", "attachment": "bd" },
+	{ "name": "loop", "bone": "loop", "color": "ffffff00", "blend": "additive" },
+	{ "name": "white_01", "bone": "white_01", "color": "ffffff00", "attachment": "common/white" }
+],
+"skins": {
+	"default": {
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -2.60389, 23.33119, 1.19697, -26.2564, 361.29373, -28.75769, 362.66315, 24.09765 ]
+			}
+		},
+		"birth": {
+			"lansejiguang/blue_birth_01": { "path": "hongsejgsd/red_birth_01", "width": 320, "height": 120 },
+			"lansejiguang/blue_birth_02": { "path": "hongsejgsd/red_birth_02", "width": 320, "height": 120 },
+			"lansejiguang/blue_birth_03": { "path": "hongsejgsd/red_birth_03", "width": 320, "height": 120 }
+		},
+		"loop": {
+			"lansejiguang/blue_loop_01": { "path": "hongsejgsd/red_loop_01", "width": 320, "height": 120 },
+			"lansejiguang/blue_loop_02": { "path": "hongsejgsd/red_loop_02", "width": 320, "height": 120 },
+			"lansejiguang/blue_loop_03": { "path": "hongsejgsd/red_loop_03", "width": 320, "height": 120 },
+			"lansejiguang/blue_loop_04": { "path": "hongsejgsd/red_loop_04", "width": 320, "height": 120 },
+			"lansejiguang/blue_loop_05": { "path": "hongsejgsd/red_loop_05", "width": 320, "height": 120 },
+			"lansejiguang/blue_loop_06": { "path": "hongsejgsd/red_loop_06", "width": 320, "height": 120 },
+			"lansejiguang/blue_loop_07": { "path": "hongsejgsd/red_loop_07", "width": 320, "height": 120 },
+			"lansejiguang/blue_loop_08": { "path": "hongsejgsd/red_loop_08", "width": 320, "height": 120 },
+			"lansejiguang/blue_loop_09": { "path": "hongsejgsd/red_loop_09", "width": 320, "height": 120 },
+			"lansejiguang/blue_loop_10": { "path": "hongsejgsd/red_loop_10", "width": 320, "height": 120 },
+			"lansejiguang/blue_loop_11": { "path": "hongsejgsd/red_loop_11", "width": 320, "height": 120 },
+			"lansejiguang/blue_loop_12": { "path": "hongsejgsd/red_loop_12", "width": 320, "height": 120 },
+			"lansejiguang/blue_loop_13": { "path": "hongsejgsd/red_loop_13", "width": 320, "height": 120 }
+		},
+		"white_01": {
+			"common/white": {
+				"type": "mesh",
+				"uvs": [ 1, 0.50716, 1, 1, 0, 1, 0, 0.49522, 0, 0, 1, 0 ],
+				"triangles": [ 3, 4, 5, 3, 5, 0, 2, 3, 0, 2, 0, 1 ],
+				"vertices": [ 50, -0.71, 50, -50, -50, -50, -50, 0.47, -50, 50, 50, 50 ],
+				"hull": 6,
+				"edges": [ 2, 4, 8, 10, 2, 0, 0, 10, 4, 6, 6, 8 ],
+				"width": 100,
+				"height": 100
+			}
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"birth": {
+				"attachment": [
+					{ "time": 0, "name": "lansejiguang/blue_birth_01" },
+					{ "time": 0.0333, "name": "lansejiguang/blue_birth_02" },
+					{ "time": 0.0666, "name": "lansejiguang/blue_birth_03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0666, "color": "ffffffff" },
+					{ "time": 0.1, "color": "ffffff00" }
+				]
+			},
+			"loop": {
+				"attachment": [
+					{ "time": 0.1, "name": "lansejiguang/blue_loop_01" },
+					{ "time": 0.1333, "name": "lansejiguang/blue_loop_02" },
+					{ "time": 0.1666, "name": "lansejiguang/blue_loop_03" },
+					{ "time": 0.2, "name": "lansejiguang/blue_loop_04" },
+					{ "time": 0.2333, "name": "lansejiguang/blue_loop_05" },
+					{ "time": 0.2666, "name": "lansejiguang/blue_loop_06" },
+					{ "time": 0.3, "name": "lansejiguang/blue_loop_07" },
+					{ "time": 0.3333, "name": "lansejiguang/blue_loop_08" },
+					{ "time": 0.3666, "name": "lansejiguang/blue_loop_09" },
+					{ "time": 0.4, "name": "lansejiguang/blue_loop_10" },
+					{ "time": 0.4333, "name": "lansejiguang/blue_loop_11" },
+					{ "time": 0.4666, "name": "lansejiguang/blue_loop_12" },
+					{ "time": 0.5, "name": "lansejiguang/blue_loop_13" }
+				],
+				"color": [
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"white_01": {
+				"color": [
+					{ "time": 0, "color": "ff360045" },
+					{ "time": 0.0666, "color": "ff001b4f" },
+					{ "time": 0.1, "color": "ff1d3e3b" },
+					{ "time": 0.1666, "color": "ffffff1f" },
+					{ "time": 0.2, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3666, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ff1b1c5b" },
+					{ "time": 0.5666, "color": "ffcee065" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"birth": {
+				"translate": [
+					{ "time": 0, "x": 180, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.25, "y": 1.25 }
+				]
+			},
+			"loop": {
+				"translate": [
+					{ "time": 0.1, "x": 180, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 1.25, "y": 1.25 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"white_01": {
+					"common/white": [
+						{
+							"time": 0,
+							"vertices": [ 75.68692, 1.03851, 74.72159, 46.12595, 50.39988, 46.12595, 42.48793, 0, 50.39988, -44.84208, 74.72159, -44.84208 ]
+						},
+						{
+							"time": 0.0333,
+							"vertices": [ 202.3867, 0.83503, 189.40038, 44.65893, 50.39988, 44.65893, 42.48793, 0, 50.39988, -44.60992, 188.38538, -44.60992 ]
+						},
+						{
+							"time": 0.0666,
+							"vertices": [ 321.09354, 0.92603, 307.4852, 44.90093, 50.39988, 44.90093, 42.48793, 0, 50.39988, -44.88694, 307.4852, -44.88694 ]
+						},
+						{
+							"time": 0.1666,
+							"vertices": [ 321.28354, 2.25602, 307.4852, 50.19676, 50.39988, 50.19676, 42.48793, 0, 50.39988, -49.34991, 307.4852, -49.34991 ]
+						},
+						{
+							"time": 0.4,
+							"vertices": [ 321.28354, 2.25602, 307.4852, 42.06787, 50.39988, 42.06787, 42.48793, 0, 50.39988, -41.59286, 307.4852, -41.59286 ]
+						},
+						{
+							"time": 0.5666,
+							"vertices": [ 321.28354, 2.25602, 307.4852, 50.08574, 50.39988, 50.08574, 48.36793, -0.08, 50.39988, -49.22796, 307.4852, -49.22796 ]
+						}
+					]
+				}
+			}
+		},
+		"events": [
+			{ "time": 0.0666, "name": "hit" }
+		]
+	}
+}
+}

@@ -1,0 +1,956 @@
+{
+"skeleton": { "hash": "8fE71n/6TzUgiFRRLLKkjQ+BTpY", "spine": "2.1.27", "width": 340, "height": 340, "images": "./../../pngs/animation/ui/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_bg", "parent": "root" },
+	{ "name": "code_gear", "parent": "root", "y": 6.66 },
+	{ "name": "guang", "parent": "root" },
+	{ "name": "halo_01", "parent": "root" },
+	{ "name": "halo_02", "parent": "root" },
+	{ "name": "kuang_shine", "parent": "root" },
+	{ "name": "plate_01", "parent": "root", "y": 5.92 },
+	{ "name": "puzzle_01", "parent": "root", "y": 8 },
+	{ "name": "puzzle_01_add", "parent": "root", "y": 8 },
+	{ "name": "puzzle_crack", "parent": "root" },
+	{ "name": "puzzle_crack2", "parent": "root" },
+	{ "name": "rotate_01", "parent": "root" },
+	{ "name": "rotate_02", "parent": "root" },
+	{ "name": "star_01", "parent": "root" },
+	{ "name": "star_02", "parent": "root" },
+	{ "name": "star_03", "parent": "root" },
+	{ "name": "star_04", "parent": "root" },
+	{ "name": "star_05", "parent": "root" }
+],
+"slots": [
+	{ "name": "code_bg", "bone": "code_bg", "color": "ffffff00" },
+	{ "name": "plate_01", "bone": "plate_01", "attachment": "pvp_choujiang/asset_plate_00" },
+	{
+		"name": "rotate_01",
+		"bone": "rotate_01",
+		"color": "ffffff00",
+		"attachment": "pvp_choujiang/asset_rotate_00",
+		"blend": "additive"
+	},
+	{
+		"name": "rotate_02",
+		"bone": "rotate_02",
+		"color": "ffffff00",
+		"attachment": "pvp_choujiang/asset_rotate_00",
+		"blend": "additive"
+	},
+	{ "name": "puzzle_01", "bone": "puzzle_01", "attachment": "pvp_choujiang/asset_puzzle_00" },
+	{
+		"name": "puzzle_01_add",
+		"bone": "puzzle_01_add",
+		"color": "ffffff00",
+		"attachment": "pvp_choujiang/asset_puzzle_00",
+		"blend": "additive"
+	},
+	{ "name": "guang", "bone": "guang", "color": "ffffff00", "attachment": "common/guangquanv2" },
+	{ "name": "halo_01", "bone": "halo_01", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "halo_02", "bone": "halo_02", "color": "ffffff00", "attachment": "common/n_halo", "blend": "additive" },
+	{ "name": "code_gear", "bone": "code_gear", "color": "ffffff00" },
+	{ "name": "puzzle_crack", "bone": "puzzle_crack", "color": "ffffff00", "attachment": "pvp_choujiang/asset_puzzle_crack_11" },
+	{ "name": "puzzle_crack2", "bone": "puzzle_crack2", "color": "ffffff00", "attachment": "pvp_choujiang/asset_puzzle_crack_11" },
+	{ "name": "star_01", "bone": "star_01", "color": "ffffff00", "attachment": "pvp_choujiang/advance_star", "blend": "additive" },
+	{ "name": "star_02", "bone": "star_02", "color": "ffffff00", "attachment": "pvp_choujiang/advance_star", "blend": "additive" },
+	{ "name": "star_03", "bone": "star_03", "color": "ffffff00", "attachment": "pvp_choujiang/advance_star", "blend": "additive" },
+	{ "name": "star_04", "bone": "star_04", "color": "ffffff00", "attachment": "pvp_choujiang/advance_star", "blend": "additive" },
+	{ "name": "star_05", "bone": "star_05", "color": "ffffff00", "attachment": "pvp_choujiang/advance_star", "blend": "additive" },
+	{ "name": "kuang_shine", "bone": "kuang_shine", "color": "ffffff00", "attachment": "common/kuang_shine", "blend": "additive" },
+	{ "name": "bd", "bone": "root", "attachment": "bd" }
+],
+"skins": {
+	"default": {
+		"bd": {
+			"bd": {
+				"type": "boundingbox",
+				"vertices": [ -70.9764, 81.5035, -68.25242, -68.31634, 70.21746, -68.31634, 70.21744, 81.0495 ]
+			}
+		},
+		"guang": {
+			"common/guangquanv2": { "width": 250, "height": 250 }
+		},
+		"halo_01": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"halo_02": {
+			"common/n_halo": { "width": 340, "height": 340 }
+		},
+		"kuang_shine": {
+			"common/kuang_shine": { "width": 100, "height": 100 }
+		},
+		"plate_01": {
+			"pvp_choujiang/asset_plate_00": {
+				"type": "mesh",
+				"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+				"triangles": [ 1, 2, 3, 1, 3, 0 ],
+				"vertices": [ 75, -80, -75, -80, -75, 80, 75, 80 ],
+				"hull": 4,
+				"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+				"width": 150,
+				"height": 160
+			}
+		},
+		"puzzle_01": {
+			"pvp_choujiang/asset_puzzle_00": { "width": 80, "height": 110 }
+		},
+		"puzzle_01_add": {
+			"pvp_choujiang/asset_puzzle_00": { "width": 80, "height": 110 }
+		},
+		"puzzle_crack": {
+			"pvp_choujiang/asset_puzzle_crack_00": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_01": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_02": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_03": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_04": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_05": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_06": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_07": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_08": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_09": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_10": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_11": { "width": 150, "height": 210 }
+		},
+		"puzzle_crack2": {
+			"pvp_choujiang/asset_puzzle_crack_00": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_01": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_02": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_03": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_04": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_05": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_06": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_07": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_08": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_09": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_10": { "width": 150, "height": 210 },
+			"pvp_choujiang/asset_puzzle_crack_11": { "width": 150, "height": 210 }
+		},
+		"rotate_01": {
+			"pvp_choujiang/asset_rotate_00": { "width": 200, "height": 200 }
+		},
+		"rotate_02": {
+			"pvp_choujiang/asset_rotate_00": { "width": 200, "height": 200 }
+		},
+		"star_01": {
+			"pvp_choujiang/advance_star": { "width": 42, "height": 41 }
+		},
+		"star_02": {
+			"pvp_choujiang/advance_star": { "width": 42, "height": 41 }
+		},
+		"star_03": {
+			"pvp_choujiang/advance_star": { "width": 42, "height": 41 }
+		},
+		"star_04": {
+			"pvp_choujiang/advance_star": { "width": 42, "height": 41 }
+		},
+		"star_05": {
+			"pvp_choujiang/advance_star": { "width": 42, "height": 41 }
+		}
+	}
+},
+"animations": {
+	"birth": {
+		"slots": {
+			"code_bg": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"puzzle_01_add": {
+				"color": [
+					{ "time": 0, "color": "ffa800a5" },
+					{ "time": 0.3333, "color": "ffa800bd" },
+					{ "time": 0.6333, "color": "ffa80000" }
+				]
+			},
+			"rotate_01": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"plate_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 0.2,
+						"x": 1.35,
+						"y": 1.35,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3,
+						"x": 0.8,
+						"y": 0.85,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 1.05,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"puzzle_01": {
+				"rotate": [
+					{
+						"time": 0.3333,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "angle": 10 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 0.2,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3,
+						"x": 0.85,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 1.05,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"rotate_01": {
+				"rotate": [
+					{ "time": 0, "angle": 100 },
+					{ "time": 1, "angle": -360 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 6.66 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.4, "y": 0.4 },
+					{ "time": 1, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"puzzle_01_add": {
+				"rotate": [
+					{
+						"time": 0.3333,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1, "angle": 10 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 0.2,
+						"x": 1.25,
+						"y": 1.25,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.3,
+						"x": 0.9,
+						"y": 0.95,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 1.1,
+						"y": 1.05,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 1.05, "y": 1.05 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"plate_01": {
+					"pvp_choujiang/asset_plate_00": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"click": {
+		"slots": {
+			"code_bg": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"code_gear": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"guang": {
+				"color": [
+					{ "time": 0, "color": "ffad0000" },
+					{ "time": 0.1666, "color": "9d00ffff" },
+					{ "time": 1.3333, "color": "9d00ff00" }
+				]
+			},
+			"halo_01": {
+				"color": [
+					{ "time": 0, "color": "ffb600ff", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffb600ff" },
+					{ "time": 0.6666, "color": "ffb60000" }
+				]
+			},
+			"halo_02": {
+				"color": [
+					{ "time": 0, "color": "ff004eff", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ff004eff" },
+					{ "time": 0.6666, "color": "ff004e00" }
+				]
+			},
+			"kuang_shine": {
+				"color": [
+					{ "time": 0.0333, "color": "ff4f00ff", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ff4f00ff" },
+					{ "time": 0.5, "color": "ffad9400" }
+				]
+			},
+			"puzzle_01": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffff00" }
+				]
+			},
+			"puzzle_crack": {
+				"attachment": [
+					{ "time": 0.1, "name": "pvp_choujiang/asset_puzzle_crack_00" },
+					{ "time": 0.1333, "name": "pvp_choujiang/asset_puzzle_crack_01" },
+					{ "time": 0.1666, "name": "pvp_choujiang/asset_puzzle_crack_02" },
+					{ "time": 0.2, "name": "pvp_choujiang/asset_puzzle_crack_03" },
+					{ "time": 0.2333, "name": "pvp_choujiang/asset_puzzle_crack_04" },
+					{ "time": 0.2666, "name": "pvp_choujiang/asset_puzzle_crack_05" },
+					{ "time": 0.3, "name": "pvp_choujiang/asset_puzzle_crack_06" },
+					{ "time": 0.3333, "name": "pvp_choujiang/asset_puzzle_crack_07" },
+					{ "time": 0.3666, "name": "pvp_choujiang/asset_puzzle_crack_08" },
+					{ "time": 0.4, "name": "pvp_choujiang/asset_puzzle_crack_09" },
+					{ "time": 0.4333, "name": "pvp_choujiang/asset_puzzle_crack_10" },
+					{ "time": 0.4666, "name": "pvp_choujiang/asset_puzzle_crack_11" }
+				],
+				"color": [
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4666, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"puzzle_crack2": {
+				"attachment": [
+					{ "time": 0.1666, "name": "pvp_choujiang/asset_puzzle_crack_01" },
+					{ "time": 0.2, "name": "pvp_choujiang/asset_puzzle_crack_02" },
+					{ "time": 0.2333, "name": "pvp_choujiang/asset_puzzle_crack_03" },
+					{ "time": 0.2666, "name": "pvp_choujiang/asset_puzzle_crack_04" },
+					{ "time": 0.3, "name": "pvp_choujiang/asset_puzzle_crack_05" },
+					{ "time": 0.3333, "name": "pvp_choujiang/asset_puzzle_crack_06" },
+					{ "time": 0.3666, "name": "pvp_choujiang/asset_puzzle_crack_07" },
+					{ "time": 0.4, "name": "pvp_choujiang/asset_puzzle_crack_08" },
+					{ "time": 0.4333, "name": "pvp_choujiang/asset_puzzle_crack_09" },
+					{ "time": 0.4666, "name": "pvp_choujiang/asset_puzzle_crack_10" },
+					{ "time": 0.5, "name": "pvp_choujiang/asset_puzzle_crack_11" }
+				],
+				"color": [
+					{ "time": 0.1666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"rotate_01": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"rotate_02": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"star_01": {
+				"color": [
+					{ "time": 0.1666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5666, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			},
+			"star_02": {
+				"color": [
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"star_03": {
+				"color": [
+					{ "time": 0.1666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.6333, "color": "ffffff00" }
+				]
+			},
+			"star_04": {
+				"color": [
+					{ "time": 0.4333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8666, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				]
+			},
+			"star_05": {
+				"color": [
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 0.8666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"plate_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"puzzle_01": {
+				"rotate": [
+					{ "time": 0, "angle": 10, "curve": "stepped" },
+					{
+						"time": 0.1666,
+						"angle": 10,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2, "angle": -5 },
+					{ "time": 3.6666, "angle": 10 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 2, "x": 1.1, "y": 1.1 },
+					{ "time": 3.6666, "x": 1, "y": 1 }
+				]
+			},
+			"halo_01": {
+				"translate": [
+					{ "time": 0, "x": 6.66, "y": 7.88 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 0.1333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.126, 0.41, 0.75, 1 ]
+					},
+					{ "time": 0.6666, "x": 2, "y": 2 }
+				]
+			},
+			"rotate_01": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": -180 },
+					{ "time": 1, "angle": -360 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 6.65 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"halo_02": {
+				"translate": [
+					{ "time": 0, "x": 6.66, "y": 7.88 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 0.1333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.126, 0.41, 0.75, 1 ]
+					},
+					{ "time": 0.6666, "x": 2, "y": 2 }
+				]
+			},
+			"rotate_02": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": -180 },
+					{ "time": 1, "angle": -360 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 6.65 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"code_gear": {
+				"scale": [
+					{
+						"time": 0.1333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.289, 0.32, 0.623, 0.65 ]
+					},
+					{
+						"time": 0.2,
+						"x": 1.5,
+						"y": 1.5,
+						"curve": [ 0.188, 0.31, 0.585, 0.69 ]
+					},
+					{
+						"time": 0.3,
+						"x": 0.8,
+						"y": 0.8,
+						"curve": [ 0.376, 0.57, 0.767, 1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 1.2,
+						"y": 1.2,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"star_01": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 0 },
+					{ "time": 0.5666, "angle": -120 }
+				],
+				"translate": [
+					{
+						"time": 0.1666,
+						"x": -14.57,
+						"y": 10.18,
+						"curve": [ 0.1, 0.4, 0.75, 1 ]
+					},
+					{ "time": 0.5666, "x": -62.87, "y": 57.53 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 1.4, "y": 1.4 },
+					{ "time": 0.5666, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"star_02": {
+				"rotate": [
+					{ "time": 0.1, "angle": 0 },
+					{ "time": 0.5, "angle": -120 }
+				],
+				"translate": [
+					{
+						"time": 0.1,
+						"x": 18.47,
+						"y": 10.18,
+						"curve": [ 0.1, 0.4, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 48.29, "y": 66.6 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 1.4, "y": 1.4 },
+					{ "time": 0.5, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"star_03": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 0 },
+					{ "time": 0.6, "angle": -200 }
+				],
+				"translate": [
+					{
+						"time": 0.1666,
+						"x": -19.99,
+						"y": -9.29,
+						"curve": [ 0.1, 0.4, 0.75, 1 ]
+					},
+					{ "time": 0.6, "x": -36.52, "y": -60.92 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 1.4, "y": 1.4 },
+					{ "time": 0.6, "x": 0.6, "y": 0.6 }
+				]
+			},
+			"star_04": {
+				"rotate": [
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.8666, "angle": -140 }
+				],
+				"translate": [
+					{
+						"time": 0.4333,
+						"x": 16,
+						"y": 0.45,
+						"curve": [ 0.1, 0.4, 0.75, 1 ]
+					},
+					{ "time": 0.8666, "x": 50.09, "y": -44.8 }
+				],
+				"scale": [
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.8666, "x": 0.4, "y": 0.4 }
+				]
+			},
+			"star_05": {
+				"rotate": [
+					{ "time": 0.4, "angle": 0 },
+					{ "time": 0.8333, "angle": -140 }
+				],
+				"translate": [
+					{
+						"time": 0.4,
+						"x": -4.64,
+						"y": 19.09,
+						"curve": [ 0.1, 0.4, 0.75, 1 ]
+					},
+					{ "time": 0.8333, "x": -29.6, "y": 70.14 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": 0.4, "y": 0.4 }
+				]
+			},
+			"puzzle_crack2": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 90 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 1.2, "y": 1.2 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"plate_01": {
+					"pvp_choujiang/asset_plate_00": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"end_loop": {
+		"slots": {
+			"code_bg": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"code_gear": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"puzzle_01": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"rotate_01": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"plate_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rotate_01": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": -180 },
+					{ "time": 2, "angle": -360 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 6.65 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"plate_01": {
+					"pvp_choujiang/asset_plate_00": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"end_loop2": {
+		"slots": {
+			"code_bg": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"code_gear": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"halo_01": {
+				"color": [
+					{ "time": 0, "color": "e100ff00" },
+					{ "time": 0.6666, "color": "e100ffff", "curve": "stepped" },
+					{ "time": 1.3333, "color": "e100ffff" },
+					{ "time": 2, "color": "e100ff00" }
+				]
+			},
+			"puzzle_01": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"rotate_01": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"plate_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rotate_01": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": -180 },
+					{ "time": 2, "angle": -360 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 6.65 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"halo_01": {
+				"scale": [
+					{ "time": 0, "x": 0.7, "y": 0.7 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"plate_01": {
+					"pvp_choujiang/asset_plate_00": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"loop": {
+		"slots": {
+			"code_bg": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"puzzle_01_add": {
+				"color": [
+					{ "time": 0, "color": "ffa80000" },
+					{ "time": 1.8333, "color": "ffa800a1" },
+					{ "time": 3.6666, "color": "ffa80000" }
+				]
+			},
+			"rotate_01": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.8333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.6666, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"plate_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"puzzle_01": {
+				"rotate": [
+					{ "time": 0, "angle": 10, "curve": "stepped" },
+					{
+						"time": 0.1666,
+						"angle": 10,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2, "angle": -5 },
+					{ "time": 3.6666, "angle": 10 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 2, "x": 1.1, "y": 1.1 },
+					{ "time": 3.6666, "x": 1, "y": 1 }
+				]
+			},
+			"rotate_01": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1.8333, "angle": -180 },
+					{ "time": 3.6666, "angle": -360 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 6.65 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"puzzle_01_add": {
+				"rotate": [
+					{ "time": 0, "angle": 10, "curve": "stepped" },
+					{
+						"time": 0.1666,
+						"angle": 10,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2, "angle": -5 },
+					{ "time": 3.6666, "angle": 10 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 2, "x": 1.1, "y": 1.1 },
+					{ "time": 3.6666, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"plate_01": {
+					"pvp_choujiang/asset_plate_00": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	},
+	"notclick": {
+		"slots": {
+			"code_bg": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"code_gear": {
+				"color": [
+					{ "time": 0.1666, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			},
+			"kuang_shine": {
+				"color": [
+					{ "time": 0, "color": "ffffffc5", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffc5" },
+					{ "time": 1.5, "color": "ffffff00" }
+				]
+			},
+			"puzzle_01": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"rotate_01": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"plate_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"puzzle_01": {
+				"rotate": [
+					{ "time": 0, "angle": 10, "curve": "stepped" },
+					{
+						"time": 0.1666,
+						"angle": 10,
+						"curve": [ 0.253, 0, 0.621, 0.47 ]
+					},
+					{ "time": 1, "angle": 3.4 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"rotate_01": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": -180 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 6.65 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"kuang_shine": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 6.66 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.6, "y": 1.6 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"plate_01": {
+					"pvp_choujiang/asset_plate_00": [
+						{ "time": 0 }
+					]
+				}
+			}
+		}
+	}
+}
+}

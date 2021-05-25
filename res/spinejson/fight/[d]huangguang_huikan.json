@@ -1,0 +1,87 @@
+{
+"skeleton": { "hash": "Ln7VFHqSIHOKzdmpUSj9gdHVBdc", "spine": "2.1.27", "width": 200, "height": 200, "images": "../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "huangguang", "parent": "fx" },
+	{ "name": "end", "parent": "huangguang" },
+	{ "name": "start", "parent": "huangguang" }
+],
+"slots": [
+	{
+		"name": "start",
+		"bone": "start",
+		"color": "ffffff00",
+		"attachment": "huangguang_huikan/huangguang_huikan_01",
+		"blend": "additive"
+	},
+	{ "name": "end", "bone": "end", "color": "ffffff00", "attachment": "huangguang_huikan/huangguang_jizhong_01", "blend": "screen" }
+],
+"skins": {
+	"default": {
+		"end": {
+			"huangguang_huikan/huangguang_jizhong_01": { "width": 100, "height": 78 },
+			"huangguang_huikan/huangguang_jizhong_02": { "width": 100, "height": 78 },
+			"huangguang_huikan/huangguang_jizhong_04": { "width": 100, "height": 78 }
+		},
+		"start": {
+			"huangguang_huikan/huangguang_huikan_01": { "width": 200, "height": 200 },
+			"huangguang_huikan/huangguang_huikan_02": { "width": 200, "height": 200 },
+			"huangguang_huikan/huangguang_huikan_03": { "width": 200, "height": 200 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"end": {
+				"attachment": [
+					{ "time": 0.0666, "name": "huangguang_huikan/huangguang_jizhong_01" },
+					{ "time": 0.1, "name": "huangguang_huikan/huangguang_jizhong_02" },
+					{ "time": 0.1333, "name": "huangguang_huikan/huangguang_jizhong_04" }
+				],
+				"color": [
+					{ "time": 0.0666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			},
+			"start": {
+				"attachment": [
+					{ "time": 0, "name": "huangguang_huikan/huangguang_huikan_01" },
+					{ "time": 0.0333, "name": "huangguang_huikan/huangguang_huikan_02" },
+					{ "time": 0.0666, "name": "huangguang_huikan/huangguang_huikan_03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1, "color": "ffffffff" },
+					{ "time": 0.2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"end": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.0666, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"start": {
+				"translate": [
+					{ "time": 0, "x": -80.1, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0666, "name": "hit", "string": "hit\n" }
+		]
+	}
+}
+}

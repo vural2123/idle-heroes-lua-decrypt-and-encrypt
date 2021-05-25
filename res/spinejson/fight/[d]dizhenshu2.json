@@ -1,0 +1,48 @@
+{
+"skeleton": { "hash": "R9tkSMqDhpzvHQAR6SP0/6EC690", "spine": "2.1.27", "width": 300, "height": 246, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "code_shake", "parent": "root" },
+	{ "name": "dizhenshu_down", "parent": "code_shake" },
+	{ "name": "d_01", "parent": "dizhenshu_down" }
+],
+"slots": [
+	{ "name": "d_01", "bone": "d_01", "color": "ffffff00", "attachment": "common/t_liewen_3" }
+],
+"skins": {
+	"default": {
+		"d_01": {
+			"common/t_liewen_3": { "width": 300, "height": 246 }
+		}
+	}
+},
+"events": {
+	"hit": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"d_01": {
+				"color": [
+					{ "time": 0.0333, "color": "00000000" },
+					{ "time": 0.1, "color": "000000ff" }
+				]
+			}
+		},
+		"bones": {
+			"d_01": {
+				"translate": [
+					{ "time": 0.0333, "x": 0, "y": 10 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 1, "y": 0.6 },
+					{ "time": 0.1, "x": 0.8, "y": 0.4 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.0333, "name": "hit" }
+		]
+	}
+}
+}

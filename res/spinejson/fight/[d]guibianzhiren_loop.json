@@ -1,0 +1,30 @@
+{
+"skeleton": { "hash": "UM7/hN4+IgYAR0WYrRg7iBVci70", "spine": "2.1.27", "width": 142.64, "height": 93, "images": "G:/AD/pngs/fx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "fly_1", "parent": "root", "x": 44.98 },
+	{ "name": "fly_2", "parent": "root", "x": 44.98 },
+	{ "name": "fly_3", "parent": "root", "x": 43.34, "y": -2.54, "scaleX": 0.2, "scaleY": 0.45, "rotation": 90 }
+],
+"slots": [
+	{ "name": "fly_3", "bone": "fly_3", "color": "ff000aff", "attachment": "common/shine" },
+	{ "name": "fly_1", "bone": "fly_1", "attachment": "guibianzhiren/asset_05" },
+	{ "name": "fly_2", "bone": "fly_2", "attachment": "guibianzhiren/asset_05", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"fly_1": {
+			"guibianzhiren/asset_05": { "width": 130, "height": 93 }
+		},
+		"fly_2": {
+			"guibianzhiren/asset_05": { "width": 130, "height": 93 }
+		},
+		"fly_3": {
+			"common/shine": { "width": 105, "height": 317 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

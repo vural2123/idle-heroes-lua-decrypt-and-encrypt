@@ -1,0 +1,51 @@
+{
+"skeleton": { "hash": "NZeUwQ9anEjR8G8PNEZnMoefGXM", "spine": "2.1.27", "width": 150, "height": 150, "images": "./../../../pngs/fx/" },
+"bones": [
+	{ "name": "fx" },
+	{ "name": "bingdan", "parent": "fx" },
+	{ "name": "start", "parent": "bingdan" }
+],
+"slots": [
+	{ "name": "start", "bone": "start", "color": "ffffff00", "attachment": "bingdan/bingdan_start_03", "blend": "screen" }
+],
+"skins": {
+	"default": {
+		"start": {
+			"bingdan/bingdan_start_01": { "width": 150, "height": 150 },
+			"bingdan/bingdan_start_02": { "width": 150, "height": 150 },
+			"bingdan/bingdan_start_03": { "width": 150, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"start": {
+				"attachment": [
+					{ "time": 0, "name": "bingdan/bingdan_start_01" },
+					{ "time": 0.0666, "name": "bingdan/bingdan_start_02" },
+					{ "time": 0.1333, "name": "bingdan/bingdan_start_03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"start": {
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 0.5 }
+				]
+			},
+			"bingdan": {
+				"translate": [
+					{ "time": 0, "x": 65.34, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.6, "y": 1.1 }
+				]
+			}
+		}
+	}
+}
+}
